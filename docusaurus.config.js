@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'NSERC CREATE SE4AI',
+  title: 'CREATE SE4AI',
   tagline: 'A Training Program on the Development, Deployment and Servicing of Artificial Intelligence-based Software Systems',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -74,7 +74,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} DAS Lab.`,
     },
   },
   presets: [
