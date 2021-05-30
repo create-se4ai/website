@@ -3,13 +3,13 @@ module.exports = {
   title: "CREATE SE4AI",
   tagline:
     "A Training Program on the Development, Deployment and Servicing of Artificial Intelligence-based Software Systems",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://create-se4ai.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "CREATE-SE4AI", // Usually your GitHub org/user name.
-  projectName: "website", // Usually your repo name.
+  organizationName: "create-se4ai", // Usually your GitHub org/user name.
+  projectName: "create-se4ai.github.io", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "CREATE SE4AI",
@@ -29,7 +29,7 @@ module.exports = {
         { to: "/team", label: "Team", position: "left" },
         { to: "/apply", label: "Apply", position: "left" },
         // {
-        //   href: 'https://github.com/CREATE-SE4AI',
+        //   href: 'https://github.com/create-se4ai',
         //   position: 'right',
         // },
         { to: "/contact", label: "Contact", position: "right" },
@@ -68,11 +68,11 @@ module.exports = {
             // },
             {
               label: "Twitter",
-              href: "https://twitter.com/CREATE-SE4AI",
+              href: "https://twitter.com/create-se4ai",
             },
             {
               label: "GitHub",
-              href: "https://github.com/CREATE-SE4AI",
+              href: "https://github.com/create-se4ai",
             },
           ],
         },
@@ -85,11 +85,11 @@ module.exports = {
             // },
             {
               label: "Twitter",
-              href: "https://twitter.com/CREATE-SE4AI",
+              href: "https://twitter.com/create-se4ai",
             },
             {
               label: "GitHub",
-              href: "https://github.com/CREATE-SE4AI",
+              href: "https://github.com/create-se4ai",
             },
           ],
         },
