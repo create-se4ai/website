@@ -1,43 +1,90 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Engineering AI Systems",
+    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Provide trainees with the <b>technical</b> background while exercising
+        software engineering concepts in the context of AI-based software
+        systems.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: "Social Aspects for AI Systems",
+    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Provides trainees with all the <b>social</b> criteria that AI-based
+        systems need to consider, e.g., privacy, ethics, equity, diversity,
+        inclusion (EDI), guided by human rights and sustainable development
+        goals (SDG).
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: "Professional Development",
+    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Provides training modules on professional skills in the context of
+        AI-Software Systems.
+      </>
+    ),
+  },
+
+  {
+    title: "Industrial Embedding",
+    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    description: (
+      <>
+        Graduate trainees will be offered the opportunity to serve one or more
+        internships with our industrial partners.
+      </>
+    ),
+  },
+  {
+    title: "Present to Industrial Partners",
+    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    description: (
+      <>
+        Trainees will present an online webinar or an on-site seminar to one or
+        more industrial partners on their research topic related to AI-based
+        software systems. Also, trainees will be able to attend industry
+        webinars and on-site seminars.
+      </>
+    ),
+  },
+  // {
+  //   title: "Specialization courses",
+  //   Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+  //   description: (
+  //     <>
+  //       A curated set of existing SE, AI, and social aspects courses that will
+  //       be of relevance to our trainees. Based on the aspirations of the
+  //       trained, they will have the freedom to select the courses that best fit.
+  //     </>
+  //   ),
+  // },
+  {
+    title: "Leadership and Mentorship Training",
+    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    description: (
+      <>
+        Trainees will be coached on how to critically evaluate AI-based software
+        systems and related publications.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
