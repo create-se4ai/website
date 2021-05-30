@@ -6,22 +6,23 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import Logo from "../../static/img/logo.svg";
+import HomepageCollaborators from "../components/HomepageCollaborators";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <div style={{ textAlign: "center" }}>
-          <Logo style={{width: "200px"}} />
-        </div>
+        <span className={styles.sponsor}>NSERC</span>
+        <Logo className={styles.logo} />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="/docs/intro">
-            Student Applications
+            to="/apply"
+          >
+            Apply Now
           </Link>
         </div>
       </div>
@@ -39,6 +40,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageCollaborators />
       </main>
     </Layout>
   );
