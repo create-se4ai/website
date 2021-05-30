@@ -23,3 +23,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.sponsor {
+  font-size: 1.4rem;
+}
+
+.logo {
+  max-width: 200px;
+}
