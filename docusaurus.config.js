@@ -10,6 +10,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "create-se4ai", // Usually your GitHub org/user name.
   projectName: "create-se4ai.github.io", // Usually your repo name.
+  deploymentBranch: "main",
   themeConfig: {
     navbar: {
       title: "CREATE SE4AI",
