@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
 
+env:
+  DEPLOYMENT_BRANCH: main
+  CURRENT_BRANCH: main
+  USE_SSH: true
+
 jobs:
   gh-release:
     runs-on: ubuntu-latest
