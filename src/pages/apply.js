@@ -6,7 +6,7 @@ export default () => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src =
-      "https://s3.amazonaws.com/files.freshteam.com/production/78710/attachments/5000278804/original/5000017287_widget.js?1622418749";
+      "https://s3.amazonaws.com/files.freshteam.com/production/78710/attachments/5000279106/original/5000017287_widget.js?1622426024";
     script.async = true;
 
     document.body.appendChild(script);
