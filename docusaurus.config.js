@@ -13,6 +13,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: "CREATE SE4AI",
+      hideOnScroll: true,
       logo: {
         alt: "CREATE SE4AI",
         src: "img/logo.svg",
@@ -34,6 +35,10 @@ module.exports = {
         // },
         { to: "/contact", label: "Contact", position: "right" },
       ],
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
     },
     footer: {
       style: "dark",
