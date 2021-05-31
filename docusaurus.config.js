@@ -37,7 +37,7 @@ module.exports = {
       ],
     },
     colorMode: {
-      defaultMode: 'light',
+      defaultMode: "light",
       disableSwitch: true,
     },
     footer: {
@@ -64,6 +64,7 @@ module.exports = {
           title: "Community",
           items: [],
         },
+
         {
           title: "More",
           items: [
@@ -82,19 +83,23 @@ module.exports = {
           ],
         },
         {
-          title: "More",
+          title: "Partner Universities",
           items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
             {
-              label: "Twitter",
-              href: "https://twitter.com/create-se4ai",
+              label: "Concordia University",
+              href: "https://www.concordia.ca/",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/create-se4ai",
+              label: "Polytechnique Montréal",
+              href: "https://www.polymtl.ca/en/",
+            },
+            {
+              label: "Queen's University",
+              href: "https://www.queensu.ca",
+            },
+            {
+              label: "University of Alberta",
+              href: "https://www.ualberta.ca",
             },
           ],
         },
