@@ -21,7 +21,7 @@ const TeamMemberList = [
         name: "Dr. Tanja Tajmel",
         affiliation: "Concordia University",
         // twitter: "",
-        website: "https://www.concordia.ca/faculty/tanja-tajmel.htm",
+        website: "https://www.concordia.ca/faculty/tanja-tajmel.html",
         imgUrl: require("./profile-pictures/TanjaTajmel.jpg").default,
       },
       {
