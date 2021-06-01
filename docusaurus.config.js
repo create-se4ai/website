@@ -64,6 +64,10 @@ module.exports = {
           title: "Community",
           items: [],
         },
+        {
+          title: "Community",
+          items: [],
+        },
 
         {
           title: "More",
@@ -80,6 +84,7 @@ module.exports = {
               label: "GitHub",
               href: "https://github.com/create-se4ai",
             },
+            { label: "Contact", to: "/contact" },
           ],
         },
         {
@@ -110,7 +115,12 @@ module.exports = {
       },
       copyright: `<p>We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC).</p>Copyright © ${new Date().getFullYear()} DAS Lab.`,
     },
+    // gtag: {
+    //   trackingID: "",
+    //   anonymizeIP: false,
+    // },
   },
+  // plugins: ["@docusaurus/plugin-google-gtag"],
   presets: [
     [
       "@docusaurus/preset-classic",
