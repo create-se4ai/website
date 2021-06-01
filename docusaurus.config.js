@@ -28,6 +28,7 @@ module.exports = {
         // {to: '/blog', label: 'Blog', position: 'left'},
         { to: "/about", label: "About Us", position: "left" },
         { to: "/team", label: "Team", position: "left" },
+        { to: "/partners", label: "Partners", position: "left" },
         { href: "/apply", label: "Apply", position: "left" },
         // {
         //   href: 'https://github.com/create-se4ai',

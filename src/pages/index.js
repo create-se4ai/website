@@ -6,7 +6,8 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import Logo from "../../static/img/logo.svg";
-import HomepageCollaborators from "../components/HomepageCollaborators";
+import { HomepageInstitutions } from "../components/Institutions";
+import { InstitutionList } from "../pages/partners";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -40,7 +41,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <HomepageCollaborators />
+        <HomepageInstitutions list={InstitutionList} />
       </main>
     </Layout>
   );
