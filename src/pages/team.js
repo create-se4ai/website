@@ -74,13 +74,11 @@ const TeamMemberList = [
         name: "Dr. Renji Butalid",
         affiliation: "Montreal AI Ethics Institute",
         position: "Co-founder",
-        imgURL: defaultProfile,
       },
       {
         name: "Dr. Lyse Langlois",
         affiliation: "OBVIA",
         position: "Executive Director",
-        imgURL: defaultProfile,
       },
     ],
   },
@@ -94,13 +92,10 @@ const TeamMemberList = [
       {
         name: "Dr. Julien Crowe",
         affiliation: "National Bank of Canada",
-        imgURL:
-          "https://media-exp1.licdn.com/dms/image/C4E03AQHW_h3OCS2cwg/profile-displayphoto-shrink_200_200/0/1574779688019?e=1627516800&v=beta&t=y1Zw-TeKlsTw7hk7ZW_BpVn0irDFMsguP3_wH_xvtyc",
       },
       {
         name: "Prasad Garigipati",
         affiliation: "Ericsson",
-        imgURL: defaultProfile,
       },
       {
         name: "Patrick Whelan",
@@ -110,33 +105,26 @@ const TeamMemberList = [
       {
         name: "Katherine Heighington",
         affiliation: "TD Bank Group",
-        imgURL: defaultProfile,
       },
       {
         name: "Stephane Caron",
         affiliation: "Radio Canada",
-        imgURL: defaultProfile,
       },
       {
         name: "Mohamed El-Geish",
         affiliation: "Cisco",
-        imgURL: defaultProfile,
       },
       {
         name: "Derek Truong",
         affiliation: "IBM",
-        imgURL:
-          "https://media-exp1.licdn.com/dms/image/C4E03AQFWME64GYWEIQ/profile-displayphoto-shrink_800_800/0/1537710336087?e=1627516800&v=beta&t=NaWy8MBiOZqXGwvgP5r_myUogHDqnhkYFnEWxHTxQ-Q",
       },
       {
         name: "Pape Wade",
         affiliation: "Airudi",
-        imgURL: defaultProfile,
       },
       {
         name: "David Fab",
         affiliation: "GIRO Inc.",
-        imgURL: defaultProfile,
       },
     ],
   },
