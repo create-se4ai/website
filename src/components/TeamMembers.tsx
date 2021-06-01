@@ -86,7 +86,7 @@ const TeamMembers = ({list}) => {
       <div className="container">
         {list.map((category) => (
           <div key={category.title} className="row margin-bottom--xl">
-            <h2 className="padding-bottom--lg col col--12">{category.title}</h2>
+            <h2 className="col col--12 section">{category.title}</h2>
             {category.members.map((props: any) =>
               category.size == "large" ? (
                 <TeamMemberLarge key={props.name} {...props} />
