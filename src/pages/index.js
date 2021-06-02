@@ -12,7 +12,7 @@ import { InstitutionList } from "../pages/partners";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header className={clsx("hero hero--dark", styles.heroBanner)}>
       <div className="container">
         <span className={styles.sponsor}>NSERC</span>
         <Logo className={styles.logo} />
@@ -20,7 +20,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--outline button--secondary button--lg"
+            className="button button--primary button--lg"
             to="/apply"
           >
             Apply Now

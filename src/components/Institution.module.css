@@ -8,9 +8,15 @@
 
 .collaborator {
   text-align: center;
-  margin: 2rem;
+  margin: 1rem 2rem;
   position: relative;
-  height: 70px;
+  height: 100px;
+  min-width: 180px;
+  border-radius: var(--ifm-card-border-radius);
+}
+
+html[data-theme="dark"] .collaborator {
+  background-color: var(--ifm-color-gray-300);
 }
 
 .collaborator__title {
