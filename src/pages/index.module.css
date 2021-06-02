@@ -31,3 +31,15 @@
 .logo {
   max-width: 200px;
 }
+
+.logo > circle {
+  fill: var(--ifm-color-primary-light)
+}
+
+.logo > path {
+  fill: var(--ifm-hero-text-color);
+}
+
+.logo > g {
+  fill: var(--ifm-color-primary)
+}
