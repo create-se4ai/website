@@ -16,7 +16,7 @@
 }
 
 html[data-theme="dark"] .collaborator {
-  background-color: var(--ifm-color-gray-300);
+  background-color: var(--ifm-color-gray-500);
 }
 
 .collaborator__title {
