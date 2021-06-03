@@ -4,7 +4,7 @@ import styles from "./Institution.module.css";
 
 function Institution({ log, name, url }) {
   return (
-    <div className={clsx("col col--2", styles.collaborator)}>
+    <div className={clsx("col col--2", styles.institution)}>
       <a href={url} target="_blank">
         <img className={styles.imgLogo} src={log} alt={name} />
       </a>
@@ -31,9 +31,9 @@ export function Institutions({ list }) {
 
 export function HomepageInstitutions({ list }) {
   return (
-    <section className={styles.collaborators}>
-      <div className={clsx("container", styles.collaborators_container)}>
-        <p className={styles.collaborator__title}>
+    <section className={styles.institutions}>
+      <div className={clsx("container", styles.institutions_container)}>
+        <p className={styles.institution__title}>
           In Collaboration with <b>Researchers</b> and <b>Technology Leaders</b>
         </p>
         <div className="row">

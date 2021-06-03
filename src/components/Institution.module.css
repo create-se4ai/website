@@ -1,4 +1,4 @@
-.collaborators {
+.institutions {
   display: flex;
   align-items: center;
   padding: 2rem 0;
@@ -6,7 +6,7 @@
   background-color: var(--ifm-color-emphasis-100);
 }
 
-.collaborator {
+.institution {
   text-align: center;
   margin: 1rem 2rem;
   position: relative;
@@ -15,11 +15,11 @@
   border-radius: var(--ifm-card-border-radius);
 }
 
-html[data-theme="dark"] .collaborator {
+html[data-theme="dark"] .institution {
   background-color: var(--ifm-color-gray-500);
 }
 
-.collaborator__title {
+.institution__title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 3rem;
@@ -29,12 +29,12 @@ html[data-theme="dark"] .collaborator {
   display: inline-block;
 }
 
-.collaborator__title b {
+.institution__title b {
   color: var(--ifm-color-primary);
   font-weight: 900;
 }
 
-.collaborators_container {
+.institutions_container {
   text-align: center;
 }
 
