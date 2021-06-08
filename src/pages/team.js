@@ -35,13 +35,14 @@ const TeamMemberList = [
       {
         name: "Dr. Jinqiu Yang",
         affiliation: "Concordia University",
+        linkedin: "jinqiu-yang-69767220",
         twitter: "JinqiuYang",
         website: "https://jinqiuyang.github.io",
       },
       {
         name: "Dr. Ying (Jenny) Zou",
         affiliation: "Queen’s University",
-        linkedin: "jinqiu-yang-69767220",
+        linkedin:"ying-zou-624501159",
         twitter: "YingZou8",
         website: "https://www.ece.queensu.ca/people/Y-Zou/",
       },
@@ -55,7 +56,7 @@ const TeamMemberList = [
       {
         name: "Dr. Ahmed E. Hassan",
         affiliation: "Queen’s University",
-        linkedin:"ahmed-e-hassan",
+        linkedin: "ahmed-e-hassan",
         twitter: "sail_lab",
         website: "https://research.cs.queensu.ca/home/ahmed/home/",
       },
