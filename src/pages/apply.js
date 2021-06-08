@@ -13,7 +13,7 @@ export default () => {
   }, []);
 
   return (
-    <Layout title="Apply" description="Apply Now">
+    <Layout title="Open Positions" description="Apply Now">
       <main>
         <div id="freshteam-widget"></div>
       </main>
