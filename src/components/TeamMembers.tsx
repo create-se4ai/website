@@ -1,13 +1,21 @@
 import React from "react";
-
+import clsx from "clsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import styles from "./TeamMembers.module.css";
 
-const TeamMemberLarge = ({ name, imgURL, affiliation, twitter, website }) => {
+const TeamMemberLarge = ({
+  name,
+  role,
+  imgURL,
+  affiliation,
+  linkedin,
+  twitter,
+  website,
+}) => {
   return (
-    <div className="col col--3 margin-bottom--lg">
+    <div className={clsx("col col--3 margin-bottom--lg", styles.memberLarge)}>
       <div className="card">
         <div className="card__image">
           <img
@@ -16,26 +24,42 @@ const TeamMemberLarge = ({ name, imgURL, affiliation, twitter, website }) => {
           />
         </div>
         <div className="card__body">
-          <h3>{name}</h3>
+          <h3>
+            {name}
+            {role && (
+              <>
+                {" "}
+                <span className="badge badge--primary">{role}</span>
+              </>
+            )}
+          </h3>
           {affiliation}
         </div>
         <div className="card__footer">
-          <a
-            className="button button--outline button--secondary margin-right--sm"
-            target="_blank"
-            href={website}
-          >
-            <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
-          </a>
-          {twitter && (
-            <a
-              className="button button--outline button--secondary "
-              target="_blank"
-              href={`https://twitter.com/${twitter}`}
-            >
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-          )}
+          <ul className="pills">
+            <li className="pills__item">
+              <a target="_blank" href={website}>
+                <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
+              </a>
+            </li>
+            {linkedin && (
+              <li className="pills__item">
+                <a
+                  target="_blank"
+                  href={`https://www.linkedin.com/in/${linkedin}`}
+                >
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </li>
+            )}
+            {twitter && (
+              <li className="pills__item">
+                <a target="_blank" href={`https://twitter.com/${twitter}`}>
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+              </li>
+            )}
+          </ul>
         </div>
       </div>
     </div>
@@ -56,11 +80,7 @@ const TeamMemberMedium = ({ name, imgURL, affiliation, twitter, website }) => {
           <small className="avatar__subtitle">{affiliation}</small>
         </div>
         {website && (
-          <a
-            className="button button--outline button--secondary margin-right--sm"
-            target="_blank"
-            href={website}
-          >
+          <a target="_blank" href={website}>
             <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
           </a>
         )}
