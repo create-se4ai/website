@@ -26,7 +26,7 @@ module.exports = {
         //   label: 'Tutorial',
         // },
         // {to: '/blog', label: 'Blog', position: 'left'},
-        { to: "/about", label: "About Us", position: "left" },
+        { to: "/intro", label: "Program", position: "left" },
         { to: "/team", label: "Team", position: "left" },
         { to: "/partners", label: "Partners", position: "left" },
         { href: "/apply", label: "Apply", position: "left" },
@@ -48,8 +48,8 @@ module.exports = {
           title: "Info",
           items: [
             {
-              label: "About Us",
-              to: "/about",
+              label: "Program",
+              to: "/intro",
             },
             {
               label: "Objectives",
