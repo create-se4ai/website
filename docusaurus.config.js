@@ -48,7 +48,7 @@ module.exports = {
           title: "Info",
           items: [
             {
-              label: "Program",
+              label: "About the program",
               to: "/intro",
             },
             {
@@ -59,33 +59,6 @@ module.exports = {
               label: "Components",
               to: "/training-program/components",
             },
-          ],
-        },
-        {
-          title: "Community",
-          items: [],
-        },
-        {
-          title: "Community",
-          items: [],
-        },
-
-        {
-          title: "More",
-          items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/create-se4ai",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/create-se4ai",
-            },
-            { label: "Contact", to: "/contact" },
           ],
         },
         {
@@ -107,6 +80,33 @@ module.exports = {
               label: "University of Alberta",
               href: "https://www.ualberta.ca",
             },
+          ],
+        },
+        // {
+        //   title: "Community",
+        //   items: [],
+        // },
+        // {
+        //   title: "Community",
+        //   items: [],
+        // },
+
+        {
+          title: "More",
+          items: [
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
+            {
+              label: "Twitter",
+              href: "https://twitter.com/create-se4ai",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/create-se4ai",
+            },
+            { label: "Contact", to: "/contact" },
           ],
         },
       ],
