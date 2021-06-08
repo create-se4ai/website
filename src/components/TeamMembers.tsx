@@ -11,9 +11,7 @@ const TeamMemberLarge = ({ name, imgURL, affiliation, twitter, website }) => {
       <div className="card">
         <div className="card__image">
           <img
-            src={
-              imgURL || require(`../../profile_photos/${name}.jpg`).default
-            }
+            src={imgURL || require(`../../profile_photos/${name}.jpg`).default}
             alt={name}
           />
         </div>
@@ -80,19 +78,25 @@ const TeamMemberMedium = ({ name, imgURL, affiliation, twitter, website }) => {
   );
 };
 
-const TeamMembers = ({list}) => {
+const TeamMembers = ({ list }) => {
   return (
     <section>
       <div className="container">
         {list.map((category) => (
           <div key={category.title} className="row margin-bottom--xl">
             <h2 className="col col--12 section">{category.title}</h2>
-            {category.members.map((props: any) =>
-              category.size == "large" ? (
-                <TeamMemberLarge key={props.name} {...props} />
-              ) : (
-                <TeamMemberMedium key={props.name} {...props} />
+            {category.members?.length ? (
+              category.members.map((props: any) =>
+                category.size == "large" ? (
+                  <TeamMemberLarge key={props.name} {...props} />
+                ) : (
+                  <TeamMemberMedium key={props.name} {...props} />
+                )
               )
+            ) : (
+              <div className="col col--12 margin-bottom--lg">
+                {category.placeholder}
+              </div>
             )}
           </div>
         ))}
