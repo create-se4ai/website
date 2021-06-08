@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
-import styles from "./Institution.module.css";
+import HomepageSectionTitle from "./HomepageSectionTitle";
+import styles from "./Institutions.module.css";
 
 function Institution({ log, name, url }) {
   return (
@@ -33,9 +34,9 @@ export function HomepageInstitutions({ list }) {
   return (
     <section className={styles.institutions}>
       <div className={clsx("container", styles.institutions_container)}>
-        <p className={styles.institution__title}>
+        <HomepageSectionTitle>
           In Collaboration with <b>Researchers</b> and <b>Technology Leaders</b>
-        </p>
+        </HomepageSectionTitle>
         <div className="row">
           {list.map((category) =>
             category.members.map((props) => (

@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./HomepageFeatures.module.css";
+import HomepageSectionTitle from "./HomepageSectionTitle";
 
 const FeatureList = [
   {
@@ -27,6 +28,17 @@ const FeatureList = [
     ),
   },
   {
+    title: "Specialization Courses",
+    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    description: (
+      <>
+        A curated set of existing SE, AI, and social aspects courses that will
+        be of relevance to our trainees. Based on the aspirations of the
+        trained, they will have the freedom to select the courses that best fit.
+      </>
+    ),
+  },
+  {
     title: "Professional Development",
     Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
     description: (
@@ -38,7 +50,7 @@ const FeatureList = [
   },
 
   {
-    title: "Industrial Embedding",
+    title: "Industrial Engagement",
     Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
@@ -47,26 +59,15 @@ const FeatureList = [
       </>
     ),
   },
-  {
-    title: "Present to Industrial Partners",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
-    description: (
-      <>
-        Trainees will present an online webinar or an on-site seminar to one or
-        more industrial partners on their research topic related to AI-based
-        software systems. Also, trainees will be able to attend industry
-        webinars and on-site seminars.
-      </>
-    ),
-  },
   // {
-  //   title: "Specialization courses",
+  //   title: "Present to Industrial Partners",
   //   Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
   //   description: (
   //     <>
-  //       A curated set of existing SE, AI, and social aspects courses that will
-  //       be of relevance to our trainees. Based on the aspirations of the
-  //       trained, they will have the freedom to select the courses that best fit.
+  //       Trainees will present an online webinar or an on-site seminar to one or
+  //       more industrial partners on their research topic related to AI-based
+  //       software systems. Also, trainees will be able to attend industry
+  //       webinars and on-site seminars.
   //     </>
   //   ),
   // },
@@ -100,6 +101,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <HomepageSectionTitle>Our Program Components Focus on <b>Academic</b>,  <b>Technical</b>, and  <b>Professional</b> Skills</HomepageSectionTitle>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
