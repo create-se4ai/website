@@ -5,10 +5,12 @@ import styles from "./Institutions.module.css";
 
 function Institution({ log, name, url }) {
   return (
-    <div className={clsx("col col--3", styles.institution)}>
-      <a href={url} target="_blank">
-        <img className={styles.imgLogo} src={log} alt={name} />
-      </a>
+    <div className="col col--3">
+      <div className={styles.institution}>
+        <a href={url} target="_blank">
+          <img src={log} alt={name} />
+        </a>
+      </div>
     </div>
   );
 }
@@ -33,7 +35,7 @@ export function Institutions({ list }) {
 export function HomepageInstitutions({ list }) {
   return (
     <section className={styles.institutions}>
-      <div className={clsx("container", styles.institutions_container)}>
+      <div className="container">
         <HomepageSectionTitle>
           In Collaboration with <b>Researchers</b> and <b>Technology Leaders</b>
         </HomepageSectionTitle>
