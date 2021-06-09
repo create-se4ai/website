@@ -18,6 +18,10 @@
   }
 }
 
+.heroBanner b{
+  color: var(--ifm-color-primary);
+}
+
 .buttons {
   display: flex;
   align-items: center;

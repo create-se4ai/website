@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "CREATE SE for AI",
+  title: "CREATE SE4AI",
   tagline:
     "A Training Program on the Development, Deployment and Servicing of Artificial Intelligence-based Software Systems",
   url: "https://se4ai.org",
