@@ -12,7 +12,7 @@
 }
 
 html[data-theme="dark"] .institution {
-  background-color: #f8eff2;
+  background-color: var(--ifm-color-gray-500);
 }
 
 .institution img {
