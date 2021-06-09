@@ -17,7 +17,7 @@ module.exports = {
       logo: {
         alt: "CREATE SE4AI",
         src: "img/logo.svg",
-        srcDark: 'img/logo_dark.svg'
+        srcDark: "img/logo_dark.svg",
       },
       items: [
         // {
@@ -117,10 +117,10 @@ module.exports = {
       },
       copyright: `<p>We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC).</p>Copyright © ${new Date().getFullYear()} DAS Lab.`,
     },
-    // gtag: {
-    //   trackingID: "",
-    //   anonymizeIP: false,
-    // },
+    gtag: {
+      trackingID: "G-VKNMLKQGRY",
+      anonymizeIP: false,
+    },
   },
   // plugins: ["@docusaurus/plugin-google-gtag"],
   presets: [
