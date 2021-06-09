@@ -63,6 +63,23 @@ module.exports = {
           ],
         },
         {
+          title: "Community",
+          items: [
+            {
+              label: "Team",
+              to: "/team",
+            },
+            {
+              label: "Partners",
+              to: "/partners",
+            },
+            {
+              label: "Apply",
+              to: "/apply",
+            },
+          ],
+        },
+        {
           title: "Partner Universities",
           items: [
             {
@@ -83,14 +100,6 @@ module.exports = {
             },
           ],
         },
-        // {
-        //   title: "Community",
-        //   items: [],
-        // },
-        // {
-        //   title: "Community",
-        //   items: [],
-        // },
 
         {
           title: "More",
