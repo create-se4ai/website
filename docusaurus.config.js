@@ -46,10 +46,10 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Info",
+          title: "Program",
           items: [
             {
-              label: "About the program",
+              label: "Introduction",
               to: "/intro",
             },
             {
