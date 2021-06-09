@@ -6,7 +6,7 @@ import HomepageSectionTitle from "./HomepageSectionTitle";
 const FeatureList = [
   {
     title: "Engineering AI Systems",
-    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("../svg/component_engineering.svg").default,
     description: (
       <>
         Provide trainees with the <b>technical</b> background while exercising
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: "Social Aspects for AI Systems",
-    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("../svg/component_social.svg").default,
     description: (
       <>
         Provides trainees with all the <b>social</b> criteria that AI-based
@@ -29,7 +29,7 @@ const FeatureList = [
   },
   {
     title: "Specialization Courses",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("../svg/component_courses.svg").default,
     description: (
       <>
         A curated set of existing SE, AI, and social aspects courses that will
@@ -40,7 +40,7 @@ const FeatureList = [
   },
   {
     title: "Professional Development",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("../svg/component_professional.svg").default,
     description: (
       <>
         Provides training modules on professional skills in the context of
@@ -51,7 +51,7 @@ const FeatureList = [
 
   {
     title: "Industrial Engagement",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("../svg/component_engagement.svg").default,
     description: (
       <>
         Graduate trainees will be offered the opportunity to serve one or more
@@ -61,7 +61,7 @@ const FeatureList = [
   },
   // {
   //   title: "Present to Industrial Partners",
-  //   Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+  //   Svg: require("../svg/component_engineering.svg").default,
   //   description: (
   //     <>
   //       Trainees will present an online webinar or an on-site seminar to one or
@@ -73,7 +73,7 @@ const FeatureList = [
   // },
   {
     title: "Leadership and Mentorship Training",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("../svg/component_leadership.svg").default,
     description: (
       <>
         Trainees will be coached on how to critically evaluate AI-based software
