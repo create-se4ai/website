@@ -4,15 +4,14 @@
 	 y="0px" viewBox="0 0 1514.88 1238.61" style="enable-background:new 0 0 1514.88 1238.61;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#191919;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#2E2E2E;}
 	.st2{fill:#D395AB;}
 	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#D395AB;}
-	.st4{fill:#191919;}
+	.st4{fill:#2E2E2E;}
 	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#D6D6D6;}
 	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#BB5A7D;}
 	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#F7F7F7;}
 	.st8{fill:#FFFFFF;}
-	.st9{fill:#2E2E2E;}
 </style>
 <rect x="14.59" y="15.55" class="st0" width="1090.13" height="922.67"/>
 <g>
@@ -863,7 +862,7 @@
 	</g>
 </g>
 <g id="platform">
-	<path class="st9" d="M1515.15,1238.52H0.9c-0.95,0-1.73-1.54-1.73-3.45s0.77-3.45,1.73-3.45h1514.26c0.95,0,1.73,1.54,1.73,3.45
+	<path class="st4" d="M1515.15,1238.52H0.9c-0.95,0-1.73-1.54-1.73-3.45s0.77-3.45,1.73-3.45h1514.26c0.95,0,1.73,1.54,1.73,3.45
 		S1516.11,1238.52,1515.15,1238.52z"/>
 </g>
 </svg>
