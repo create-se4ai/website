@@ -122,7 +122,6 @@ module.exports = {
       anonymizeIP: false,
     },
   },
-  plugins: ["@docusaurus/plugin-google-gtag"],
   presets: [
     [
       "@docusaurus/preset-classic",
