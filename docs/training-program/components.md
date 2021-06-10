@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# SE4AI Core Components
+# Program Components
 
 ## Engineering AI-based Software Systems
 
@@ -22,7 +22,7 @@ to reflect on the social aspects and how they influenced the engineering aspects
 A newly developed course that focuses on various social criteria that AI-based systems need to consider, e.g., privacy, ethics, equity, diversity, inclusion (EDI), human rights and sustainable development goals (SDG). Trainees will be introduced to the fundamental theories, normative frameworks and ethical concepts and will learn to apply them on AI-based systems. To gain applied knowledge on the concepts they are taught, trainees will be provided with
 existing AI-based systems, or can use their projects from the Engineering AI-based Software Systems course, and will be asked to write a report on these systems. The reports will examine the various social aspects of the system being studied and report on how these aspects have been considered (or not) in the studied systems. Trainees will be asked to come up with an ethical assessment and concrete recommendations for such systems, while considering the engineering implications of their recommendations.
 
-## Professional Development for AI-based Software System Practitioners
+## Professional Development Modules
 
 Specialized modules that focus on professional skills in the context of AI-Software Systems will be provided to trainees. This includes specialized modules on professional skills (e.g., dissemination and presentation skills, commercialization and entrepreneurship, communication and explainability) and aspects of engagement and relation-building with communities and diverse stakeholders. In addition to newly developed modules, trainees will have access to a curated list of relevant professional development modules that fit the SE4AI CREATE program
 offered through the host universities (e.g. Concordia’s GradProSkills,
@@ -36,7 +36,7 @@ SE4AI CREATE trainees will be offered the opportunity to go on one or more inter
 with our industrial partners. Master’s trainees will typically serve a single four-month internship,
 typically after their second term in the program. PhD trainees will typically serve two four-month internships. Trainees will be supported by their academic supervisors and the relevant contact at the host partner.
 
-## Industry webinar(s) or on-site seminar(s)
+## Industry Webinars or Seminars
 
 All trainees will have the opportunity to present at least one online webinar and/or an on-site seminar to one or more industrial partners.
 
@@ -46,7 +46,7 @@ The seminars will:
 - Provide trainees with an opportunity to expand their professional network for post-graduation hiring opportunities.
 - Communicate some of the academic innovations to practitioners and academics,
 
-## Specialization courses
+## Specialization Courses
 
 Trainees of the SE4AI CREATE program will take one or more specialization course from a curated list of courses on SE, AI, and Social concepts. The exact number of specialization courses depends on the trainee’s home institution and program. 
 
@@ -56,7 +56,7 @@ place to allow trainees to obtain credit for courses taken at non-home instituti
 of specialization courses available to our trainees. The exact specialization course(s) a trainee will take will
 be determined in consultation with their supervisor.
 
-## Hands-on leadership and mentorship training
+## Hands-on Leadership and Mentorship Training
 
 To position trainees to be successful and socially responsible leaders in their field the SE4AI CREATE incorporates hands-on leadership and mentorship training. This training is achieved through a multitude of mechanisms. Trainees will serve as mentors-in-training (MIT) along supervisors to more junior trainees. For example, PhD students
 and postdocs can serve as MITs to undergrad and MSc, and PhD trainees, respectively. MITs will be

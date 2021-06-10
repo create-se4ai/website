@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# SE4AI CREATE Overview
+# Program Overview
 
 The field of Artificial Intelligence (AI) has seen significant demand and growth due to the recent explosion in
 datasets and breakthroughs in Machine Learning (ML) such as deep learning and reinforcement learning. Many
@@ -19,8 +19,8 @@ SE4AI CREATE achieves a number of novel and original training components:
 
 - A spcialized, newly developed course on Engineering AI-based Software Systems.
 - A spcialized, newly developed course on Social Aspects for AI-based Software System.
-- Professional Development for AI-based Software System Practitioners modules
-- Industrial embedding where trainees will be offered the opportunity to serve one or more internships with our industrial partners
+- Professional Development for AI-based Software System Practitioners modules.
+- Industrial embedding where trainees will be offered the opportunity to serve one or more internships with our industrial partners.
 - Industry webinar and/or on-site seminars.
 - Carefully selected specialization courses on SE, AI, and social concepts.
 - Hands-on leadership and mentorship training where trainees will be coached on how to critically evaluate AI-based software systems, related projects and publications.
