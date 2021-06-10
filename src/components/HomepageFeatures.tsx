@@ -9,9 +9,8 @@ const FeatureList = [
     Svg: require("../svg/component_engineering.svg").default,
     description: (
       <>
-        Provide trainees with the <b>technical</b> background while exercising
-        software engineering concepts in the context of AI-based software
-        systems.
+        Provides trainees with the technical software engineering background 
+        in the context of AI-based software systems.
       </>
     ),
   },
@@ -20,7 +19,7 @@ const FeatureList = [
     Svg: require("../svg/component_social.svg").default,
     description: (
       <>
-        Provides trainees with all the <b>social</b> criteria that AI-based
+        Provides trainees with knowledge on various social aspects that AI-based
         systems need to consider, e.g., privacy, ethics, equity, diversity,
         inclusion (EDI), guided by human rights and sustainable development
         goals (SDG).
@@ -32,9 +31,8 @@ const FeatureList = [
     Svg: require("../svg/component_courses.svg").default,
     description: (
       <>
-        A curated set of existing SE, AI, and social aspects courses that will
-        be of relevance to our trainees. Based on the aspirations of the
-        trained, they will have the freedom to select the courses that best fit.
+        A curated set of SE, AI, and social aspects courses to strengthen the 
+        trainees's specialization. Trainees will select courses that best fit interests.
       </>
     ),
   },
