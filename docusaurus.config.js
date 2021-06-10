@@ -109,7 +109,7 @@ module.exports = {
             // },
             {
               label: "Twitter",
-              href: "https://twitter.com/create-se4ai",
+              href: "https://twitter.com/CREATE_SE4AI",
             },
             {
               label: "GitHub",
