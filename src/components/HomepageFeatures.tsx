@@ -41,7 +41,7 @@ const FeatureList = [
     Svg: require("../svg/component_professional.svg").default,
     description: (
       <>
-        Provides training modules on professional skills in the context of
+        Provides araining modules on professional skills in the context of
         AI-Software Systems.
       </>
     ),
@@ -52,8 +52,8 @@ const FeatureList = [
     Svg: require("../svg/component_engagement.svg").default,
     description: (
       <>
-        Graduate trainees will be offered the opportunity to serve one or more
-        internships with our industrial partners.
+        Provides trainees with special internship opportunities with 
+        our industrial partners and collaborating partners.
       </>
     ),
   },
@@ -74,7 +74,7 @@ const FeatureList = [
     Svg: require("../svg/component_leadership.svg").default,
     description: (
       <>
-        Trainees will be coached on how to critically evaluate AI-based software
+        Provides trainees with specialized training on the critical evaluation of AI-based software
         systems and related publications.
       </>
     ),
