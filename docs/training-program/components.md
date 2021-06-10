@@ -6,10 +6,6 @@ sidebar_position: 2
 
 ## Engineering AI-based Software Systems
 
-The newly developed course will provide trainees with the necessary background in the development, deployment and servicing of AI-based software systems.
-
-### Course Topics
-
 The main focus of the course is on the interconnection of SE+AI and how these topics apply for AI-based systems.
 For example, issues related to CI/CD during development while handling large training data and managing
 model evolution and tracking accuracy as the AI-based software systems evolve are unique aspects that
