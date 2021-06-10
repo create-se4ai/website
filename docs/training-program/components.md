@@ -42,9 +42,9 @@ All trainees will have the opportunity to present at least one online webinar an
 
 The seminars will:
 
-1. Provide trainees with hands-on real-life presentation experience to an academic and non-academic audience.
-2. Provide trainees with an opportunity to expand their professional network for post-graduation hiring opportunities.
-3. Communicate some of the academic innovations to practitioners and academics,
+- Provide trainees with hands-on real-life presentation experience to an academic and non-academic audience.
+- Provide trainees with an opportunity to expand their professional network for post-graduation hiring opportunities.
+- Communicate some of the academic innovations to practitioners and academics,
 
 ## Specialization courses
 
