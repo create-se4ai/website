@@ -46,6 +46,27 @@ module.exports = {
       style: "dark",
       links: [
         {
+          title: "Partner Universities",
+          items: [
+            {
+              label: "Concordia University",
+              href: "https://www.concordia.ca/",
+            },
+            {
+              label: "Polytechnique Montréal",
+              href: "https://www.polymtl.ca/en/",
+            },
+            {
+              label: "Queen's University",
+              href: "https://www.queensu.ca",
+            },
+            {
+              label: "University of Alberta",
+              href: "https://www.ualberta.ca",
+            },
+          ],
+        },
+        {
           title: "Program",
           items: [
             {
@@ -95,27 +116,6 @@ module.exports = {
               href: "https://github.com/create-se4ai",
             },
             { label: "Contact", to: "/contact" },
-          ],
-        },
-        {
-          title: "Partner Universities",
-          items: [
-            {
-              label: "Concordia University",
-              href: "https://www.concordia.ca/",
-            },
-            {
-              label: "Polytechnique Montréal",
-              href: "https://www.polymtl.ca/en/",
-            },
-            {
-              label: "Queen's University",
-              href: "https://www.queensu.ca",
-            },
-            {
-              label: "University of Alberta",
-              href: "https://www.ualberta.ca",
-            },
           ],
         },
       ],
