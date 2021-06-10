@@ -17,8 +17,8 @@ with a solid background on ethical and social understanding of AI. The SE4AI CRE
 of world-renowned experts, working closely with leading international and Canadian industrial partners.
 SE4AI CREATE achieves a number of novel and original training components:
 
-- A spcialized, newly developed course on Engineering AI-based Software Systems.
-- A spcialized, newly developed course on Social Aspects for AI-based Software System.
+- A specialized, newly developed course on Engineering AI-based Software Systems.
+- A specialized, newly developed course on Social Aspects for AI-based Software System.
 - Professional Development for AI-based Software System Practitioners modules.
 - Industrial embedding where trainees will be offered the opportunity to serve one or more internships with our industrial partners.
 - Industry webinar and/or on-site seminars.
