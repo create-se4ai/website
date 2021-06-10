@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Components
+# SE4AI Core Components
 
 ## Engineering AI-based Software Systems
 

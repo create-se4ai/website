@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Objectives
+# Program Objectives
 
 The objective of the SE4AI CREATE program is to fill the major shortage in HQP that can develop, deploy and service AI-based software systems and equally provide the HQP with a solid background on ethical and social understanding of AI. Our program is driven by six key training objectives:
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# SE4AI CREATE Overview
 
 The field of Artificial Intelligence (AI) has seen significant demand and growth due to the recent explosion in
 datasets and breakthroughs in Machine Learning (ML) such as deep learning and reinforcement learning. Many
