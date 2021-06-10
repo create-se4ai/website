@@ -123,7 +123,7 @@ module.exports = {
         alt: "NSERC",
         src: "/img/NSERC_WHITE.png",
       },
-      copyright: `<p>We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC).</p>Copyright © ${new Date().getFullYear()} DAS Lab.`,
+      copyright: `<p>We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC).</p>Copyright © ${new Date().getFullYear()} CREATE SE4AI.`,
     },
     gtag: {
       trackingID: "G-VKNMLKQGRY",
