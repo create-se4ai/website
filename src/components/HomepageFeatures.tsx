@@ -99,7 +99,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <HomepageSectionTitle>Our Program Components Focus on <b>Academic</b>,  <b>Technical</b>, and  <b>Professional</b> Skills</HomepageSectionTitle>
+        <HomepageSectionTitle>A Unique, Comprehensive Program that Focuses on <b>Academic</b>,  <b>Practical</b>, and  <b>Professional</b> Skills</HomepageSectionTitle>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
