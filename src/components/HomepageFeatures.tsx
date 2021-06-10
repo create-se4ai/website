@@ -41,7 +41,7 @@ const FeatureList = [
     Svg: require("../svg/component_professional.svg").default,
     description: (
       <>
-        Provides araining modules on professional skills in the context of
+        Provides training modules on professional skills in the context of
         AI-Software Systems.
       </>
     ),
