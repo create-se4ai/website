@@ -37,7 +37,7 @@ export function HomepageInstitutions({ list }) {
     <section className={styles.institutions}>
       <div className="container">
         <HomepageSectionTitle>
-          In Collaboration with <b>Researchers</b> and <b>Technology Leaders</b>
+          In Collaboration with World-renowned <b>Researchers</b> and <b>Technology Leaders</b>
         </HomepageSectionTitle>
         <div className="row">
           {list.map((category) =>
