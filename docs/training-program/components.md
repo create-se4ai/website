@@ -40,9 +40,7 @@ typically after their second term in the program. PhD trainees will typically se
 
 All trainees will have the opportunity to present at least one online webinar and/or an on-site seminar to one or more industrial partners.
 
-### Seminar Roles
-
-These seminars will serve four roles:
+The seminars will:
 
 1. Provide trainees with hands-on real-life presentation experience to an academic and non-academic audience.
 2. Provide trainees with an opportunity to expand their professional network for post-graduation hiring opportunities.
