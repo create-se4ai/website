@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import styles from "./TeamMembers.module.css";
 
 const TeamMemberLarge = ({
@@ -13,6 +13,7 @@ const TeamMemberLarge = ({
   linkedin,
   twitter,
   website,
+  email,
 }) => {
   return (
     <div
@@ -64,6 +65,13 @@ const TeamMemberLarge = ({
               <li className="pills__item">
                 <a target="_blank" href={`https://twitter.com/${twitter}`}>
                   <FontAwesomeIcon icon={faTwitter} />
+                </a>
+              </li>
+            )}
+            {email && (
+              <li className="pills__item">
+                <a target="_blank" href={`mailto:${email}`}>
+                  <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </li>
             )}

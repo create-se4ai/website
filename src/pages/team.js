@@ -71,6 +71,7 @@ const TeamMemberList = [
         affiliation: "Concordia University",
         role: "Program Coordinator",
         linkedin: "loriakiyama",
+        email: "lori.akiyama@concordia.ca",
       },
     ],
   },
