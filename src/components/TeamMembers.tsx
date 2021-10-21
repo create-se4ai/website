@@ -15,7 +15,13 @@ const TeamMemberLarge = ({
   website,
 }) => {
   return (
-    <div className={clsx("col col--3 margin-bottom--lg", styles.memberLarge)}>
+    <div
+      className={clsx(
+        "col col--3 margin-bottom--lg",
+        styles.member,
+        styles.memberLarge
+      )}
+    >
       <div className="card">
         <div className="card__image">
           <img
@@ -37,11 +43,13 @@ const TeamMemberLarge = ({
         </div>
         <div className="card__footer">
           <ul className="pills">
-            <li className="pills__item">
-              <a target="_blank" href={website}>
-                <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
-              </a>
-            </li>
+            {website && (
+              <li className="pills__item">
+                <a target="_blank" href={website}>
+                  <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
+                </a>
+              </li>
+            )}
             {linkedin && (
               <li className="pills__item">
                 <a
@@ -66,9 +74,16 @@ const TeamMemberLarge = ({
   );
 };
 
-const TeamMemberMedium = ({ name, imgURL, affiliation, twitter, website }) => {
+const TeamMemberMedium = ({
+  name,
+  imgURL,
+  affiliation,
+  twitter,
+  linkedin,
+  website,
+}) => {
   return (
-    <div className="col col--3 margin-bottom--xl">
+    <div className={clsx("col col--3 margin-bottom--xl", styles.member)}>
       <div className="avatar avatar--vertical">
         <img
           className="avatar__photo avatar__photo--xl"
@@ -84,15 +99,6 @@ const TeamMemberMedium = ({ name, imgURL, affiliation, twitter, website }) => {
             <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
           </a>
         )}
-        {twitter && (
-          <a
-            className="button button--outline button--secondary "
-            target="_blank"
-            href={`https://twitter.com/${twitter}`}
-          >
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
-        )}
       </div>
     </div>
   );
@@ -103,7 +109,7 @@ const TeamMembers = ({ list }) => {
     <section>
       <div className="container">
         {list.map((category) => (
-          <div key={category.title} className="row margin-bottom--xl">
+          <div key={category.title} className="row">
             <h2 className="col col--12 section">{category.title}</h2>
             {category.members?.length ? (
               category.members.map((props: any) =>
@@ -114,7 +120,7 @@ const TeamMembers = ({ list }) => {
                 )
               )
             ) : (
-              <div className="col col--12 margin-bottom--lg">
+              <div className="col col--12 margin-bottom--xl">
                 {category.placeholder}
               </div>
             )}

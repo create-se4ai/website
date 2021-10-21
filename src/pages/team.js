@@ -42,7 +42,7 @@ const TeamMemberList = [
       {
         name: "Dr. Ying (Jenny) Zou",
         affiliation: "Queen’s University",
-        linkedin:"ying-zou-624501159",
+        linkedin: "ying-zou-624501159",
         twitter: "YingZou8",
         website: "https://www.ece.queensu.ca/people/Y-Zou/",
       },
@@ -63,20 +63,30 @@ const TeamMemberList = [
     ],
   },
   {
-    title: "Students",
-    placeholder: (
-      <h3
-        style={{
-          textAlign: "center",
-          fontSize: "4rem",
-          padding: "5rem 0",
-          color: "var(--ifm-color-emphasis-400)",
-        }}
-      >
-        Coming Soon ...
-      </h3>
-    ),
-    // members: [],
+    title: "Administration",
+    size: "large",
+    members: [
+      {
+        name: "Lori Akiyama",
+        affiliation: "Concordia University",
+        role: "Program Coordinator",
+        linkedin: "loriakiyama",
+      },
+    ],
+  },
+  {
+    title: "Postdocs",
+    size: "large",
+    members: [
+      {
+        name: "Dr. Diego Costa",
+        affiliation: "Concordia University",
+        position: "Postdoctoral Researcher",
+        linkedin: "diego-elias-costa",
+        twitter: "DiegoEliasCosta",
+        website: "https://diegoeliascosta.github.io/",
+      },
+    ],
   },
   // {
   //   title: "Academic Collaborators",
@@ -151,6 +161,22 @@ const TeamMemberList = [
   //     },
   //   ],
   // },
+  {
+    title: "Students",
+    placeholder: (
+      <h3
+        style={{
+          textAlign: "center",
+          fontSize: "4rem",
+          padding: "5rem 0",
+          color: "var(--ifm-color-emphasis-400)",
+        }}
+      >
+        Coming Soon ...
+      </h3>
+    ),
+    // members: [],
+  },
 ];
 
 export default function Team() {
