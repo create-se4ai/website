@@ -4,7 +4,6 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import TeamMembers from "../components/TeamMembers";
 import PageHeader from "../components/PageHeader";
-import defaultProfile from "../../profile_photos/default.png";
 
 const TeamMemberList = [
   {
