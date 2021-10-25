@@ -17,6 +17,7 @@ const TeamMemberList = [
         affiliation: "Concordia University",
         linkedin: "emad-shihab-8099523",
         twitter: "EmadShihab",
+        email: "emad.shihab@concordia.ca",
         website: "http://das.encs.concordia.ca/members/emad-shihab/",
       },
       {
