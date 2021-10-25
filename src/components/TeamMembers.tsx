@@ -2,7 +2,10 @@ import React from "react";
 import clsx from "clsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faExternalLinkAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import styles from "./TeamMembers.module.css";
 
 const TeamMemberLarge = ({
@@ -45,7 +48,7 @@ const TeamMemberLarge = ({
         <div className="card__footer">
           <ul className="pills">
             {website && (
-              <li className="pills__item">
+              <li className={clsx("pills__item", styles.website)}>
                 <a target="_blank" href={website}>
                   <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
                 </a>

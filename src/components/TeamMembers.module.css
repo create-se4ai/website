@@ -12,6 +12,10 @@
   color: var(--ifm-color-emphasis-700);
 }
 
+.member .website{
+  padding: 0.25rem;
+}
+
 .memberLarge a:hover  {
   text-decoration: none;
 }
