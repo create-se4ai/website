@@ -29,7 +29,7 @@ const TeamMemberLarge = ({
       <div className="card">
         <div className="card__image">
           <img
-            src={imgURL || require(`../../profile_photos/${name}.jpg`).default}
+            src={imgURL || require(`../../team/${name}.jpg`).default}
             alt={name}
           />
         </div>
@@ -99,7 +99,7 @@ const TeamMemberMedium = ({
         <img
           className="avatar__photo avatar__photo--xl"
           alt={name}
-          src={imgURL || require(`../../profile_photos/${name}.jpg`).default}
+          src={imgURL || require(`../../team/${name}.jpg`).default}
         />
         <div className="avatar__intro">
           <h4 className="avatar__name">{name}</h4>

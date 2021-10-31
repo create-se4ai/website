@@ -16,7 +16,7 @@ module.exports = {
     [
       "docusaurus-plugin-face-crop",
       {
-        paths: [path.resolve(__dirname, "profile_photos")],
+        paths: [path.resolve(__dirname, "team")],
         height: 400,
         width: 400,
       },
