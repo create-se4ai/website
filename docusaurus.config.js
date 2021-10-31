@@ -1,4 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+const path = require("path");
+
 module.exports = {
   title: "CREATE SE4AI",
   tagline:
@@ -10,6 +12,16 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "create-se4ai", // Usually your GitHub org/user name.
   projectName: "create-se4ai.github.io", // Usually your repo name.
+  plugins: [
+    [
+      "docusaurus-plugin-face-crop",
+      {
+        paths: [path.resolve(__dirname, "profile_photos")],
+        height: 400,
+        width: 400,
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: "CREATE SE4AI",
