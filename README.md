@@ -16,16 +16,6 @@ npm start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## Handy Commands
-
-### Resize Images
-
-On Mac:
-
-```sh
-sips -Z 400 *
-```
-
 ## Author
 
 This website created by: [Suhaib Mujahid](https://github.com/suhaibmujahid)
