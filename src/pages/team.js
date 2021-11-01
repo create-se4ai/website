@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import TeamMembers from "../components/TeamMembers";
 import PageHeader from "../components/PageHeader";
+import students from "../../team/students.csv";
 
 const TeamMemberList = [
   {
@@ -176,7 +177,7 @@ const TeamMemberList = [
         Coming Soon ...
       </h3>
     ),
-    // members: [],
+    members: students,
   },
 ];
 
