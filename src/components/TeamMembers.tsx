@@ -18,6 +18,14 @@ const TeamMemberLarge = ({
   website,
   email,
 }) => {
+function importProfilePicture(name: string) {
+  try {
+    return require(`../../team/photos/${name}.jpg`).default;
+  } catch {
+    return require("../../team/photos/default.png").default;
+  }
+}
+
   return (
     <div
       className={clsx(
@@ -28,10 +36,7 @@ const TeamMemberLarge = ({
     >
       <div className="card">
         <div className="card__image">
-          <img
-            src={imgURL || require(`../../team/${name}.jpg`).default}
-            alt={name}
-          />
+          <img src={imgURL || importProfilePicture(name)} alt={name} />
         </div>
         <div className="card__body">
           <h3>
@@ -99,7 +104,7 @@ const TeamMemberMedium = ({
         <img
           className="avatar__photo avatar__photo--xl"
           alt={name}
-          src={imgURL || require(`../../team/${name}.jpg`).default}
+          src={imgURL || importProfilePicture(name)}
         />
         <div className="avatar__intro">
           <h4 className="avatar__name">{name}</h4>
