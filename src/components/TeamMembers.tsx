@@ -8,16 +8,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./TeamMembers.module.css";
 
-const TeamMemberLarge = ({
-  name,
-  role,
-  imgURL,
-  affiliation,
-  linkedin,
-  twitter,
-  website,
-  email,
-}) => {
 function importProfilePicture(name: string) {
   try {
     return require(`../../team/photos/${name}.jpg`).default;
@@ -26,6 +16,40 @@ function importProfilePicture(name: string) {
   }
 }
 
+const SocialButtons = ({ twitter, linkedin, website, email }) => (
+  <ul className="pills">
+    {website && (
+      <li className={clsx("pills__item", styles.website)}>
+        <a target="_blank" href={website}>
+          <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
+        </a>
+      </li>
+    )}
+    {linkedin && (
+      <li className="pills__item">
+        <a target="_blank" href={`https://www.linkedin.com/in/${linkedin}`}>
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+      </li>
+    )}
+    {twitter && (
+      <li className="pills__item">
+        <a target="_blank" href={`https://twitter.com/${twitter}`}>
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+      </li>
+    )}
+    {email && (
+      <li className="pills__item">
+        <a target="_blank" href={`mailto:${email}`}>
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
+      </li>
+    )}
+  </ul>
+);
+
+const TeamMemberLarge = ({ name, role, imgURL, affiliation, ...props }) => {
   return (
     <div
       className={clsx(
@@ -51,39 +75,7 @@ function importProfilePicture(name: string) {
           {affiliation}
         </div>
         <div className="card__footer">
-          <ul className="pills">
-            {website && (
-              <li className={clsx("pills__item", styles.website)}>
-                <a target="_blank" href={website}>
-                  <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
-                </a>
-              </li>
-            )}
-            {linkedin && (
-              <li className="pills__item">
-                <a
-                  target="_blank"
-                  href={`https://www.linkedin.com/in/${linkedin}`}
-                >
-                  <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-              </li>
-            )}
-            {twitter && (
-              <li className="pills__item">
-                <a target="_blank" href={`https://twitter.com/${twitter}`}>
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-              </li>
-            )}
-            {email && (
-              <li className="pills__item">
-                <a target="_blank" href={`mailto:${email}`}>
-                  <FontAwesomeIcon icon={faEnvelope} />
-                </a>
-              </li>
-            )}
-          </ul>
+          <SocialButtons {...(props as any)} />
         </div>
       </div>
     </div>
@@ -94,9 +86,8 @@ const TeamMemberMedium = ({
   name,
   imgURL,
   affiliation,
-  twitter,
-  linkedin,
-  website,
+  position,
+  ...props
 }) => {
   return (
     <div className={clsx("col col--3 margin-bottom--xl", styles.member)}>
@@ -107,14 +98,11 @@ const TeamMemberMedium = ({
           src={imgURL || importProfilePicture(name)}
         />
         <div className="avatar__intro">
-          <h4 className="avatar__name">{name}</h4>
+          <div className="avatar__name">{name}</div>
+          <div className="avatar__subtitle">{position}</div>
           <small className="avatar__subtitle">{affiliation}</small>
         </div>
-        {website && (
-          <a target="_blank" href={website}>
-            <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
-          </a>
-        )}
+        <SocialButtons {...(props as any)} />
       </div>
     </div>
   );
