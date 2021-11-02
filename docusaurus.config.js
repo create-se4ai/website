@@ -13,13 +13,14 @@ module.exports = {
   organizationName: "create-se4ai", // Usually your GitHub org/user name.
   projectName: "create-se4ai.github.io", // Usually your repo name.
   plugins: [
-    path.resolve(__dirname, "./src/plugins/custom-webpack-config.js"),
+    require.resolve("./src/plugins/custom-webpack-config.js"),
     [
       "docusaurus-plugin-face-crop",
       {
-        paths: [path.resolve(__dirname, "team/photos")],
+        paths: [path.resolve(__dirname, "./team/photos")],
         height: 400,
         width: 400,
+        minScale: 1,
       },
     ],
   ],
