@@ -77,3 +77,10 @@ The table below provides a summary of the material that will be covered during t
 |  11  | Mar 28 | Interpreting, explaining, monitoring models, and MLOps (special topics) |
 |  12  | Apr 4  | **Quiz**      |
 |  13  | Apr 11 | **Project presentations (student presentations)**                                         |
+
+## Course Slides
+
+Below you will find the course slides given in the Winter 2022 class, in PDF format:
+
+- [Week 1 PDF](../..lecture-slides/SOEN691-Winter2022/week1_content.pdf)
+
