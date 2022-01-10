@@ -67,5 +67,5 @@ The course will occasionally reference the following textbook:
 
 Below you will find the course slides given in the Winter 2022 class, in PDF format:
 
-- [Week 1 PDF](../..lecture-slides/SOEN691-Winter2022/week1_content.pdf)
+- [Week 1 PDF](../../lecture-slides/SOEN691-Winter2022/week1_content.pdf)
 
