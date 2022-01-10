@@ -34,9 +34,9 @@ A large portion of the course deliverables is a course research project. You are
 
 ## Tentative Schedule
 
-The table below provides a summary of the material that will be covered during the course as well as a tentative schedule. Please check the course web page for any changes.
+The table below provides a summary of the material that will be covered during the course as well as a tentative schedule. Please check the course web page for any changes. We will also update the table weekly to include the PDF of the Slides of each topic. 
 
-| Week | Date   | Topic + Slides in PDF (updated weekly)                                                 |
+| Week | Date   | Topic + Slides in PDF                                                  |
 | :--: | ------ | ------------------------------------------------------ |
 |  1   | Jan 10  | [Introduction & overview](../../lecture-slides/SOEN691-Winter2022/week1_content.pdf)
                                 |
