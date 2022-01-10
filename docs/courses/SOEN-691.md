@@ -69,3 +69,11 @@ Below you will find the course slides given in the Winter 2022 class, in PDF for
 
 - [Week 1 PDF](../../lecture-slides/SOEN691-Winter2022/week1_content.pdf)
 
+
+## Contact Information
+
+In case you need to communicate or ask any questions about the course, please send an e-mail to:
+- Dr. Emad Shihab: emad [dot] shihab [at] concordia [dot] ca
+- Dr. Diego Elias Costa: diego [dot] costa [at] concordia [dot] ca 
+
+
