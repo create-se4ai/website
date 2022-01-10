@@ -36,9 +36,10 @@ A large portion of the course deliverables is a course research project. You are
 
 The table below provides a summary of the material that will be covered during the course as well as a tentative schedule. Please check the course web page for any changes.
 
-| Week | Date   | Topic                                                  |
+| Week | Date   | Topic + Slides in PDF (updated weekly)                                                 |
 | :--: | ------ | ------------------------------------------------------ |
-|  1   | Jan 10  | Introduction & overview                                |
+|  1   | Jan 10  | [Introduction & overview](../../lecture-slides/SOEN691-Winter2022/week1_content.pdf)
+                                |
 |  2   | Jan 17 | AI for Software Engineers                                   |
 |  3   | Jan 24 | Quality of AI-based systems                                 |
 |  4   | Jan 31 | Software requirements for AI-based systems                       |
@@ -60,14 +61,6 @@ Reading materials (i.e., researcher papers) will be assigned and provided.
 The course will occasionally reference the following textbook:
 
 - Building Intelligent Systems: A Guide to Machine Learning Engineering, 2018. _Geoff Hulten_
-
-
-
-## Course Slides
-
-Below you will find the course slides given in the Winter 2022 class, in PDF format:
-
-- [Week 1 PDF](../../lecture-slides/SOEN691-Winter2022/week1_content.pdf)
 
 
 ## Contact Information
