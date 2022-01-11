@@ -71,31 +71,3 @@ Zoom meeting link: Available upon request, please send an email to Tanja Tajmel 
 
 No textbook will be assigned for this course. For each lesson, I will prescribe readings and online assignments like selected book chapters, international reports, documentaries, films and interviews, which will be discussed in the lesson.
 
-**Book chapters**
-- Kate Crawford, “Atlas of AI” (Yale University Press, 2021)
-- Ruha Benjamin, “Race After Technology” (Polity, 2019)
-- Virginia Eubanks, “Automating Inequality” (Picador, 2019)
-- Safia Umoia Noble, “Algorithms of Oppression” (NYU press, 2018)
-- Amy Webb, “The Big Nine”, (PublicAffairs, 2020)
-
-**Online resources**
-- [“Coded bias” documentary on Netflix](https://www.netflix.com/ca/title/81328723)
-- [“Responsible Research and Innovation explained” (European Union)](https://rri-tools.eu/)
-- [“Algorithmic Justice League”](https://www.ajl.org/)
-- [“Gendered Innovations”](https://genderedinnovations.stanford.edu/)
-- [“Last week tonight with John Oliver” (HBO) (“Housing discrimination”, “Facial recognition”, “Police”, “Government surveillance”, and many others.)](https://www.youtube.com/show/SC1Dd2OxhAzUXWuhFBFecIAA?season=1&sbp=CgEx)
-- [“AI, Ain’t I a Woman?” Joy Buolamwini (youtube)](https://www.youtube.com/watch?v=QxuyfWoVV98)
-- [”Atlas of AI: Kate Crawford in conversation with Judy Wajcman” (youtube)](https://www.youtube.com/watch?v=a7Tx-yHHEYo&t=1516s)
-
-**Reports, declarations, and articles**
-- [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) 
-- [Sustainable Development Goals](https://sdgs.un.org/goals) 
-- [Stanford’s AI100 Report](https://ai100.stanford.edu/)
-- [UNESCO’s report on artificial intelligence and gender equality](https://en.unesco.org/AI-and-GE-2020)
-- [What Really Happened When Google Ousted Timnit Gebru (Wired, June 2021)](https://www.wired.com/story/google-timnit-gebru-ai-what-really-happened/)
-- [Are These Tech Companies Complicit In Human Rights Abuses Of Child Cobalt Miners In Congo? (Forbes, January 2020)](https://www.forbes.com/sites/ewelinaochab/2020/01/13/are-these-tech-companies-complicit-in-human-rights-abuses-of-child-cobalt-miners-in-congo/?sh=2abbb28c3b17)
-- Vinuesa, R., Azizpour, H., Leite, I., Balaam, M., Dignum, V., Domisch, S., ... & Nerini, F. F. (2020). [The role of artificial intelligence in achieving the Sustainable Development Goals. Nature communications](https://www.nature.com/articles/s41467-019-14108-y), 11(1), 1-10. 
-- Zou, J., & Schiebinger, L. (2018). [AI can be sexist and racist—it’s time to make it fair](https://www.nature.com/articles/d41586-018-05707-8). 
-- Brundage, M., Avin, S., Clark, J., Toner, H., Eckersley, P., Garfinkel, B., ... & Amodei, D. (2018). [The malicious use of artificial intelligence: Forecasting, prevention, and mitigation](https://arxiv.org/ftp/arxiv/papers/1802/1802.07228.pdf). 
-- Buolamwini, J. & Gebru, T., [“Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification”](https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf). Proceedings of Machine Learning Research 81:1–15, 2018 
-
