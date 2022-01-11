@@ -2,7 +2,7 @@
 
 ## Background
 
-Artificial intelligence (AI) has globally transformed numerous industries over the past decade. Up to 70\% of companies will be able to actively use at least one type of AI technology in their processes by 2030 and that this shift could produce an additional $16 trillion in global economic growth by 2030. AI holds a huge promise to solve global concerns over global warming, healthcare access, and providing advances in digital technologies. While AI-based systems are ultimately software systems, current Software Engineering (SE) research/training rarely considers the social intricacies of building AI-based software systems.
+Artificial intelligence (AI) has globally transformed numerous industries over the past decade. Up to 70% of companies will be able to actively use at least one type of AI technology in their processes by 2030 and that this shift could produce an additional $16 trillion in global economic growth by 2030. AI holds a huge promise to solve global concerns over global warming, healthcare access, and providing advances in digital technologies. While AI-based systems are ultimately software systems, current Software Engineering (SE) research/training rarely considers the social intricacies of building AI-based software systems.
 
 ## Course Description
 
@@ -33,16 +33,16 @@ Grades will be based on in-class activities, reflection essays, and group projec
 | Final project (report + presentation)            | 30  |
 | Mini-assingments (after each class; counts for participation)  | 15  |
 
-**Motivation essay (10\%)**
+**Motivation essay (10%)**
 Students will be assigned to write a motivation essay about their interest in the course topic. The motivation essay is due on Tuesday, January 18th.
 
-**Reflection essays (30\%)**
+**Reflection essays (30%)**
 You will write three short reflection essays during the semester. These essays should be roughly 700-800 words each, or about two double-spaced pages. Your duty will be to reflect on the readings in the last week or two and write an informed and reasoned opinion about the readings (no summary). 
 
-**Midterm project (15\%)**
+**Midterm project (15%)**
 There will be one midterm project that you will complete in small groups. The midterm project includes a presentation.
 
-**Final project (report + presentation + ppt) (30\%)**
+**Final project (report + presentation + ppt) (30%)**
 There will be one major project, which you will complete in small groups. This component consists of three parts: (i) a group presentation, (ii) a ppt, and (iii) a project report. The group presentation will take place in the second half of the semester. The report will be approximately 2000 words and should include a bibliography. We will discuss the details of this project, as well as possible topics, during class. The project report is due April 20th.
 
 ## Schedule
