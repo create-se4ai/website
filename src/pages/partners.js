@@ -104,6 +104,11 @@ export const InstitutionList = [
         log: require("../../logos/Graz.png").default,
         url: "https://www.uni-graz.at/en/",
       },
+      {
+        name: "Vercel",
+        log: require("../../logos/Vercel.png").default,
+        url: "https://vercel.com/?utm_source=se4ai&utm_campaign=oss",
+      },
     ],
   },
 ];
