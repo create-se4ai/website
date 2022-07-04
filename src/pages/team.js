@@ -177,6 +177,7 @@ const TeamMemberList = [
         Coming Soon ...
       </h3>
     ),
+    size: "large",
     members: students,
   },
 ];
