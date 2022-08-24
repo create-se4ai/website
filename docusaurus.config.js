@@ -139,10 +139,6 @@ module.exports = {
       },
       copyright: `<p>We acknowledge the support of the Natural Sciences and Engineering Research Council of Canada (NSERC).</p>Copyright © ${new Date().getFullYear()} CREATE SE4AI.`,
     },
-    gtag: {
-      trackingID: "G-VKNMLKQGRY",
-      anonymizeIP: false,
-    },
   },
   presets: [
     [
@@ -163,6 +159,10 @@ module.exports = {
         // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        gtag: {
+          trackingID: "G-VKNMLKQGRY",
+          anonymizeIP: false,
         },
       },
     ],
