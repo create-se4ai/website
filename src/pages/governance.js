@@ -14,12 +14,16 @@ const TeamMemberList = [
         affiliation: "National Bank of Canada",
         linkedin: "juliencrowe",
         email: "julien.crowe@bnc.ca",
+        has_page: true,
+        id: "julien-crowe"
       },
       {
         name: "Dr. Marie-Pierre Habas Gerard",
         affiliation: "CGI",
         linkedin: "marie-pierre-habas-gerard-ph-d-92316111",
         email: "marie-pierre.gerard@cgi.com",
+        has_page: true,
+        id: "marie-pierre-habas-gerard"
       },
       {
         name: "Mr. Pierre Dumouchel",
@@ -27,13 +31,16 @@ const TeamMemberList = [
         linkedin: "pierre-dumouchel-472110",
         email: "pierre.dumouchel@ivado.ca",
         website: "https://ivado.ca/en/persons/pierre-dumouchel/",
+        id: "pierre-dumouchel",
+        has_page: false,
       },
       {
         name: "Mr. Jesse Vincent-Herscovici",
-        role: "TBD",
         affiliation: "Mitacs",
         linkedin: "jesse-vincent-herscovici-8b15538",
         email: "jvh@mitacs.ca",
+        id: "jesse-vincent-herscovici",
+        has_page: true,
       },
       // {
       //   name: "Dr. Lata Narayanan",
@@ -84,6 +91,7 @@ const TeamMemberList = [
         twitter: "limingz",
         email: "liming.Zhu@data61.csiro.au",
         website: "https://cgi.cse.unsw.edu.au/~limingz/home/?About_Me:Bios",
+        has_page: false,
       },
       // {
       //   name: "Dr. Jean-Samuel Chenard",

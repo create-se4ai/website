@@ -16,8 +16,15 @@ function importProfilePicture(name: string) {
   }
 }
 
-const SocialButtons = ({ twitter, linkedin, website, email }) => (
+const SocialButtons = ({ id, twitter, linkedin, website, email, has_page }) => (
   <ul className="pills">
+    {has_page && (
+      <li className={clsx("pills__item", styles.website)}>
+        <a href={`/members/${id}`}>
+          <FontAwesomeIcon icon={faExternalLinkAlt} /> Know More
+        </a>
+      </li>
+    )}
     {website && (
       <li className={clsx("pills__item", styles.website)}>
         <a target="_blank" href={website}>
