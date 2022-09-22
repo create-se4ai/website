@@ -40,7 +40,7 @@ module.exports = {
         //   position: 'left',
         //   label: 'Tutorial',
         // },
-        // {to: '/blog', label: 'Events', position: 'left'},
+        {to: '/blog', label: 'Events', position: 'left'},
         { to: "/intro", label: "Program", position: "left" },
         { to: "/team", label: "Team", position: "left" },
         { to: "/governance", label: "Governance", position: "left" },
