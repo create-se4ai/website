@@ -1,6 +1,6 @@
 ---
-slug: activities
-title: CREATE SE4AI Group Activities
+slug: events
+title: Events
 author: Lori Akiyama
 author_title: Program Coordinator 
 #author_url: 
