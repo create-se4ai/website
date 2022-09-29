@@ -5,12 +5,10 @@ author: Lori Akiyama
 author_title: Program Coordinator 
 #author_url: 
 #author_image_url: 
-tags: [past events, news, webinars]
+tags: [past events, news, webinars, trainee talks]
 ---
 
 ## Guest Speaker Webinar - April 12, 2022
-
-
 
 CREATE SE4AI trainees, profs and partners enjoyed a webinar presented by Olivier Blais, co-founder and VP of Decision Science at Moov AI in Montréal. Olivier spoke about "Delivering High Quality Machine Learning Models" including: 
 

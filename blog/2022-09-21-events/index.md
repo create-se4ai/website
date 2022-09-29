@@ -10,12 +10,19 @@ tags: [program activities, news, casual]
 
 ## CREATE SE4AI Retreat 2022
 
-This is the description for the Retreat. We can even include photos:
+Our 1st annual CREATE SE4AI Program Retreat is a wrap! It was an inspiring day of celebrating our collective accomplishments and exchanging ideas amongst an amazing team of students, professors and industry partners, live and in person at the Chateau Vaudreuil. The future is so bright for this group of talented trainees, they’re gonna need shades…
 
 ![Retreat Group Photo](retreat-group.jpg)
 
+![Brainstorming](brainstorm.jpg)
 
-## Another Activity in 2021
+![Group photo](group1.jpg)
 
-This is a description for another activity. 
+![Group photo](group2.jpg)
+
+![Group photo](group3.jpg)
+
+![Group photo](group4.jpg)
+
+
 
