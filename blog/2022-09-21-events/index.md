@@ -5,7 +5,7 @@ author: Lori Akiyama
 author_title: Program Coordinator 
 #author_url: 
 #author_image_url: 
-tags: [program activities, news, casual]
+#tags: [program activities, news, casual]
 ---
 
 ## CREATE SE4AI Retreat 2022

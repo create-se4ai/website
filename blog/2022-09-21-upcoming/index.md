@@ -5,7 +5,7 @@ author: Lori Akiyama
 author_title: Program Coordinator 
 #author_url: 
 #author_image_url: 
-tags: [upcoming events, news, webinars]
+tags: [upcoming events, news, webinars, trainee talks]
 ---
 
 ## Partner Event - SEMLA 2022: Responsible AI Engineering at Scale
