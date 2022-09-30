@@ -87,6 +87,14 @@ const TeamMemberList = [
         twitter: "DiegoEliasCosta",
         website: "https://diegoeliascosta.github.io/",
       },
+      {
+        name: "Dr. Ahmad Abdellatif",
+        affiliation: "Concordia University",
+        position: "Postdoctoral Researcher",
+        linkedin: "ahmad-abdellatif-8ab82a29",
+        twitter: "AhmadAbdellatf",
+        website: "https://das.encs.concordia.ca/members/ahmad-abdellatif",
+      },
     ],
   },
   // {
