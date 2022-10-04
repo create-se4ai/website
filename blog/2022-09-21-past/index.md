@@ -8,6 +8,23 @@ author_title: Program Coordinator
 tags: [past events, news, webinars, trainee talks]
 ---
 
+## CREATE SE4AI Retreat - June 3, 2022
+
+Our 1st annual CREATE SE4AI Program Retreat is a wrap! It was an inspiring day of celebrating our collective accomplishments and exchanging ideas amongst an amazing team of students, professors and industry partners, live and in person at the Chateau Vaudreuil. The future is so bright for this group of talented trainees, they’re gonna need shades…
+
+![Retreat Group Photo](retreat-group.jpg)
+
+![Brainstorming](brainstorm.jpg)
+
+![Group photo](group1.jpg)
+
+![Group photo](group2.jpg)
+
+![Group photo](group3.jpg)
+
+![Group photo](group4.jpg)
+
+
 ## Guest Speaker Webinar - April 12, 2022
 
 CREATE SE4AI trainees, profs and partners enjoyed a webinar presented by Olivier Blais, co-founder and VP of Decision Science at Moov AI in Montréal. Olivier spoke about "Delivering High Quality Machine Learning Models" including: 
