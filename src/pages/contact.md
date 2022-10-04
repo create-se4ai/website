@@ -4,7 +4,7 @@ title: Contact
 
 # Contact Us
 
-If you have an question contact the program director:
+For any inquiries, please contact the Program Director:
 
 <h2>Dr. Emad Shihab</h2>
 
