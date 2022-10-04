@@ -1,5 +1,4 @@
 import React from "react";
-import clsx from "clsx";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import TeamMembers from "../components/TeamMembers";
@@ -87,6 +86,14 @@ const TeamMemberList = [
         linkedin: "diego-elias-costa",
         twitter: "DiegoEliasCosta",
         website: "https://diegoeliascosta.github.io/",
+      },
+      {
+        name: "Dr. Ahmad Abdellatif",
+        affiliation: "Concordia University",
+        position: "Postdoctoral Researcher",
+        linkedin: "ahmad-abdellatif-8ab82a29",
+        twitter: "AhmadAbdellatf",
+        website: "https://das.encs.concordia.ca/members/ahmad-abdellatif",
       },
     ],
   },
