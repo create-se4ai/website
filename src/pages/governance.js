@@ -42,15 +42,13 @@ const TeamMemberList = [
         id: "jesse-vincent-herscovici",
         has_page: true,
       },
-      // {
-      //   name: "Dr. Lata Narayanan",
-      //   role: "TBD",
-      //   affiliation: "TBD",
-      //   linkedin: "TBD",
-      //   twitter: "TBD",
-      //   email: "TBD",
-      //   website: "TBD",
-      // },
+      {
+        name: "Dr. Lata Narayanan",
+        affiliation: "Concordia University",
+        email: "lata.narayanan@concordia.ca",
+        website: "http://explore.concordia.ca/lata-narayanan",
+        has_page: false,
+      },
     ],
   },
   {
