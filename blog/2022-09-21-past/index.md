@@ -31,7 +31,7 @@ CREATE SE4AI trainees, profs and partners enjoyed a webinar presented by Olivier
 
 import olivier from './olivier.jpg'
 
-<img src={olivier} alt="sumon" align="right" width="160"/>
+<img src={olivier} alt="olivier" align="right" width="160"/>
 
 1. What it means to develop high quality artificial intelligence
 
