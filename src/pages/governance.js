@@ -55,15 +55,14 @@ const TeamMemberList = [
     title: "Steering Committee",
     size: "large",
     members: [
-      // {
-      //   name: "Mr. Derek Truong",
-      //   role: "TBD",
-      //   affiliation: "TBD",
-      //   linkedin: "TBD",
-      //   twitter: "TBD",
-      //   email: "TBD",
-      //   website: "TBD",
-      // },
+      {
+        name: "Mr. Derek Truong",
+        affiliation: "IBM",
+        linkedin: "derek-truong-7233b85",
+        email: "trong@ca.ibm.com",
+        has_page: true,
+        id: "derek-truong"
+      },
       // {
       //   name: "Mr. Serge Oligny",
       //   role: "TBD",
