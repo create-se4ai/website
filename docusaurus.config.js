@@ -40,9 +40,9 @@ module.exports = {
         //   position: 'left',
         //   label: 'Tutorial',
         // },
-        {to: '/blog', label: 'Events', position: 'left'},
         { to: "/intro", label: "Program", position: "left" },
         { to: "/team", label: "Team", position: "left" },
+        {to: '/blog', label: 'Events', position: 'left'},
         { to: "/governance", label: "Governance", position: "left" },
         { to: "/partners", label: "Partners", position: "left" },
         { href: "/apply", label: "Apply", position: "left" },
@@ -152,12 +152,12 @@ module.exports = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },
-        // blog: {
-        //   showReadingTime: true,
+        blog: {
+          showReadingTime: false,
         //   // Please change this to your repo.
         //   // editUrl:
         //   //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        // },
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
