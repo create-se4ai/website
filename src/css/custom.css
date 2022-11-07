@@ -70,3 +70,7 @@ h2.section::first-letter {
   left: 60px; /*position where enlarged image should offset horizontally */
   width: 600px;
 }
+
+.telecom2 {
+  text-align: center;
+}
