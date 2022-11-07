@@ -8,6 +8,22 @@ author_title: Program Coordinator
 tags: [past events, news, webinars, trainee talks]
 ---
 
+## Trainee Talks Webinar - November 4, 2022
+
+![Trainee_Talk](trainee_talk_1.jpg)
+
+**Topics**: Dependency Management and Testing of AI-based Software Systems
+
+Our monthly **CREATE SE4AI Trainee Talks** webinar series kicked off with 2 graduate Software Engineering students presenting their research.  
+
+In the first of our series of trainee-led webinars, we invited 2 graduate students to deliver their research topics to the broader public. 
+
+**Ahmed Haj Yahmed**, a Master's student at Polytechnique Montréal presented DiverGet: a Search-based Software Testing Approach for Deep Neural Network Quantization Assessment. Immediately following, Concordia University PhD candidate **Jasmine Latendresse** presented her work on software production dependencies which she recently delivered at the IEEE/ACM 2022 Conference on Automated Software Engineering (ASE '22) in Michigan.
+
+<!---
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel]()
+-->
+
 ## CREATE SE4AI Retreat - June 3, 2022
 
 Our 1st annual CREATE SE4AI Program Retreat is a wrap! It was an inspiring day of celebrating our collective accomplishments and exchanging ideas amongst an amazing team of students, professors and industry partners, live and in person at the Chateau Vaudreuil. The future is so bright for this group of talented trainees, they’re gonna need shades…
