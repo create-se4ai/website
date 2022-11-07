@@ -1,11 +1,11 @@
 ---
 slug: past
 title: Past Events
-author: Lori Akiyama
-author_title: Program Coordinator 
+#author: Lori Akiyama
+#author_title: Program Coordinator 
 #author_url: 
 #author_image_url: 
-tags: [past events, news, webinars, trainee talks]
+#tags: [past events, news, webinars, trainee talks]
 ---
 
 ## Trainee Talks Webinar - November 4, 2022

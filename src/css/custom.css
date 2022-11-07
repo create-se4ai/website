@@ -74,3 +74,11 @@ h2.section::first-letter {
 .telecom2 {
   text-align: center;
 }
+
+.blog-post-page time {
+  display: none;
+}
+
+.blog-list-page time {
+  display: none;
+}
