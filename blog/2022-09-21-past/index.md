@@ -26,7 +26,7 @@ Karthik Premkumar has 18 years of experience in the telecom industry. His expert
 
 In his current role as Data Scientist at Ericsson in Montreal, QC, Karthik Premkumar designs knowledge models and machine reasoning technologies for cognitive networks. He has published over 10 patents and papers on telecom analytics.
 
-<!--The webinar recording is available to view on our [CREATE SE4AI YouTube channel]()-->
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=QTFm0GaNWpg)
 
 
 ## Trainee Talks Webinar - November 4, 2022
