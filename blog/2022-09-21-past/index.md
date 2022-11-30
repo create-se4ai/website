@@ -8,7 +8,7 @@ title: Past Events
 #tags: [past events, news, webinars, trainee talks]
 ---
 
-## Industry Talks Webinar - November 18, 2022 from 11:00am - 12:00pm
+## Industry Talks Webinar - November 18, 2022
 
 import telecom2 from './telecom2.jpg'
 
