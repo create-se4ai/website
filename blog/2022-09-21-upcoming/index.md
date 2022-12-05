@@ -14,10 +14,6 @@ import trainee_talk_2 from './trainee_talk_2.jpg'
 
 <p class="trainee_talk_2"><img src={trainee_talk_2} width="800"/></p>
 
-Dear CREATE SE4AI Trainees, 
-
-We will be offering one more Trainee Talks webinar before the end of the year and a well-deserved winter break. 
-
 Trainee Talks is a monthly webinar series featuring [CREATE SE4AI](https://se4ai.org/) trainees sharing their research topics in software engineering and AI.   
 
 Come ready to learn something new! 
