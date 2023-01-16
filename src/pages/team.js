@@ -60,6 +60,13 @@ const TeamMemberList = [
         twitter: "sail_lab",
         website: "https://research.cs.queensu.ca/home/ahmed/home/",
       },
+      {
+        name: "Dr. Bram Adams",
+        email: "bram.adams@queensu.ca",
+        affiliation: "Queen’s University",
+        twitter: "mcis_lab",
+        website: "https://mcis.cs.queensu.ca/bram.html",
+      },
     ],
   },
   {
