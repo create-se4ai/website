@@ -67,6 +67,14 @@ const TeamMemberList = [
         twitter: "mcis_lab",
         website: "https://mcis.cs.queensu.ca/bram.html",
       },
+      {
+        name: "Dr. Diego Costa",
+        affiliation: "Université du Québec à Montréal",
+        //position: "Postdoctoral Researcher",
+        linkedin: "diego-elias-costa",
+        twitter: "DiegoEliasCosta",
+        website: "https://latece.uqam.ca/membre/diego-elias/",
+      },
     ],
   },
   {
@@ -86,14 +94,6 @@ const TeamMemberList = [
     title: "Postdocs",
     size: "large",
     members: [
-      {
-        name: "Dr. Diego Costa",
-        affiliation: "Concordia University",
-        position: "Postdoctoral Researcher",
-        linkedin: "diego-elias-costa",
-        twitter: "DiegoEliasCosta",
-        website: "https://diegoeliascosta.github.io/",
-      },
       {
         name: "Dr. Ahmad Abdellatif",
         affiliation: "Concordia University",
