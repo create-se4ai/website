@@ -178,6 +178,16 @@ const TeamMemberList = [
   //   ],
   // },
   {
+    title: "Alumni",
+    size: "large",
+    members: [
+      {
+        name: "Ernesto Lang Oreamuno",
+        affiliation: "Queen's University",
+      },
+    ]
+  },
+  {
     title: "Students",
     placeholder: (
       <h3
