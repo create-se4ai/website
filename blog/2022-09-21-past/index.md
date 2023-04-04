@@ -14,7 +14,7 @@ import april32023 from './april32023.jpg'
 
 <p class="april32023"><img src={april32023}/></p>
 
-The first Trainee Talks Webinar of Spring was a huge success and we are proud to announce that it was the most attended webinar to date with 27 participants
+The Spring Trainee Talks webinar was a huge success and we were pleased to have 27 participants join!
 
 In this webinar, 2 PhD students from Polytechnique Montréal under Prof. Foutse Khomh delivered their research topics. Vahid Majdinasab spoke on his topic of Mutation Testing of Deep Reinforcement Learning Based on Real Faults, followed by Forough Majidi, who shared her Empirical Study on the Usage of Automated Machine Learning Tools. A 10 min Q&A session followed after each presentation.
 
