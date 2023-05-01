@@ -82,3 +82,7 @@ h2.section::first-letter {
 .blog-list-page time {
   display: none;
 }
+
+.image {
+  padding: 2px;
+}
