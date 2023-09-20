@@ -20,7 +20,7 @@ On **Monday, September 25th at 11:30AM EDT** we will feature Divya Kamath, Maste
 
 Each trainee will talk for 20 minutes, followed by a 10 minute Q&A session.
 
-For more information and to register, go to our Eventbrite link: 
+For more information and to register, go to our **Eventbrite** link: 
 https://www.eventbrite.ca/e/continuous-integration-and-characterizing-python-library-migrations-tickets-709463914667?aff=oddtdtcreator
 
 **Join the webinar via Zoom**: https://concordia-ca.zoom.us/j/87363841329?pwd=a3hnOVRLc0lJZUJkR3J1aWxmR1FLdz09
