@@ -8,6 +8,16 @@ title: Past Events
 #tags: [past events, news, webinars, trainee talks]
 ---
 
+## Trainee Talks Webinar - September 25, 2023
+
+import sep252023 from './sep252023.jpg'
+
+<p class="sep252023"><img src={sep252023}/></p>
+
+Our CREATE SE4AI community came together on September 25th, 2023 for the first Trainee Talks of the fall semester.  We heard Queen's Master's candidate Divya Kamath present her thesis research on Pragmatic Approaches to Schedule Less Builds in Continuous Integration.  Then, Mohayeminul Islam, PhD student from University of Alberta shared his work on Characterizing Python Library Migrations.
+
+The video is now available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/4Mz5tDPFxug).
+
 ## Industry Talks Webinar - April 25, 2023
 
 import apr252023 from './apr252023.jpg'
@@ -22,7 +32,7 @@ In his talk, Patrick delved into the distinct characteristics of data as a digit
 
 Patrick Mesana began his career as a software engineer, gaining experience with consulting companies and startups before transitioning into the field of Data Science. As a former manager in the Data Office of National Bank of Canada (NBC), Patrick encountered numerous data management challenges. He is currently pursuing a PhD in decision science to explore the tradeoffs between data privacy and data value. In addition, Patrick serves as a researcher and scientific lead on these topics for the AI Factory at NBC.
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/uuRJaCTOX8Q)
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/uuRJaCTOX8Q).
 
 
 ## Trainee Talks Webinar - April 3rd, 2023
@@ -35,7 +45,7 @@ The Spring Trainee Talks webinar was a huge success and we were pleased to have 
 
 In this webinar, 2 PhD students from Polytechnique Montréal under Prof. Foutse Khomh delivered their research topics. Vahid Majdinasab spoke on his topic of Mutation Testing of Deep Reinforcement Learning Based on Real Faults, followed by Forough Majidi, who shared her Empirical Study on the Usage of Automated Machine Learning Tools. A 10 min Q&A session followed after each presentation.
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/EEDTbt3Y3Lk)
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/EEDTbt3Y3Lk).
 
 ## Women in Engineering (WIE) - March 18, 2023 
 
@@ -67,7 +77,7 @@ import feb272023 from './feb272023.jpg'
 
 In the first Trainee Talks webinar of 2023, Pierre-Olivier Côté, a Master&#39;s student at Polytechnique Montréal spoke about Quality Issues in Machine Learning Software Systems. Immediately following, University of Alberta PhD student Akalanka Galappaththi presented his work on “A Data Set of Generalizable Python Code Change Patterns”.
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/ZABpAV9BwYY)
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/ZABpAV9BwYY).
 
 ## Industry Talks Webinar - February 10, 2023
 
@@ -83,7 +93,7 @@ Dr. Gabor Melli, VP of Engineering, AI/ML at San Francisco-based Medable joined 
 
 Predictive machine learning has the ability to automate and optimize workflows across a wide range of industries. In this session, we will explore real-life examples of how predictive machine learning is being used at Sony Interactive Entertainment (SIE) and Medable. At SIE, we will delve into their scalable, real-time, low-latency predictive ML-based solutions that are implemented on the cloud in order to personalize purchasing and playing experiences. Medable, on the other hand, has implemented an automated, decentralized clinical trials platform on the cloud in order to greatly improve efficiency and accuracy. Throughout this session, we will also discuss the role of machine learning engineering and the exciting opportunities that lie ahead in this field. Overall, this session aims to provide a comprehensive overview of the various applications and potential of predictive machine learning. 
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/RNZ0baDpQNI)
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/RNZ0baDpQNI).
 
 
 ## Trainee Talks Webinar - December 13, 2022 
@@ -98,7 +108,7 @@ This time, Queen's University Master's student Ernesto Lang Oreamuno joined us a
 
 Immediately following, Rached Bouchoucha, École Polytechnique Master's student presented his work on de-bugging Deep Reinforcement Learning (DLR) Frameworks. 
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=dajeHAVXTKY)
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=dajeHAVXTKY).
 
 ## Industry Talks Webinar - November 18, 2022
 
@@ -118,7 +128,7 @@ Karthik Premkumar has 18 years of experience in the telecom industry. His expert
 
 In his current role as Data Scientist at Ericsson in Montreal, QC, Karthik Premkumar designs knowledge models and machine reasoning technologies for cognitive networks. He has published over 10 patents and papers on telecom analytics.
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=QTFm0GaNWpg)
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=QTFm0GaNWpg).
 
 
 ## Trainee Talks Webinar - November 4, 2022
@@ -133,7 +143,7 @@ In the first of our series of trainee-led webinars, we invited 2 graduate studen
 
 **Ahmed Haj Yahmed**, a Master's student at Polytechnique Montréal presented DiverGet: a Search-based Software Testing Approach for Deep Neural Network Quantization Assessment. Immediately following, Concordia University PhD candidate **Jasmine Latendresse** presented her work on software production dependencies which she recently delivered at the IEEE/ACM 2022 Conference on Automated Software Engineering (ASE '22) in Michigan.
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/7owtNM6S0Cg)
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/7owtNM6S0Cg).
 
 
 ## CREATE SE4AI Retreat - June 3, 2022
@@ -172,7 +182,7 @@ import olivier from './olivier.jpg'
 
 Bio: https://moov.ai/en/olivier-blais/
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=n_agygoxiiE)
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=n_agygoxiiE).
 
 ## Guest Speaker Webinar - February 3, 2022
 
