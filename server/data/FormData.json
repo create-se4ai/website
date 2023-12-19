@@ -1,0 +1,95 @@
+{
+    "supervisorName": "",
+    "degreeProgram": "",
+    "engineering": {
+      "soen691": {
+        "month1": "",
+        "month2": "",
+        "month3": "",
+        "month4": "",
+        "month5": "",
+        "month6": "",
+        "month7": "",
+        "month8": "",
+        "month9": "",
+        "month10": "",
+        "month11": "",
+        "month12": ""
+      }
+    },
+    "socialAspects": {
+      "encs691": {
+        "month1": "",
+        "month2": "",
+        "month3": "",
+        "month4": "",
+        "month5": "",
+        "month6": "",
+        "month7": "",
+        "month8": "",
+        "month9": "",
+        "month10": "",
+        "month11": "",
+        "month12": ""
+      }
+    },
+    "pdModules": {
+      "module1": {
+        "name": "",
+        "date": ""
+      },
+      "module2": {
+        "name": "",
+        "date": ""
+      }
+    },
+    "industrialEmbedding": {
+      "organizationName": "",
+      "supervisorName": ""
+    },
+    "webinarsSeminars": {
+      "webinar1": {
+        "industrySpeakerOrTraineeLed": "",
+        "date": "",
+        "location": "",
+        "followUpItems": ""
+      },
+      "webinar2": {
+        "industrySpeakerOrTraineeLed": "",
+        "date": "",
+        "location": "",
+        "followUpItems": ""
+      },
+      "webinar3": {
+        "industrySpeakerOrTraineeLed": "",
+        "date": "",
+        "location": "",
+        "followUpItems": ""
+      },
+      "webinar4": {
+        "industrySpeakerOrTraineeLed": "",
+        "date": "",
+        "location": "",
+        "followUpItems": ""
+      },
+      "webinar5": {
+        "industrySpeakerOrTraineeLed": "",
+        "date": "",
+        "location": "",
+        "followUpItems": ""
+      }
+    },
+    "specializationCourses": {
+      "course1": "",
+      "course2": "",
+      "course3": ""
+    },
+    "leadershipMentorship": {
+      "activity1": "",
+      "activity2": ""
+    },
+    "otherActivity1": "",
+    "otherActivity2": "",
+    "otherActivity3": ""
+  }
+  
