@@ -20,10 +20,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "./node_modules/.bin/docusaurus build",
+    "build": "react-scripts build && docusaurus-build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+    "eject": "react-scripts eject",
+    "docusaurus-build": "docusaurus build"
+  }
+  ,
   "eslintConfig": {
     "extends": [
       "react-app",
