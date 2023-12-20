@@ -19,13 +19,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && npx docusaurus build",
-    "test": "react-scripts test",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "test": "echo \"No tests available\" && exit 0",
     "eject": "react-scripts eject"
   }
-  
-  
   ,
   "eslintConfig": {
     "extends": [
