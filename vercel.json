@@ -4,8 +4,7 @@
       {
         "src": "package.json",
         "use": "@vercel/node",
-        "config": { "maxLambdaSize": "10mb" },
-        "buildCommand":"yarn build" 
+        "config": { "maxLambdaSize": "10mb" }
       }
     ],
     "routes": [
