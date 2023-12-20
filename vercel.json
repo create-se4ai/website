@@ -7,6 +7,8 @@
         "config": { "maxLambdaSize": "10mb", "node": "20.x" }
       }
     ],
-    "routes": [{ "src": "/(?!.*\\.(js|css|png|jpg|jpeg|gif|ico|json)$)", "dest": "/index.html" }]
-  }
+    "routes": [
+        { "src": "/(?!.*\\.(js|css|png|jpg|jpeg|gif|ico|json)$)", "dest": "/index.html" }
+      ]
+        }
   
