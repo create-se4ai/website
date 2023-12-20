@@ -1,5 +1,17 @@
 {
     "version": 2,
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@vercel/node",
+            "config": { "maxLambdaSize": "10mb", "node": "20.x" }
+        },
+        {
+            "src": "website/**",
+            "use": "@now/static-build",
+            "config": { "distDir": "website" }
+        }
+    ],
     "routes": [
         { "src": "/.*", "dest": "/index.html" }
     ]
