@@ -20,8 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "docusaurus build", 
-    "test": "react-scripts test",
+    "build": "npx docusaurus build",
+        "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
