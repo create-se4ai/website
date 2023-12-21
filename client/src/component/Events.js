@@ -76,7 +76,9 @@ const Events=()=>{
 
 
 <Subtitle isDarkMode={isDarkMode}>All Events</Subtitle>
-{/*0  Event*/}
+
+
+{/* -Event*/ } 
 <PastEvent isDarkMode={isDarkMode}> 
     <Calinder isDarkMode={isDarkMode}>
     <Img src={pasteventsImage} alt=" pastevent.jpg" />
@@ -84,7 +86,7 @@ const Events=()=>{
         <Day> SE4AI</Day> */}
    </Calinder>
 <Event isDarkMode={isDarkMode}>
-    <a href="/blog/Future_of_AI_Networking_Event">Future of AI Networking Event   
+    <a href="/blog/Future_of_AI_Networking_Event">Future of AI Networking Event - November 30, 2023  
 </a>
    <h5>  CREATE SE4AI has partnered with the Montréal chapter of     
         Women in AI & Robotics and Concordia's Applied
@@ -96,8 +98,25 @@ const Events=()=>{
       </Link></Button></h5> 
              </Event>
 </PastEvent>
-
-
+{/*0  Event*/}
+<PastEvent isDarkMode={isDarkMode}> 
+    <Calinder isDarkMode={isDarkMode}>
+    <Img src={pasteventsImage} alt=" pastevent.jpg" />
+    {/* <Month>Past Event</Month>
+        <Day> SE4AI</Day> */}
+   </Calinder>
+<Event isDarkMode={isDarkMode}>
+    <a href="/blog/GEMinAI_Mentoring_Program_Launch">GEMinAI Mentoring Program Launch October 19, 2023 
+</a>
+   <h5> The Gender Equity Mentoring in
+     AI (GEMinAI) program was launched on Oct.
+19, 2023 as a joint initiative between
+ CREATE SE4AI and Concordia’s Applied
+AI Institute. GEMinAI supports Concordia
+ women+ students....<Button isDarkMode={isDarkMode}><Link  to="/blog/GEMinAI_Mentoring_Program_Launch" className="read-more-link"> Read More
+      </Link></Button></h5> 
+             </Event>
+</PastEvent>
 {/*first Event*/}
 <PastEvent isDarkMode={isDarkMode}>
     <Calinder isDarkMode={isDarkMode}>

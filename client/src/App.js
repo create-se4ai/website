@@ -35,7 +35,7 @@ import CREATE_SE4AI_Retreat_June3 from "./component/events/CREATE_SE4AI_Retreat_
 import Guest_Speaker_Webinar_April12 from "./component/events/Guest_Speaker_Webinar_April12";
 import Guest_Speaker_Webinar_February3 from "./component/events/Guest_Speaker_Webinar_February3";  
 import  Future_of_AI_Networking_Event from "./component/events/Future of AI Networking Event";
-
+import GEMinAI_Mentoring_Program_Launch from "./component/events/GEMinAI_Mentoring_Program_Launch";
 
 import Contact from "./component/Contact";
 import Favicon from "./component/img/favicon.svg";
@@ -158,7 +158,7 @@ useEffect(() => {
             <Route path="/blog/Guest_Speaker_Webinar_April12" element={<Guest_Speaker_Webinar_April12/>} />
             <Route path="/blog/Guest_Speaker_Webinar_February3" element={<Guest_Speaker_Webinar_February3 />} />
             <Route path="/blog/Future_of_AI_Networking_Event" element={<Future_of_AI_Networking_Event />} />
-
+            <Route path="/blog/GEMinAI_Mentoring_Program_Launch" element={<GEMinAI_Mentoring_Program_Launch />} />
         </Routes>
         <Footer />
       </BrowserRouter>
