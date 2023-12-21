@@ -38,6 +38,7 @@ import  Future_of_AI_Networking_Event from "./component/events/Future of AI Netw
 import GEMinAI_Mentoring_Program_Launch from "./component/events/GEMinAI_Mentoring_Program_Launch";
 import FM_SE_School_in_Mexico_City from "./component/events/FM_SE_School_in_Mexico_City";
 import CAN_CWIC_Conference_in_Toronto from "./component/events/CAN_CWIC_Conference_in_Toronto";
+import Intellectual_Property_Seminar from "./component/events/Intellectual_Property_Seminar"
 import Contact from "./component/Contact";
 import Favicon from "./component/img/favicon.svg";
 import Header from "./component/Header"
@@ -162,6 +163,7 @@ useEffect(() => {
             <Route path="/blog/GEMinAI_Mentoring_Program_Launch" element={<GEMinAI_Mentoring_Program_Launch />} />
             <Route path="/blog/FM_SE_School_in_Mexico_City" element={<FM_SE_School_in_Mexico_City />} />
             <Route path="/blog/CAN_CWIC_Conference_in_Toronto" element={<CAN_CWIC_Conference_in_Toronto />} />
+            <Route path="/blog/Intellectual_Property_Seminar" element={<Intellectual_Property_Seminar />} />
 
           
         </Routes>

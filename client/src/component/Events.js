@@ -15,12 +15,12 @@ import sumon_biswasImage from "./2022-09-21-past/sumon_biswas.jpg";
 import futureaiImage from "./2022-09-21-past/futureai.jpg";
 import pasteventImage from "./2022-09-21-past/pastevents.jpg";
 import pasteventsImage from "./2022-09-21-past/pastevent.jpg";
+import Intllectual_PropertyImage from "./2022-09-21-past/Intllectual_Property.jpg";
 
 import wie2Image from "./2022-09-21-past/wie2.jpg";
 import wie3Image from "./2022-09-21-past/wie3.jpg";
 import feb272023Image from "./2022-09-21-past/feb272023.jpg"
 import {Grid} from "@mui/material";
-
 import { Link } from "react-router-dom";
 const Events=()=>{
     const { isDarkMode } = useContext(DarkModeContext);
@@ -50,27 +50,23 @@ const Events=()=>{
  {/* <Subtitle isDarkMode={isDarkMode}>UpcomingEvents</Subtitle> */}
  {/*Comment this part when there is no upcomment Events*/ }
      <UpcomingEvents sDarkMode={isDarkMode}>UpcomingEvents
-     <h5>No upcoming events at this time.</h5>
+     {/* <h5>No upcoming events at this time.</h5> */}
  </UpcomingEvents>
- {/* <PastEvent isDarkMode={isDarkMode}> 
+ <PastEvent isDarkMode={isDarkMode}> 
     <Calinder isDarkMode={isDarkMode}>
-    <Img src={futureaiImage} alt=" futureai.jpg" />
+    <Img src={Intllectual_PropertyImage} alt=" Intllectual_Property.jpg" />
    </Calinder>
 <Event isDarkMode={isDarkMode}>
-    <a href="/blog/Future_of_AI_Networking_Event">Future of AI Networking Event   
+    <a href="/blog/Intellectual_Property_Seminar">Intellectual Property Seminar  
 </a>
-   <h5>  CREATE SE4AI has partnered with the Montréal chapter of     
-        Women in AI & Robotics and Concordia's Applied
-                 AI Institute to host a speaker and networking
-                  event on the Future of AI 
-        Join us for a deep dive into the future of AI, 
-        Sustainability, the Societal Impact of Technology 
-        and Innovative Discoveries. The event will be followed by a 
-        networking session and an enjoyable opportunity for socializing over refreshments and finger foods. 
-        Our very own ...<Button isDarkMode={isDarkMode}><Link  to="/blog/Future_of_AI_Networking_Event" className="read-more-link"> Read More
+   <h5>  Join us as we dive into the fascinating world of intellectual property (IP) in
+the realm of AI-based software systems. Gain valuable insights from industry
+experts on how you can protect your software and build a strong IP
+portfolio, including different valorisation paths available....<Button isDarkMode={isDarkMode}>
+  <Link  to="/blog/Intellectual_Property_Seminar" className="read-more-link"> Read More
       </Link></Button></h5> 
              </Event>
-</PastEvent>  */}
+</PastEvent> 
 
 
 
@@ -503,7 +499,7 @@ margin-left:220px;
   margin-left:380px;
   display : flex; 
 flex-direction:column;
-/* width:600px; */
+margin-bottom:15px;
 /* height:150px; */
   /* height:190px; */
   /* border:2px solid orange; */
@@ -560,7 +556,7 @@ display : flex;
 flex-direction:row;
 /* text-align:center; */
 height:160px;
-/* border:2px solid blue; */
+/* margin-top:3px; */
 /* padding-left:280px; */
 @media screen and (max-width: 480px) {
 padding-left:15px;
