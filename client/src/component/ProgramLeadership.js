@@ -1056,7 +1056,7 @@ target="blank"
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={DrDiegoCostaImage}
  alt="Dr. Diego Costa"/></CardImage>
-    <CardBody><h3>Dr. Diego Costa</h3>Université du Québec à Montréal</CardBody>
+    <CardBody><h3>Dr. Diego Costa</h3>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
     <a
