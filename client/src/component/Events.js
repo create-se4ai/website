@@ -115,6 +115,25 @@ City on Foundational Models and Software Engineering.....<Button isDarkMode={isD
              </Event>
 </PastEvent>
 
+{/*new event */}
+<PastEvent isDarkMode={isDarkMode}> 
+    <Calinder isDarkMode={isDarkMode}>
+    <Img src={pasteventsImage} alt=" pastevent.jpg" />
+    {/* <Month>Past Event</Month>
+        <Day> SE4AI</Day> */}
+   </Calinder>
+<Event isDarkMode={isDarkMode}>
+    <a href="/blog/CAN_CWIC_Conference_in_Toronto">CAN-CWIC Conference in Toronto October 20-21, 2023</a>
+   <h5> 4 CREATE students attended the annual Canadian Women in Computing
+Conference in Toronto ....<Button isDarkMode={isDarkMode}><Link  to="/blog/CAN_CWIC_Conference_in_Toronto" className="read-more-link"> Read More
+      </Link></Button></h5> 
+             </Event>
+</PastEvent>
+
+
+
+
+
 {/*0  Event*/}
 <PastEvent isDarkMode={isDarkMode}> 
     <Calinder isDarkMode={isDarkMode}>
@@ -134,6 +153,9 @@ AI Institute. GEMinAI supports Concordia
       </Link></Button></h5> 
              </Event>
 </PastEvent>
+
+
+
 {/*first Event*/}
 <PastEvent isDarkMode={isDarkMode}>
     <Calinder isDarkMode={isDarkMode}>
