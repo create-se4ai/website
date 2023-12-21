@@ -1,6 +1,9 @@
 import React ,{useContext,useEffect}from "react";
 import styled from "@emotion/styled";
-import futureaiImage from "../2022-09-21-past/futureai.jpg";
+import future1Image from "../2022-09-21-past/Future1.jpg";
+import future2Image from "../2022-09-21-past/Future2.jpg";
+import future3Image from "../2022-09-21-past/Future3.jpg";
+
 import { DarkModeContext } from "../DarkModeContext";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import {Grid} from "@mui/material";
@@ -26,8 +29,11 @@ const Future_of_AI_Networking_Event =()=>{
         >
 Future of AI Networking Event   
         </Subtitle>
-        <Img src={futureaiImage} alt=" futureai.jpg" />
-                <Details isDarkMode={isDarkMode}>
+        <Image>
+          <Img2 src={future1Image} alt="future1Image" />
+          <Img2 src={future2Image} alt="future2Image" />
+          <Img2 src={future3Image} alt="future3Image" />
+        </Image>                <Details isDarkMode={isDarkMode}>
                 <a
             href="/"
             target="_blank"
@@ -259,4 +265,17 @@ const Bold = styled.span`
 /* a{
   margin-left:15px;
   } */
+`;
+const Img2 = styled.img`
+  width: 240px;
+  height: 300px;
+  margin-left: 4px;
+  margin-top: 10px;
+`;
+const Image = styled.div`
+flex-wrap: wrap;
+width:100%;
+
+ max-width: 740px;  
+
 `;
