@@ -98,6 +98,23 @@ const Events=()=>{
       </Link></Button></h5> 
              </Event>
 </PastEvent>
+
+{/**-1  Event*/}
+<PastEvent isDarkMode={isDarkMode}> 
+    <Calinder isDarkMode={isDarkMode}>
+    <Img src={pasteventsImage} alt=" pastevent.jpg" />
+    {/* <Month>Past Event</Month>
+        <Day> SE4AI</Day> */}
+   </Calinder>
+<Event isDarkMode={isDarkMode}>
+    <a href="/blog/FM_SE_School_in_Mexico_City ">FM + SE School in Mexico City November 16-17, 2023 
+</a>
+   <h5> Professors Hassan, Khomh and Adams hosted a 2-day conference in Mexico
+City on Foundational Models and Software Engineering.....<Button isDarkMode={isDarkMode}><Link  to="/blog/FM_SE_School_in_Mexico_City " className="read-more-link"> Read More
+      </Link></Button></h5> 
+             </Event>
+</PastEvent>
+
 {/*0  Event*/}
 <PastEvent isDarkMode={isDarkMode}> 
     <Calinder isDarkMode={isDarkMode}>
