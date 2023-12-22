@@ -11,7 +11,7 @@ const StudentProfile = () => {
   const [error, setError] = useState("");
   const [selectedDegree, setSelectedDegree] = useState("");
   const [selectedSupervisor, setSelectedSupervisor] = useState("");
-  const [selectedFinish, setSelectedFinish] = useState('');
+  const [selectedPass, setSelectedPass] = useState('');
 
     const { isDarkMode } = useContext(DarkModeContext);
 
@@ -71,8 +71,8 @@ const StudentProfile = () => {
   }
 
   // Handler function for finish change
-  const handleFinishChange = (event) => {
-    setSelectedFinish(event.target.value);
+  const handlePassChange = (event) => {
+    setSelectedPass(event.target.value);
   };
 
   
@@ -141,27 +141,65 @@ const StudentProfile = () => {
       <th>
       <Course>
   C1 - Engineering AI-based Software Systems</Course></th>
-  <tr> SOEN 691 
-    <td>Required Course</td>
-    <td>Finish</td>
-  <tr>
-    <select
-      value={selectedFinish}
-      onChange={handleFinishChange}
-    >
-      <option value="">Select an option</option>
-      <option value="YES">Yes</option>
-      <option value="NO">No</option>
-    </select>
-  </tr>
-  </tr>
-<td>
+  <tr> 
+    <th>SOEN 691 </th>
+    <th>Required Course</th>
+    <th>Start Date</th>
+   <th>Finish Date</th>
+   <th>Pass/Fail</th>
+   </tr>
+
+   <tr>
+    <td></td>
+    <td></td>
+
+ <td>
+      <input type="date" id="startDate" /></td>
+
   
-</td>
+    <td>
+      <input type="date" id="finishDate" />
+    </td>
+
+
+   
+    <td>
+      <select id="passFail" onchange="handlePassFailChange()">
+        <option value="">Select an option</option>
+        <option value="pass">Pass</option>
+        <option value="fail">Fail</option>
+      </select>
+    </td>
+  </tr>
+
+
+  <th>
+      <Course>
+      C2 - Social Aspects for AI-based Software Systems</Course></th>
+<tr>
+  <th>ENCS 691</th>
+  <th>Required Course</th>
+  <th>Start Date</th>
+   <th>Finish Date</th>
+   <th>Pass/Fail</th>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td><input type="date" id="startDate" /></td>
+    <td><input type="date" id="finishDate" /></td>
+    <td>
+      <select id="passFail" onchange="handlePassFailChange()">
+        <option value="">Select an option</option>
+        <option value="pass">Pass</option>
+        <option value="fail">Fail</option>
+      </select>
+    </td>
+  </tr>
 
 
 
-<Course>C2 - Social Aspects for AI-based Software Systems</Course>
+
 <Course>C3 - Professional Development Modules</Course>
 <Course>C4 - Industrial Embedding</Course>
 <Course>C5 -  Industry webinar & seminar</Course>
@@ -304,7 +342,7 @@ table{
   font-weight:500;
 
 }
-tr:hover {background-color:#bb5a7d}
+/* tr:hover {background-color:#bb5a7d} */
 
 th{
   padding: 8px;
