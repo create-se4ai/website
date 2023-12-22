@@ -26,24 +26,10 @@ const Events=()=>{
     const { isDarkMode } = useContext(DarkModeContext);
 
     return( 
-
-        <Container isDarkMode={isDarkMode}>       
-  
-
-  <Grid
-    container
-    justifyContent="center"
-    alignItems="center"
-    // style={{ flex: 1, padding: "20px" }}
-    
-  >
-
-        
-
-
-     <Main isDarkMode={isDarkMode}>
-     <Grid item xs={6} md={6} lg={12} xl={12}>
-
+ <Container isDarkMode={isDarkMode}>
+      <Grid container justifyContent="center" alignItems="center">
+        <Main isDarkMode={isDarkMode}>
+          <Grid item xs={6} md={6} lg={12} xl={12}>
      <Title isDarkMode={isDarkMode}><h2>Events</h2> </Title>
      </Grid>
 

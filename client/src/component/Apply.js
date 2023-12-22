@@ -147,28 +147,29 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-display:list-item;
+  position: relative;
   margin-bottom: 15px;
-  line-height:0.75em;
-  display: flex;
- font-size:16px;
+  line-height: 0.7em;
+  font-size: 16px;
   color: ${(props) => (props.isDarkMode ? "white" : "black")};
-  @media screen and (max-width:1000px) {  
-  line-height:1.5em;
-}
+  list-style-type: disc;
   ::before {
     content: "";
-    display: inline-block;
+    position: absolute;
+    left: -15px;
+    top: 4px;
     width: 5px;
     height: 5px;
     border-radius: 50%;
     background-color: ${(props) => (props.isDarkMode ? "white" : "black")};
-    margin-right: 10px;
-    margin-top:7px;
   }
 
-
+  @media screen and (max-width: 1000px) {
+    line-height: 1.4em;
+  }
 `;
+
+
 const Main=styled.div` 
 max-width:1900px;
 width:100%;

@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "proxy": "http://localhost:9999",
-  "homepage": "https://se4ai.org/",
+  "homepage": "/",
 
   "private": true,
   "dependencies": {
