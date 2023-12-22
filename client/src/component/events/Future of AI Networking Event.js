@@ -268,7 +268,7 @@ const Bold = styled.span`
 `;
 const Img2 = styled.img`
   width: 240px;
-  height: 300px;
+  height: 250px;
   margin-left: 4px;
   margin-top: 10px;
 `;
