@@ -240,13 +240,13 @@ const Postdocs=()=>{
 </ul></CardFooter>
     </SmallDiv></Div>
   
-    <Div >
+    {/* <Div >
 <SmallDiv isDarkMode={isDarkMode}>
-    <CardImage>
+    <CardImage> */}
       {/* <Image src={DrAhmadAbdellatifImage} alt="SayedHossein Khatoonabadi"/> */}
-      </CardImage>
+      {/* </CardImage>
     <CardBody><h3>SayedHossein Khatoonabadi</h3>
- Concordia University</CardBody>
+ Concordia University</CardBody> */}
     {/* <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
     <a
@@ -306,7 +306,7 @@ const Postdocs=()=>{
       </a></li>
    
 </ul></CardFooter> */}
-    </SmallDiv></Div>
+    {/* </SmallDiv></Div> */}
   
   
   </Main>
