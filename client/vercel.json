@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/apply", "destination": "/apply.js" },
+    { "source": "/intro", "destination": "/intro.js" },
+        { "source": "/partners", "destination": "/partners.js" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
