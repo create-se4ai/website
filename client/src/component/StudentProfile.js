@@ -289,14 +289,14 @@ useEffect(() => {
   
   
     return (
-      <Profile>
-        <Header> <RedText>N</RedText>SERC <RedText>C</RedText>REATE <RedText>S</RedText>E4AI <RedText>A</RedText>ctivity <RedText></RedText>racker</Header>
+      <Profile isDarkMode={isDarkMode}>
+        <Header isDarkMode={isDarkMode}> <RedText>N</RedText>SERC <RedText>C</RedText>REATE <RedText>S</RedText>E4AI <RedText>A</RedText>ctivity <RedText></RedText>racker</Header>
   
       {student && (
         <MiniContainer  isDarkMode={isDarkMode}>
         
         <form >
-        <Div >
+        <Div isDarkMode={isDarkMode}>
         <SmallDiv isDarkMode={isDarkMode}>
         <PersonalInformation>
         <CardBody>
@@ -304,6 +304,7 @@ useEffect(() => {
         <h4>DEGREE PROGRAM AND YEAR:
         <select
       value={formData.degreeProgram}
+      isDarkMode={isDarkMode}
       onChange={(e) =>
         setFormData({
           ...formData,
@@ -343,8 +344,8 @@ useEffect(() => {
 </PersonalInformation></SmallDiv>
 </Div>
 
-<Div2>
-<SmallDiv2>
+<Div2 isDarkMode={isDarkMode}>
+<SmallDiv2 isDarkMode={isDarkMode}>
 
 
   <Subtitle isDarkMode={isDarkMode}>
@@ -358,7 +359,8 @@ useEffect(() => {
 
 <table>
      
-      <Course> C1 - Engineering AI-based Software Systems</Course>
+      <Course       isDarkMode={isDarkMode}
+> C1 - Engineering AI-based Software Systems</Course>
       <tr>    <th>Required Course</th>
 </tr>
   <tr> 
@@ -399,7 +401,7 @@ useEffect(() => {
 
 {/*Course-2*/ }
 
- <Course>
+ <Course isDarkMode={isDarkMode}>
       C2 - Social Aspects for AI-based Software Systems</Course>
       <tr><th>Required Course</th></tr>
 <tr>
@@ -434,7 +436,7 @@ useEffect(() => {
 
   {/*Course-3 */}
 
-  <Course>C3 - Professional Development Modules</Course>
+  <Course isDarkMode={isDarkMode}>C3 - Professional Development Modules</Course>
 <tr>    
 <th>Minimum 2 PD modules required</th> 
 
@@ -592,7 +594,7 @@ useEffect(() => {
 
 
 {/*Course-4 */}
-<Course>C4 - Industrial Embedding</Course>
+<Course isDarkMode={isDarkMode}>C4 - Industrial Embedding</Course>
 <tr>
   <th>MA trainees will typically serve a 4-month internship</th></tr>
   <tr><th> PhD trainees will complete 2 x 4-month internships
@@ -602,8 +604,19 @@ useEffect(() => {
   <th>1. Organization Name</th>
 
   <td><input type="text"  name="Oname"  
-    value={formData.internship1.organizationName}
-    onChange={(e) => setFormData({ ...formData, organizationName: e.target.value })}/></td>
+      value={formData.internship1 && formData.internship1[0] ? formData.internship1[0].organizationName : ""}
+      onChange={(e) =>
+        setFormData({
+          ...formData,
+          internship1: [
+            {
+              ...(formData.internship1 && formData.internship1[0]),
+              organizationName: e.target.value,
+            },
+          ],
+        })
+      }
+    /></td>
    </tr>
 
 
@@ -611,32 +624,66 @@ useEffect(() => {
 
 <th>2. Supervisor/Host Name</th>
 
-<td><input type="text"  name="Hname" value={formData.internship1.supervisorName}
-    onChange={(e) => setFormData({ ...formData, supervisorName: e.target.value })}/></td> 
+<td><input type="text"  name="Hname"  value={formData.internship1 && formData.internship1[0] ? formData.internship1[0].supervisorName : ""}
+      onChange={(e) =>
+        setFormData({
+          ...formData,
+          internship1: [
+            {
+              ...(formData.internship1 && formData.internship1[0]),
+              supervisorName: e.target.value,
+            },
+          ],
+        })
+      }
+    /></td> 
 </tr>
 
 {formData.degreeProgram === 'PhD' && (
   <>
 <tr>
-  <th>3.Organization Name</th>
+<th>3. Organization Name</th>
 
-  <td><input type="text"  name="Oname" value={formData.internship2.organizationName}
-    onChange={(e) => setFormData({ ...formData, organizationName: e.target.value })}/></td>
-   </tr>
+<td><input type="text"  name="Oname"  
+    value={formData.internship2 && formData.internship2[0] ? formData.internship2[0].organizationName : ""}
+    onChange={(e) =>
+      setFormData({
+        ...formData,
+        internship2: [
+          {
+            ...(formData.internship2 && formData.internship2[0]),
+            organizationName: e.target.value,
+          },
+        ],
+      })
+    }
+  /></td>
+ </tr>
 
 
 <tr>
 
-<th>4.Supervisor/Host Name</th>
+<th>4. Supervisor/Host Name</th>
 
-<td><input type="text"  name="Hname"  value={formData.internship2.supervisorName}
-    onChange={(e) => setFormData({ ...formData, supervisorName: e.target.value })}/></td> 
+<td><input type="text"  name="Hname"  value={formData.internship2 && formData.internship2[0] ? formData.internship2[0].supervisorName : ""}
+    onChange={(e) =>
+      setFormData({
+        ...formData,
+        internship2: [
+          {
+            ...(formData.internship2 && formData.internship2[0]),
+            supervisorName: e.target.value,
+          },
+        ],
+      })
+    }
+  /></td> 
 </tr> 
  </>)}
 
 
 {/* Course-5 */}
-<Course>C5 -  Industry webinar & seminar</Course>
+<Course isDarkMode={isDarkMode}>C5 -  Industry webinar & seminar</Course>
 <tr>
 
 
@@ -829,6 +876,7 @@ useEffect(() => {
     placeholder="Webinar/Seminar 3 Title or Research Topic"
     size="50"
     maxLength="100"
+    
     onChange={(e) => {
       // Handle the change and update the state accordingly
       setFormData((prevFormData) => {
@@ -1084,7 +1132,7 @@ useEffect(() => {
 
 
 
- <Course>C6 -  Professional development modules</Course>
+ <Course isDarkMode={isDarkMode}>C6 -  Professional development modules</Course>
 <tr>
   <th>Trainees must take 2 specialization courses</th>
   <th>Start Date</th>
@@ -1209,7 +1257,7 @@ useEffect(() => {
       </select></th>
 </tr>
 
-<Course>C7 - Leadership and mentorship training</Course>
+<Course isDarkMode={isDarkMode}>C7 - Leadership and mentorship training</Course>
 <tr>
 <th>Trainees must take 2 specialization courses</th>
 <th>Start Date</th>
@@ -1338,7 +1386,7 @@ useEffect(() => {
   </tr> 
 
 
-<Course>Other Activity 1</Course>
+<Course isDarkMode={isDarkMode}>Other Activity 1</Course>
 <tr><th>Ex:  Conferences attended</th>
 <th>Details</th></tr>
 <tr>
@@ -1373,7 +1421,7 @@ useEffect(() => {
 
 
 {/* Other Activity 2 */}
-<Course>Other Activity 2</Course>
+<Course isDarkMode={isDarkMode}>Other Activity 2</Course>
 <tr>
   <th>Ex: Publications, Awards</th>
   <th>Details</th>
@@ -1412,7 +1460,7 @@ useEffect(() => {
 </tr>
 
 {/* Other Activity 3 */}
-<Course>Other Activity 3</Course>
+<Course isDarkMode={isDarkMode}>Other Activity 3</Course>
 <tr>
   <th>Ex: Other Stipends or Scholarships</th>
 </tr>
@@ -1439,7 +1487,7 @@ useEffect(() => {
   </table>
 
 
-  <button onClick={handleUpdateForm}>Submit</button>
+  <Button onClick={handleUpdateForm}>Submit</Button>
 
   
 </SmallDiv2>
@@ -1457,14 +1505,14 @@ useEffect(() => {
   margin-top: 50px;
   margin-left: 50px;
   font-family: "Open Sans", sans-serif;
-border:1px solid  green;
+/* border:1px solid  green; */
 `;
 const Header = styled.div`
   padding-left: 20px;
   padding-top:30px;
   font-weight: bold;
   font-size: 30px;
-  /* width: 200px; */
+  color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 `;
 
 
@@ -1472,14 +1520,14 @@ const MiniContainer = styled.div`
   margin-left: 20px;
   margin-top: 40px;
   border-radius: 10px;
-  border: ${(props) =>
-    props.isDarkMode ? "  0px solid #404040" : "  2px solid #f4f0ec"};
-  background-color: ${(props) => (props.isDarkMode ? "#404040" : "white")};
+  /* border:${(props) => (props.isDarkMode ? "2px solid 	#404040": "2px solid #eef0f2")}; */
+
+  /* background-color: ${(props) => (props.isDarkMode ? "#404040" : "white")}; */
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
   padding-top: 0px;
   /* width: 270px; */
   /* height: 400px; */
-  border:2px solid orange;
+  /* border:2px solid orange; */
 margin-bottom:120px;
   &.emadContainer {
     height: 450px;
@@ -1492,8 +1540,9 @@ text-align: left;
 margin-top:15px;
 /* margin-left:-165px; */
 margin-right:2rem;
-border-bottom:2px solid #f4f0ec;
+/* border-bottom:2px solid #f4f0ec; */
 padding-left:50px;
+border:${(props) => (props.isDarkMode ? "2px solid 	#404040": "2px solid #eef0f2")};
 
 
 @media (max-width: 1000px) {
@@ -1504,7 +1553,7 @@ padding-left:50px;
 const SmallDiv=styled.div`
 /* border:${(props) => (props.isDarkMode ? "": "2px solid #eef0f2")}; */
 
-background-color: ${(props) => (props.isDarkMode ? "#282828" : "#ffffff")};
+/* background-color: ${(props) => (props.isDarkMode ? "#282828" : "#ffffff")}; */
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 border-radius:20px;
 box-shadow:0 1 2 0 rgb(0 0 0 1);
@@ -1551,14 +1600,17 @@ span{
   line-height: 1;
 }  
 padding-bottom: 0;
+select{
+    background-color: ${(props) => (props.isDarkMode ? "	#404040" : "white")};
+}
 `
 
 const SmallDiv2=styled.div`
-border:2px solid red;
+  color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 width:1300px;
  /* width:1150px; */
 /* width:298px;  */
-background-color: ${(props) => (props.isDarkMode ? "#282828" : "#ffffff")};
+/* background-color: ${(props) => (props.isDarkMode ? "#282828" : "#ffffff")}; */
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 border-radius:20px;
 box-shadow:0 1 2 0 rgb(0 0 0 1);
@@ -1591,7 +1643,7 @@ textarea{
   height: 150px;
   padding: 12px 20px;
   /* box-sizing: border-box; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 4px;
   /* background-color: #f8f8f8; */
   font-size: 16px;
@@ -1607,12 +1659,12 @@ textarea{
 }`
 
 const Div2=styled.div`
-border:2px solid blue;
+border:${(props) => (props.isDarkMode ? "2px solid 	#404040": "2px solid #eef0f2")};
 text-align: left;
 margin-top:15px;
 /* margin-left:-165px; */
 margin-right:2rem;
-border-bottom:1px solid #f4f0ec;
+/* border-bottom:1px solid #f4f0ec; */
 /* width:100%; */
 
 /* @media (max-width: 1000px) {
@@ -1626,12 +1678,12 @@ const RedText = styled.span`
 const Subtitle = styled.div`
 display: flex; 
    flex-wrap: wrap;
-   /* width:100%; */
+   /* background-color: ${(props) => (props.isDarkMode ? "#282828" : "#ffffff")}; */
   margin-top: 40px;
   margin-bottom:10px;
   /* margin-left:120px; */
   font-size: 2em;  font-weight: bold;
-  color: ${(props) => (props.isDarkMode ? "#ffffff" : "#484848")};
+  color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 
 ;
 `
@@ -1639,7 +1691,7 @@ const Course=styled.div`
 margin-top:20px; 
 display:flex;
 flex-direction:column;
-  border-bottom: 1px solid #ddd;
+border-bottom:${(props) => (props.isDarkMode ? "2px solid 	#404040": "2px solid #eef0f2")};
   margin-bottom:10px;
 font-weight:700;
 color: #bb5a7d;
@@ -1661,3 +1713,22 @@ border:1px solid red;
 
 const Option=styled.option`
 color:red;`
+
+
+const Button = styled.button`
+  background-color: ${(props) => (props.isDarkMode ? "#BB5A7D" : "#BB5A7D")};
+  color: ${(props) => (props.isDarkMode ? "black" : "white")};
+  font-weight:500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  padding: 12px 12px;
+  font-size: 19px;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+  cursor: pointer;
+text-align:center;
+align-items:center;
+  /* border :5px solid yellow; */
+  text-decoration: none;
+`
