@@ -87,9 +87,11 @@ const Alumni=()=>{
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={PierreOlivierCoteImage} alt= "Pierre-Olivier Cote"/></CardImage>
     <CardBody><h3>Pierre-Olivier Cote</h3>Ecole Polytechnique</CardBody>
-    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
+    <CardFooter isDarkMode={isDarkMode}>
+      <ul class="pills"    >
 
-<li ><a target="_blank"  href="https://www.linkedin.com/in/pierre-olivier-c%C3%B4t%C3%A9/" 
+      <li >
+  <a target="_blank"  href="https://www.linkedin.com/in/pierre-olivier-c%C3%B4t%C3%A9/" 
           
 >
   <svg aria-hidden="true" 
@@ -107,15 +109,21 @@ const Alumni=()=>{
     </svg>
     </a>
     </li>
-   
+   <li><li></li></li>
 </ul></CardFooter>
     </SmallDiv></Div>
+
+
+
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={DivyaKamathImage} alt= "Divya Kamath"/></CardImage>
     <CardBody><h3>Divya Kamath</h3>Queen's University</CardBody>
-    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
-    
+ <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
+ <li style={{paddingLeft: "-5px" }}>
+
+
+</li>
 <li ><a target="_blank"  href="https://www.linkedin.com/in/divyamkamath/" 
           
 >
@@ -134,8 +142,9 @@ const Alumni=()=>{
     </svg>
     </a>
     </li>
-   
-</ul></CardFooter>
+   <li><li></li></li>
+</ul>
+</CardFooter>
     </SmallDiv></Div>
 
 
@@ -144,7 +153,7 @@ const Alumni=()=>{
     <CardImage><Image src={AhmedHajYahmedImage} alt= "Ahmed Haj Yahmed"/></CardImage>
     <CardBody><h3>Ahmed Haj Yahmed</h3>Ecole Polytechnique</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
-   
+ 
 <li >
   <a target="_blank"  href="https://www.linkedin.com/in/ahmed-haj-yahmed/" 
           
@@ -164,7 +173,7 @@ const Alumni=()=>{
     </svg>
     </a>
     </li>
-    
+    <li><li></li> </li>
 </ul></CardFooter>
     </SmallDiv></Div>
 
@@ -174,7 +183,7 @@ const Alumni=()=>{
     <CardImage><Image src={RachedBouchouchaImage} alt= "Rached Bouchoucha"/></CardImage>
     <CardBody><h3>Rached Bouchoucha</h3>Ecole Polytechnique</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
-   
+
 <li >
   <a target="_blank"  href="https://www.linkedin.com/in/rached-bouchoucha-1061997/" 
           
@@ -194,7 +203,7 @@ const Alumni=()=>{
     </svg>
     </a>
     </li>
-  
+  <li><li></li></li>
 </ul></CardFooter>
     </SmallDiv></Div>
 
