@@ -18,9 +18,10 @@ const { adminLogin } = require("./adminLogin");
 const { studentLogin } = require("./StudentLogin.js");
 
 
-const {getForm}=require("./getForm.js");
-const {postForm}=require("./postForm.js")
-const {updateForm}=require("./updateForm.js")
+const {getForms}=require("./getForms.js");
+const{getForm}=require("./getForm.js");
+const{updateForm}=require("./updateForm.js")
+// const {postForm}=require("./postForm.js")
 // Below are methods that are included in express(). We chain them for convenience.
 
 
@@ -62,11 +63,17 @@ app.get("/api/students", getStudents);
 app.get("/api/students/:studentId", getStudent);
 //////// Add new Student 
 // app.post("/api/students", upload.single("img"), postStudent);
-app.post("/api/students/login",studentLogin)
-////// get Form 
-app.get("/api/students/:studentsId/form",getForm)
+app.post("/api/students/login",studentLogin);
+////// get Forms 
+app.get("/api/forms",getForms);
+///////// get Form 
+app.get("/api/forms/:studentId", getForm);
+//////update form
+app.put("/api/forms/:studentId", updateForm);
+
+
 //////// Add Form 
-app.post("/api/students/:studentsId/form",postForm)
+// app.post("/api/forms/:studentId",postForm)
 //////// Edit Form 
 // app.put("/api/form/:formId", updateForm)
 ////////////////////////
