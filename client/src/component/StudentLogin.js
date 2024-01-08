@@ -1,4 +1,5 @@
 import React, { useContext, useState,useRef } from "react";
+import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { DarkModeContext } from "./DarkModeContext";
@@ -20,6 +21,7 @@ function StudentLogin() {
     try {
       // Check if the entered username is in the adminUsernames array
       const isAdmin = adminUsernames.includes(username);
+      // const { formId } = useParams();
 
       if (isAdmin) {
         // If the username is in the adminUsernames array, treat as admin login
@@ -51,7 +53,7 @@ function StudentLogin() {
         if (response.ok) {
           const data = await response.json();
           localStorage.setItem("token", data.data.token);
-          navigate(`/studentLogin/${data.data.studentId}`);
+          navigate(`/login/${data.data.studentId}`);
         } else {
           throw new Error("Username or password is incorrect.");
         }

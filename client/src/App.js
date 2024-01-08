@@ -49,8 +49,7 @@ const App = () => {
   const toggleNavbarVisibility = () => {
     setIsNavbarVisible(!isNavbarVisible);
   };
-  const [AppointmentId, setAppointmentId] = useState("");
-  const [adminId, setAdminId] = useState("");
+
   
   const GlobalStyle = createGlobalStyle`
   /* Add your global styles here */
@@ -143,8 +142,8 @@ useEffect(() => {
           <Route path="/blog/upcoming" element={<UpcomingEvents />} />
           <Route path="/adminlogin" element={<AdminLogin />} />
           <Route path="/adminlogin/:adminId" element={<AdminProfile />} />
-          <Route path="/studentlogin" element={<StudentLogin />} />
-          <Route path="/studentlogin/:studentId" element={<StudentProfile />} />
+          <Route path="/login" element={<StudentLogin />} />
+          <Route path="/login/:studentId" element={<StudentProfile />} />
 
 
           <Route path="/blog/Trainee_Talks_Webinar_sptemper25" element={<Trainee_Talks_Webinar />} />
