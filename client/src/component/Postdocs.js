@@ -9,6 +9,7 @@ import { BsTwitter } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 //import images
 import DrAhmadAbdellatifImage from "../component/team/photos/Dr-Ahmad-Abdellatif.jpg";
+import HassankhatoonabadImage from "../component/team/photos/Hassan-khatoonabad.jpg";
 import { Grid } from "@mui/material";
 
 // const Postdocs = () => {
@@ -174,7 +175,7 @@ const Postdocs=()=>{
 
 <Main>
   
-<Div >
+{/* <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={DrAhmadAbdellatifImage} alt="Dr .Ahmad Abdellatif"/></CardImage>
     <CardBody><h3>AhmadAbdellatif</h3>
@@ -238,19 +239,19 @@ const Postdocs=()=>{
       </a></li>
    
 </ul></CardFooter>
-    </SmallDiv></Div>
+    </SmallDiv></Div> */}
   
-    {/* <Div >
+    <Div >
 <SmallDiv isDarkMode={isDarkMode}>
-    <CardImage> */}
-      {/* <Image src={DrAhmadAbdellatifImage} alt="SayedHossein Khatoonabadi"/> */}
-      {/* </CardImage>
+    <CardImage> 
+      <Image src={HassankhatoonabadImage} alt="HassankhatoonabadImage"/>
+      </CardImage>
     <CardBody><h3>SayedHossein Khatoonabadi</h3>
- Concordia University</CardBody> */}
-    {/* <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
+ Concordia University</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
     <a
-   href="https://das.encs.concordia.ca/members/ahmad-abdellatif"
+   href="https://das.encs.concordia.ca/members/hassan-khatoonabadi"
   target="blank"
   >    <svg overflow="visible"
     width="1em"
@@ -273,7 +274,7 @@ const Postdocs=()=>{
 </li>
 <li >
 <a
-   href="https://www.linkedin.com/in/ahmad-abdellatif-8ab82a29"
+   href="https://www.linkedin.com/in/shassankhatoonabadi/"
  target="blank"
  >
   <svg aria-hidden="true" 
@@ -292,7 +293,7 @@ const Postdocs=()=>{
     </a>
     </li>
     <li> 
-  <a href="https://twitter.com/AhmadAbdellatf" target="blank">
+  <a href="https://twitter.com/HKhatoonabadi" target="blank">
       <svg aria-hidden="true" 
         width=" 0.875em"
       focusable="false" 
@@ -305,8 +306,8 @@ const Postdocs=()=>{
       </path></svg>
       </a></li>
    
-</ul></CardFooter> */}
-    {/* </SmallDiv></Div> */}
+</ul></CardFooter>
+    </SmallDiv></Div>
   
   
   </Main>
