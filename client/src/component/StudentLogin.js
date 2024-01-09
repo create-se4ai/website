@@ -77,6 +77,7 @@ function StudentLogin() {
 
   return (
     <Form onSubmit={handleSubmit}>
+      <Main>
       <Div>
         <Label isDarkMode={isDarkMode}>
           Username
@@ -98,16 +99,17 @@ function StudentLogin() {
           />
         </Label>
       </Div>
-      <Div style={{ marginLeft: "350px" }}>
+      <Div2 >
         <ReCAPTCHA
           ref={recaptchaRef}
           sitekey="6LfpDhEpAAAAAPHh5nWOC-NnTIj_dYZ1oRd2Gr2u"
           onChange={() => setIsRecaptchaVerified(true)}
         />
-      </Div>
+      </Div2>
       <Button isDarkMode={isDarkMode} type="submit" disabled={!isRecaptchaVerified}>
         Sign In
       </Button>
+      </Main>
     </Form>
   );
 }
@@ -115,6 +117,15 @@ function StudentLogin() {
 export default StudentLogin;
 const Form = styled.form`
   padding: 200px;
+  
+  @media screen and (min-width: 1700px) {
+    /* align-items: center; */
+    margin-left: calc(30% - 150px); 
+    /* margin-bottom:calc(13% - 150px); */
+
+  }
+ 
+
 `;
 const Label = styled.label`
   width: 50%;
@@ -123,21 +134,37 @@ const Label = styled.label`
     color: #db7093;
   }
 `;
-const RoleLabel = styled.label`
-  color: ${(props) => (props.isDarkMode ? "#fff" : "#212529")};
-  margin-right: 10px;
-`;
+const Main=styled.div` 
+/* max-width:1900px;
+width:100%; */
+/* width: 1900px; */
+/* border:2px solid red; */
+margin-top:-40px;
+/* margin:0px 16px ; */
+color: ${(props) => (props.isDarkMode ? "white" : "#484848")}; 
+ @media screen and (max-width: 900px) {
+  margin-left:-450px;
+  /* width: 1700px; */
+/* padding-left:20px; */
+  margin-top:-20px;
+  /* margin-right:0px;
+  padding-right:-500px; */
 
-const RoleSelect = styled.select`
-  height: 25px;
-  margin-top: 5px;
-`;
+/* display:flex;
+flex-direction:row; */
+
+} 
+
+
+`
 const Input = styled.input`
   height: 20px;
-  width: 70%;
+width:290px;
   border: 2px solid #1e3d58;
   margin-top: 5px;
   margin-left: 5px;
+
+
 `;
 const Button = styled.button`
   width: 150px;
@@ -150,10 +177,30 @@ const Button = styled.button`
   border-radius: 4px;
   background-color: ${(props) => (props.isDarkMode ? "#bb5a7d" : "#bb5a7d")};
   color: ${(props) => (props.isDarkMode ? "black" : "white")};
+  @media screen and (max-width: 900px) {
+  /* margin-left:-5px; */
+  align-items:center;
+}
+
 `;
 const Div = styled.div`
   display: flex;
   flex-direction: row;
   padding: 10px;
   margin-left: 280px;
+  /* width:100%; */
+/* border:2px solid green; */
+`;
+const Div2 = styled.div`
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-left: 350px;
+  /* width:100%; */
+/* border:2px solid green; */
+@media screen and (max-width: 900px) {
+  margin-left:290px;
+
+
+} 
 `;
