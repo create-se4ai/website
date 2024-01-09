@@ -246,7 +246,7 @@ const Postdocs=()=>{
     <CardImage> 
       <Image src={HassankhatoonabadImage} alt="HassankhatoonabadImage"/>
       </CardImage>
-    <CardBody><h3>SayedHossein Khatoonabadi</h3>
+    <CardBody><h3>SayedHassan Khatoonabadi</h3>
  Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
