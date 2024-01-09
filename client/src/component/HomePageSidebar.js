@@ -148,6 +148,25 @@ const HomePageSidebar = () => {
           Apply
         </SidebarLink>
         <SidebarLink
+          selected={selectedLink === "/GEMinAI"}
+          isActive={activeLink === "/GEMinAI"}
+          onClick={() => handleLinkClick("/GEMinAI")}
+          isDarkMode={isDarkMode}
+          to="/GEMinAI"
+        >
+         GEMinAI
+        </SidebarLink>
+
+        <SidebarLink
+          selected={selectedLink === "/login"}
+          isActive={activeLink === "/login"}
+          onClick={() => handleLinkClick("/login")}
+          isDarkMode={isDarkMode}
+          to="/login"
+        >
+        Login
+        </SidebarLink>
+        <SidebarLink
           selected={selectedLink === "/contact"}
           isActive={activeLink === "/contact"}
           isDarkMode={isDarkMode}
