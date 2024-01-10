@@ -20,7 +20,7 @@ import AdminLogin from "./component/AdminLogin";
 import AdminProfile from "./component/AdminProfile";
 import StudentLogin from "./component/StudentLogin";
 import StudentProfile from "./component/StudentProfile";
-
+import GEMinAIProgram from "./component/GEMinAIProgram"
 
 import Trainee_Talks_Webinar from "./component/events/Trainee_Talks_Webinar";
 import Industry_Talks_Webinar from "./component/events/Industry_Talks_Webinar";
@@ -38,7 +38,7 @@ import  Future_of_AI_Networking_Event from "./component/events/Future of AI Netw
 import GEMinAI_Mentoring_Program_Launch from "./component/events/GEMinAI_Mentoring_Program_Launch";
 import FM_SE_School_in_Mexico_City from "./component/events/FM_SE_School_in_Mexico_City";
 import CAN_CWIC_Conference_in_Toronto from "./component/events/CAN_CWIC_Conference_in_Toronto";
-import Intellectual_Property_Seminar from "./component/events/Intellectual_Property_Seminar"
+import Intellectual_Property_Seminar from "./component/events/Intellectual_Property_Seminar";
 import Contact from "./component/Contact";
 import Favicon from "./component/img/favicon.svg";
 import Header from "./component/Header"
@@ -93,7 +93,7 @@ useEffect(() => {
 "/apply":"Apply Now",
 "/governance":"Governance",
 "/blog":"Blog",
-
+"/GEMinAI":"GEMinAI Program",
 "/blog/past":"Past Events",
 "/blog/upcoming":"Upcoming Events",
 "/adminlogin":"Adminlogin",
@@ -133,9 +133,13 @@ useEffect(() => {
             path="/training-program/components"
             element={<ProgramComponents />}
           />
-          <Route path="/blog" element={<Events />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/apply" element={<Apply />} />
+          <Route path="/GEMinAI" element={<GEMinAIProgram />} />
+          <Route path="/blog" element={<Events />} />
+
+          <Route path="/contact" element={<Contact />} />
+
           <Route path="/governance" element={<Governance />} />
           <Route path="/team" element={<Team />} />
           <Route path="/blog/past" element={<PastEvents />} />
