@@ -166,7 +166,18 @@ const HomePageSidebar = () => {
         >
         Login
         </SidebarLink> */}
-        <SidebarLink
+
+
+<SidebarLink
+          selected={selectedLink === "/login"}
+          isActive={activeLink === "/login"}
+          onClick={() => handleLinkClick("/login")}
+          isDarkMode={isDarkMode}
+          to="/login"
+        >
+        Login
+        </SidebarLink> 
+        {/* <SidebarLink
           selected={selectedLink === "/contact"}
           isActive={activeLink === "/contact"}
           isDarkMode={isDarkMode}
@@ -174,7 +185,11 @@ const HomePageSidebar = () => {
           onClick={() => handleLinkClick("/contact")}
         >
           Contact
-        </SidebarLink></Group>
+        </SidebarLink> */}
+        
+        
+        
+        </Group>
       </SidebarContainer>
     </Container>
   );

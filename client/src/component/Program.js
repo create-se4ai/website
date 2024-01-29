@@ -81,8 +81,8 @@ const Program = () => {
        
         <div >Next</div>
      
-        <a href="/training-program/objectives"> 
-         <div> Program Objective{" "} 
+        <a href="/GEMinAI"> 
+         <div> GEMinAI Program{" "} 
             {/* <Icon> */}
               <MdKeyboardDoubleArrowRight />
             {/* </Icon>  */}
@@ -154,8 +154,8 @@ const Details2 = styled.div`
   margin-bottom: 50px;
   /* border:2px solid green; */
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
 `;
+
 const Ul = styled.ul` 
   margin-top:-40px;
   /* width: 1500px; */

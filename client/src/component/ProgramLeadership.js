@@ -1056,7 +1056,8 @@ target="blank"
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={DrDiegoCostaImage}
  alt="Dr. Diego Costa"/></CardImage>
-    <CardBody><h3>Dr. Diego Costa</h3>Concordia University</CardBody>
+    <CardBody><h3>Dr. Diego Costa</h3>Currently <Bold>Assistant Professor at 
+     <a href="https://www.concordia.ca/"  target="blank" >   Concordia University</a></Bold> </CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
     <a
@@ -1170,26 +1171,41 @@ const CardImage=styled.div`
 }
   border-radius:20px;`
 const CardBody=styled.div`
-  padding:0.25rem 1rem 0px;
+padding:0.25rem 1rem;
 
 h3{
-  font-size:1.25rem;
-  font-weight:700px;
-  margin-bottom :0;
-}  
-span{
-  margin-left:7px;
+font-size:1.25rem;
+font-weight:700px;
+margin-bottom :0;
+} 
+span:first-child {
+  margin-left:7px; 
   display: inline-block;
   background-color:#bb5a7d;
-  border:1px solid #bb5a7d;
+  border:1px solid #bb5a7d; 
   border-radius:0.4rem;
-  color:#fff;
-  font-size:75%;
-  font-weight:700;
   padding:calc( 1rem *0.25) calc( 1rem *0.5);
   line-height: 1;
-}  
+
+   color:#fff; 
+   font-size:75%; 
+   font-weight:700; 
+   padding:calc( 1rem *0.25) calc( 1rem *0.5);  line-height: 1;
+
+}   
 padding-bottom: 0;
+a{
+text-decoration: none;
+
+&:hover {
+  color:rgb(187, 90, 125);;
+  text-decoration: underline;
+}
+
+padding-bottom: 0;
+padding:0.25rem 1rem 0px;
+
+}
 `
 const CardFooter=styled.div` 
 font-weight:700;
@@ -1242,3 +1258,5 @@ const Main = styled.div`
 /* border:2px solid orange; */
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 `;
+const Bold=styled.span`
+font-weight:700;`

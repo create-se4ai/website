@@ -108,8 +108,8 @@ const Navbar = () => {
         {/* <Nav isDarkMode={isDarkMode}>
           <a href="/GEMinAI " className={location.pathname === "/GEMinAI" ? "selected" : ""}>GEMinAI Program</a>
         </Nav> */}
-{/* 
-        <Nav isDarkMode={isDarkMode} style={{ width: "80px" }}>
+
+        {/* <Nav isDarkMode={isDarkMode} style={{ width: "80px" }}>
           <LoginLink onClick={handleStudentClick}>Login</LoginLink> */}
 {/*          
        {showDropdown && (
@@ -128,7 +128,7 @@ const Navbar = () => {
         <RightNav isDarkMode={isDarkMode} className="right-nav">
         <Nav isDarkMode={isDarkMode} className="right-nav">
           <Contact isDarkMode={isDarkMode}>
-            <a href="/contact">Contact</a>
+        <LoginLink onClick={handleStudentClick}>Login</LoginLink> 
           </Contact>
           <SwitchLabel>
             <SwitchInput

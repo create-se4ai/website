@@ -126,6 +126,21 @@ const ProgramSidebar = () => {
           </Link>
         </SidebarHeading>
         <SidebarHeading
+          isDarkMode={isDarkMode}
+          selected={selectedLink === "/GEMinAI"}
+          isActive={activeLink === "/GEMinAI"}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <Link
+            to="/GEMinAI"
+            onClick={() => handleLinkClick("/GEMinAI")}
+            isDarkMode={isDarkMode}
+          >
+       GEMinAI Program
+          </Link>
+        </SidebarHeading>
+        <SidebarHeading
   isDarkMode={isDarkMode}
   onClick={toggleLinks}
   selected={selectedLink.includes("/training-program")}
