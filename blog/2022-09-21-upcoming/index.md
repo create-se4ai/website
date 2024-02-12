@@ -8,14 +8,22 @@ title: Upcoming Events
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 
-## Future of AI Networking Event
+## Trainee Talks Webinar - February 27, 2024
 
-import future_ai from './future_ai.jpg'
 
-<p class="future_ai"><img src={future_ai}/></p>
+import manuel_cosentino_n_CMLApjfI_unsplash from './manuel_cosentino_n_CMLApjfI_unsplash.jpg'
 
-[CREATE SE4AI](https://se4ai.org/) has partnered with the Montréal chapter of [Women in AI & Robotics](https://www.womeninairobotics.de/) and [Concordia's Applied AI Institute](https://www.concordia.ca/research/applied-ai-institute.html) to host a speaker and networking event on the Future of AI on **Thursday Nov. 30th**.
+<p class="manuel_cosentino_n_CMLApjfI_unsplash"><img src={manuel_cosentino_n_CMLApjfI_unsplash}/></p>
 
-Join us for a deep dive into the future of AI, Sustainability, the Societal Impact of Technology and Innovative Discoveries. The event will be followed by a networking session and an enjoyable opportunity for socializing over refreshments and finger foods. Our very own **Riya Dutta** will be one of the speakers. You won't want to miss this!
+Join us on **Tuesday, February 27th at 11:00AM EST**as we welcome Queen's University Master's student **Akshat Malik.**  Akshat will present his work on Empirical Evaluation of Graph-Anonymized Metrics for JIT Defect Prediction.  Immediately following, Concordia University Master's student **Sharon Ho** will deliver a talk on the Impacts of Text-to-Image Generative AI on Creative Professionals: Insights from Japan.
 
-To secure your spot, please register in advance on the [Eventbrite page](https://www.eventbrite.de/e/future-of-artificial-intelligence-tickets-741275764767?aff=oddtdtcreator). This event is free and open to the public so please feel free to share it with your networks.
+Each trainee will talk for 20 minutes, followed by a 10 minute Q& A session.
+
+Get more information and register on Eventbrite: https://www.eventbrite.ca/e/829036629877?aff=oddtdtcreator
+Join the webinar via Zoom:
+https://concordia-ca.zoom.us/j/84835976524?pwd=bEFXcGZxNWlQRDRUOFRtYThLQkhwQT09
+
+**Meeting ID:  848 3597 6524**
+
+**Passcode:  956226**
+
