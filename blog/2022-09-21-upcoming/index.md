@@ -15,7 +15,7 @@ import manuel_cosentino_n_CMLApjfI_unsplash from './manuel_cosentino_n_CMLApjfI_
 
 <p class="manuel_cosentino_n_CMLApjfI_unsplash"><img src={manuel_cosentino_n_CMLApjfI_unsplash}/></p>
 
-Join us on **Tuesday, February 27th at 11:00AM EST**as we welcome Queen's University Master's student **Akshat Malik.**  Akshat will present his work on Empirical Evaluation of Graph-Anonymized Metrics for JIT Defect Prediction.  Immediately following, Concordia University Master's student **Sharon Ho** will deliver a talk on the Impacts of Text-to-Image Generative AI on Creative Professionals: Insights from Japan.
+Join us on **Tuesday, February 27th at 11:00AM EST** as we welcome Queen's University Master's student **Akshat Malik.**  Akshat will present his work on Empirical Evaluation of Graph-Anonymized Metrics for JIT Defect Prediction.  Immediately following, Concordia University Master's student **Sharon Ho** will deliver a talk on the Impacts of Text-to-Image Generative AI on Creative Professionals: Insights from Japan.
 
 Each trainee will talk for 20 minutes, followed by a 10 minute Q& A session.
 
