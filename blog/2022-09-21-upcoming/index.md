@@ -19,9 +19,10 @@ Join us on **Tuesday, February 27th at 11:00AM EST**as we welcome Queen's Univer
 
 Each trainee will talk for 20 minutes, followed by a 10 minute Q& A session.
 
-Get more information and register on Eventbrite: https://www.eventbrite.ca/e/829036629877?aff=oddtdtcreator
-Join the webinar via Zoom:
-https://concordia-ca.zoom.us/j/84835976524?pwd=bEFXcGZxNWlQRDRUOFRtYThLQkhwQT09
+Get more information and register on  [Eventbrite](https://www.eventbrite.ca/e/829036629877?aff=oddtdtcreator)
+
+
+Join the webinar via [Zoom](https://concordia-ca.zoom.us/j/84835976524?pwd=bEFXcGZxNWlQRDRUOFRtYThLQkhwQT09)
 
 **Meeting ID:  848 3597 6524**
 
