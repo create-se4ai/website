@@ -8,7 +8,7 @@ title: Upcoming Events
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 
-## Trainee Talks Webinar - February 27, 2024
+<!-- ## Trainee Talks Webinar - February 27, 2024
 
 
 import manuel_cosentino_n_CMLApjfI_unsplash from './manuel_cosentino_n_CMLApjfI_unsplash.jpg'
@@ -26,5 +26,5 @@ Join the webinar via [Zoom](https://concordia-ca.zoom.us/j/84835976524?pwd=bEFXc
 
 **Meeting ID:  848 3597 6524**
 
-**Passcode:  956226**
+**Passcode:  956226** -->
 

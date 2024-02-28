@@ -17,6 +17,11 @@
   --ifm-code-font-size: 95%;
 }
 
+/* .sep252023 {
+  color: red;
+  background-color: red;
+} */
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -75,6 +80,10 @@ h2.section::first-letter {
   text-align: center;
 }
 
+/* .ahmad {
+color:yellow;
+border-color: yellow;
+} */
 .blog-post-page time {
   display: none;
 }
