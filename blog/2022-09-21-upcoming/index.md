@@ -8,23 +8,28 @@ title: Upcoming Events
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 
-<!-- ## Trainee Talks Webinar - February 27, 2024
+ ## Trainee Talks Webinar - March 25, 2024
 
 
-import manuel_cosentino_n_CMLApjfI_unsplash from './manuel_cosentino_n_CMLApjfI_unsplash.jpg'
 
-<p class="manuel_cosentino_n_CMLApjfI_unsplash"><img src={manuel_cosentino_n_CMLApjfI_unsplash}/></p>
+import Trainee_Talks_Mar25 from './Trainee_Talks_Mar25.jpg'
 
-Join us on **Tuesday, February 27th at 11:00AM EST**  as we welcome Queen's University Master's student **Akshat Malik.**  Akshat will present his work on Empirical Evaluation of Graph-Anonymized Metrics for JIT Defect Prediction.  Immediately following, Concordia University Master's student **Sharon Ho** will deliver a talk on the Impacts of Text-to-Image Generative AI on Creative Professionals: Insights from Japan.
+<p class="Trainee_Talks_Mar25"><img src={Trainee_Talks_Mar25}/></p>
 
-Each trainee will talk for 20 minutes, followed by a 10 minute Q& A session.
+Join us on **Monday, March 25th at 10:00 AM EST** as we welcome Queen’s University Master's student Harsh Patel.  Harsh will deliver a talk titled “Post Deployment Recycling of Machine Learning Models: Don’t Throw Away Your Old Models!”. 
 
-Get more information and register on  [Eventbrite](https://www.eventbrite.ca/e/829036629877?aff=oddtdtcreator)
+Immediately following, we will hear from Queen’s University PhD student Fangjian Lei. Fangjian will present his work “Studying the Evolution Patterns of Self-admitted Technical Debts in Software Systems”.
+
+Each trainee will talk for 20 mins, followed by a 10 min Q&A session. 
+
+**For more details and to register, go to our [Eventbrite URL](https://www.eventbrite.ca/e/post-deployment-recycling-of-ml-models-evolution-patterns-of-satd-tickets-856375440997?aff=oddtdtcreator)**
+
+**Join the webinar via Zoom:** https://concordia-ca.zoom.us/j/82952805240?pwd=SndiN2x5NFdHbUZQUUxUSzE0OUhXUT09
+
+**Meeting ID:  829 5280 5240**
+
+**Passcode: 604190**
 
 
-Join the webinar via [Zoom](https://concordia-ca.zoom.us/j/84835976524?pwd=bEFXcGZxNWlQRDRUOFRtYThLQkhwQT09)
 
-**Meeting ID:  848 3597 6524**
-
-**Passcode:  956226** -->
 
