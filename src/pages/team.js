@@ -69,11 +69,11 @@ const TeamMemberList = [
       },
       {
         name: "Dr. Diego Costa",
-        affiliation: "Université du Québec à Montréal",
-        //position: "Postdoctoral Researcher",
+        affiliation: "Concordia University",
+        position: "Assistant Professor",
         linkedin: "diego-elias-costa",
         twitter: "DiegoEliasCosta",
-        website: "https://latece.uqam.ca/membre/diego-elias/",
+        website: "https://diegoeliascosta.github.io/",
       },
     ],
   },
@@ -95,12 +95,12 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
-        name: "Dr. Ahmad Abdellatif",
+        name: "Dr. Hassan Khatoonabadi",
         affiliation: "Concordia University",
-        position: "Postdoctoral Researcher",
-        linkedin: "ahmad-abdellatif-8ab82a29",
-        twitter: "AhmadAbdellatf",
-        website: "https://das.encs.concordia.ca/members/ahmad-abdellatif",
+        position: "Post Doctoral Researcher",
+        linkedin: "shassankhatoonabadi",
+        twitter: "HKhatoonabadi",
+        website: "https://das.encs.concordia.ca/members/hassan-khatoonabadi",
       },
     ],
   },
@@ -184,6 +184,14 @@ const TeamMemberList = [
       {
         name: "Ernesto Lang Oreamuno",
         affiliation: "Queen's University",
+      },
+      {
+        name: "Dr. Ahmad Abdellatif",
+        affiliation: "University of Calgary",
+        position: "Assistant Professor",
+        linkedin: "ahmad-abdellatif-8ab82a29",
+        twitter: "AhmadAbdellatf",
+        website: "https://profiles.ucalgary.ca/ahmad-abdellatif",
       },
     ]
   },
