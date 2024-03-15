@@ -208,6 +208,11 @@ const TeamMemberList = [
         affiliation: "Polytechnique Montréal",
         linkedin: "ahmed-haj-yahmed",
       },
+      {
+        name: "Rached Bouchoucha",
+        affiliation: "Polytechnique Montréal",
+        linkedin: "rached-bouchoucha-1061997",
+      },
     ]
   },
   {
