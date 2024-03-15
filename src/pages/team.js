@@ -194,7 +194,7 @@ const TeamMemberList = [
         website: "https://profiles.ucalgary.ca/ahmad-abdellatif",
       },
       {
-        name: "Pierre-Oliver Côté",
+        name: "Pierre-Olivier Côté",
         affiliation: "Polytechnique Montréal",
         linkedin: "pierre-olivier-côté",
       },
