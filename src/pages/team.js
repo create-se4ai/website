@@ -193,6 +193,11 @@ const TeamMemberList = [
         twitter: "AhmadAbdellatf",
         website: "https://profiles.ucalgary.ca/ahmad-abdellatif",
       },
+      {
+        name: "Pierre-Oliver Côté",
+        affiliation: "Polytechnique Montréal",
+        linkedin: "pierre-olivier-côté",
+      },
     ]
   },
   {
