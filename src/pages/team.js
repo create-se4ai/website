@@ -198,6 +198,11 @@ const TeamMemberList = [
         affiliation: "Polytechnique Montréal",
         linkedin: "pierre-olivier-côté",
       },
+      {
+        name: "Divya Kamath",
+        affiliation: "Queen's University",
+        linkedin: "divyamkamath",
+      },
     ]
   },
   {
