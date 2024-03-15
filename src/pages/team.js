@@ -213,6 +213,12 @@ const TeamMemberList = [
         affiliation: "Polytechnique Montréal",
         linkedin: "rached-bouchoucha-1061997",
       },
+      {
+        name: "Khaled Badran",
+        affiliation: "Concordia University",
+        twitter: "khaled_badran9",
+        linkedin: "khaled-badran-6b0908174",
+      },
     ]
   },
   {
