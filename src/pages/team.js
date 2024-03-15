@@ -203,6 +203,11 @@ const TeamMemberList = [
         affiliation: "Queen's University",
         linkedin: "divyamkamath",
       },
+      {
+        name: "Ahmed Haj Yahmed",
+        affiliation: "Polytechnique Montréal",
+        linkedin: "ahmed-haj-yahmed",
+      },
     ]
   },
   {
