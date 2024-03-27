@@ -3,7 +3,7 @@
 import future_ai from '../imgs/future_ai.jpg'
 
 <h1>Future of AI Networking Event</h1>
-<p > <img src={future_ai}/></p>
+<p ><img src={future_ai}/></p>
 
 [CREATE SE4AI](https://se4ai.org/) has partnered with the Montréal chapter of [Women in AI & Robotics](https://www.womeninairobotics.de/) and [Concordia's Applied AI Institute](https://www.concordia.ca/research/applied-ai-institute.html) to host a speaker and networking event on the Future of AI on **Thursday Nov. 30th**.
 

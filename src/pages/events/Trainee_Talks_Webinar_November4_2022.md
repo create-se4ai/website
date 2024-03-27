@@ -12,4 +12,4 @@ In the first of our series of trainee-led webinars, we invited 2 graduate studen
 
 **Ahmed Haj Yahmed**, a Master's student at Polytechnique Montréal presented DiverGet: a Search-based Software Testing Approach for Deep Neural Network Quantization Assessment. Immediately following, Concordia University PhD candidate **Jasmine Latendresse** presented her work on software production dependencies which she recently delivered at the IEEE/ACM 2022 Conference on Automated Software Engineering (ASE '22) in Michigan.
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/7owtNM6S0Cg). 
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/7owtNM6S0Cg).

@@ -136,7 +136,7 @@ module.exports = {
 
             { label: " FM-SE_School_in_Mexico_City_November_16-17_2023 ", to: "/FM-SE_School_in_Mexico_City_November_16-17_2023" },
            
-             
+            
             { label: "Trainee_Talks_Webinar_September25_2023", to: "/Trainee_Talks_Webinar_September25_2023" },
             { label: "Industry_Talks_Webinar_April25_2023", to: "/Industry_Talks_Webinar_April25_2023" },
             { label: "Trainee_Talks_Webinar_April3rd_2023", to: "/Trainee_Talks_Webinar_April3rd_2023" },

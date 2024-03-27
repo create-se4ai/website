@@ -20,4 +20,3 @@ import wielogo from '../imgs/wielogo.jpg'
 <img class="image" src={wie1} alt="wie1" width="245"/>
 <img class="image" src={wie2} alt="wie2" width="245"/>
 <img class="image" src={wie3} alt="wie3" width="245"/>
- 

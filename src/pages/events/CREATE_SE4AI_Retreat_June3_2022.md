@@ -9,7 +9,7 @@ import group2 from '../imgs/group2.jpg'
 import group3 from '../imgs/group3.jpg'
 import group4 from '../imgs/group4.jpg'
 
-<a class="retreat"><img src={retreat} class="small_retreat" width="200"/><span><img src={retreat} width="600"/></span> </a>
+<a class="retreat"><img src={retreat} class="small_retreat" width="200"/><span><img src={retreat} width="600"/></span></a>
 <a class="retreat"><img src={brainstorm} class="small_retreat" width="200"/><span><img src={brainstorm} width="600"/></span></a>
 <a class="retreat"><img src={group1} class="small_retreat" width="200"/><span><img src={group1} width="600"/></span></a>
 <a class="retreat"><img src={group2} class="small_retreat" width="200"/><span><img src={group2} width="600"/></span></a>
