@@ -11,7 +11,7 @@ Did you know that revenue generated from AI automation in telecom networks is ex
 
 In his presentation, Karthikeyan Premkumar, Data Scientist at Ericsson used case studies to highlight several touchpoints involving the ML model development process, tools, data quality, ML Ops (monitoring and retraining) and deployment as part of model industrialization.
 
-**About the Speaker**
+**About the Speaker** 
 
 Karthik Premkumar has 18 years of experience in the telecom industry. His expertise lies in industrializing AI/ML solutions, designing system and solution architectures in BSS, Cloud and infrastructure platforms for telecom networks.
 

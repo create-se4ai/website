@@ -4,7 +4,7 @@
 import GEMinAI from '../imgs/GEMinAI.jpg'
 
 <h1>GEMinAI Mentoring Program Launch October 19, 2023 ​</h1>
-<p >
+<p > 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 <img src={GEMinAI} class="GEMinAI3" style={{ width: '400px', height: '500px' }}/></div></p>
 

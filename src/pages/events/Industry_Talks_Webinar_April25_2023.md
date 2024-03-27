@@ -5,7 +5,7 @@ import apr252023 from '../imgs/apr252023.jpg'
 <h1>Industry Talks Webinar - April 25, 2023</h1>
 <p class="apr252023"><img src={apr252023}/></p>
 
-CREATE SE4AI is pleased to present Patrick Mesana, Consultant at National Bank of Canada and PhD Candidate at HEC, who spoke on **Balancing Data Valorization and Privacy: Industry Challenges and Opportunities**.
+CREATE SE4AI is pleased to present Patrick Mesana, Consultant at National Bank of Canada and PhD Candidate at HEC, who spoke on **Balancing Data Valorization and Privacy: Industry Challenges and Opportunities**. 
 
 In his talk, Patrick delved into the distinct characteristics of data as a digital asset and examined the challenges of striking a balance between data valorization and privacy. Emphasizing the importance of data management in large organizations, such as financial institutions, he addressed the emerging challenges posed by privacy laws and the rapid growth of AI. Through a discussion of evolving practices like privacy-by-design, advances in privacy engineering, and innovative privacy technologies such as data synthesis, he offered valuable insights for navigating the intricate future of data privacy within organizations. Furthermore, he brought to light potential future disruptors, such as open banking in Canada, particularly relevant to the finance sector.
 
