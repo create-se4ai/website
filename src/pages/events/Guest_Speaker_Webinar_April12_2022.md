@@ -16,4 +16,4 @@ import olivier from '../imgs/olivier.jpg'
 
 Bio: https://moov.ai/en/olivier-blais/
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=n_agygoxiiE).
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=n_agygoxiiE). 

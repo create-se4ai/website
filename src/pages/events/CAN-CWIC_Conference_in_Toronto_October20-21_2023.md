@@ -2,7 +2,7 @@
  -->
 import CAN_CWIC from '../imgs/CAN_CWIC.jpg'
 
-
+ 
 <h1>CAN-CWIC Conference in Toronto October 20-21, 2023
 ​</h1>
 <p ><img src={CAN_CWIC}/></p>

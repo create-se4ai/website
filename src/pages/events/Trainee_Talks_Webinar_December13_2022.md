@@ -11,4 +11,4 @@ This time, Queen's University Master's student Ernesto Lang Oreamuno joined us a
 
 Immediately following, Rached Bouchoucha, École Polytechnique Master's student presented his work on de-bugging Deep Reinforcement Learning (DLR) Frameworks. 
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=dajeHAVXTKY).
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=dajeHAVXTKY). 

@@ -10,4 +10,4 @@ The Spring Trainee Talks webinar was a huge success and we were pleased to have 
 
 In this webinar, 2 PhD students from Polytechnique Montréal under Prof. Foutse Khomh delivered their research topics. Vahid Majdinasab spoke on his topic of Mutation Testing of Deep Reinforcement Learning Based on Real Faults, followed by Forough Majidi, who shared her Empirical Study on the Usage of Automated Machine Learning Tools. A 10 min Q&A session followed after each presentation.
 
-The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/EEDTbt3Y3Lk).
+The webinar recording is available to view on our [CREATE SE4AI YouTube channel](https://youtu.be/EEDTbt3Y3Lk). 

@@ -32,7 +32,7 @@ module.exports = {
         alt: "CREATE SE4AI",
         src: "img/logo.svg",
         srcDark: "img/logo_dark.svg",
-        
+         
       },
       items: [
         // {

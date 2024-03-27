@@ -110,7 +110,7 @@ import april32023 from './imgs/april32023.jpg'
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1">
 <img src={april32023} alt="Trainee Talks Webinar - April 3rd, 2023"/></div>
 <div class="text">The Spring Trainee Talks webinar was a huge success and we were pleased to have 27 participants join!.<a href="/events/Trainee_Talks_Webinar_April3rd_2023"> <strong> Read More</strong></a>
-</div></div>
+</div></div> 
 
 
 import wie1 from './imgs/wie1.jpg'
