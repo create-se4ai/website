@@ -198,3 +198,19 @@ h4{
   /* border:2px solid red;  */
   height:100px;
 }
+ .GEMinAIContainer{
+/* border:2px solid red; */
+max-width:80%;
+    margin-left:120px;
+    @media screen and (max-width: 480px) {
+        margin-left:5px;
+  /* border:2px solid green; */
+  max-width:370px;
+}
+  @media screen and (min-width: 1700px) {
+    /* align-items: center; */
+    margin-left: calc(37% - 150px); 
+max-width:1500px;
+  }
+ }
+  
