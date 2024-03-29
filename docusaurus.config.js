@@ -46,7 +46,6 @@ module.exports = {
         {to: "/blog", label: 'blog', position: 'left'},
         { to: "/governance", label: "Governance", position: "left" },
         { to: "/partners", label: "Partners", position: "left" },
-        // { to: "/geminai", label: "GEMinAi", position: "left" },
 
         { href: "/apply", label: "Apply", position: "left" },
         // {
@@ -126,35 +125,6 @@ module.exports = {
             
             },
           ],
-        // },{
-        //   title: "Events",
-        //   items: [
-        //     { label: "Trainee_Talks_Mar25", to: "/Trainee_Talks_Mar25,2024" },
-        //     { label: "Trainee_Talks_Webinar_February27", to: "/Trainee_Talks_Webinar_February27,2024" },
-        //     { label: "Future_of_AI_Networking ", to: "/Future_of_AI_Networking" },
-        //     { label: " GEMinAI_Mentoring_Program_Launch_October19_2023 ", to: "/GEMinAI_Mentoring_Program_Launch_October19_2023" },
-        //     { label: " CAN-CWIC_Conference_in_Toronto_October20-21_2023", to: "/CAN-CWIC_Conference_in_Toronto_October20-21_2023" },
-
-        //     { label: " FM-SE_School_in_Mexico_City_November_16-17_2023 ", to: "/FM-SE_School_in_Mexico_City_November_16-17_2023" },
-           
-            
-        //     { label: "Trainee_Talks_Webinar_September25_2023", to: "/Trainee_Talks_Webinar_September25_2023" },
-        //     { label: "Industry_Talks_Webinar_April25_2023", to: "/Industry_Talks_Webinar_April25_2023" },
-        //     { label: "Trainee_Talks_Webinar_April3rd_2023", to: "/Trainee_Talks_Webinar_April3rd_2023" },
-        //     { label: "Women_in_Engineering_March18", to: "/Women_in_Engineering_March18" },
-        //     { label: "Trainee_Talks_Webinar_February27_2023", to: "/Trainee_Talks_Webinar_February27_2023" },
-        //     { label: "Industry_Talks_Webinar_February10", to: "/Industry_Talks_Webinar_February10_2023" },
-        //     { label: "Trainee_Talks_Webinar_December13_2022", to: "/Trainee_Talks_Webinar_December13_2022" },
-        //     { label: "Industry_Talks_Webinar_November18_2022", to: "/Industry_Talks_Webinar_November18_2022" },
-        //     { label: "Trainee_Talks_Webinar_November4_2022 ", to: "/Trainee_Talks_Webinar_November4_2022" },
-        //     { label: "CREATE_SE4AI_Retreat_June3_2022", to: "/CREATE_SE4AI_Retreat_June3_2022" },
-        //     { label: "Guest_Speaker_Webinar_April12_2022", to: "/Guest_Speaker_Webinar_April12_2022" },
-        //     { label: "Guest_Speaker_Webinar_February3_2022", to: "/Guest_Speaker_Webinar_February3_2022" }
-    
-          
-          
-        //   ],
-        //
        }
         ,
         
