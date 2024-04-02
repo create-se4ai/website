@@ -11,7 +11,7 @@ title: Past Events
  ## Trainee Talks Webinar - March 25, 2024
 
 import Trainee_Talks_Mar25 from './Trainee_Talks_Mar25.jpg'
-
+ 
 <p class="Trainee_Talks_Mar25"><img src={Trainee_Talks_Mar25}/></p>
 
 We hosted our Trainee Talks webinar on **Monday, March 25th, 2024**. It was a great session where we had the opportunity to hear from talented individuals.
