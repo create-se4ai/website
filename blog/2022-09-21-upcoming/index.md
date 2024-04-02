@@ -10,6 +10,3 @@ title: Upcoming Events
 
 
 
-  
-
-

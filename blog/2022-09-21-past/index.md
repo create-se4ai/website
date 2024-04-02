@@ -10,8 +10,10 @@ title: Past Events
 
  ## Trainee Talks Webinar - March 25, 2024
 
-import Trainee_Talks_Mar25 from './Trainee_Talks_Mar25.jpg'
- 
+import Trainee_Talks_Mar25 from './Trainee_Talks_Mar25.jpg' 
+<p class="Trainee_Talks_Mar25"><img src={Trainee_Talks_Mar25} /></p>
+
+
 <p class="Trainee_Talks_Mar25"><img src={Trainee_Talks_Mar25}/></p>
 
 We hosted our Trainee Talks webinar on **Monday, March 25th, 2024**. It was a great session where we had the opportunity to hear from talented individuals.
@@ -42,7 +44,7 @@ The video is now available to view on our [CREATE SE4AI YouTube channel](https:/
 
 import future_ai from './future_ai.jpg'
 
-<p class="ahmad"><img src={future_ai}/></p>
+<p class="future_ai"><img src={future_ai}/></p>
 
 [CREATE SE4AI](https://se4ai.org/) has partnered with the Montréal chapter of [Women in AI & Robotics](https://www.womeninairobotics.de/) and [Concordia's Applied AI Institute](https://www.concordia.ca/research/applied-ai-institute.html) to host a speaker and networking event on the Future of AI on **Thursday Nov. 30th**.
 
@@ -146,7 +148,7 @@ The webinar recording is available to view on our [CREATE SE4AI YouTube channel]
 import trainee_talk_2 from './trainee_talk_2.jpg'
 
 <p class="trainee_talk_2"><img src={trainee_talk_2} width="800"/></p>
- 
+  
 Trainee Talks is a monthly webinar series featuring [CREATE SE4AI](https://se4ai.org/) trainees sharing their research topics in software engineering and AI.   
 
 This time, Queen's University Master's student Ernesto Lang Oreamuno joined us and spoke about Documentation Practices of Third-Party Models and Datasets. 
