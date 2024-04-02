@@ -146,7 +146,7 @@ The webinar recording is available to view on our [CREATE SE4AI YouTube channel]
 import trainee_talk_2 from './trainee_talk_2.jpg'
 
 <p class="trainee_talk_2"><img src={trainee_talk_2} width="800"/></p>
-
+ 
 Trainee Talks is a monthly webinar series featuring [CREATE SE4AI](https://se4ai.org/) trainees sharing their research topics in software engineering and AI.   
 
 This time, Queen's University Master's student Ernesto Lang Oreamuno joined us and spoke about Documentation Practices of Third-Party Models and Datasets. 
