@@ -44,6 +44,8 @@ module.exports = {
         { to: "/intro", label: "Program", position: "left" },
         { to: "/team", label: "Team", position: "left" },
         {to: "/blog", label: 'blog', position: 'left'},
+        {to: "/events", label: 'events', position: 'left'},
+
         { to: "/governance", label: "Governance", position: "left" },
         { to: "/partners", label: "Partners", position: "left" },
 
@@ -162,12 +164,12 @@ module.exports = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },
-        // blog: {
-        //   showReadingTime: false,
-        // //   // Please change this to your repo.
-        // //   // editUrl:
-        // //   //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        // },
+        blog: {
+          showReadingTime: false,
+        //   // Please change this to your repo.
+        //   // editUrl:
+        //   //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
           
