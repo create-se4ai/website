@@ -107,10 +107,6 @@ module.exports = {
               label: "Team",
               to: "/team",
             },
-            // {
-            //   label: "GEMinAI",
-            //   to: "/geminai",
-            // },
             {
               label: "Partners",
               to: "/partners",
