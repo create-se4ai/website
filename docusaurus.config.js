@@ -43,7 +43,7 @@ module.exports = {
         // },
         { to: "/intro", label: "Program", position: "left" },
         { to: "/team", label: "Team", position: "left" },
-        {to: "/blog", label: 'blog', position: 'left'},
+        // {to: "/blog", label: 'blog', position: 'left'},
         {to: "/events", label: 'Events', position: 'left'},
 
         { to: "/governance", label: "Governance", position: "left" },
