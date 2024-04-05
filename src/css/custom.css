@@ -213,10 +213,10 @@ max-width:80%;
 max-width:1500px;
   }
  }
- .pagination-nav__link--next
+ nav.pagination-nav 
  {
   display: none;
 }
-.pagination-nav__link--prev {
+.pagination-nav.docusaurus-mt-lg-v && .pagination-nav__link.pagination-nav__link--prev && .pagination-nav__sublabel.pagination-nav__label  {
   display: none;
 }
