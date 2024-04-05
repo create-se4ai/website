@@ -213,4 +213,10 @@ max-width:80%;
 max-width:1500px;
   }
  }
-  
+ .pagination-nav__link--next
+ {
+  display: none;
+}
+.pagination-nav__link--prev {
+  display: none;
+}
