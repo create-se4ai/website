@@ -2,7 +2,7 @@
 title: Trainee Talks Webinar - April 29, 2024
 ---
 
-import Trainee_Talks_April29 from './Trainee_Talks_April29.jpg'
+import Trainee_Talks_April29 from '../Trainee_Talks_April29.jpg'
 
 <p class="Trainee_Talks_April29"><img src={Trainee_Talks_April29}/></p>
 
