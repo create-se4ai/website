@@ -220,3 +220,7 @@ max-width:1500px;
 .pagination-nav.docusaurus-mt-lg-v && .pagination-nav__link.pagination-nav__link--prev && .pagination-nav__sublabel.pagination-nav__label  {
   display: none;
 }
+.container2{
+  /* border:2px solid red; */
+  max-height:100%;
+}
