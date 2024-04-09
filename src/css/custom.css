@@ -124,7 +124,7 @@ border-color: yellow;
 }
 .events {
   /* border:2px solid green; */
-  max-height:150px;
+  max-height:200px;
   display: flex;
   flex-direction:row;
   @media screen and (max-width: 550px) {
