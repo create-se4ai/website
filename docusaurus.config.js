@@ -165,7 +165,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: false,
-          postsPerPage: 1, // Show only one blog post per page
+          postsPerPage: 2, // Show only one blog post per page
 
           blogSidebarCount:0
         //   // Please change this to your repo.
