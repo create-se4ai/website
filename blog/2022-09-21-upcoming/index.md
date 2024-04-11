@@ -1,7 +1,7 @@
 ---
 slug: upcoming
 title: Upcoming Events
-position: 1
+position: 1 
 #author: Lori Akiyama
 #author_title: Program Coordinator 
 #author_url: 
