@@ -12,10 +12,10 @@ Immediately following, Queen’s University Master’s student Jaskirat Singh wi
 
 Each trainee will talk for 20 mins, followed by a 10 min Q&A session. 
 
-For more details and to register, click here:
-[Event Brite](https://www.eventbrite.ca/e/decoding-bias-in-software-development-and-edge-ai-deployment-strategies-tickets-879542343827?aff=oddtdtcreator)
+**For more details and to register, click here:**
+[Eventbrite](https://www.eventbrite.ca/e/decoding-bias-in-software-development-and-edge-ai-deployment-strategies-tickets-879542343827?aff=oddtdtcreator)
 
-Join via Zoom:[https://concordia-ca.zoom.us/j/86358483071?pwd=RmIvcXZzalFDN1JGTkFMQmlwdG01Zz09](https://concordia-ca.zoom.us/j/86358483071?pwd=RmIvcXZzalFDN1JGTkFMQmlwdG01Zz09)
+Join via Zoom:  [https://concordia-ca.zoom.us/j/86358483071?pwd=RmIvcXZzalFDN1JGTkFMQmlwdG01Zz09](https://concordia-ca.zoom.us/j/86358483071?pwd=RmIvcXZzalFDN1JGTkFMQmlwdG01Zz09)
 
 Meeting ID:  **863 5848 3071**
 
