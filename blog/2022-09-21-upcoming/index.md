@@ -7,7 +7,6 @@ title: Upcoming Events
 #author_image_url: 
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
-
 # Upcoming Events
 import Trainee_Talks_April29 from './Trainee_Talks_April29.jpg'
 
