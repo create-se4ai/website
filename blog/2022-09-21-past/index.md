@@ -1,6 +1,8 @@
 ---
 slug: past
 title: Past Events
+  position: 2
+
 #author: Lori Akiyama
 #author_title: Program Coordinator 
 #author_url: 
