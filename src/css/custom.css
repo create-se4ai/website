@@ -123,26 +123,29 @@ border-color: yellow;
 
 }
 .events {
-  /* border:2px solid green; */
-  max-height:200px;
+  max-height: 200px;
   display: flex;
-  flex-direction:row;
-  @media screen and (max-width: 550px) {
-    /* border:2px solid blue; */
-    display :flex; 
-max-height:100%;
-    flex-wrap:wrap;
-    max-width:350px;
-      }
+  flex-direction: row;
+}
+@media screen and (max-width: 550px) {
+  .events {
+  max-height: '100%';
+  flex-wrap: 'wrap';
+  max-width: '350px'
+}
 }
 
+@media screen and (max-width: 550px) {
+  .manuel_cosentino_n_CMLApjfI_unsplash1>img{
+    max-width:100% ;
+    max-height:100%;
+}
+}
 
 .manuel_cosentino_n_CMLApjfI_unsplash1>img{
 max-width:170px ;
 max-height:150px;
 margin-right:20px;
-/* border:2px solid red; */
-
 @media screen and (max-width: 550px) {
 max-width:100% ;
 max-height:100%;
@@ -152,7 +155,7 @@ max-height:100%;
 .button{
   /* background-color:inherit; */
   border:2px solid #bb5a7d;
-  width:100px;
+  width:170px;
   height:50px;
 
   flex-wrap: wrap;
@@ -169,50 +172,64 @@ max-height:100%;
 max-width:100% ;
 margin-bottom: 10px;
 max-height:100%;
-
-
   }
-
 }
+
+@media screen and (max-width: 550px) {
+  .text{
+    max-width:100% ;
+margin-bottom: 10px;
+max-height:100%;
+  }}
+
 
 h4{
   margin-top:10px;
-  @media screen and (max-width: 966px) {
+}
+@media screen and (max-width: 966px) {
+  h4{
     max-width: 100%;
     display :flex; 
 
     flex-wrap:wrap;
-/* margin-bottom:300px; */
-      }
-}
+  }}
+
+
+
+
+
 .GEM{
   width:150px;
-  /* border:2px solid red; */
   height:300px;
 }
 .manuel_cosentino_n_CMLApjfI_unsplash1>img.sep252023{
-  /* border:2px solid pink; */
   height:120px;
 }
 .title{
-  /* border:2px solid red;  */
   height:100px;
 }
  .GEMinAIContainer{
 /* border:2px solid red; */
 max-width:80%;
     margin-left:120px;
-    @media screen and (max-width: 480px) {
-        margin-left:5px;
-  /* border:2px solid green; */
-  max-width:370px;
-}
-  @media screen and (min-width: 1700px) {
-    /* align-items: center; */
-    margin-left: calc(37% - 150px); 
-max-width:1500px;
-  }
  }
+
+
+ @media screen and (max-width: 480px) {
+  .GEMinAIContainer{
+  margin-left:5px;
+/* border:2px solid green; */
+max-width:370px;
+}}
+
+
+@media screen and (min-width: 1700px) {
+  .GEMinAIContainer{
+margin-left: calc(37% - 150px); 
+max-width:1500px;
+}}
+
+
  nav.pagination-nav 
  {
   display: none;
