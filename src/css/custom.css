@@ -129,35 +129,39 @@ border-color: yellow;
 }
 @media screen and (max-width: 550px) {
   .events {
-  max-height: '100%';
-  flex-wrap: 'wrap';
-  max-width: '350px'
+    display:flex;
+flex-direction: column
+;  flex-wrap: 'wrap';
+max-height:500px;
+  /* border:2px solid green; */
+  /* max-width: '350px' */
 }
 }
 
-@media screen and (max-width: 550px) {
-  .manuel_cosentino_n_CMLApjfI_unsplash1>img{
-    max-width:100% ;
-    max-height:100%;
-}
-}
+
+
 
 .manuel_cosentino_n_CMLApjfI_unsplash1>img{
 max-width:170px ;
 max-height:150px;
 margin-right:20px;
-@media screen and (max-width: 550px) {
-max-width:100% ;
-max-height:100%;
-}
 
 }
+
+@media screen and (max-width: 550px) {
+  .manuel_cosentino_n_CMLApjfI_unsplash1>img{    
+    display:flex;
+    /* max-height: '100%'; */
+    flex-wrap: 'wrap';
+max-width:100% ;
+    /* border:2px solid violet; */
+  }}
+
 .button{
   /* background-color:inherit; */
   border:2px solid #bb5a7d;
   width:170px;
   height:50px;
-
   flex-wrap: wrap;
  font-weight:700;
   .read-more-link:hover {
@@ -167,20 +171,16 @@ max-height:100%;
 .text{
   /* border:2px solid blue; */
   max-height:150px;
-  @media screen and (max-width: 550px) {
-/* border:2px solid green; */
-max-width:100% ;
-margin-bottom: 10px;
-max-height:100%;
-  }
+
 }
 
 @media screen and (max-width: 550px) {
   .text{
+    /* color:orange; */
+    /* border:2px solid rgb(132, 255, 0); */
     max-width:100% ;
-margin-bottom: 10px;
-max-height:100%;
-  }}
+/* margin-bottom: 70px; */
+max-height:2000px;  }}
 
 
 h4{
@@ -205,6 +205,13 @@ h4{
 .manuel_cosentino_n_CMLApjfI_unsplash1>img.sep252023{
   height:120px;
 }
+@media screen and (max-width: 966px) {
+
+.manuel_cosentino_n_CMLApjfI_unsplash1>img.sep252023{
+text-align: center;
+align-items: center;  /* width:3000px; */
+  /* border:2px solid blue; */
+}}
 .title{
   height:100px;
 }
@@ -237,8 +244,9 @@ max-width:1500px;
 .pagination-nav.docusaurus-mt-lg-v && .pagination-nav__link.pagination-nav__link--prev && .pagination-nav__sublabel.pagination-nav__label  {
   display: none;
 }
+@media screen and (max-width: 550px) {
 .container2{
   /* border:2px solid red; */
-  max-height:100%;
-  margin-bottom:15px;
-}
+/* height:100%; */
+  margin-bottom:20px;
+}}
