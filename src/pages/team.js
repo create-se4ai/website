@@ -96,7 +96,10 @@ const TeamMemberList = [
     members: [
       {
         name: "Dr. Hassan Khatoonabadi",
-        affiliation: "Concordia University",
+       place:"Concordia University",
+       
+        link:"https://www.concordia.ca/",
+        // affiliation: "Concordia University",
         position: "Post Doctoral Researcher",
         linkedin: "shassankhatoonabadi",
         twitter: "HKhatoonabadi",
