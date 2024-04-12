@@ -182,21 +182,24 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
-        name: "Khaled Badran, MSc",
+        name: "Khaled Badran",
+        degree:", MSc",
         affiliation: "Concordia University",
         twitter: "khaled_badran9",
         linkedin: "khaled-badran-6b0908174",
       },
       {
-        name: "Rached Bouchoucha, MSc",
+        name: "Rached Bouchoucha",
+        degree:", MSc",
         // affiliation: "Polytechnique Montréal",
         place:"polytechnique",
         position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
-        link:"https://www.polymtl.ca/",
+        link:"https:  //www.polymtl.ca/",
         linkedin: "rached-bouchoucha-1061997",
       },
       {
-        name: "Ahmed Haj Yahmed, MSc ",   
+        name: "Ahmed Haj Yahmed", 
+        degree:", MSc",  
            place:"polytechnique",
         position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
         link:"https://www.polymtl.ca/",
@@ -204,7 +207,8 @@ const TeamMemberList = [
         linkedin: "ahmed-haj-yahmed",
       },
       {
-        name: "Divya Kamath, MSc  ",
+        name: "Divya Kamath",
+        degree:", MSc",
         place:"McGill University",
         position:"Currently PhD student ",
         link:"https://www.mcgill.ca/",
@@ -212,7 +216,8 @@ const TeamMemberList = [
         linkedin: "divyamkamath",
       },
       {
-        name: "Pierre-Olivier Côté, MSc ",
+        name: "Pierre-Olivier Côté",
+        degree:", MSc",
         // affiliation: "Polytechnique Montréal",
         place:"polytechnique",
         position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
@@ -220,7 +225,8 @@ const TeamMemberList = [
         linkedin: "pierre-olivier-côté",
       },
       {
-        name: "Dr. Ahmad Abdellatif, Assistant Professor",
+        name: "Dr. Ahmad Abdellatif",
+        degree:", Assistant Professor",
         // affiliation: "University of Calgary",
         place:"University of Calgary",
         position: "Currently Assistant Professor ",
@@ -230,7 +236,8 @@ const TeamMemberList = [
         website: "https://profiles.ucalgary.ca/ahmad-abdellatif",
       },
       {
-        name: "Ernesto Lang Oreamuno, MSc",
+        name: "Ernesto Lang Oreamuno",
+        degree:", MSc",
         affiliation: "Queen's University",
       },
   

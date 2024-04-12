@@ -57,7 +57,7 @@ const SocialButtons = ({ id, twitter, linkedin, website, email, has_page }) => (
   </ul>
 );
 
-const TeamMemberLarge = ({ name, role, imgURL, affiliation,position, link, place, ...props }) => {
+const TeamMemberLarge = ({ name, role, imgURL,degree, affiliation,position, link, place, ...props }) => {
   return (
     <div
       className={clsx(
@@ -72,7 +72,7 @@ const TeamMemberLarge = ({ name, role, imgURL, affiliation,position, link, place
         </div>
         <div className="card__body">
           <h3>
-            {name}
+            {name} {degree}
             {role && (
               <>
                 {" "}
