@@ -19,3 +19,6 @@
 .member a:hover {
   text-decoration: none;
 }
+.avatar__position{
+  border:2px solid red;
+}

@@ -7,6 +7,7 @@ import {
   faExternalLinkAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./TeamMembers.module.css";
+import { link } from "joi";
 
 function importProfilePicture(name: string) {
   try {
@@ -56,7 +57,7 @@ const SocialButtons = ({ id, twitter, linkedin, website, email, has_page }) => (
   </ul>
 );
 
-const TeamMemberLarge = ({ name, role, imgURL, affiliation, ...props }) => {
+const TeamMemberLarge = ({ name, role, imgURL, affiliation,position, link, place, ...props }) => {
   return (
     <div
       className={clsx(
@@ -77,8 +78,14 @@ const TeamMemberLarge = ({ name, role, imgURL, affiliation, ...props }) => {
                 {" "}
                 <span className="badge badge--primary">{role}</span>
               </>
-            )}
-          </h3>
+            )}  
+            
+
+          </h3><h4>{position && (
+              <span className="avatar__position">
+                {position} at <a href={link} target="_blank">{place}</a>
+              </span>
+            )}</h4>
           {affiliation}
         </div>
         <div className="card__footer">
@@ -106,7 +113,7 @@ const TeamMemberMedium = ({
         />
         <div className="avatar__intro">
           <div className="avatar__name">{name}</div>
-          <div className="avatar__subtitle">{position}</div>
+         
           <small className="avatar__subtitle">{affiliation}</small>
         </div>
         <SocialButtons {...(props as any)} />

@@ -182,43 +182,63 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
-        name: "Ernesto Lang Oreamuno",
-        affiliation: "Queen's University",
+        name: "Khaled Badran, MSc",
+        affiliation: "Concordia University",
+        twitter: "khaled_badran9",
+        linkedin: "khaled-badran-6b0908174",
       },
       {
-        name: "Dr. Ahmad Abdellatif",
-        affiliation: "University of Calgary",
-        position: "Assistant Professor",
+        name: "Rached Bouchoucha, MSc",
+        // affiliation: "Polytechnique Montréal",
+        place:"polytechnique",
+        position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
+        link:"https://www.polymtl.ca/",
+        linkedin: "rached-bouchoucha-1061997",
+      },
+      {
+        name: "Ahmed Haj Yahmed, MSc ",   
+           place:"polytechnique",
+        position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
+        link:"https://www.polymtl.ca/",
+        // affiliation: "Polytechnique Montréal",
+        linkedin: "ahmed-haj-yahmed",
+      },
+      {
+        name: "Divya Kamath, MSc  ",
+        place:"McGill University",
+        position:"Currently PhD student ",
+        link:"https://www.mcgill.ca/",
+        // affiliation: "Queen's University",
+        linkedin: "divyamkamath",
+      },
+      {
+        name: "Pierre-Olivier Côté, MSc ",
+        // affiliation: "Polytechnique Montréal",
+        place:"polytechnique",
+        position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
+        link:"https://www.polymtl.ca/",
+        linkedin: "pierre-olivier-côté",
+      },
+      {
+        name: "Dr. Ahmad Abdellatif, Assistant Professor",
+        // affiliation: "University of Calgary",
+        place:"University of Calgary",
+        position: "Currently Assistant Professor ",
+        link:"https://ucalgary.ca/",
         linkedin: "ahmad-abdellatif-8ab82a29",
         twitter: "AhmadAbdellatf",
         website: "https://profiles.ucalgary.ca/ahmad-abdellatif",
       },
       {
-        name: "Pierre-Olivier Côté",
-        affiliation: "Polytechnique Montréal",
-        linkedin: "pierre-olivier-côté",
-      },
-      {
-        name: "Divya Kamath",
+        name: "Ernesto Lang Oreamuno, MSc",
         affiliation: "Queen's University",
-        linkedin: "divyamkamath",
       },
-      {
-        name: "Ahmed Haj Yahmed",
-        affiliation: "Polytechnique Montréal",
-        linkedin: "ahmed-haj-yahmed",
-      },
-      {
-        name: "Rached Bouchoucha",
-        affiliation: "Polytechnique Montréal",
-        linkedin: "rached-bouchoucha-1061997",
-      },
-      {
-        name: "Khaled Badran",
-        affiliation: "Concordia University",
-        twitter: "khaled_badran9",
-        linkedin: "khaled-badran-6b0908174",
-      },
+  
+   
+  
+  
+   
+  
     ]
   },
   {
