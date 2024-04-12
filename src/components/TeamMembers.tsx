@@ -13,7 +13,7 @@ function importProfilePicture(name: string) {
   try {
     return require(`../../team/photos/${name}.jpg`).default;
   } catch {
-    return require("../../team/photos/default.png").default;
+    return require(`../../team/photos/default.png`).default;
   }
 }
 
