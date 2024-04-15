@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import PageHeader from '../components/PageHeader'; // Import PageHeader component if needed
-import GEMinAI from './GEMinAI.png'; // Import images if needed
+import GEMinA from './GEMinA.png'; // Import images if needed
 import AIinstitute from './AIinstitute.png'; // Import images if needed
 import se4ai from './se4ai.png'; // Import images if needed
 // import styled from "styled-components";
@@ -12,11 +12,12 @@ const GEMinAIProgramPage = () => {
       <PageHeader title="GEMinAI Program" />
   <div className='GEMinAIContainer'>
   <img 
-      src={GEMinAI} 
+      src={GEMinA} 
       alt="GEMinAI" 
       style={{
         backgroundColor: 'white',
-        width: '80%'
+        width: '60%',
+       marginBottom:'10px'
       }} 
     />      <p>
         The <strong>GEMinAI (Gender Equity Mentoring in AI)</strong> Program addresses gender inequity within artificial intelligence fields, where women make up only 25% of AI specialists (World Economic Forum, 2021). <strong>GEMinAI</strong> aims to narrow this gap by connecting women and gender non-conforming undergraduate and graduate students with AI industry professionals for support, encouragement, and assistance along their career journey.
