@@ -72,7 +72,7 @@ const TeamMemberLarge = ({ name, role, imgURL,degree, affiliation,position, link
         </div>
         <div className="card__body">
           <h3>
-            {name} {degree}
+            {name}{degree}
             {role && (
               <>
                 {" "}
