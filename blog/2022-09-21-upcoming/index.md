@@ -1,7 +1,7 @@
 ---
 slug: upcoming
 title: Upcoming Events
-position: 0 
+position: 1
 #author: Lori Akiyama
 #author_title: Program Coordinator 
 #author_url: 
@@ -10,7 +10,7 @@ position: 0
 ---
 # Upcoming Events
 import diversity_inclusion_activities from './diversity_inclusion_activities.png'
-
+ 
 
 <div class="container2">
 <h4>Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research</h4>
