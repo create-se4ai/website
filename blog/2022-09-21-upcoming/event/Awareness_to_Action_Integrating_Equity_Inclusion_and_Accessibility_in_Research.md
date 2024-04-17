@@ -1,5 +1,6 @@
 ---
-title: Awareness to Action :Integrating Equity, Inclusion, and Accessibility in Research
+title: "Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research"
+
 ---
 import diversity_inclusion_activities from './diversity_inclusion_activities.png'
 
