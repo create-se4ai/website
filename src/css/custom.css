@@ -216,9 +216,9 @@ align-items: center;  /* width:3000px; */
   height:100px;
 }
  .GEMinAIContainer{
-/* border:2px solid red; */
+/* border:2px solid blue; */
 max-width:80%;
-    margin-left:120px;
+    margin-left:220px;
  }
 
 
@@ -250,3 +250,32 @@ max-width:1500px;
 /* height:100%; */
   margin-bottom:20px;
 }}
+.GEMinAI{
+  /* border:2px solid orange;  */
+  text-align: center;
+  margin-left:150px;
+}
+@media screen and (max-width: 550px) {
+  .GEMinAI{  
+    margin-left:30px;
+  }}
+
+  .AI{
+    /* border:2px solid orange; */
+    padding:15px 15px;
+
+  }
+  .logo_light{
+    /* border:2px solid orange; */
+    /* padding:15px 15px; */
+    width: 90px;
+    height:83px;
+     margin-left:20px;
+      margin-top:5px;
+  }
+  @media screen and (max-width: 550px) { 
+    .logo_light{
+      margin-left:100px;
+      margin-bottom:35px;
+    }}
+

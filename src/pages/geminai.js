@@ -13,12 +13,13 @@ const GEMinAIProgramPage = () => {
   <div className='GEMinAIContainer'>
   <img 
       src={GEMinA} 
-      alt="GEMinAI" 
+      alt="GEMinAI"
+      className="GEMinAI" 
       style={{
         backgroundColor: 'white',
         width: '60%',
         marginTop:'5px',
-       marginBottom:'10px'
+       marginBottom:'10px',
       }} 
     />      <p>
         The <strong>GEMinAI (Gender Equity Mentoring in AI)</strong> Program addresses gender inequity within artificial intelligence fields, where women make up only 25% of AI specialists (World Economic Forum, 2021). <strong>GEMinAI</strong> aims to narrow this gap by connecting women and gender non-conforming undergraduate and graduate students with AI industry professionals for support, encouragement, and assistance along their career journey.
@@ -45,8 +46,8 @@ const GEMinAIProgramPage = () => {
         Mitali Ruths, Applied AI Institute <a href="mailto:mitali.ruths@concordia.ca">mitali.ruths@concordia.ca</a>.
       </p>
         <div className="AIinstitute">
-          <img src={AIinstitute} alt="AI Institute"  style={{background:'white' }}/>
-          <img src={se4ai} alt="CREATE SE4AI" className="logo-light" style={{ width: '80px', marginLeft:'20px' ,marginTop:'5px'}} />
+          <img src={AIinstitute} alt="AI Institute"  className="AI" style={{background:'white' }}/>
+          <img src={se4ai} alt="CREATE SE4AI"  className="logo_light"  />
 
         </div>
         <div className="logo">
