@@ -21,7 +21,7 @@ import Trainee_Talks_Mar25 from './Trainee_Talks_Mar25.jpg'
         flexWrap: 'wrap',
         maxWidth: '350px'
     }
-}}> 
+}}>  
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1">
 <img src={Trainee_Talks_Mar25}/>
 </div>
