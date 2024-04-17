@@ -17,6 +17,7 @@ const GEMinAIProgramPage = () => {
       style={{
         backgroundColor: 'white',
         width: '60%',
+        marginTop:'5px',
        marginBottom:'10px'
       }} 
     />      <p>
