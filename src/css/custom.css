@@ -218,23 +218,11 @@ align-items: center;  /* width:3000px; */
  .GEMinAIContainer{
 /* border:2px solid blue; */
 max-width:80%;
-    margin-left:220px;
+    margin-left:40px;
  }
 
 
- @media screen and (max-width: 480px) {
-  .GEMinAIContainer{
-  margin-left:5px;
-/* border:2px solid green; */
-max-width:370px;
-}}
 
-
-@media screen and (min-width: 1700px) {
-  .GEMinAIContainer{
-margin-left: calc(37% - 150px); 
-max-width:1500px;
-}}
 
 
  nav.pagination-nav 
@@ -250,32 +238,89 @@ max-width:1500px;
 /* height:100%; */
   margin-bottom:20px;
 }}
+
+/* css for GWMinAI page  */
 .GEMinAI{
-  /* border:2px solid orange;  */
   text-align: center;
-  margin-left:150px;
+
 }
 @media screen and (max-width: 550px) {
   .GEMinAI{  
-    margin-left:30px;
-  }}
+    width:150px;  
+margin-left:5px;
+}}
 
   .AI{
     /* border:2px solid orange; */
-    padding:15px 15px;
+    padding:60px 45px;
+width:33.3%;
+height:200px;
+margin-top:-15px;
 
+  }
+  @media screen and (max-width: 550px) { 
+  .AI{
+    width:150px;
+    margin-top:20px;
+    margin-left:10px;
+    /* border:2px solid orange; */
+padding:0px 0px;
+height:50px;
+  }}
+  @media screen and (min-width: 1500px) {
+    .AI{
+      margin-top:25px;
+
+    } 
   }
   .logo_light{
     /* border:2px solid orange; */
-    /* padding:15px 15px; */
-    width: 90px;
-    height:83px;
-     margin-left:20px;
+    padding:30px 130px;
+    width: 33.3%;
+    height:204px;
+     /* margin-left:20px; */
       margin-top:5px;
   }
   @media screen and (max-width: 550px) { 
     .logo_light{
-      margin-left:100px;
-      margin-bottom:35px;
+height:90px;
+padding:0px 0px;
+width:90px;  
+margin-top:5px;
+margin-left: 10px;
+    /* border:2px solid orange; */
+  }}
+
+  @media screen and (min-width: 1500px) {
+    .logo_light{
+      /* border:2px solid yellow; */
+      height:200px;
+      width:400px;
+      margin-top: 15px;
     }}
 
+.Group{
+  display :flex; 
+  flex-direction :row;
+
+  }  
+  @media screen and (max-width: 550px) {
+    .Group{
+      display :flex; 
+flex-wrap: wrap; 
+/* border:2px solid blue;   */
+ }} 
+
+ @media screen and (max-width: 480px) {
+  .GEMinAIContainer{
+  margin-left:5px;
+/* border:2px solid green; */
+max-width:370px;
+}}
+
+
+@media screen and (min-width: 1700px) {
+  .GEMinAIContainer{
+margin-left: calc(37% - 150px); 
+max-width:1500px;
+}}

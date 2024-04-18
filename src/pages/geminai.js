@@ -11,17 +11,24 @@ const GEMinAIProgramPage = () => {
     <Layout title="GEMinAI Program" description="The project's GEMinAI Program.">
       <PageHeader title="GEMinAI Program" />
   <div className='GEMinAIContainer'>
-  <img 
+  <div className="Group">
+
+
+          <img src={AIinstitute} alt="AI Institute"  className="AI" style={{background:'white' }}/>
+          <img 
       src={GEMinA} 
       alt="GEMinAI"
       className="GEMinAI" 
       style={{
         backgroundColor: 'white',
-        width: '60%',
+        width: '33.3%',
         marginTop:'5px',
        marginBottom:'10px',
       }} 
-    />      <p>
+    />  
+          <img src={se4ai} alt="CREATE SE4AI"  className="logo_light"  />
+
+        </div>    <p>
         The <strong>GEMinAI (Gender Equity Mentoring in AI)</strong> Program addresses gender inequity within artificial intelligence fields, where women make up only 25% of AI specialists (World Economic Forum, 2021). <strong>GEMinAI</strong> aims to narrow this gap by connecting women and gender non-conforming undergraduate and graduate students with AI industry professionals for support, encouragement, and assistance along their career journey.
       </p>
       <p>
@@ -36,7 +43,10 @@ const GEMinAIProgramPage = () => {
       <p>
         To apply to be a Mentee, please fill out the application form: <a href="https://forms.gle/8YnTNPFHoEcSqGxy8">here</a>.
       </p>
-      <p>
+      <p  style={{
+
+       marginBottom:'30px',
+      }} >
         For more information on the <strong>GEMinAI</strong> Program, please contact us:
         <br />
         Lori Akiyama, CREATE SE4AI <a href="mailto:lori.akiyama@concordia.ca">lori.akiyama@concordia.ca</a>.
@@ -45,13 +55,8 @@ const GEMinAIProgramPage = () => {
         <br />
         Mitali Ruths, Applied AI Institute <a href="mailto:mitali.ruths@concordia.ca">mitali.ruths@concordia.ca</a>.
       </p>
-        <div className="AIinstitute">
-          <img src={AIinstitute} alt="AI Institute"  className="AI" style={{background:'white' }}/>
-          <img src={se4ai} alt="CREATE SE4AI"  className="logo_light"  />
+     
 
-        </div>
-        <div className="logo">
-</div>
 
       </div >
     </Layout>
