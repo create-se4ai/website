@@ -185,6 +185,21 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
+       name: "Akshat Malik",
+       degree:", MSc",
+       affiliation:"Queen's University",
+       linkedin:"akshat-malik",
+      //  place:"National Bank of Canada ",
+      //  position:""
+      },   {
+        name: "Harsh Patel",
+        degree:", MSc",
+        affiliation:"Queen's University",
+        linkedin:"harsh8398/",
+        website:"https://harsh8398.github.io"
+  
+       },
+      {
         name: "Khaled Badran",
         degree:", MSc",
         affiliation: "Concordia University",
