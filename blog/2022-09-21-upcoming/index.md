@@ -8,7 +8,7 @@ position: 1
 #author_image_url: 
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
-# Upcoming Events
+# Upcoming Events 
 
 import diversity_inclusion_activities from './diversity_inclusion_activities.png'
  
