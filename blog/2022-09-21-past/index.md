@@ -11,6 +11,24 @@ position: 1
 ---
 # Past Events 
 
+import Trainee_Talks_April29 from './Trainee_Talks_April29.jpg'
+
+
+<div class="container2">
+<h4>Trainee Talks Webinar - April 29, 2024</h4>
+<div class="events ">
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
+<img src={Trainee_Talks_April29}/>
+</div>
+<div class="text">
+We hosted our Trainee Talks webinar on <strong> Monday, April 29th, 2024.</strong>During the session, we had the privilege of hearing from <strong>Amanda Kolopanis</strong>, a Software Engineering Master's student at Concordia University, and <strong>Jaskirat Singh</strong>, a Software Engineering Master's student at Queen's University.
+<></>
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_April29"> <strong>Read More</strong></a>
+</div>
+</div>  </div> 
+
+
+
 import Trainee_Talks_Mar25 from './Trainee_Talks_Mar25.jpg'
 
 <div class="container2">
