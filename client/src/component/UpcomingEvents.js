@@ -4,6 +4,7 @@ import { DarkModeContext } from "./DarkModeContext";
 import {Grid} from "@mui/material";
 import { Link } from "react-router-dom";
 import diversity_inclusion_activitiesImage from "./2022-09-21-past/diversity_inclusion_activities.png";
+import Trainee_Talks_May28Image from "./2022-09-21-past/Trainee_Talks_May28.jpg";
 
 const UpcomingEvents=()=>{
     const { isDarkMode } = useContext(DarkModeContext);
@@ -16,7 +17,27 @@ const UpcomingEvents=()=>{
           <Grid item xs={6} md={6} lg={12} xl={12}>
      </Grid>
      <Head isDarkMode={isDarkMode}>Upcoming Events</Head>
+     <Group>
 
+
+<Title isDarkMode={isDarkMode}>Trainee Talks Webinar - May 28, 2024
+
+</Title>
+<PastEvent isDarkMode={isDarkMode}> 
+<Img src={Trainee_Talks_May28Image} alt="Trainee_Talks_May28Image" />
+{/* </Calinder> */}
+<Event isDarkMode={isDarkMode}>
+
+
+
+Join us for the final Trainee Talks of the semester before we break for summer!<br></br>
+
+In this May edition, we will hear from 2 Master's students from Queen's University, <Bold isDarkMode={isDarkMode}>Jiawen Liu and Shenyu Zheng. </Bold> 
+Jiawen will share her work on “Understanding Open Source Contributor Profiles in Popular Machine Learning Libraries. Immediately following, Shenyu Zheng will deliver his research talk “On the Performance and Hermeticity of Artifact-based Build Technologies”<a href="/blog/Trainee_Talks_Webinar_May28_2024"> Read More
+ </a>
+        </Event>
+</PastEvent> 
+</Group>
 <Group>
 
 
