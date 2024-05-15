@@ -38,29 +38,9 @@ const Events=()=>{
         <Main isDarkMode={isDarkMode}>
           <Grid item xs={6} md={6} lg={12} xl={12}>
      </Grid>
-     <Linka href="/blog/upcoming"><h1>Upcoming Events</h1></Linka>
+    
 
-<Group1  >
-
-
-     <Title isDarkMode={isDarkMode}>Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research
-</Title>
-<PastEvent isDarkMode={isDarkMode}> 
-    <Img src={diversity_inclusion_activitiesImage} alt=" diversity_inclusion_activitiesImage" />
-   {/* </Calinder> */}
-<Event isDarkMode={isDarkMode}>
-
-
-Join us for a 2-part workshop series
- “Awareness to Action: Integrating Equity, Inclusion and Accessibility in Research”<Bold isDarkMode={isDarkMode}> on May 9th and 16th at 10:00AM EDT. </Bold> Through open and interactive discussions, we will explore equity concepts and principles and provide tools tools to help foster a research environment that is both enriching and accessible to diverse perspectives.
-  <a href="/blog/Awareness_to_Action"> Read More
-      </a>
-             </Event>
-</PastEvent> 
-</Group1>
-
-
-<Linka href="/blog/past"><h1>Past Events</h1></Linka>
+<Head>Past Events</Head>
 <Group>
 <Title>Trainee Talks Webinar - April 29, 2024</Title>
  <PastEvent isDarkMode={isDarkMode}> 
@@ -621,3 +601,19 @@ margin-bottom:10px;
   }
   `
 
+const Head=styled.h1`  
+display:flex; 
+flex-wrap:wrap;
+/* border:2px solid red; */
+color: ${(props) => (props.isDarkMode ? "white" : "black")};
+margin-left:200px;
+   /* color: #bb5a7d; */
+font-weight:bold;
+font-size:2.5em;
+@media screen and (max-width: 480px) {
+margin-left:0;
+
+  
+    
+  }
+`
