@@ -147,7 +147,7 @@ const HomePageSidebar = () => {
         >
           Apply
         </SidebarLink>
-        {/* <SidebarLink
+        <SidebarLink
           selected={selectedLink === "/GEMinAI"}
           isActive={activeLink === "/GEMinAI"}
           onClick={() => handleLinkClick("/GEMinAI")}
@@ -165,7 +165,7 @@ const HomePageSidebar = () => {
           to="/login"
         >
         Login
-        </SidebarLink> */}
+        </SidebarLink>
 
 
 <SidebarLink
