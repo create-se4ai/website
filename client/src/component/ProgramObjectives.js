@@ -71,13 +71,13 @@ const ProgramObjectives = () => {
           <Button1 isDarkMode={isDarkMode}>
           <div style={{ width: '50px', marginLeft: '0px' }}>   Previous</div>
 
-            <a href="/GEMinAI">
+            <a href="/intro">
               {" "}
              <div>
               <span><MdKeyboardDoubleArrowLeft style={{paddingTop:'10px',fontSize:'15px' }}/></span>
                 
             
-              GEMinAI Program
+              Program Overview
               </div> </a>
           </Button1>{" "}
           <Button2 isDarkMode={isDarkMode}>
