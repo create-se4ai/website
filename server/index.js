@@ -10,7 +10,7 @@ const { getAdmins } = require("./getAdmins.js");
 const { getAdmin } = require("./getAdmin.js");
 const {getStudents}=require ("./getStudents.js")
 const {getStudent} = require("./getStudent.js");
-// const { postStudent } = require("./postStudent.js");
+const { postStudent } = require("./postStudent.js");
 // const { updateAdmin } = require("./updateAdmin");
 // const { postAdmin } = require("./postAdmin.js"); 
 const { deleteAdmin } = require("./deleteAdmin");
@@ -19,8 +19,14 @@ const { studentLogin } = require("./StudentLogin.js");
 
 
 const {getForms}=require("./getForms.js");
+const {getFormsnew}=require("./getFormsnew.js");
+
 const{getForm}=require("./getForm.js");
-const{updateForm}=require("./updateForm.js")
+const{getFormnew}=require("./getFormnew.js");
+
+const{updateForm}=require("./updateForm.js");
+const{updateFormnew}=require("./updateFormnew.js")
+
 // const {postForm}=require("./postForm.js")
 // Below are methods that are included in express(). We chain them for convenience.
 
@@ -28,9 +34,11 @@ const{updateForm}=require("./updateForm.js")
 // --------------------------------------------------------------------------------
 const port = 9999;
 const path = require('path'); // Add this line to import the path module
+const xss = require('xss-clean');
 
 const app = express();
 const sessionSecret = process.env.SESSION_SECRET;
+app.use(xss());
 
   // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan app.use(morgan("tiny"));
   app.use(morgan("tiny")); // This line logs requests to the console
@@ -62,14 +70,19 @@ app.get("/api/students", getStudents);
 ///////Get Specific Student 
 app.get("/api/students/:studentId", getStudent);
 //////// Add new Student 
-// app.post("/api/students", upload.single("img"), postStudent);
+app.post("/api/students", postStudent);
 app.post("/api/students/login",studentLogin);
 ////// get Forms 
 app.get("/api/forms",getForms);
+//////
+app.get("/api/formsnew",getFormsnew);
+app.get("/api/formsnew/:studentId", getFormnew);
+
 ///////// get Form 
 app.get("/api/forms/:studentId", getForm);
 //////update form
 app.put("/api/forms/:studentId", updateForm);
+app.put("/api/formsnew/:studentId", updateFormnew);
 
 
 //////// Add Form 
