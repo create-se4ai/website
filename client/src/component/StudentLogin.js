@@ -15,7 +15,7 @@ function StudentLogin() {
   const { isDarkMode } = useContext(DarkModeContext);
   const recaptchaRef = useRef();
 
-  const adminUsernames = ["Dr.Emad Shehab", "Lori Akiyama"];
+  const adminUsernames = ["Dr. Emad Shihab", "Lori Akiyama"];
 
   const handleLogin = async () => {
     try {
