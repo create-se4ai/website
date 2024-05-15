@@ -40,7 +40,7 @@ const Events=()=>{
           <Grid item xs={6} md={6} lg={12} xl={12}>
      </Grid>
 
-     <Head isDarkMode={isDarkMode}>Upcoming Events</Head>
+     <Head isDarkMode={isDarkMode}><a href="/blog/upcoming">Upcoming Events</a></Head>
 
      <Group>
 
@@ -81,7 +81,7 @@ Join us for a 2-part workshop series “Awareness to Action: Integrating Equity,
 </PastEvent> 
 </Group>
 
-     <Head isDarkMode={isDarkMode}>Past Events</Head>
+     <Head isDarkMode={isDarkMode}><a href="/blog/past">Past Events</a></Head>
 
 <Group>
 <Title>Trainee Talks Webinar - April 29, 2024</Title>
@@ -651,10 +651,20 @@ margin-left:200px;
    /* color: #bb5a7d; */
 font-weight:bold;
 font-size:2.5em;
+a{
+    text-decoration:none;
+    color: #bb5a7d;
+
+    &:hover {
+    color: #bb5a7d;
+    cursor: pointer;
+    text-decoration:underline;
+  } 
+  }
 @media screen and (max-width: 480px) {
 margin-left:0;
 
-  
+
     
   }
 `
