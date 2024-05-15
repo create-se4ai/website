@@ -15,7 +15,7 @@ const getAdmins = async (req, res) => {
   try {
     await client.connect();
     const db = client.db("se4ai");
-    const admins = await db.collection("Admins").find().toArray();
+    const admins = await db.collection("Admins").find({}).toArray();
     res.status(200).json({ data: admins });
   } catch (err) {
     console.log(err);
