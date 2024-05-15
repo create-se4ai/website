@@ -17,7 +17,8 @@ console.log("Students:", Student);
 
 const formData = require("./data/FormData.json")
 console.log("FormData:", FormData);
-
+ 
+const form = require("./data/Form.json")
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -87,32 +88,70 @@ const client = new MongoClient(MONGO_URI, options);
 // // Call the addStudent function to add students to the database
 // addStudent();
 
-const addFormDataToMongoDB = async () => {
+// const addFormDataToMongoDB = async () => {
+//   try {
+//     await client.connect();
+//     const db = client.db("se4ai");
+//     console.log("Connected to MongoDB!");
+
+//     // Check if formData is not null or undefined
+//     if (formData) {
+//       // Generate an array of form data objects, assuming formData is an array
+//       const formDataArray = Array.isArray(formData) ? formData : [formData];
+
+//       // Add unique identifiers to the formData
+//       const formDataWithIds = formDataArray.map((data) => ({
+//         ...data,
+//         _id: uuidv4(),
+//       }));
+
+//       // Specify the collection name where you want to insert the data
+//       const collection = db.collection("FormData");
+
+//       // Insert the formDataArray into the MongoDB collection
+//       const result = await collection.insertMany(formDataWithIds);
+
+//       console.log(`Documents added with IDs: ${result.insertedIds}`);
+//     } else {
+//       console.error("formData is null or undefined");
+//     }
+//   } catch (error) {
+//     console.error("Error connecting to MongoDB:", error);
+//   } finally {
+//     // Close the MongoDB connection
+//     await client.close();
+//     console.log("Connection to MongoDB closed.");
+//   }
+// };
+
+// // Call the function to add the formData to MongoDB
+// addFormDataToMongoDB();
+const addFormToMongoDB = async () => {
   try {
     await client.connect();
     const db = client.db("se4ai");
     console.log("Connected to MongoDB!");
 
     // Check if formData is not null or undefined
-    if (formData) {
+    if (form) {
       // Generate an array of form data objects, assuming formData is an array
-      const formDataArray = Array.isArray(formData) ? formData : [formData];
+      const formArray = Array.isArray(form) ? form : [form];
 
       // Add unique identifiers to the formData
-      const formDataWithIds = formDataArray.map((data) => ({
+      const formWithIds = formArray.map((data) => ({
         ...data,
         _id: uuidv4(),
       }));
 
       // Specify the collection name where you want to insert the data
-      const collection = db.collection("FormData");
+      const collection = db.collection("Form");
 
-      // Insert the formDataArray into the MongoDB collection
-      const result = await collection.insertMany(formDataWithIds);
+      // Insert the formArray into the MongoDB collection
+      const result = await collection.insertMany(formWithIds);
 
       console.log(`Documents added with IDs: ${result.insertedIds}`);
     } else {
-      console.error("formData is null or undefined");
+      console.error("form is null or undefined");
     }
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);
@@ -123,5 +162,5 @@ const addFormDataToMongoDB = async () => {
   }
 };
 
-// Call the function to add the formData to MongoDB
-addFormDataToMongoDB();
+// Call the function to add the form to MongoDB
+addFormToMongoDB();
