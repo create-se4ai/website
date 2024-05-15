@@ -15,25 +15,30 @@ const GEMinAIProgram = () => {
 
   return (
 <Container isDarkMode={isDarkMode}>
-      <ProgramSidebar />
       <Grid
         container
         justifyContent="center"
         alignItems="center"
-        style={{ flex: 1,
-           padding: "20px" }}
+        style={{ flex: 1
+         }}
       >
         <Grid item xs={12} md={12} lg={12} xl={12}>
 
       <MainContent isDarkMode={isDarkMode}>
-          
+      <Title isDarkMode={isDarkMode}>GEMinAI Program</Title>
+
       <Grid item xs={12} md={12} lg={12} xl={12}>
 
 
-      <Title isDarkMode={isDarkMode}>GEMinAI Program</Title>
 </Grid>
+<Box>
+      <Img2 src={AIinstituteImage} alt="AIAIinstitute" />
       <Img src={ GEMinAIImage} alt=" GEMinAI.jpg" />
+
+      <Img3 src={isDarkMode ? logoDark : logo} alt="CREATE SE4AI" />{" "}
+      </Box>
       <Details isDarkMode={isDarkMode}>
+
 
 <Bold isDarkMode={isDarkMode}>
 The GEMinAI (Gender Equity Mentoring in AI)
@@ -49,66 +54,40 @@ Mentors and mentees commit to at least 4 one-hour sessions across 2
 semesters (2 in Fall and 2 in Winter) with a recommended 6 sessions.
 Meetings can be in person at the mentor’s workplace, a nearby location, or
 virtually based on mutual agreement and convenience.
-Read more about 
-<Bold2 isDarkMode={isDarkMode}> GEMinAI</Bold2> 
-<a href="https://www.concordia.ca/news/stories/2023/11/28/new-concordia-mentoring-project-geminai-addresses-gender-inequity-in-artificial-intelligence.html?c=/research/applied-ai-institute">
- here</a>
-</Details>
 
+</Details>
+<Details isDarkMode={isDarkMode}>Read more about 
+<Bold2 isDarkMode={isDarkMode}> GEMinAI </Bold2> 
+<a href="https://www.concordia.ca/news/stories/2023/11/28/new-concordia-mentoring-project-geminai-addresses-gender-inequity-in-artificial-intelligence.html?c=/research/applied-ai-institute">
+  here</a></Details>
 
 
     <Details isDarkMode={isDarkMode}>
 To apply to be a Mentor, please fill out the application form:
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScae8M_3FXMUVmUMzf5w1zszdiOVdilnyf6amOghfcmYOE9IQ/viewform">
- here</a>
+ <a href="https://docs.google.com/forms/d/e/1FAIpQLScae8M_3FXMUVmUMzf5w1zszdiOVdilnyf6amOghfcmYOE9IQ/viewform"> here</a>
+</Details>
+<Details isDarkMode={isDarkMode}>
+To apply to be a Mentee, please fill out the application form:   <a href="https://docs.google.com/forms/d/e/1FAIpQLScPffttgJ27oAhuNewL228pRWQxnQqBvDGOGfrT9P95Kzv7Cw/viewform" >  here</a>
 </Details>
 
 <Details isDarkMode={isDarkMode}>
-For more information on the <Bold isDarkMode={isDarkMode}>GEMinAI</Bold> Program, please contact us:<ul>
-<li>Lori Akiyama, CREATE SE4AI <EmailLink href="mailto:lori.akiyama@concordia.ca">lori.akiyama@concordia.ca</EmailLink>{" "}</li>
-<li>Lindsay Rodgers, Applied AI Institute <EmailLink href="mailto:lindsay.rodgers@concordia.ca">lindsay.rodgers@concordia.ca</EmailLink></li>
-<li>Mitali Ruths, Applied AI Institute <EmailLink href="mailto:mitali.ruths@concordia.ca">mitali.ruths@concordia.ca</EmailLink></li></ul>
+For more information on the <Bold isDarkMode={isDarkMode}>GEMinAI</Bold> Program, please contact us:
+<p>Lori Akiyama, CREATE SE4AI <EmailLink href="mailto:lori.akiyama@concordia.ca">lori.akiyama@concordia.ca</EmailLink>{" "}</p>
+<p>Lindsay Rodgers, Applied AI Institute <EmailLink href="mailto:lindsay.rodgers@concordia.ca">lindsay.rodgers@concordia.ca</EmailLink></p>
+<p>Mitali Ruths, Applied AI Institute <EmailLink href="mailto:mitali.ruths@concordia.ca">mitali.ruths@concordia.ca</EmailLink></p>
         </Details>
 
 
-      <Details2 isDarkMode={isDarkMode}>
-        <Bold isDarkMode={isDarkMode}>The GEMinAI Program is proudly presented in partnership by:</Bold>
-        </Details2>
-        <Box>
-        <ChoiceItem isDarkMode={isDarkMode}>
-
-        <Img3 src={isDarkMode ? logoDark : logo} alt="CREATE SE4AI" />{" "}
-        </ChoiceItem>
-
-        <ChoiceItem isDarkMode={isDarkMode}>
-        <Img2 src={AIinstituteImage} alt="AIAIinstitute" />
-        </ChoiceItem>
-
-        </Box>
+   
     
 
-        <Button1 isDarkMode={isDarkMode}>
-          <div style={{ width: '50px', marginLeft: '0px' }}>   Previous</div>
 
-            <a href="/intro">
-              {" "}
-             <div>
-              <span><MdKeyboardDoubleArrowLeft style={{paddingTop:'10px',fontSize:'15px' }}/></span>
-              Program Overview
-              </div> </a>
-          </Button1>{" "}
+    
+
+ 
 
 
-        <Button isDarkMode={isDarkMode}>
-       <div >Next</div>
-       <a href="/training-program/objectives"> 
-        <div> Program Objective{" "} 
-           {/* <Icon> */}
-             <MdKeyboardDoubleArrowRight />
-           {/* </Icon>  */}
-           </div>
-         </a>
-       </Button>
+       
       
       
        </MainContent>
@@ -126,28 +105,46 @@ export default GEMinAIProgram;
 // The CSS Part
 const Container = styled.div`
   display: flex;
-  font-family: "Open Sans", sans-serif;
-/* border:2px solid red; */
-  /* margin: 0 auto; */
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Helvetica', 'Arial', sans-serif, BlinkMacSystemFont;
+  /* border: ${(props) =>
+    props.isDarkMode ? "  0px solid #404040" : "  2px solid #f4f0ec"}; */
+  color: ${(props) => (props.isDarkMode ? "#EBEDF0" : "#484848")};
+margin-left:75px;
+  height: 100%;
+  width: 100%;
+@media screen and (max-width: 768px) {
+    /* margin-left: 150px; */
+    /* Adjust margin for screens up to 768px wide */
+  }
+
+
+  @media screen and (min-width: 1700px) {
+    /* align-items: center; */
+    margin-left: calc(30%-20px); 
+    margin-bottom:calc(50% - 250px);
+    margin-top:370px;
+
+  }
+
 `;
 
 
 const MainContent = styled.div`
-  /* border-left: ${props => window.innerWidth <= 1000 ? "none" : "1px solid #e8e8e8"}; */
-    /* padding-left:-1px;  */
-     margin-left: -5px;
-  max-width: 1000px; /* Adjust the maximum width as needed */
-  /* padding-top: -40px; */
-  color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
- height:100%; 
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  /* border:2px solid green; */
-/* margin-top:-10px; */
-  
+
+width: 100%;
+ margin-bottom:80px;
+/* border:2px solid red; */
+  max-width: 1500px;
+  /* padding-top: -50px; */
+  color: ${(props) => (props.isDarkMode ? "#EBEDF0" : "#484848")};
+  /* margin: 10 auto; */
+height:100%;
+  background-color: ${(props) => (props.isDarkMode ? "#181818" : "#ffffff")};
+
+
 
  @media screen and (max-width: 768px) {
-  margin-left:-5px;
+  margin-left:-65px;
   /* padding-left:-5px; */
   padding-top:10px;
   /* max-width:300px; */
@@ -184,19 +181,21 @@ const Bold2 = styled.span`
   } */
 `;
 const Img = styled.img`
-width:100%;
-text-align:center;
- max-width: 400px; 
- height:180px;
- margin-left:100px;
+/* width:100%; */
+/* text-align:center; */
+ max-width: 1700px; 
+ max-height:270px;
+ margin-left:40px;
 /* border:2px solid black; */
-  padding-top: 20px;
-  padding-bottom:20px;
+/* padding:0px 30px; */
+/* padding-top:-45px; */
+  /* padding-bottom:20px; */
+  margin-top:-20px;
   background-color: ${(props) => (props.isDarkMode ? "" : "white")};
 
   @media screen and (max-width: 480px){
-    margin-left:0;
-    /* height:200px; */
+margin-left:0px;
+    max-width: 280px; 
     }
 `;
 const ChoiceItem = styled.div`
@@ -228,12 +227,16 @@ height:60px;
 const Box=styled.div`
 display:flex; 
 flex-direction:row;
+/* border:2px solid orange; */
 margin-left:10px;
-padding-top :-20px;
-margin-bottom:50px;
+/* padding-top :-20px; */
+max-width:1200px;
+margin-bottom:10px;
 @media screen and (max-width: 480px){
   display:flex; 
-flex-wrap:wrap;    /* height:200px; */
+flex-wrap:wrap;  
+max-width:480px;
+margin-left:0px;
     } 
 /* margin-left:-250px; */
 /* margin-top:10px; */
@@ -242,22 +245,26 @@ flex-wrap:wrap;    /* height:200px; */
 const Img2 = styled.img`
 /* border:2px solid green; */
 /* text-align:center; */
-max-width: 190px; 
- height:50px;
-margin-top:0px;
+max-width: 300px; 
+ max-height:70px;
+/* align-items:center; */
 padding-left:5px;
-  /* padding-top: 5px; */
-  /* padding-bottom:20px; */
-  @media screen and (max-width: 480px){height:60px;}
+margin-top:70px;
+background-color: ${(props) => (props.isDarkMode ? "#242526" : "#ffffff")};
+  @media screen and (max-width: 480px){
+ margin-bottom:100px;
+ /* max-height:300px; */
+}
 `;
 
 const Img3 = styled.img`
-width:100%;
+/* width:100%; */
 /* color:black ;  */
-max-width: 70px; 
- height:100px;
-padding-left:55px;
-margin-top:-15px;
+max-width: 150px; 
+margin-left:120px;
+ height:200px;
+/* padding-left:55px; */
+/* margin-top:-15px; */
 /* padding-top:-175px; */
  /* padding:-75px 45px; */
   /* border:2px solid green; */
@@ -265,29 +272,54 @@ margin-top:-15px;
 `;
 
 const Title = styled.h1`
-  font-weight:700;
-  font-size: 50px;
-   margin-top: 0px; 
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+ margin-top:0.7px;
+  padding-top:60px;
+  font-size: 48px;
+  padding-bottom: 78px;
+  border-bottom: 2px solid ${(props) => (props.isDarkMode ? "#212529" : "#f0f0f0")};
+  color: ${(props) => (props.isDarkMode ? "#ffffff" : "#484848")};
+  background-color: ${(props) => (props.isDarkMode ? "#242526" : "#ffffff")};
+  width: 100%; /* Set the width to 100% */
+  min-width:100vw;
+  /* margin-right:-750px; */
+  margin-left:-600px;
+padding-left:550px;
+/* border:2px solid orange; */
 
-  color: ${(props) => (props.isDarkMode ? "white" : "black")};  
-  @media screen and (max-width: 768px) {
+  /* color: ${(props) => (props.isDarkMode ? "white" : "black")};   */
+  @media screen and (max-width: 480px) {
+    margin-left:-525px;
+  /* padding-left:-750px; */
  margin-bottom:35px;
 
-}
+} 
 `;
 
 const Details = styled.div`
-  padding-top:10px;
+  padding-top:20px;
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 /* margin-top:-25px; */
   /* display:flex;
   flex-direction:row; 
   flex-wrap:wrap; */
-  max-width: 885px;
+  max-width: 1220px;
   line-height: 1.65em;
   font-size: 16px; 
 /* border:2px solid blue; */
+a{
+  color:#bb5a7d;
+text-decoration:none;
+&:hover {
+    cursor: pointer;
+    color:#bb5a7d;
+    text-decoration:underline;
+
+  }
+}
+
 `;
 
 const Details2 = styled.div`
@@ -298,7 +330,7 @@ const Details2 = styled.div`
   font-size: 16px;
   margin-bottom: 50px;
   /* border:2px solid green; */
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  /* font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
 `;
 const Button1 = styled.button`
    max-width:380px; /* Adjust the maximum width as needed */
