@@ -81,8 +81,8 @@ const Program = () => {
        
         <div >Next</div>
      
-        <a href="/GEMinAI"> 
-         <div> GEMinAI Program{" "} 
+        <a href="/training-program/objectives"> 
+         <div> Program Objectives{" "} 
             {/* <Icon> */}
               <MdKeyboardDoubleArrowRight />
             {/* </Icon>  */}
