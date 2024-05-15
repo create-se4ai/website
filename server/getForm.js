@@ -22,8 +22,9 @@ const getForm = async (req, res) => {
   
 
     // Convert formId to ObjectId
+    const objectId = new ObjectId(studentId);
 
-    const form = await db.collection("FormData").findOne({ studentId:studentId});
+    const form = await db.collection("FormData").findOne({ studentId: objectId });
 
     console.log("Form", form);
 
