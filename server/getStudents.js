@@ -15,7 +15,7 @@ const getStudents = async (req, res) => {
   try {
     await client.connect();
     const db = client.db("se4ai");
-    const students = await db.collection("Students").find().toArray();
+    const students = await db.collection("Students").find({}).toArray();
     res.status(200).json({ data: students });
   } catch (err) {
     console.log(err);
