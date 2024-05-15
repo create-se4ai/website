@@ -39,6 +39,11 @@ import GEMinAI_Mentoring_Program_Launch from "./component/events/GEMinAI_Mentori
 import FM_SE_School_in_Mexico_City from "./component/events/FM_SE_School_in_Mexico_City";
 import CAN_CWIC_Conference_in_Toronto from "./component/events/CAN_CWIC_Conference_in_Toronto";
 import Intellectual_Property_Seminar from "./component/events/Intellectual_Property_Seminar";
+import Awareness_to_Action from "./component/events/Awareness_to_Action";
+import Trainee_Talks_Webinar_May28_2024 from "./component/events/Trainee_Talks_Webinar_May28_2024";
+import Trainee_Talks_Webinar_April29_2024 from "./component/events/Trainee_Talks_Webinar_April29_2024";
+import Trainee_Talks_Webinar_March25_2024 from "./component/events/Trainee_Talks_Webinar_March25_2024";
+import Trainee_Talks_Webinar_February27_2024 from "./component/events/Trainee_Talks_Webinar_February27_2024";
 import Contact from "./component/Contact";
 import Favicon from "./component/img/favicon.svg";
 import Header from "./component/Header"
@@ -167,7 +172,14 @@ useEffect(() => {
             <Route path="/blog/FM_SE_School_in_Mexico_City" element={<FM_SE_School_in_Mexico_City />} />
             <Route path="/blog/CAN_CWIC_Conference_in_Toronto" element={<CAN_CWIC_Conference_in_Toronto />} />
             <Route path="/blog/Intellectual_Property_Seminar" element={<Intellectual_Property_Seminar />} />
+            <Route path="/blog/Awareness_to_Action" element={<Awareness_to_Action />} />
+            <Route path="/blog/Trainee_Talks_Webinar_May28_2024" element={< Trainee_Talks_Webinar_May28_2024 />} />
+            <Route path="/blog/Trainee_Talks_Webinar_April29_2024" element={< Trainee_Talks_Webinar_April29_2024 />} />
+            <Route path="/blog/Trainee_Talks_Webinar_March25_2024" element={< Trainee_Talks_Webinar_March25_2024 />} />
+            <Route path="/blog/Trainee_Talks_Webinar_February27_2024" element={< Trainee_Talks_Webinar_February27_2024 />} />
 
+            
+            
           
         </Routes>
         <Footer />
