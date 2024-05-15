@@ -11,7 +11,6 @@ import { MdEmail } from "react-icons/md";
 // import pictures
 import AfiyaFahmidaSarahImage from "../component/team/photos/Afiya-Fahmida-Sarah.jpg";
 import AkalankaGalappaththiImage from "../component/team/photos/Akalanka-Galappaththi.jpg";
-import AkshatMalikImage from "../component/team/photos/Akshat-Malik.jpg";
 import AlorEbubeImage from "../component/team/photos/Alor-Ebube.jpg";
 import AltafAllahAbbassiImage from "../component/team/photos/Altaf-Allah-Abbassi.jpg";
 import AmandaKolopanisImage from "../component/team/photos/Amanda-Kolopanis.jpg";
@@ -37,7 +36,6 @@ import DrStefanWagnerImage from "../component/team/photos/Dr-Stefan-Wagner.jpg";
 import FangjianLeiImage from "../component/team/photos/Fangjian-Lei.jpg";
 import FazleRabbiImage from "../component/team/photos/Fazle-Rabbi.jpg";
 import ForoughMajidiImage from "../component/team/photos/Forough-Majidi.jpg";
-import HarshPatelImage from "../component/team/photos/Harsh-Patel.jpg";
 import HayaSamaanaImage from "../component/team/photos/Haya-Samaana.jpg";
 import JaskiratSinghImage from "../component/team/photos/Jaskirat-Singh.jpg";
 import JasmineLatendresseImage from "../component/team/photos/Jasmine-Latendresse.jpg";
@@ -68,7 +66,20 @@ import YangLiuImage from "../component/team/photos/Yang-Liu.jpg";
 import YipingJiaImage from "../component/team/photos/Yiping-Jia.jpg";
 import ZhiminZhaoImage from "../component/team/photos/Zhimin-Zhao.jpg";
 import SharonHoImage from "../component/team/photos/Sharon-Ho.jpg";
-import LinLingImage from "../component/team/photos/Lin-Ling.jpg"
+import LinLingImage from "../component/team/photos/Lin-Ling.jpg";
+import Mohammadhossein_MalekpourImage from "../component/team/photos/Mohammadhossein_Malekpour.jpg";
+import Anirban_DeyImage from "../component/team/photos/Anirban_Dey.jpg";
+import Rachna_RajImage from "../component/team/photos/Rachna_Raj.jpg";
+import Iren_MazloomzadehImage from "../component/team/photos/Iren_Mazloomzadeh.jpg";
+import Gideon_PetersImage from "../component/team/photos/Gideon_Peters.jpg";
+import Muhammed_Yusuf_DadaImage from "../component/team/photos/Muhammed_Yusuf_Dada.jpg";
+import Mohamed_RiahiImage from "../component/team/photos/Mohamed_Riahi.jpg";
+import Adekunle_AjibodeImage from "../component/team/photos/Adekunle_Ajibode.jpg";
+import Hicham_MasriImage from "../component/team/photos/Hicham_Masri.jpg";
+import Genevieve_CaumartinImage from "../component/team/photos/Genevieve_Caumartin.jpg";
+import Jean_Carlors_PaulImage from "../component/team/photos/Jean_Carlors_Paul.jpg";
+
+
 ////import Students data
 import { Grid } from "@mui/material";
 
@@ -613,13 +624,13 @@ const Students=()=>{
 <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={YipingJiaImage} alt= "Yiping Jia Image"/></CardImage>
-    <CardBody><h3>Yiping Jia</h3>Queen's University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Yiping Jia</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Queen's University</CardBody>
     </SmallDiv></Div>
 
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={FangjianLeiImage} alt= "Fangjian Lei Image"/></CardImage>
-    <CardBody><h3>Fangjian Lei</h3>Queen's University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Fangjian Lei</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Queen's University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
    
 <li >
@@ -648,13 +659,13 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={JunjieLiImage} alt= "Junjie LiI mage"/></CardImage>
-    <CardBody><h3>Junjie Li</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Junjie Li</h3> <Bold>PhD Student at</Bold>Concordia University</CardBody>
     </SmallDiv></Div>
 
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={SharonHoImage} alt= "Sharon Ho Image"/></CardImage>
-    <CardBody><h3>Sharon Ho</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Sharon Ho</h3> <Bold isDarkMode={isDarkMode}>Master's Student at</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
    
 <li >
@@ -683,7 +694,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={AmandaKolopanisImage} alt= "Amanda Kolopanis"/></CardImage>
-    <CardBody><h3>Amanda Kolopanis</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Amanda Kolopanis</h3> <Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
    
 <li >
@@ -711,7 +723,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={mohayeminulislamImage} alt= "Mohayeminul Islam"/></CardImage>
-    <CardBody><h3>Mohayeminul Islam</h3>University of Alberta</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Mohayeminul Islam</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>University of Alberta</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li >
@@ -741,7 +753,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={AkalankaGalappaththiImage} alt= "Akalanka Galappaththi"/></CardImage>
-    <CardBody><h3>Akalanka Galappaththi</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Akalanka Galappaththi</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
    
 <li >
@@ -793,7 +805,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={AurelLucrichIkamaHoneyImage} alt= "Aurel Lucrich Ikama Honey Image"/></CardImage>
-    <CardBody><h3>Aurel Lucrich Ikama Honey</h3>Ecole Polytechnique</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Aurel Lucrich Ikama Honey</h3> <Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Ecole Polytechnique</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
    
 <li >
@@ -823,14 +835,14 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={ VahidMajdinasabImage} alt= "Vahid Majdinasab"/></CardImage>
-    <CardBody><h3>Vahid Majdinasab</h3>Ecole Polytechnique</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Vahid Majdinasab</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Ecole Polytechnique</CardBody>
     
     </SmallDiv></Div>
 
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={ PatrickLoicFoalemImage} alt= "Patrick Loic Foalem"/></CardImage>
-    <CardBody><h3>Patrick Loic Foalem</h3>Ecole Polytechnique</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Patrick Loic Foalem</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Ecole Polytechnique</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li >
@@ -871,7 +883,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={ForoughMajidiImage} alt= "Forough Majidi"/></CardImage>
-    <CardBody><h3>Forough Majidi</h3>Ecole Polytechnique</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Forough Majidi</h3> <Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Ecole Polytechnique</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
   
 <li >
@@ -900,7 +912,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={ChunliYuImage} alt= "Chunli Yu Image"/></CardImage>
-    <CardBody><h3>Chunli Yu</h3>Queen's University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Chunli Yu</h3> <Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Queen's University</CardBody>
     
     </SmallDiv></Div>
 
@@ -909,7 +921,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={AntonioCollanteImage} alt= "Antonio Collante"/></CardImage>
-    <CardBody><h3>Antonio Collante</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Antonio Collante</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
    
 <li >
@@ -943,7 +955,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={MusfiqurRahmanImage} alt= "Musfiqur Rahman"/></CardImage>
-    <CardBody><h3>Musfiqur Rahman</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Musfiqur Rahman</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
   <a href="https://das.encs.concordia.ca/members/musfiqur-rahman">
@@ -991,7 +1003,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={JasmineLatendresseImage} alt= "Jasmine Latendresse"/></CardImage>
-    <CardBody><h3>Jasmine Latendresse</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Jasmine Latendresse</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
   <a href="https://jaslatendresse.github.io/">
@@ -1039,7 +1051,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={JiawenLiuImage} alt= "Jiawen Liu"/></CardImage>
-    <CardBody><h3>Jiawen Liu</h3>Queen's University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Jiawen Liu</h3> <Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Queen's University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
   <a href="https://seal-queensu.github.io/member-current.html">
@@ -1087,7 +1100,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={PouyaFathollahzadehImage} alt= "Pouya Fathollahzadeh"/></CardImage>
-    <CardBody><h3>Pouya Fathollahzadeh</h3>Queen's University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Pouya Fathollahzadeh</h3> <Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Queen's University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
   <a href="https://seal-queensu.github.io/member-current.html">
@@ -1115,86 +1129,13 @@ const Students=()=>{
     </SmallDiv></Div>
 
 
-    <Div >
-<SmallDiv isDarkMode={isDarkMode}>
-    <CardImage><Image src={AkshatMalikImage} alt= "Akshat Malik"/></CardImage>
-    <CardBody><h3>Akshat Malik</h3>Queen's University</CardBody>
-    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
-<li ><a target="_blank"  href="https://www.linkedin.com/in/akshat-malik/" 
-          
->
-  <svg aria-hidden="true" 
-  width=" 0.875em"
-  focusable="false"
-   data-prefix="fab" 
-  data-icon="linkedin" 
-  class="svg-inline--fa fa-linkedin fa-w-14 "
-   role="img" 
-   xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 448 512">
-  <path fill="currentColor" 
-  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-    </path>
-    </svg>
-    </a>
-    </li>
-   
-</ul></CardFooter>
-    </SmallDiv></Div>
-
-    <Div >
-<SmallDiv isDarkMode={isDarkMode}>
-    <CardImage><Image src={ HarshPatelImage} alt= " Harsh Patel Image"/></CardImage>
-    <CardBody><h3>Harsh Patel</h3>Queen's University</CardBody>
-    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
-    <li >
-  <a href="https://alacrity.dev/">
-    <svg overflow="visible"
-    width="1em"
-      aria-hidden="true"
-      focusable="false"
-      data-prefix="fas"
-      data-icon="external-link-alt"
-      class="svg-inline--fa fa-external-link-alt fa-w-16"
-      role="img"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 512"
-    >
-      <path
-        fill="currentColor"
-        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
-      ></path>
-    </svg>
-    Know more
-  </a>
-</li>
-<li ><a target="_blank"  href="https://www.linkedin.com/in/harsh8398/" 
-          
->
-  <svg aria-hidden="true" 
-  width=" 0.875em"
-  focusable="false"
-   data-prefix="fab" 
-  data-icon="linkedin" 
-  class="svg-inline--fa fa-linkedin fa-w-14 "
-   role="img" 
-   xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 448 512">
-  <path fill="currentColor" 
-  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-    </path>
-    </svg>
-    </a>
-    </li>
-   
-</ul></CardFooter>
-    </SmallDiv></Div>
 
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={JaskiratSinghImage} alt= "Jaskirat Singh"/></CardImage>
-    <CardBody><h3>Jaskirat Singh</h3>Queen's University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Jaskirat Singh</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Queen's University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li ><a target="_blank"  href="https://www.linkedin.com/in/jaskirat409/" 
@@ -1222,7 +1163,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={ShenyuZhengImage} alt= "Shenyu Zheng"/></CardImage>
-    <CardBody><h3>Shenyu Zheng</h3>Queen's University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Shenyu Zheng</h3> <Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Queen's University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
   
 <li ><a target="_blank"  href="https://www.linkedin.com/in/shenyu-zheng-31146524b/" 
@@ -1250,7 +1192,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={AfiyaFahmidaSarahImage} alt= "Afiya Fahmida Sarah"/></CardImage>
-    <CardBody><h3>Afiya Fahmida Sarah</h3>University of Alberta</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Afiya Fahmida Sarah</h3> <Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>University of Alberta</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li ><a target="_blank"  href="https://www.linkedin.com/in/afiya-sarah-039007179" 
@@ -1279,7 +1222,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={FazleRabbiImage} alt= "Fazle Rabbi"/></CardImage>
-    <CardBody><h3>Fazle Rabbi</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Fazle Rabbi</h3> <Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
   <a href="https://frabbisw.github.io/">
@@ -1329,7 +1272,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={LorenaPachecoImage} alt= "Lorena Pacheco"/></CardImage>
-    <CardBody><h3>Lorena Pacheco</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Lorena Pacheco</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li ><a target="_blank"  href="https://www.linkedin.com/in/lorenasimedo/" 
@@ -1357,7 +1301,7 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={SamuelAbeduImage} alt= "Samuel Abedu"/></CardImage>
-    <CardBody><h3>Samuel Abedu</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Samuel Abedu</h3> <Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li ><a target="_blank"  href="https://linkedin.com/in/samuel-abedu-42b755103/" 
@@ -1385,7 +1329,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={KhouloudOueslatiImage} alt= "Khouloud Oueslati"/></CardImage>
-    <CardBody><h3>Khouloud Oueslati</h3>Ecole Polytechnique</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Khouloud Oueslati</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Ecole Polytechnique</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li ><a target="_blank"  href="https://www.linkedin.com/in/khouloud-ouesleti/" 
@@ -1413,14 +1358,14 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={YangLiuImage} alt= "Yang Liu"/></CardImage>
-    <CardBody><h3>Yang Liu</h3>Ecole Polytechnique</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Yang Liu</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Ecole Polytechnique</CardBody>
   
     </SmallDiv></Div>
 
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={LailaMahmoudDawAbodinarImage} alt= "Laila Mahmoud Daw Abodinar"/></CardImage>
-    <CardBody><h3>Laila Mahmoud Daw Abodinar</h3>Ecole Polytechnique</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Laila Mahmoud Daw Abodinar</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Ecole Polytechnique</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li ><a target="_blank"  href="https://www.linkedin.com/in/laila-abodinar-2541491ba/" 
@@ -1448,7 +1393,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={AltafAllahAbbassiImage} alt= "Altaf Allah Abbassi"/></CardImage>
-    <CardBody><h3>Altaf Allah Abbassi</h3>Ecole Polytechnique</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Altaf Allah Abbassi</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Ecole Polytechnique</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     
 <li ><a target="_blank"  href="https://www.linkedin.com/in/altafallahabbassi/" 
@@ -1477,7 +1423,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={AlorEbubeImage} alt= "Alor Ebube"/></CardImage>
-    <CardBody><h3>Alor Ebube</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Alor Ebube</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
   <a href="https://das.encs.concordia.ca/members/alor-ebube">
@@ -1525,8 +1472,30 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={MayraRuizImage} alt= "Mayra Ruiz"/></CardImage>
-    <CardBody><h3>Mayra Ruiz</h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Mayra Ruiz</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
+    <li >
+  <a href="https://das.encs.concordia.ca/members/mayra-ruiz">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
 <li ><a target="_blank"  href="https://www.linkedin.com/in/mruiz27/" 
           
 >
@@ -1552,7 +1521,8 @@ const Students=()=>{
     <Div >
 <SmallDiv isDarkMode={isDarkMode}>
     <CardImage><Image src={LinLingImage} alt= "Lin Ling "/></CardImage>
-    <CardBody><h3>Lin Ling </h3>Concordia University</CardBody>
+    <CardBody isDarkMode={isDarkMode}><h3>Lin Ling </h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Concordia University</CardBody>
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
    
 <li ><a target="_blank"  href="https://www.linkedin.com/in/lin-ling-4705b0260/" 
@@ -1576,6 +1546,479 @@ const Students=()=>{
    
 </ul></CardFooter>
     </SmallDiv></Div>
+
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Mohammadhossein_MalekpourImage} alt= "Mohammadhossein_MalekpourImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Mohammadhossein Malekpour</h3> <Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Polytechnique Montréal
+</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://github.com/mh-malekpour">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/mh-malekpour/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Anirban_DeyImage} alt= "Anirban_DeyImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Anirban Dey</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Queen's University</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://github.com/anirbandey303">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/anirbandey303//" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Rachna_RajImage} alt= "Rachna_RajImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Rachna Raj
+</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Concordia University</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://github.com/rachnaraj">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/rachna-raj/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Iren_MazloomzadehImage} alt= "Iren_MazloomzadehImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Iren Mazloomzadeh
+</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Polytechnique Montréal
+</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://swat.polymtl.ca/members.html">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/iren-mazloomzadeh-a6175839/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Gideon_PetersImage} alt= "Gideon_PetersImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Gideon Peters
+</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Concordia University</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://das.encs.concordia.ca/members/gideon-peters">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/gideonpeters/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Muhammed_Yusuf_DadaImage} alt= "Muhammed_Yusuf_DadaImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Muhammed Yusuf Dada</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Queen's University
+</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://github.com/muhammedyusuf678">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/muhammed-yusuf-dada/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={ Mohamed_RiahiImage} alt= " Mohamed_RiahiImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Mohamed Riahi
+</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Polytechnique Montréal
+</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
+<li ><a target="_blank"  href="https://www.linkedin.com/in/mohamed-riahi-51a6401b3/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Adekunle_AjibodeImage} alt= "Adekunle_AjibodeImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Adekunle Ajibode
+</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Queen's University
+</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://eyinlojuoluwa.github.io/">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/eyinlojuoluwa/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Hicham_MasriImage} alt= "Hicham_MasriImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Hicham Masri
+</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Queen's University
+</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
+<li ><a target="_blank"  href="https://www.linkedin.com/in/hicham-masri/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Genevieve_CaumartinImage} alt= "Genevieve_CaumartinImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Genevieve Caumartin
+</h3><Bold isDarkMode={isDarkMode}>Master's Student at
+</Bold>Concordia University</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://github.com/gencau">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/cbgen/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Jean_Carlors_PaulImage} alt= "Jean_Carlors_PaulImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Jean Carlors Paul
+
+</h3><Bold isDarkMode={isDarkMode}>PhD Student at</Bold>Polytechnique Montréal
+</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
+<li ><a target="_blank"  href="https://www.linkedin.com/in/jean-carlors-paul-9994b16a/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
+
+
 
     </Main></Grid>
 </Container>
@@ -1631,6 +2074,8 @@ const CardBody=styled.div`
   padding:0.15rem 1rem ;
 width:100%;
 h3{
+  color: ${(props) => (props.isDarkMode ? "white" : "black")};
+
   display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
@@ -1697,3 +2142,13 @@ const Main = styled.div`
 
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 `;
+const Bold=styled.div`
+font-weight:700;
+color: ${(props) => (props.isDarkMode ? "white" : "black")};
+`
+
+
+
+
+
+
