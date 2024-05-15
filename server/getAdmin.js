@@ -1,6 +1,6 @@
 // get Admin
 "use strict";
-const { MongoClient } = require("mongodb");
+const { MongoClient,ObjectId  } = require("mongodb");
 
 require("dotenv").config();
 
@@ -13,11 +13,14 @@ const options = {
 const getAdmin = async (req, res) => {
   const adminId = req.params.adminId;
   const client = new MongoClient(MONGO_URI, options);
+
   console.log(adminId);
   try {
     await client.connect();
     const db = client.db("se4ai");
-    const admin = await db.collection("Admins").findOne({ _id: adminId });
+    const objectId = new ObjectId(adminId);
+
+    const admin = await db.collection("Admins").findOne({ _id: objectId });
     if (!admin) {
       return res.status(404).json({ message: "Admin not found" });
     }
