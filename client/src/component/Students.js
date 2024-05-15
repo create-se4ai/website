@@ -78,7 +78,7 @@ import Adekunle_AjibodeImage from "../component/team/photos/Adekunle_Ajibode.jpg
 import Hicham_MasriImage from "../component/team/photos/Hicham_Masri.jpg";
 import Genevieve_CaumartinImage from "../component/team/photos/Genevieve_Caumartin.jpg";
 import Jean_Carlors_PaulImage from "../component/team/photos/Jean_Carlors_Paul.jpg";
-
+import Chaima_JaziriImage from "../component/team/photos/Chaima_Jaziri.jpg";
 
 ////import Students data
 import { Grid } from "@mui/material";
@@ -2019,6 +2019,55 @@ const Students=()=>{
     </SmallDiv></Div>
 
 
+    <Div >
+<SmallDiv isDarkMode={isDarkMode}>
+    <CardImage><Image src={Chaima_JaziriImage} alt= "Chaima JaziriImage"/></CardImage>
+    <CardBody isDarkMode={isDarkMode}><h3>Chaima Jaziri
+
+</h3><Bold isDarkMode={isDarkMode}>MASc Student at
+</Bold>Concordia University</CardBody>
+    <CardFooter isDarkMode={isDarkMode}><ul class="pills"    ><li >
+  <a href="https://github.com/Chaima-Ja">
+    <svg overflow="visible"
+    width="1em"
+      aria-hidden="true"
+      focusable="false"
+      data-prefix="fas"
+      data-icon="external-link-alt"
+      class="svg-inline--fa fa-external-link-alt fa-w-16"
+      role="img"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
+      <path
+        fill="currentColor"
+        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+      ></path>
+    </svg>
+    Know more
+  </a>
+</li>
+<li ><a target="_blank"  href="https://www.linkedin.com/in/chaima-jaziri/" 
+          
+>
+  <svg aria-hidden="true" 
+  width=" 0.875em"
+  focusable="false"
+   data-prefix="fab" 
+  data-icon="linkedin" 
+  class="svg-inline--fa fa-linkedin fa-w-14 "
+   role="img" 
+   xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512">
+  <path fill="currentColor" 
+  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+    </path>
+    </svg>
+    </a>
+    </li>
+   
+</ul></CardFooter>
+    </SmallDiv></Div>
 
     </Main></Grid>
 </Container>
