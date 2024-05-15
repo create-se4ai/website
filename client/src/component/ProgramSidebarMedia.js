@@ -121,7 +121,7 @@ const ProgramSidebarMedia = () => {
             Program Overview
           </Link>
         </SidebarHeading>
-        <SidebarHeading
+        {/* <SidebarHeading
           isDarkMode={isDarkMode}
           selected={selectedLink === "/GEMinAI"}
           isActive={activeLink === "/GEMinAI"}
@@ -135,7 +135,7 @@ const ProgramSidebarMedia = () => {
           >
        GEMinAI Program
           </Link>
-        </SidebarHeading>
+        </SidebarHeading> */}
 
         <SidebarHeading
           isDarkMode={isDarkMode}
