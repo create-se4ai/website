@@ -50,17 +50,7 @@ const Trainee_Talks_Webinar_April3rd=()=>{
             CREATE SE4AI YouTube channel
           </a>
         </YoutubeChannel>
-        <Button isDarkMode={isDarkMode}>
-     
-         <div>  <a href="/blog">
        
-            <Icon>
-              <MdKeyboardDoubleArrowLeft />
-            </Icon>
-           <div> Past Events</div>
-          </a></div>
-        
-        </Button>{" "}
         </Main></Grid>
       </Grid>
         </Container>

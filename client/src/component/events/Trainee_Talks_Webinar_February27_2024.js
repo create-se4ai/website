@@ -1,11 +1,13 @@
 import React ,{useContext,useEffect}from "react";
 import styled from "@emotion/styled";
-import feb272023Image from "../2022-09-21-past/feb272023.jpg"
+import manuel_cosentino_n_CMLApjfI_unsplashImage from "../2022-09-21-past/manuel_cosentino_n_CMLApjfI_unsplash.jpg";
+
+
 import { DarkModeContext } from "../DarkModeContext";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import {Grid} from "@mui/material";
 
-const Trainee_Talks_Webinar_February27=()=>{
+const Trainee_Talks_Webinar_February27_2024 =()=>{
     const { isDarkMode } = useContext(DarkModeContext);
     useEffect(() => {
       // Scroll to the top of the page when the component mounts
@@ -13,7 +15,7 @@ const Trainee_Talks_Webinar_February27=()=>{
     }, []);
     return(
         <Container isDarkMode={isDarkMode}>
-           <Grid
+                <Grid
     container
     justifyContent="center"
     alignItems="center"
@@ -22,36 +24,33 @@ const Trainee_Talks_Webinar_February27=()=>{
   >     <Grid item xs={12} md={12} lg={12} xl={12}>
 
             <Main>
-            <Subtitle  isDarkMode={isDarkMode}
+            <Subtitle isDarkMode={isDarkMode}
         >
- Trainee Talks Webinar - February 27, 2023      
-        </Subtitle>
-        <Img src={feb272023Image} alt=" feb272023.jpg" />
-        <Details isDarkMode={isDarkMode}>
-          In the first Trainee Talks webinar of 2023, Pierre-Olivier Côté, a
-          Master's student at Polytechnique Montréal spoke about Quality Issues
-          in Machine Learning Software Systems. Immediately following,
-          University of Alberta PhD student Akalanka Galappaththi presented his
-          work on “A Data Set of Generalizable Python Code Change Patterns”.
+Trainee Talks Webinar - February 27, 2024
+       </Subtitle>
+<Img src={manuel_cosentino_n_CMLApjfI_unsplashImage} alt="manuel_cosentino_n_CMLApjfI_unsplashImage" />
+                <Details isDarkMode={isDarkMode}>
+                Our first Trainee Talks of 2024 was held on Tuesday, February 27th. We welcomed Queen's University Master's student Akshat Malik, who presented his work on Empirical Evaluation of Graph-Anonymized Metrics for JIT Defect Prediction. Immediately following, Concordia University Master's student Sharon Ho delivered a talk on the Impacts of Text-to-Image Generative AI on Creative Professionals: Insights from Japan. Both talks were insightful and engaging, generating lots of discussion.
         </Details>
-        <YoutubeChannel isDarkMode={isDarkMode}>
-          The webinar recording is available to view on our{" "}
-          <a
-            href="https://www.youtube.com/watch?v=EEDTbt3Y3Lk&feature=youtu.be"
+
+
+<YoutubeChannel isDarkMode={isDarkMode}>
+The video is now available to view on our         <a
+            href="https://www.youtube.com/watch?v=cUn62Q1ciWM"
             target="_blank"
             rel="noreferrer"
           >
             CREATE SE4AI YouTube channel
           </a>
         </YoutubeChannel>
-        
+
         </Main></Grid>
       </Grid>
         </Container>
     )
 
 }
-export default Trainee_Talks_Webinar_February27;
+export default  Trainee_Talks_Webinar_February27_2024;
 
 
 const Container = styled.div`
@@ -85,7 +84,7 @@ align-items:center; */
 const Img = styled.img`
 width:100%;
 text-align:center;
-max-width:850px;
+max-width:1000px;
  height:400px;
   /* height: 200px; */
   padding-top: 20px;
@@ -208,4 +207,3 @@ width:100%;
  max-width: 740px;  
 
 `;
-

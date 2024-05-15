@@ -43,17 +43,7 @@ ca.zoom.us/j/87066146082?pwd=Y1d3VlVyQjI2d2V6Z21xeUY5TmRsdz09/">https://concordi
 ca.zoom.us/j/87066146082?pwd=Y1d3VlVyQjI2d2V6Z21xeUY5TmRsdz09</a></Details2>
 <Details><Bold2>Meeting ID: </Bold2> 870 6614 6082</Details>
 <Details><Bold2>Passcode: </Bold2> 041569</Details>
-        <Button isDarkMode={isDarkMode}>
-     
-         <div>  <a href="/blog">
-       
-            <Icon>
-              <MdKeyboardDoubleArrowLeft />
-            </Icon>
-           <div> Past Events</div>
-          </a></div>
-        
-        </Button>{" "}
+  
         </Main></Grid>
       </Grid>
         </Container>

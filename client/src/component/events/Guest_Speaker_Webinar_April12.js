@@ -61,17 +61,7 @@ const Guest_Speaker_Webinar_April12=()=>{
             CREATE SE4AI YouTube channel
           </a>
         </YoutubeChannel>{" "}
-        <Button isDarkMode={isDarkMode}>
-     
-         <div>  <a href="/blog">
-       
-            <Icon>
-              <MdKeyboardDoubleArrowLeft />
-            </Icon>
-           <div> Past Events</div>
-          </a></div>
         
-        </Button>{" "}
         </Main></Grid>
       </Grid>
         </Container>
@@ -90,19 +80,21 @@ const Container = styled.div`
     props.isDarkMode ? "  0px solid #404040" : "  2px solid #f4f0ec"}; */
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
     height:100%;
-    margin-left:350px;
 /* text-align:center;
 align-items:center; */
   width: 100%;  
-  @media screen and (max-width: 480px) {margin-left:-3px;
+  @media screen and (max-width: 480px) {
+    /* margin-left:-3px; */
   /* border:2px solid green; */
-  max-width:387px;}
+  max-width:350px;
+}
   @media screen and (min-width: 1700px) {
     /* align-items: center; */
     margin-left: calc(27% - 150px); 
-    /* margin-bottom:calc(13% - 150px); */
+    margin-bottom:calc(30% - 200px);
 
-  }`;
+  }
+`;
 
 const Group2 = styled.div`
   display: flex;
@@ -153,7 +145,7 @@ const Li = styled.li`
 const Details = styled.div`
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 width:100%; 
-max-width: 740px;
+max-width: 970px;
   line-height: 1.7em;
   font-size: 16px;  
 padding-top:20px;
@@ -192,7 +184,20 @@ const Span = styled.span`
   `;
 
 const Main =styled.div`
-margin-left:0px;`
+margin-left:0px;
+/* border:2px solid red;  */
+max-width:1200px;
+margin-left:170px;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+@media screen and (max-width: 480px) {
+    max-width:350px;
+    margin-left:-12px;
+
+    /* border:2px solid red; */
+
+}
+`
+
 const Button = styled.button`
 display: flex;
 flex-wrap: wrap;
@@ -247,13 +252,13 @@ const Icon = styled.div`
 `;
 const Subtitle = styled.div`
 display: flex;
-font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
+/* font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+font-size:3rem;
   flex-wrap: wrap;
   margin-top: 55px;
 width:100%;
-  font-size: 32px;
-  font-weight: bold;
+height:100%;
+  font-weight: 700;
   color: ${(props) => (props.isDarkMode ? "white" : "black")}; `
   const Img3 = styled.img`
   width: 200px;

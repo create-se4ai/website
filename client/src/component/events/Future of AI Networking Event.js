@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import future1Image from "../2022-09-21-past/Future1.jpg";
 import future2Image from "../2022-09-21-past/Future2.jpg";
 import future3Image from "../2022-09-21-past/Future3.jpg";
-
+import future_aiImage from "../2022-09-21-past/future_ai.jpg"
 import { DarkModeContext } from "../DarkModeContext";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import {Grid} from "@mui/material";
@@ -29,11 +29,14 @@ const Future_of_AI_Networking_Event =()=>{
         >
 Future of AI Networking Event   
         </Subtitle>
-        <Image>
+        {/* <Image>
           <Img2 src={future1Image} alt="future1Image" />
           <Img2 src={future2Image} alt="future2Image" />
           <Img2 src={future3Image} alt="future3Image" />
-        </Image>                <Details isDarkMode={isDarkMode}>
+        </Image>      */}
+            <Img src={future_aiImage} alt=" future_aiImage" />
+
+                   <Details isDarkMode={isDarkMode}>
                 <a
             href="/"
             target="_blank"
@@ -50,14 +53,14 @@ Future of AI Networking Event
                  AI Institute </a>to host a speaker and networking
                   event on the Future of AI <Bold isDarkMode={isDarkMode}>on Thursday Nov. 30th.</Bold>
         </Details>
-        <Details2 isDarkMode={isDarkMode}>
+        <Details isDarkMode={isDarkMode}>
         Join us for a deep dive into the future of AI, 
         Sustainability, the Societal Impact of Technology 
         and Innovative Discoveries. The event will be followed by a 
         networking session and an enjoyable opportunity for socializing over refreshments and finger foods. 
         Our very own  <Bold isDarkMode={isDarkMode}>Riya Dutta </Bold>will be one of the speakers. 
         You won't want to miss this!
-        </Details2>
+        </Details>
         <Details isDarkMode={isDarkMode}>
         To secure your spot, please register in advance on 
         the <a
@@ -68,17 +71,7 @@ Future of AI Networking Event
         open to the public so please feel free to share it with your networks.
         </Details>
   
-        <Button isDarkMode={isDarkMode}>
-     
-         <div>  <a href="/blog">
-       
-            <Icon>
-              <MdKeyboardDoubleArrowLeft />
-            </Icon>
-           <div> Past Events</div>
-          </a></div>
-        
-        </Button>{" "}
+   
         </Main></Grid>
       </Grid>
         </Container>
@@ -96,17 +89,18 @@ const Container = styled.div`
     props.isDarkMode ? "  0px solid #404040" : "  2px solid #f4f0ec"}; */
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
     height:100%;
-    margin-left:350px;
 /* text-align:center;
 align-items:center; */
   width: 100%;  
-  @media screen and (max-width: 480px) {margin-left:-3px;
+  @media screen and (max-width: 480px) {
+    /* margin-left:-3px; */
   /* border:2px solid green; */
-  max-width:385px;}
+  max-width:350px;
+}
   @media screen and (min-width: 1700px) {
     /* align-items: center; */
     margin-left: calc(27% - 150px); 
-    /* margin-bottom:calc(13% - 150px); */
+    margin-bottom:calc(30% - 200px);
 
   }
 `;
@@ -118,7 +112,7 @@ align-items:center; */
 const Img = styled.img`
 width:100%;
 text-align:center;
- max-width: 750px; 
+max-width:1000px;
  height:400px;
   /* height: 200px; */
   padding-top: 20px;
@@ -128,11 +122,11 @@ text-align:center;
 const Details = styled.div`
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
 width:100%; 
-max-width: 740px;
+max-width: 980px;
   line-height: 1.7em;
   font-size: 16px;  
 padding-top:20px;
-font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+/* font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
 
   a {  
 
@@ -171,68 +165,30 @@ margin-top:15px;
   }
 `;
 const Main =styled.div`
-margin-left:0px;`
-const Button = styled.button`
-display: flex;
-flex-wrap: wrap;
-max-width: 370px;
-/* width:100%; */
-height: 70px;
-background-color: inherit;
-margin-bottom: 35px;
-margin-left: 2px;
-padding-right: 200px;
-border-radius: 5px;
-/* padding-left: 270px; */
-margin-top: 45px;
-font-size: 13px;
-font-weight: bold;
-line-height: 1.7em;
-border: ${(props) => (props.isDarkMode ? "1px solid #606770":"1px solid #dadde1")};
-color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
-
-&:hover {
-  border: 1px solid #bb5a7d;
-  cursor: pointer;
-}
-div{
-  margin-left:0;
-  padding-left:0;
-  /* display:flex;
-  margin-left:0;
-  padding-left:0;    width:100%;
-  /* width:400px; */
-  margin-top:7px;
-  /* border:5px solid orange; */
-}
-a {
-  display: flex;
-  flex-direction: row;
-  max-width:400px;
-  margin-left:0;
-  padding-left:0;
-  /* border:5px solid yellow; */
-  /* padding-right:200px; */
-  text-decoration: none;
-  color: #bb5a7d;
-  font-size: 17px;
-  font-weight: bold;
-}
-`;
-const Icon = styled.div`
-  padding-top: 3px;
-
-  color: #bb5a7d;
-`;
-const Subtitle = styled.div`
-display: flex;
+margin-left:0px;
+/* border:2px solid red;  */
+max-width:1100px;
+margin-left:170px;
 font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+@media screen and (max-width: 480px) {
+    max-width:350px;
+    margin-left:-12px;
 
+    /* border:2px solid red; */
+
+}
+`
+
+
+const Subtitle = styled.h1`
+display: flex;
+/* font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+font-size:3rem;
   flex-wrap: wrap;
   margin-top: 55px;
 width:100%;
-  font-size: 32px;
-  font-weight: bold;
+height:100%;
+  font-weight: 700;
   color: ${(props) => (props.isDarkMode ? "white" : "black")}; `
   const Details2 = styled.div`
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
@@ -255,7 +211,7 @@ max-width: 738px;
 `;
 const Bold = styled.span`
   font-weight: bold;
-  color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
+  color: ${(props) => (props.isDarkMode ? "white" : "black")};
 /* width:100%;   */
 
 /* margin-top:30px; */

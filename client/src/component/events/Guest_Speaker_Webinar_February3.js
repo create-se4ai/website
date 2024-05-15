@@ -65,17 +65,7 @@ const Guest_Speaker_Webinar_February3=()=>{
 
           <a href="https://sumonbis.github.io/">https://sumonbis.github.io</a>
         </Details2>
-        <Button isDarkMode={isDarkMode}>
      
-         <div>  <a href="/blog">
-       
-            <Icon>
-              <MdKeyboardDoubleArrowLeft />
-            </Icon>
-           <div> Past Events</div>
-          </a></div>
-        
-        </Button>{" "}
         </Main></Grid>
       </Grid>
         </Container>
@@ -86,28 +76,41 @@ const Guest_Speaker_Webinar_February3=()=>{
 export default Guest_Speaker_Webinar_February3;
 
 const Container = styled.div`
-   display: flex;
+    display: flex;
    flex-direction: column;
   font-family: "Open Sans", sans-serif;
   /* border: ${(props) =>
     props.isDarkMode ? "  0px solid #404040" : "  2px solid #f4f0ec"}; */
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
     height:100%;
-    margin-left:350px;
-
+/* text-align:center;
+align-items:center; */
   width: 100%;  
-  @media screen and (max-width: 480px) {margin-left:-3px;
+  @media screen and (max-width: 480px) {
+    /* margin-left:-3px; */
   /* border:2px solid green; */
-  max-width:387px;}
+  max-width:350px;
+}
   @media screen and (min-width: 1700px) {
     /* align-items: center; */
     margin-left: calc(27% - 150px); 
-    /* margin-bottom:calc(13% - 150px); */
+    margin-bottom:calc(30% - 200px);
 
-  }`;
+  }
+`;
 const Main =styled.div`
 margin-left:0px;
-max-width:750px;`
+/* border:2px solid red;  */
+max-width:970px;
+margin-left:170px;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+@media screen and (max-width: 480px) {
+    max-width:350px;
+    margin-left:-12px;
+
+    /* border:2px solid red; */
+
+}`
 const Button = styled.button`
 display: flex;
 flex-wrap: wrap;
@@ -158,11 +161,11 @@ a {
 const Subtitle = styled.div`
 display: flex;
 font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
+max-width:1200px;
   flex-wrap: wrap;
   margin-top: 55px;
 width:100%;
-  font-size: 32px;
+  font-size: 3rem;
   font-weight: bold;
   color: ${(props) => (props.isDarkMode ? "white" : "black")}; `
   const Img3 = styled.img`
@@ -186,7 +189,7 @@ padding-top:500px;
 const Details2 = styled.div`
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
   width:100%; 
-max-width: 738px;
+max-width: 980px;
   line-height: 1.8em;
   font-size: 16px;
   margin-top: 20px;

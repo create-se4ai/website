@@ -1,11 +1,13 @@
 import React ,{useContext,useEffect}from "react";
 import styled from "@emotion/styled";
-import feb272023Image from "../2022-09-21-past/feb272023.jpg"
+import Trainee_Talks_April29_2024Image from "../2022-09-21-past/Trainee_Talks_April29_2024.jpg";
+
+
 import { DarkModeContext } from "../DarkModeContext";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import {Grid} from "@mui/material";
 
-const Trainee_Talks_Webinar_February27=()=>{
+const Trainee_Talks_Webinar_April29_2024 =()=>{
     const { isDarkMode } = useContext(DarkModeContext);
     useEffect(() => {
       // Scroll to the top of the page when the component mounts
@@ -13,7 +15,7 @@ const Trainee_Talks_Webinar_February27=()=>{
     }, []);
     return(
         <Container isDarkMode={isDarkMode}>
-           <Grid
+                <Grid
     container
     justifyContent="center"
     alignItems="center"
@@ -22,36 +24,41 @@ const Trainee_Talks_Webinar_February27=()=>{
   >     <Grid item xs={12} md={12} lg={12} xl={12}>
 
             <Main>
-            <Subtitle  isDarkMode={isDarkMode}
+            <Subtitle isDarkMode={isDarkMode}
         >
- Trainee Talks Webinar - February 27, 2023      
-        </Subtitle>
-        <Img src={feb272023Image} alt=" feb272023.jpg" />
-        <Details isDarkMode={isDarkMode}>
-          In the first Trainee Talks webinar of 2023, Pierre-Olivier Côté, a
-          Master's student at Polytechnique Montréal spoke about Quality Issues
-          in Machine Learning Software Systems. Immediately following,
-          University of Alberta PhD student Akalanka Galappaththi presented his
-          work on “A Data Set of Generalizable Python Code Change Patterns”.
+Trainee Talks Webinar - April 29, 2024
+       </Subtitle>
+       <Img src={Trainee_Talks_April29_2024Image} alt=" Trainee_Talks_April29_2024Image" />
+                <Details isDarkMode={isDarkMode}>
+                We hosted our Trainee Talks webinar<Bold isDarkMode={isDarkMode}> on Monday, April 29th, 2024.</Bold> During the session, we had the privilege of hearing from<Bold isDarkMode={isDarkMode}> Amanda Kolopanis,</Bold> a Software Engineering Master's student at Concordia University,
+     and<Bold isDarkMode={isDarkMode}> Jaskirat Singh,</Bold> a Software Engineering Master's student at Queen's University.
         </Details>
-        <YoutubeChannel isDarkMode={isDarkMode}>
-          The webinar recording is available to view on our{" "}
+        <Details>Amanda's talk focused on “Decoding Bias: Exploring Sexism in Software Development through Online Narratives and AI Analysis”.
+</Details>
+  <Details>Jaskirat's presentation was titled “Empirical Evaluation of Edge AI Deployment Strategies Involving Black-Box and White-Box Operators”.
+
+</Details>
+
+<YoutubeChannel isDarkMode={isDarkMode}>
+         The video is now available to view on our
           <a
-            href="https://www.youtube.com/watch?v=EEDTbt3Y3Lk&feature=youtu.be"
+            href="https://www.youtube.com/watch?v=kwetv1WroWk"
             target="_blank"
             rel="noreferrer"
           >
             CREATE SE4AI YouTube channel
           </a>
         </YoutubeChannel>
-        
+
+
+
         </Main></Grid>
       </Grid>
         </Container>
     )
 
 }
-export default Trainee_Talks_Webinar_February27;
+export default  Trainee_Talks_Webinar_April29_2024;
 
 
 const Container = styled.div`
@@ -85,12 +92,16 @@ align-items:center; */
 const Img = styled.img`
 width:100%;
 text-align:center;
-max-width:850px;
- height:400px;
+width:950px;
+height:450px;
+/* border:2px solid red; */
   /* height: 200px; */
-  padding-top: 20px;
-  padding-bottom:20px;
-  @media screen and (max-width: 480px){height:200px;}
+  /* padding-top: 20px; */
+  /* padding-bottom:20px; */
+  @media screen and (max-width: 480px){
+    width:370px;
+    height:200px;
+  }
 `;
 const Details = styled.div`
   color: ${(props) => (props.isDarkMode ? "white" : "#484848")};
@@ -208,4 +219,3 @@ width:100%;
  max-width: 740px;  
 
 `;
-

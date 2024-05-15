@@ -1,11 +1,13 @@
 import React ,{useContext,useEffect}from "react";
 import styled from "@emotion/styled";
-import feb272023Image from "../2022-09-21-past/feb272023.jpg"
+import diversity_inclusion_activitiesImage from "../2022-09-21-past/diversity_inclusion_activities.png";
+
+
 import { DarkModeContext } from "../DarkModeContext";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import {Grid} from "@mui/material";
 
-const Trainee_Talks_Webinar_February27=()=>{
+const Awareness_to_Action =()=>{
     const { isDarkMode } = useContext(DarkModeContext);
     useEffect(() => {
       // Scroll to the top of the page when the component mounts
@@ -13,7 +15,7 @@ const Trainee_Talks_Webinar_February27=()=>{
     }, []);
     return(
         <Container isDarkMode={isDarkMode}>
-           <Grid
+                <Grid
     container
     justifyContent="center"
     alignItems="center"
@@ -22,36 +24,34 @@ const Trainee_Talks_Webinar_February27=()=>{
   >     <Grid item xs={12} md={12} lg={12} xl={12}>
 
             <Main>
-            <Subtitle  isDarkMode={isDarkMode}
+            <Subtitle isDarkMode={isDarkMode}
         >
- Trainee Talks Webinar - February 27, 2023      
-        </Subtitle>
-        <Img src={feb272023Image} alt=" feb272023.jpg" />
-        <Details isDarkMode={isDarkMode}>
-          In the first Trainee Talks webinar of 2023, Pierre-Olivier Côté, a
-          Master's student at Polytechnique Montréal spoke about Quality Issues
-          in Machine Learning Software Systems. Immediately following,
-          University of Alberta PhD student Akalanka Galappaththi presented his
-          work on “A Data Set of Generalizable Python Code Change Patterns”.
+Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research        </Subtitle>
+<Img src={diversity_inclusion_activitiesImage} alt=" diversity_inclusion_activitiesImage" />
+                <Details isDarkMode={isDarkMode}>
+                Join us for a 2-part workshop series “Awareness to Action: Integrating Equity, Inclusion and Accessibility in Research” <Bold isDarkMode={isDarkMode}> on May 9th and 16th at 10:00AM EDT. </Bold> Through open and interactive discussions, we will explore equity concepts and principles and provide tools to help foster a research environment that is both enriching and accessible to diverse perspectives.
         </Details>
-        <YoutubeChannel isDarkMode={isDarkMode}>
-          The webinar recording is available to view on our{" "}
-          <a
-            href="https://www.youtube.com/watch?v=EEDTbt3Y3Lk&feature=youtu.be"
-            target="_blank"
-            rel="noreferrer"
-          >
-            CREATE SE4AI YouTube channel
-          </a>
-        </YoutubeChannel>
-        
+  <Details><Bold isDarkMode={isDarkMode}>Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research
+
+</Bold></Details>
+<Details><Bold isDarkMode={isDarkMode}>May 9th and 16th from 10:00 am to 11:30 am EDT
+</Bold></Details>
+<Details><Bold isDarkMode={isDarkMode}>Join via Zoom:
+</Bold><a href="https://concordia-ca.zoom.us/j/81002128613?pwd=djMxeDlMV3FhWUNBbnpEWlJGcDZ6Zz09"> https://concordia-ca.zoom.us/j/81002128613?pwd=djMxeDlMV3FhWUNBbnpEWlJGcDZ6Zz09</a></Details>
+<Details isDarkMode={isDarkMode}><Bold isDarkMode={isDarkMode}>Meeting ID:
+</Bold> 810 0212 8613</Details>
+<Details isDarkMode={isDarkMode}><Bold isDarkMode={isDarkMode}>Passcode:
+</Bold> 088220</Details>
+
+
+
         </Main></Grid>
       </Grid>
         </Container>
     )
 
 }
-export default Trainee_Talks_Webinar_February27;
+export default  Awareness_to_Action;
 
 
 const Container = styled.div`
@@ -73,7 +73,7 @@ align-items:center; */
   @media screen and (min-width: 1700px) {
     /* align-items: center; */
     margin-left: calc(27% - 150px); 
-    margin-bottom:calc(30% - 200px);
+    margin-bottom:calc(13% - 150px);
 
   }
 `;
@@ -85,7 +85,7 @@ align-items:center; */
 const Img = styled.img`
 width:100%;
 text-align:center;
-max-width:850px;
+max-width:1000px;
  height:400px;
   /* height: 200px; */
   padding-top: 20px;
@@ -208,4 +208,3 @@ width:100%;
  max-width: 740px;  
 
 `;
-
