@@ -27,6 +27,17 @@ const StudentProfile = () => {
       " Dissemination and Presentation Skills" ,
       "Technical Writing and Critiquing"
        ];
+       const initialOptions1 = [
+        "Select an option",
+        "Networking Skills",
+        "Project and Time Management",
+        "Reconciliation and EDI",
+        "Career Planning",
+        "Leadership Skills",
+        "Writing and Presentation Skills",
+        "R&D Management",
+        "Communication Skills"
+       ];
     const [module1, setModule1] = useState('');
        const [module2, setModule2] = useState('');
        const [previousOption1, setPreviousOption1] = useState('');
@@ -34,7 +45,8 @@ const StudentProfile = () => {
        const [availableOptions1, setAvailableOptions1] = useState([...initialOptions]);
        const [availableOptions2, setAvailableOptions2] = useState([...initialOptions]);
 
-
+       const [availableOptions3, setAvailableOptions3] = useState([...initialOptions1]);
+       const [availableOptions4, setAvailableOptions4] = useState([...initialOptions1]);
 
 ////////////////////////////////////////////////////////////////////
 const [formData, setFormData] = useState({
@@ -43,10 +55,26 @@ const [formData, setFormData] = useState({
         supervisorName: "",
         startDate1: "",
         finishDate1: "",
-        passFail1: "",
+        completed1: "",
         startDate2: "",
         finishDate2: "",
-        passFail2: "",
+        completed2: "",
+        Mitacsworkshop1: [
+          {
+            selectedOption: "",
+            startDate: "",
+            finishDate: "",
+            completed: "",
+          },
+        ],
+        Mitacsworkshop2: [
+          {
+            selectedOption: "",
+            startDate: "",
+            finishDate: "",
+            completed: "",
+          },
+        ],
         Module1: [
           {
             selectedOption: "",
@@ -119,7 +147,7 @@ const [formData, setFormData] = useState({
             title: "",
             startDate: "",
             finishDate: "",
-            passFail: "",
+            completed: "",
           },
         ],
         specializationCourses2: [
@@ -127,29 +155,98 @@ const [formData, setFormData] = useState({
             title: "",
             startDate: "",
             finishDate: "",
-            passFail: "",
+            completed: "",
           },
         ],
         LMActivity1: [
           {
             title: "",
-            startDate: "",
-            finishDate: "",
-            passFail: "",
+            description: "",
+            date: "",
+           
           },
         ],
         LMActivity2: [
           {
             title: "",
-            startDate: "",
-            finishDate: "",
-            passFail: "",
+            description: "",
+            date: "",
           },
         ],
-        OtherActivity1: {
-          title: "",
-          details: "",
-        },
+        LMActivity3: [
+          {
+            title: "",
+            description: "",
+            date: "",
+          },
+        ],
+     
+      Articlespublishedinoracceptedbyareferreedjourna:[
+          {
+          NameOfJournalorConferenceName: "",
+          quentity: "",
+          datePublished:"",
+          Location:""
+        }],
+      Articlessubmittedtoareferreedjournal	:     
+          [{  
+       NameOfJournalorConferenceName: "",
+        quentity: "",
+        datePublished:"",
+        Location:""   }],
+        Otherpublicationstechnicalreports	:
+        [{
+        NameOfJournalorConferenceName: "",
+        quentity: "",
+        datePublished:"",
+        Location:""
+      }],
+      Patents	:     
+      [{  
+     NameOfJournalorConferenceName: "",
+      quentity: "",
+      datePublished:"",
+      Location:""   }],
+      Conferencepresentations	:
+      [{
+      NameOfJournalorConferenceName: "",
+      quentity: "",
+      datePublished:"",
+      Location:""
+    }],
+    Conferenceposters	:     
+      [{  
+   NameOfJournalorConferenceName: "",
+    quentity: "",
+    datePublished:"",
+    Location:""   }],
+    Notableawardsorscholarships		:     
+   [{  
+ NameOfJournalorConferenceName: "",
+  quentity: "",
+  datePublished:"",
+  Location:""  
+ }],
+  Creationcurationsharingorreuseofdatasets		:
+  [{
+  NameOfJournalorConferenceName: "",
+  quentity: "",
+  datePublished:"",
+  Location:""
+}],
+Creationofcompaniesororganizationsthatpromoteresearch	:     
+  [{  
+NameOfJournalorConferenceName: "",
+quentity: "",
+datePublished:"",
+Location:""   }],
+Developmentoftoolsincludingsoftware	:     
+  [{  
+NameOfJournalorConferenceName: "",
+quentity: "",
+datePublished:"",
+Location:""   }],
+       
         OtherActivity2: {
           title: "",
           details: "",
@@ -189,7 +286,7 @@ useEffect(() => {
 
 
     // Fetch Form Data
-    fetch(`/api/forms/${studentId}`)
+    fetch(`/api/formsnew/${studentId}`)
       .then((response) => response.json())
       .then((data) => {
         if (data.data) {
@@ -212,7 +309,7 @@ useEffect(() => {
 
   const handleUpdateForm = async () => {
     try {
-      const response = await fetch(`/api/forms/${studentId}`, {
+      const response = await fetch(`/api/formsnew/${studentId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -240,7 +337,7 @@ useEffect(() => {
   
   const refetchFormData = async () => {
     try {
-      const response = await fetch(`/api/forms/${studentId}`);
+      const response = await fetch(`/api/formsnew/${studentId}`);
   
       if (response.ok) {
         const data = await response.json();
@@ -280,6 +377,33 @@ useEffect(() => {
     });
   };
   
+  const handleWorkshopsChange = (moduleIndex, selectedOption) => {
+    setFormData((prevFormData) => {
+      const newFormData = { ...prevFormData };
+  
+      // Update selectedOption for the specified moduleIndex
+      const workshopKey = `Mitacsworkshop${moduleIndex + 1}`;
+      if (!newFormData.hasOwnProperty(workshopKey)) {
+        console.error(`Invalid workshop key: ${workshopKey}`);
+        return prevFormData;
+      }
+      newFormData[workshopKey][0].selectedOption = selectedOption;
+  
+      // Filter out the selected option from availableOptions for other modules
+      const selectedOptionThisModule = newFormData[workshopKey][0].selectedOption || "";
+      const filteredOptions = initialOptions1.filter(option => option !== selectedOptionThisModule);
+  
+      // Update availableOptions for the next module (if it exists)
+      const nextWorkshopKey = `Mitacsworkshop${moduleIndex + 2}`;
+      if (newFormData.hasOwnProperty(nextWorkshopKey)) {
+        newFormData[nextWorkshopKey][0].availableOptions = [...filteredOptions];
+      }
+  
+      // Ensure the state is properly updated before returning
+      return { ...newFormData };
+    });
+  };
+  
   
   
   
@@ -290,7 +414,7 @@ useEffect(() => {
   
     return (
       <Profile isDarkMode={isDarkMode}>
-        <Header isDarkMode={isDarkMode}> <RedText>N</RedText>SERC <RedText>C</RedText>REATE <RedText>S</RedText>E4AI <RedText>A</RedText>ctivity <RedText></RedText>racker</Header>
+        <Header isDarkMode={isDarkMode}> <RedText>N</RedText>SERC <RedText>C</RedText>REATE <RedText>S</RedText>E4AI <RedText>A</RedText>ctivity <RedText>T</RedText>racker</Header>
   
       {student && (
         <MiniContainer  isDarkMode={isDarkMode}>
@@ -361,14 +485,21 @@ useEffect(() => {
      
       <Course       isDarkMode={isDarkMode}
 > C1 - Engineering AI-based Software Systems</Course>
-      <tr>    <th>Required Course</th>
-</tr>
-  <tr> 
-    <th>SOEN 691 </th>
+
+      <tr>    
+      <th>SOEN 691- Required Course</th>
+
     <th>Start Date</th>
    <th>Finish Date</th>
-   <th>Pass/Fail</th>
-   </tr><tr><td></td>
+   <th>Completed</th>
+ </tr>
+
+ 
+
+
+   <tr>
+    <td></td>
+
  <td>
  <input
     type="date"
@@ -388,13 +519,13 @@ useEffect(() => {
 </td>
 <td>
   <select
-    id="passFail"
-    value={formData.passFail1}
-    onChange={(e) =>setFormData({ ...formData, passFail1: e.target.value })}
+    id="completed"
+    value={formData.completed1}
+    onChange={(e) =>setFormData({ ...formData, completed1: e.target.value })}
   >
     <option value="">Select an option</option>
-    <option value="pass">Pass</option>
-    <option value="fail">Fail</option>
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
   </select>
     </td>
   </tr>
@@ -403,15 +534,16 @@ useEffect(() => {
 
  <Course isDarkMode={isDarkMode}>
       C2 - Social Aspects for AI-based Software Systems</Course>
-      <tr><th>Required Course</th></tr>
-<tr>
-  <th>ENCS 691</th>
+      <tr>
+        <th>ENCS 691 - Required Course</th>
+       
   <th>Start Date</th>
    <th>Finish Date</th>
-   <th>Pass/Fail</th>
+   <th>Completed</th>
 </tr>
 <tr>
-    <td></td>
+  <td></td>
+
     <td>
     <input type="date" 
     id="startDate2"
@@ -422,12 +554,12 @@ useEffect(() => {
         value={formData.finishDate2}
     onChange={(e) => setFormData({ ...formData, finishDate2: e.target.value })} /></td>
     <td>
-      <select id="passFail2"
-   value={formData.passFail2}
-   onChange={(e) =>setFormData({ ...formData, passFail2: e.target.value })}>
+      <select id="completed2"
+   value={formData.completed2}
+   onChange={(e) =>setFormData({ ...formData, completed2: e.target.value })}>
         <option value="">Select an option</option>
-        <option value="pass">Pass</option>
-        <option value="fail">Fail</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
       </select>
     </td>
   </tr>
@@ -435,18 +567,169 @@ useEffect(() => {
 
 
   {/*Course-3 */}
+  <Course isDarkMode={isDarkMode}>C3 - Mitacs workshops </Course>
+ <tr>Minimum 2 (Mitacs workshops or  Professional Development Modules) require</tr> 
 
-  <Course isDarkMode={isDarkMode}>C3 - Professional Development Modules</Course>
-<tr>    
-<th>Minimum 2 PD modules required</th> 
+  <tr>    
+<th></th>
 
 <th>Start Date</th>
 <th>Finish Date</th>
-<th>Pass/Fail</th>  
+<th>Completed</th>  
+
 </tr>
-  
 <tr>
-            <td>
+<select
+  value={formData.Mitacsworkshop1[0].selectedOption}
+  onChange={(e) => handleWorkshopsChange(0, e.target.value)}
+  >
+  {availableOptions3.map((option, index) => (
+    <option key={index} value={option}>
+      {option}
+    </option>
+  ))}
+</select>
+
+
+
+           
+
+
+ <td>
+  <input
+  type="date"
+  id="startDateMitacsworkshop1"
+  value={formData.Mitacsworkshop1[0].startDate}
+  onChange={(e) =>
+    setFormData((prevFormData) => {
+      const newFormData = { ...prevFormData };
+      newFormData.Mitacsworkshop1[0] = {
+        ...newFormData.Mitacsworkshop1[0],
+        startDate: e.target.value,
+      };
+      return newFormData;
+    })
+  }
+/>
+  </td>
+  <td>
+  <input
+  type="date"
+  id="FinishDateMitacsworkshop1"
+  value={formData.Mitacsworkshop1[0].finishDate}
+  onChange={(e) =>
+    setFormData((prevFormData) => {
+      const newFormData = { ...prevFormData };
+      newFormData.Mitacsworkshop1[0] = {
+        ...newFormData.Mitacsworkshop1[0],
+       finishDate: e.target.value,
+      };
+      return newFormData;
+    })
+  }
+/>
+</td>
+
+    <td>
+      <select id="completed"value={formData.Mitacsworkshop1[0].completed}
+     onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Mitacsworkshop1[0] = {
+            ...newFormData.Mitacsworkshop1[0],
+           completed: e.target.value,
+          };
+          return newFormData;
+        })
+      }>
+        <option value="">Select an option</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </td>
+  </tr>
+
+         
+          <tr>
+          <td>
+          <select
+  value={formData.Mitacsworkshop2[0].selectedOption}
+  onChange={(e) => handleWorkshopsChange(1, e.target.value)}
+>
+  {availableOptions4.map((option, index) => (
+    <option key={index} value={option}>
+      {option}
+    </option>
+  ))}
+</select>
+</td>
+
+<td>
+  <input
+  type="date"
+  id="startDateMitacsworkshop2"
+  value={formData.Mitacsworkshop2[0].startDate}
+  onChange={(e) =>
+    setFormData((prevFormData) => {
+      const newFormData = { ...prevFormData };
+      newFormData.Mitacsworkshop2[0] = {
+        ...newFormData.Mitacsworkshop2[0],
+        startDate: e.target.value,
+      };
+      return newFormData;
+    })
+  }
+/>
+  </td>
+
+  <td>
+  <input
+  type="date"
+  id="FinishDateMitacsworkshop2"
+  value={formData.Mitacsworkshop2[0].finishDate}
+  onChange={(e) =>
+    setFormData((prevFormData) => {
+      const newFormData = { ...prevFormData };
+      newFormData.Mitacsworkshop2[0] = {
+        ...newFormData.Mitacsworkshop2[0],
+       finishDate: e.target.value,
+      };
+      return newFormData;
+    })
+  }
+/>
+</td> 
+
+<td>
+      <select id="completed"value={formData.Mitacsworkshop2[0].completed}
+     onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Mitacsworkshop2[0] = {
+            ...newFormData.Mitacsworkshop2[0],
+           completed: e.target.value,
+          };
+          return newFormData;
+        })
+      }>
+        <option value="">Select an option</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </td></tr>
+
+
+
+
+  <Course isDarkMode={isDarkMode}>C3 - Professional Development Modules</Course>
+
+  <tr> 
+
+  <th></th>
+  <th >Start Date</th>
+<th>Finish Date</th>
+<th>Completed</th></tr><tr>
+
             <select
   value={formData.Module1[0].selectedOption}
   onChange={(e) => handleModuleChange(0, e.target.value)}
@@ -458,12 +741,7 @@ useEffect(() => {
   ))}
 </select>
 
-            </td>
-       
 
-
-   
- 
 
   <td>
   <input
@@ -504,20 +782,20 @@ useEffect(() => {
 </td>
 
     <td>
-      <select id="passFail"value={formData.Module1[0].passFail}
+      <select id="completed"value={formData.Module1[0].completed}
      onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
           newFormData.Module1[0] = {
             ...newFormData.Module1[0],
-           passFail: e.target.value,
+           completed: e.target.value,
           };
           return newFormData;
         })
       }>
         <option value="">Select an option</option>
-        <option value="pass">Pass</option>
-        <option value="fail">Fail</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
       </select>
     </td>
   </tr>
@@ -574,27 +852,27 @@ useEffect(() => {
 </td> 
 
 <td>
-      <select id="passFail"value={formData.Module2[0].passFail}
+      <select id="completed"value={formData.Module2[0].completed}
      onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
           newFormData.Module2[0] = {
             ...newFormData.Module2[0],
-           passFail: e.target.value,
+           completed: e.target.value,
           };
           return newFormData;
         })
       }>
         <option value="">Select an option</option>
-        <option value="pass">Pass</option>
-        <option value="fail">Fail</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
       </select>
     </td>
   </tr>  
 
 
 {/*Course-4 */}
-<Course isDarkMode={isDarkMode}>C4 - Industrial Embedding</Course>
+<Course isDarkMode={isDarkMode}>C4 - Industry Internship (Optional)</Course>
 <tr>
   <th>MA trainees will typically serve a 4-month internship</th></tr>
   <tr><th> PhD trainees will complete 2 x 4-month internships
@@ -1132,12 +1410,12 @@ useEffect(() => {
 
 
 
- <Course isDarkMode={isDarkMode}>C6 -  Professional development modules</Course>
+ <Course isDarkMode={isDarkMode}>C6 - Specialization Courses </Course>
 <tr>
   <th>Trainees must take 2 specialization courses</th>
   <th>Start Date</th>
 <th>Finish Date</th>
-<th>Pass/Fail</th>
+<th>Completed</th>
    </tr> 
 
 
@@ -1183,19 +1461,19 @@ useEffect(() => {
       }
     /></th>
 <th><select
-      id="passFailSpecialization1"
-      value={formData.specializationCourses1[0].passFail}
+      id="completedSpecialization1"
+      value={formData.specializationCourses1[0].completed}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.specializationCourses1[0].passFail = e.target.value;
+          newFormData.specializationCourses1[0].completed = e.target.value;
           return newFormData;
         })
       }
     >
         <option value="">Select an option</option>
-        <option value="pass">Pass</option>
-        <option value="fail">Fail</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
       </select></th>
 </tr>
 
@@ -1241,28 +1519,30 @@ useEffect(() => {
       }
     /></th>
 <th><select
-      id="passFailSpecialization2"
-      value={formData.specializationCourses2[0].passFail}
+      id="completedSpecialization2"
+      value={formData.specializationCourses2[0].completed}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.specializationCourses2[0].passFail = e.target.value;
+          newFormData.specializationCourses2[0].completed = e.target.value;
           return newFormData;
         })
       }
     >
         <option value="">Select an option</option>
-        <option value="pass">Pass</option>
-        <option value="fail">Fail</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
       </select></th>
 </tr>
 
 <Course isDarkMode={isDarkMode}>C7 - Leadership and mentorship training</Course>
 <tr>
-<th>Trainees must take 2 specialization courses</th>
-<th>Start Date</th>
-<th>Finish Date</th>
-<th>Pass/Fail</th></tr>
+<th>Please describe any evidence of leadership or mentorship you have acquired or given during your time in CREATE:</th>
+<th>Description</th>
+<th>Date</th>
+ {/* <th>Finish Date</th>
+<th>Completed</th> */}
+</tr> 
 
 
 <tr>
@@ -1282,46 +1562,29 @@ useEffect(() => {
       maxLength="100"
     /></th>
     <th> <input
-      type="date"
-      id="startDateLMActivity1"
-      value={formData.LMActivity1[0].startDate}
+     type="text"
+      id="descriptionLMActivity1"
+      value={formData.LMActivity1[0].description}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.LMActivity1[0].startDate = e.target.value;
+          newFormData.LMActivity1[0].description = e.target.value;
           return newFormData;
         })
       }
     /></th>
     <th> <input
       type="date"
-      id="finishDateLMActivity1"
-      value={formData.LMActivity1[0].finishDate}
+      id="DateLMActivity1"
+      value={formData.LMActivity1[0].date}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.LMActivity1[0].finishDate = e.target.value;
+          newFormData.LMActivity1[0].date = e.target.value;
           return newFormData;
         })
       }
     /></th>
-    <th>
-    <select
-      id="passFailLMActivity1"
-      value={formData.LMActivity1[0].passFail}
-      onChange={(e) =>
-        setFormData((prevFormData) => {
-          const newFormData = { ...prevFormData };
-          newFormData.LMActivity1[0].passFail = e.target.value;
-          return newFormData;
-        })
-      }
-    >
-      <option value="">Select an option</option>
-      <option value="pass">Pass</option>
-      <option value="fail">Fail</option>
-    </select>
-    </th>
   </tr> 
   
 
@@ -1343,80 +1606,591 @@ useEffect(() => {
       maxLength="100"
     /></th>
     <th> <input
-      type="date"
-      id="startDateLMActivity2"
-      value={formData.LMActivity2[0].startDate}
+      type="text"
+      id="descriptionLMActivity2"
+      value={formData.LMActivity2[0].description}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.LMActivity2[0].startDate = e.target.value;
+          newFormData.LMActivity2[0].description = e.target.value;
           return newFormData;
         })
       }
     /></th>
     <th> <input
       type="date"
-      id="finishDateLMActivity2"
-      value={formData.LMActivity2[0].finishDate}
+      id="dateLMActivity2"
+      value={formData.LMActivity2[0].date}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.LMActivity2[0].finishDate = e.target.value;
+          newFormData.LMActivity2[0].date = e.target.value;
           return newFormData;
         })
       }
     /></th>
-    <th>
-    <select
-      id="passFailLMActivity2"
-      value={formData.LMActivity2[0].passFail}
+    
+  </tr> 
+  <tr>
+<th> <input
+      type="text"
+      id="L&MActivity3"
+      value={formData.LMActivity3[0].title}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.LMActivity2[0].passFail = e.target.value;
+          newFormData.LMActivity3[0].title = e.target.value;
           return newFormData;
         })
       }
-    >
-      <option value="">Select an option</option>
-      <option value="pass">Pass</option>
-      <option value="fail">Fail</option>
-    </select>
-    </th>
+      placeholder="L&M Activity 3"
+      size="50"
+      maxLength="100"
+    /></th>
+    <th> <input
+      type="text"
+      id="descriptionLMActivity3"
+      value={formData.LMActivity3[0].description}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.LMActivity3[0].description = e.target.value;
+          return newFormData;
+        })
+      }
+    /></th>
+    <th> <input
+      type="date"
+      id="dateLMActivity3"
+      value={formData.LMActivity3[0].date}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.LMActivity3[0].date = e.target.value;
+          return newFormData;
+        })
+      }
+    /></th>
+    
+    
   </tr> 
+  
 
 
 <Course isDarkMode={isDarkMode}>Other Activity 1</Course>
-<tr><th>Ex:  Conferences attended</th>
-<th>Details</th></tr>
-<tr>
-  <td><input
-      type="text"
-      id="Conference"
-      value={formData.OtherActivity1.title}
+<tr><th>Please mention if you have achieved any of the below milestones during your time in CREATE:</th>
+<th> Quentity</th>
+<th>Name Of Journal or Conference Name</th>
+<th> Date Published</th>
+<th>Location</th></tr>
+<tr>Articles published in or accepted by a referreed journal	
+ <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Articlespublishedinoracceptedbyareferreedjourna[0].quentity}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.OtherActivity1.title = e.target.value;
+          newFormData.Articlespublishedinoracceptedbyareferreedjourna[0].quentity = e.target.value;
           return newFormData;
         })
       }
-      placeholder="Conference"
-    /></td>
-<td><input
-      type="text"
-      id="DetailsActivity1"
-      value={formData.OtherActivity1.details}
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Articlespublishedinoracceptedbyareferreedjourna[0].NameOfJournalorConferenceName}
       onChange={(e) =>
         setFormData((prevFormData) => {
           const newFormData = { ...prevFormData };
-          newFormData.OtherActivity1.details = e.target.value;
+          newFormData.Articlespublishedinoracceptedbyareferreedjourna[0].NameOfJournalorConferenceName = e.target.value;
           return newFormData;
         })
       }
-      placeholder="Details"
-    /></td>
-  </tr>
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Articlespublishedinoracceptedbyareferreedjourna[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Articlespublishedinoracceptedbyareferreedjourna[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Articlespublishedinoracceptedbyareferreedjourna[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Articlespublishedinoracceptedbyareferreedjourna[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+</tr>
+<tr>Articles submitted to a referreed journal	 <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Articlessubmittedtoareferreedjournal[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Articlessubmittedtoareferreedjournal[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Articlessubmittedtoareferreedjournal[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Articlessubmittedtoareferreedjournal[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Articlessubmittedtoareferreedjournal[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Articlessubmittedtoareferreedjournal[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Articlessubmittedtoareferreedjournal[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Articlessubmittedtoareferreedjournal[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td></tr>
+<tr>Other publications (technical reports, non-referreed articles, etc.)	 <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Otherpublicationstechnicalreports[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Otherpublicationstechnicalreports[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Otherpublicationstechnicalreports[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Otherpublicationstechnicalreports[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Otherpublicationstechnicalreports[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Otherpublicationstechnicalreports[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Otherpublicationstechnicalreports[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Otherpublicationstechnicalreports[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td></tr>
+<tr>Patents (filed or issued)	 <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Patents[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Patents[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Patents[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Patents[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Patents[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Patents[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Patents[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Patents[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td></tr>
+<tr>Conference presentations	 <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Conferencepresentations[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Conferencepresentations[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Conferencepresentations[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Conferencepresentations[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Conferencepresentations[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Conferencepresentations[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Conferencepresentations[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Conferencepresentations[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td></tr>
+<tr>Conference posters	 <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Conferenceposters[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Conferenceposters[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Conferenceposters[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Conferenceposters[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Conferenceposters[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Conferenceposters[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Conferenceposters[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Conferenceposters[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td></tr>
+<tr>Notable awards or scholarships	 <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Notableawardsorscholarships[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Notableawardsorscholarships[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Notableawardsorscholarships[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Notableawardsorscholarships[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Notableawardsorscholarships[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Notableawardsorscholarships[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Notableawardsorscholarships[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Notableawardsorscholarships[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td></tr>
+<tr>Creation, curation, sharing or reuse of datasets <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Creationcurationsharingorreuseofdatasets[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Creationcurationsharingorreuseofdatasets[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Creationcurationsharingorreuseofdatasets[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Creationcurationsharingorreuseofdatasets[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Creationcurationsharingorreuseofdatasets[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Creationcurationsharingorreuseofdatasets[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Creationcurationsharingorreuseofdatasets[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Creationcurationsharingorreuseofdatasets[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>	</tr>
+<tr>Creation of companies or organizations that promote research or the use of research results <td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Creationofcompaniesororganizationsthatpromoteresearch[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Creationofcompaniesororganizationsthatpromoteresearch[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Creationofcompaniesororganizationsthatpromoteresearch[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Creationofcompaniesororganizationsthatpromoteresearch[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Creationofcompaniesororganizationsthatpromoteresearch[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Creationofcompaniesororganizationsthatpromoteresearch[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Creationofcompaniesororganizationsthatpromoteresearch[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Creationofcompaniesororganizationsthatpromoteresearch[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td></tr>
+<tr>Development of tools, including software, for use by researchers or by others in the public or private domain
+<td>
+  <input
+      type="number" id="quantity" min="0" max="10"
+      value={formData.Developmentoftoolsincludingsoftware[0].quentity}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Developmentoftoolsincludingsoftware[0].quentity = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+      <td>
+        <input
+      type="text" id="NameOfJournalorConferenceName" 
+      value={formData.Developmentoftoolsincludingsoftware[0].NameOfJournalorConferenceName}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Developmentoftoolsincludingsoftware[0].NameOfJournalorConferenceName = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="date" id="datePublished" 
+      value={formData.Developmentoftoolsincludingsoftware[0].datePublished}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Developmentoftoolsincludingsoftware[0].datePublished = e.target.value;
+          return newFormData;
+        })
+      }
+      />
+</td>
+<td>
+        <input
+      type="text" id="Location" 
+      value={formData.Developmentoftoolsincludingsoftware[0].Location}
+      onChange={(e) =>
+        setFormData((prevFormData) => {
+          const newFormData = { ...prevFormData };
+          newFormData.Developmentoftoolsincludingsoftware[0].Location = e.target.value;
+          return newFormData;
+        })
+      }
+      /></td>
+</tr>
+
+
+
 
 
 
