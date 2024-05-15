@@ -246,8 +246,10 @@ const Postdocs=()=>{
     <CardImage> 
       <Image src={HassankhatoonabadImage} alt="HassankhatoonabadImage"/>
       </CardImage>
-    <CardBody><h3>SayedHassan Khatoonabadi</h3>
- Concordia University</CardBody>
+    <CardBody><h3>Dr. Hassan Khatoonabadi
+</h3> <Bold>Post Doctoral Researcher at
+     <a href="https://www.concordia.ca/"  target="blank" >  Concordia University</a></Bold> </CardBody>
+
     <CardFooter isDarkMode={isDarkMode}><ul class="pills"    >
     <li >
     <a
@@ -335,6 +337,9 @@ margin-right:2rem;
 
 
 `
+const Bold=styled.span`
+font-weight:700;`
+
 const SmallDiv=styled.div`
 border:${(props) => (props.isDarkMode ? "": "2px solid #eef0f2")};
 
@@ -359,14 +364,23 @@ const CardImage=styled.div`
 }
   border-radius:20px;`
 const CardBody=styled.div`
-  padding:0.25rem 1rem;
+padding:0.25rem 1rem;
 
 h3{
-  font-size:1.25rem;
-  font-weight:700px;
-  margin-bottom :0;
+font-size:1.25rem;
+font-weight:700px;
+margin-bottom :0;
 }    
 padding-bottom: 0;
+a{
+text-decoration: none;
+
+&:hover {
+  color:rgb(187, 90, 125);;
+  text-decoration: underline;
+}
+
+}
 `
 const CardFooter=styled.div` 
 font-weight:700;
