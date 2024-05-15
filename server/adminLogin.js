@@ -5,37 +5,29 @@ const { MongoClient } = require("mongodb");
 require("dotenv").config();
 
 const MONGO_URI = process.env.MONGO_URI;
-const options = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-};
 
 const adminLogin = async (req, res) => {
   const { username, password } = req.body;
-  const client = new MongoClient(MONGO_URI,options);
+  const client = new MongoClient(MONGO_URI);
 
   try {
-    // Connect to MongoDB using MongoClient
     await client.connect();
-  const db = client.db("se4ai");
-    
-    // Find the admin with the provided username in the "Admins" collection
-    const userdata = await db.collection("Admins").findOne({ username,password });
-console.log("userdata",userdata)
-    if (userdata) {
-      const saltRounds = 10;
-      const salt = await bcrypt.genSalt(saltRounds);
-      const passwordHash = await bcrypt.hash(password, salt);
-      const match = await bcrypt.compare(userdata.password, passwordHash);
-      console.log("Password match:", match);
+    const db = client.db("se4ai");
+
+    // Find the admin with the provided username
+    const admin = await db.collection("Admins").findOne({ username: username });
+
+    if (admin) {
+      // Compare the hashed password stored in the database with the provided password
+      const match = await bcrypt.compare(password, admin.password);
 
       if (match) {
-        // If the credentials are correct, create a JWT token and return it
+        // If the credentials are correct, create a JWT token
         const token = jwt.sign({ username }, process.env.JWT_SECRET);
 
         return res.status(200).json({
           message: "Sign-in successful",
-          data: { token: token, adminId: userdata._id },
+          data: { token: token, adminId: admin._id },
         });
       }
     }
@@ -47,8 +39,8 @@ console.log("userdata",userdata)
     console.error(error);
     return res.status(500).json({ message: "Internal Server Error" });
   } finally {
-    // Close the connection to the database after the login process is complete
-    if (client) {
+    // Close the MongoDB client connection
+    if (client.isConnected()) {
       client.close();
     }
   }
