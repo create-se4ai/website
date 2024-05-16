@@ -259,7 +259,10 @@ const TeamMemberList = [
       {
         name: "Ernesto Lang Oreamuno",
         degree:", MSc",
-        affiliation: "Queen's University",
+        place:"Encircle        ",
+        position: "Currently Senior Software Developer ",
+        link:"https://www.getencircle.com/"
+        // affiliation: "Queen's University",
       },
   
    
