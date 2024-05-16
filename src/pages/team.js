@@ -194,7 +194,10 @@ const TeamMemberList = [
       },   {
         name: "Harsh Patel",
         degree:", MSc",
-        affiliation:"Queen's University",
+        // affiliation:"Queen's University",
+        place:"Splunk",
+        position:"Software Development Engineer",
+        link:"https://www.splunk.com/",
         linkedin:"harsh8398/",
         website:"https://harsh8398.github.io"
   
@@ -209,19 +212,19 @@ const TeamMemberList = [
       {
         name: "Rached Bouchoucha",
         degree:", MSc",
-        affiliation: "Polytechnique Montréal",
-        // place:"polytechnique",
-        // position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
-        // link:"https:  //www.polymtl.ca/",
+        // affiliation: "Polytechnique Montréal",
+        place:"Sycodal",
+        position:"MLOps engineering",
+        link:"https://sycodal.ca/fr/",
         linkedin: "rached-bouchoucha-1061997",
       },
       {
         name: "Ahmed Haj Yahmed", 
         degree:", MSc",  
-        //    place:"polytechnique",
-        // position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
-        // link:"https://www.polymtl.ca/",
-        affiliation: "Polytechnique Montréal",
+           place:"IVADO",
+        position:"Teaching Assistant for the MLOps upskilling Program",
+        link:"https://ivado.ca/en/",
+        // affiliation: "Polytechnique Montréal",
         linkedin: "ahmed-haj-yahmed",
       },
       {
@@ -236,10 +239,10 @@ const TeamMemberList = [
       {
         name: "Pierre-Olivier Côté",
         degree:", MSc",
-        affiliation: "Polytechnique Montréal",
-        // place:"polytechnique",
-        // position:"Winner Best Master's Thesis Award in Software Engineering and Computer Science 2023 ",
-        // link:"https://www.polymtl.ca/",
+        // affiliation: "Polytechnique Montréal",
+        place:"DRW",
+        position:"Currently Machine Learning and Software Engineer ",
+        link:"https://drw.com/",
         linkedin: "pierre-olivier-côté",
       },
       {
