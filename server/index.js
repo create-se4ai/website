@@ -15,7 +15,7 @@ const { postStudent } = require("./postStudent.js");
 // const { postAdmin } = require("./postAdmin.js"); 
 const { deleteAdmin } = require("./deleteAdmin");
 const { adminLogin } = require("./adminLogin");
-const { studentLogin } = require("./StudentLogin.js");
+const { studentLogin } = require("./studentLogin.js");
 
 
 const {getForms}=require("./getForms.js");
