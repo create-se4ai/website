@@ -1,7 +1,7 @@
 ---
 slug: past
 title: Past Events
-position: 2
+position: 1
 
 #author: Lori Akiyama
 #author_title: Program Coordinator 
@@ -12,8 +12,8 @@ position: 2
 # Past Events 
 
 import Trainee_Talks_April29 from './Trainee_Talks_April29.jpg'
-
-
+ 
+ 
 <div class="container2">
 <h4>Trainee Talks Webinar - April 29, 2024</h4>
 <div class="events ">
