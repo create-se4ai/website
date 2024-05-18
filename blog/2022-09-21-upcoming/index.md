@@ -1,7 +1,7 @@
 ---
 slug: upcoming
 title: Upcoming Events
-position: 1
+position: 0
 #author: Lori Akiyama
 #author_title: Program Coordinator 
 #author_url: 
@@ -11,10 +11,10 @@ position: 1
 # Upcoming Events 
 import Trainee_Talks_May28 from './Trainee_Talks_May28.jpg'
 
-
+   
 <div class="container2">
 <h4>Trainee Talks Webinar - May 28, 2024</h4>
-<div class="events ">
+<div class="events "> 
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1">
 <img src={Trainee_Talks_May28}/>
 </div>
