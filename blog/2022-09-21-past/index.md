@@ -13,7 +13,7 @@ position: 1
 
 import Trainee_Talks_April29 from './Trainee_Talks_April29.jpg'
  
- 
+  
 <div class="container2">
 <h4>Trainee Talks Webinar - April 29, 2024</h4>
 <div class="events ">
