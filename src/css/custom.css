@@ -250,14 +250,13 @@ max-width:80%;
 margin-left:5px;
 }}
 
-  .AI{
-    /* border:2px solid orange; */
+  /* .AI{
     padding:60px 45px;
 width:33.3%;
 height:200px;
 margin-top:-15px;
 
-  }
+  } */
   @media screen and (max-width: 550px) { 
   .AI{
     width:150px;
@@ -311,16 +310,23 @@ flex-wrap: wrap;
 /* border:2px solid blue;   */
  }} 
 
+ .GEMinAIContainer{
+  max-width: 950px;
+  margin-left:300px;
+  margin-top:15px
+
+ }
  @media screen and (max-width: 480px) {
   .GEMinAIContainer{
-  margin-left:5px;
-/* border:2px solid green; */
-max-width:370px;
+  /* margin-left:-300px;  */
+ /* border:2px solid green; */
+ margin-left:15px;
 }}
 
 
-@media screen and (min-width: 1700px) {
+ @media screen and (min-width: 1700px) {
   .GEMinAIContainer{
+    margin-top: 15px;
 margin-left: calc(37% - 150px); 
 max-width:1500px;
-}}
+}} 
