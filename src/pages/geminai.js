@@ -1,34 +1,44 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import PageHeader from '../components/PageHeader'; // Import PageHeader component if needed
-import GEMinA from './GEMinA.png'; // Import images if needed
-import AIinstitute from './AIinstitute.png'; // Import images if needed
-import se4ai from './se4ai.png'; // Import images if needed
-// import styled from "styled-components";
-
+import { Institutions } from "../components/Institutions";
+export const InstitutionList = [
+  {
+    // title: "Participating Universities",
+    members: [
+      {
+        name: "SE4AI",
+        log: require("../../logos/se4ai.png").default,
+        url: "https://se4ai.org/",
+      },
+      {
+        name: "GEMinA",
+        log: require("../../logos/GEMinA.png").default,
+        url: "https://www.concordia.ca/research/applied-ai-institute/initiatives/geminai.html",
+      },
+      {
+        name: "AIinstitute",
+        log: require("../../logos/AIinstitute.png").default,
+        url: "https://www.concordia.ca/research/applied-ai-institute.html",
+      },
+      
+      
+      
+    ]}]
 const GEMinAIProgramPage = () => {
   return (
     <Layout title="GEMinAI Program" description="The project's GEMinAI Program.">
       <PageHeader title="GEMinAI Program" />
-  <div className='GEMinAIContainer'>
-  <div className="Group">
-
-
-          <img src={AIinstitute} alt="AI Institute"  className="AI" style={{background:'white' }}/>
-          <img 
-      src={GEMinA} 
-      alt="GEMinAI"
-      className="GEMinAI" 
-      style={{
-        backgroundColor: 'white',
-        width: '33.3%',
-        marginTop:'5px',
-       marginBottom:'10px',
-      }} 
-    />  
-          <img src={se4ai} alt="CREATE SE4AI"  className="logo_light"  />
-
-        </div>    <p>
+      <main style={{
+        // border: '2px solid red',
+        // maxWidth: '950px',
+        // marginLeft:'300px',
+        // marginTop:'15px'
+        }} className='GEMinAIContainer'>
+  <div  >
+          
+  
+         <p>
         The <strong>GEMinAI (Gender Equity Mentoring in AI)</strong> Program addresses gender inequity within artificial intelligence fields, where women make up only 25% of AI specialists (World Economic Forum, 2021). <strong>GEMinAI</strong> aims to narrow this gap by connecting women and gender non-conforming undergraduate and graduate students with AI industry professionals for support, encouragement, and assistance along their career journey.
       </p>
       <p>
@@ -43,10 +53,7 @@ const GEMinAIProgramPage = () => {
       <p>
         To apply to be a Mentee, please fill out the application form: <a href="https://forms.gle/8YnTNPFHoEcSqGxy8">here</a>.
       </p>
-      <p  style={{
-
-       marginBottom:'30px',
-      }} >
+      <p >
         For more information on the <strong>GEMinAI</strong> Program, please contact us:
         <br />
         Lori Akiyama, CREATE SE4AI <a href="mailto:lori.akiyama@concordia.ca">lori.akiyama@concordia.ca</a>.
@@ -59,6 +66,26 @@ const GEMinAIProgramPage = () => {
 
 
       </div >
+
+
+      {/* <div className="Group"> */}
+
+      {/* <img 
+      src={GEMinA} 
+      alt="GEMinAI"
+      className="GEMinAI" 
+      style={{
+        backgroundColor: 'white',
+        width: '33.3%',
+        marginTop:'5px',
+       marginBottom:'10px',
+      }} 
+    />   */}
+          {/* <Institutions src={AIinstitute} alt="AI Institute"  className="AI" /> */}
+    <main>
+          <Institutions list={InstitutionList}  /></main>
+          </main>
+        {/* </div>    */}
     </Layout>
   );
 };
