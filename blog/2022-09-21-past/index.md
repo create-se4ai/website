@@ -11,27 +11,58 @@ position: 1
 ---
 # Past Events 
 
-import Trainee_Talks_April29 from './Trainee_Talks_April29.jpg'
- 
-  
-<div class="container2">
-<h4>Trainee Talks Webinar - April 29, 2024</h4>
-<div class="events ">
-<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
-<img src={Trainee_Talks_April29}/>
+
+import GEMinAI_24May2024 from './GEMinAI_24May2024.jpg';
+
+<div className="container2">
+  <h4>GEMinAI Program Storytelling Wrap-up Event - May 24, 2024
+</h4>
+  <div className="events" style={{ 
+      '@media screen and (max-width: 966px)': {
+          maxHeight: '100%',
+          flexWrap: 'wrap',
+          maxWidth: '350px'
+      }
+  }}>
+    <div className="manuel_cosentino_n_CMLApjfI_unsplash1">
+      <img src={GEMinAI_24May2024} alt="GEMinAI_24May2024"/>
+    </div>
+    <div className="text">
+ The Gender Equity Mentoring in AI (GEMinAI) Program celebrated the end of a successful first year on May 24th.  Mentors and mentees from the program's inaugural cohort gathered at 4th Space at Concordia to share stories of their mentoring journey.  Jasbir Kooner, MBA (Concordia) and Director, IT and Cybersecurity at Englobe was one of the 13 industry mentors who participated in GEMinAI. 
+
+<a href="/blog/2022/09/21/past/event/GEMinAI_Program_Storytelling_Wrap_up Event_May24_2024"> <strong> Read More </strong></a>
+
 </div>
-<div class="text">
-We hosted our Trainee Talks webinar on <strong> Monday, April 29th, 2024.</strong> During the session, we had the privilege of hearing from <strong>Amanda Kolopanis</strong>, a Software Engineering Master's student at Concordia University, and <strong>Jaskirat Singh</strong>, a Software Engineering Master's student at Queen's University.
-<></>
-<a href="/blog/2022/09/21/past/event/Trainee_Talks_April29"> <strong>Read More</strong></a>
+  </div>
 </div>
-</div>  </div> 
+
+
+import Trainee_Talks_April29 from './Trainee_Talks_April29.jpg';
+
+<div className="container2">
+  <h4>Trainee Talks Webinar - April 29, 2024</h4>
+  <div className="events" style={{ 
+      '@media screen and (max-width: 966px)': {
+          maxHeight: '100%',
+          flexWrap: 'wrap',
+          maxWidth: '350px'
+      }
+  }}>
+    <div className="manuel_cosentino_n_CMLApjfI_unsplash1">
+      <img src={Trainee_Talks_April29} alt="Trainee Talks April 29"/>
+    </div>
+    <div className="text">
+      We hosted our Trainee Talks webinar on <strong> Monday, April 29th, 2024.</strong> During the session, we had the privilege of hearing from <strong>Amanda Kolopanis</strong>, a Software Engineering Master's student at Concordia University, and <strong>Jaskirat Singh</strong>, a Software Engineering Master's student at Queen's University.
+      <a href="/blog/2022/09/21/past/event/Trainee_Talks_April29"> <strong> Read More</strong></a>
+    </div>
+  </div>
+</div>
 
 
 
-import Trainee_Talks_Mar25 from './Trainee_Talks_Mar25.jpg'
+import Trainee_Talks_Mar25 from './Trainee_Talks_Mar25.jpg';
 
-<div class="container2">
+<div className="container2">
 <h4>Trainee Talks Webinar - March 25, 2024</h4>
 <div className="events" style={{ 
     '@media screen and (max-width: 966px)': {
