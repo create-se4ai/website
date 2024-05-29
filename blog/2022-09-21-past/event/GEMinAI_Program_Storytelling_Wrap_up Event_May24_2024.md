@@ -8,7 +8,7 @@ import IMG_3071 from '../IMG_3071.jpg';
 
 <p>
 <img class="image" src={GEMinAI_24May2024} alt="GEMinAI_24May2024" width="245"/>
-<img class="image" src={thumbnail_IMG_7845} alt="thumbnail_IMG_7845" width="245"/> 
+<img class="image" src={IMG_3071} alt="IMG_3071" width="138"   /> 
 <img class="image" src={IMG_3070} alt=" IMG_3070" width="245"/>
 
 </p>
