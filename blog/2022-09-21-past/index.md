@@ -10,7 +10,26 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events 
+  
+import Trainee_Talks_May28 from './Trainee_Talks_May28.jpg';
 
+<div class="container2">
+<h4>Trainee Talks Webinar - May 28, 2024</h4>
+  <div className="events" style={{ 
+      '@media screen and (max-width: 966px)': {
+          maxHeight: '100%',
+          flexWrap: 'wrap',
+          maxWidth: '350px'
+      }
+  }}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
+<img src={Trainee_Talks_May28}/>
+</div>
+<div class="text">
+
+<strong>In the May 28, 2024</strong> edition of <a href="https://se4ai.org/">CREATE SE4AI</a> Trainee Talks, we heard from Queen's University <strong>Master's students Jiawen Liu</strong> and <strong>Shenyu Zheng.</strong> Jiawen shared her work on “Understanding Open-Source Contributor Profiles in Popular Machine Learning Libraries.”<a href="/blog/2022/09/21/past/event/Trainee_Talks_Webinar_May28_2024"> <strong>Read More</strong></a>
+</div>
+</div>  </div> 
 
 import GEMinAI_24May2024 from './GEMinAI_24May2024.jpg';
 
