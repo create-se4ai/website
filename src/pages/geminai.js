@@ -2,6 +2,11 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import PageHeader from '../components/PageHeader'; // Import PageHeader component if needed
 import { Institutions } from "../components/Institutions";
+import GEMinAI_Launch_Event170 from "./GEMinAI_Launch_Event170.jpg";
+import GEMinAI_Launch_Event176 from "./GEMinAI_Launch_Event176.jpg";
+import GEMinAI_Launch_Event179 from "./GEMinAI_Launch_Event179.jpg";
+import GEMinAI_Launch_Event191 from "./GEMinAI_Launch_Event191.jpg";
+
 export const InstitutionList = [
   {
     // title: "Participating Universities",
@@ -36,7 +41,13 @@ const GEMinAIProgramPage = () => {
         // marginTop:'15px'
         }} className='GEMinAIContainer'>
   <div  >
-          
+  <img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" width="220 "/>
+
+  <img src={GEMinAI_Launch_Event191} alt="GEMinAI_Launch_Event191" width="220 "/>
+  <img src={GEMinAI_Launch_Event170} alt="GEMinAI_Launch_Event170" width="220 "/>
+
+  <img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" width="220 "/>
+
   
          <p>
         The <strong>GEMinAI (Gender Equity Mentoring in AI)</strong> Program addresses gender inequity within artificial intelligence fields, where women make up only 25% of AI specialists (World Economic Forum, 2021). <strong>GEMinAI</strong> aims to narrow this gap by connecting women and gender non-conforming undergraduate and graduate students with AI industry professionals for support, encouragement, and assistance along their career journey.
