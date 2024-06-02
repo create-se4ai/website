@@ -2,7 +2,7 @@
 title: "Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research"
 
 ---
-import diversity_inclusion_activities from './diversity_inclusion_activities.png'
+import diversity_inclusion_activities from '../diversity_inclusion_activities.png'
 
 <p class="Awareness_to_Action" ><img src={diversity_inclusion_activities}/></p>
 
