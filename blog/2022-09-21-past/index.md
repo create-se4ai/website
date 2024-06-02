@@ -11,6 +11,33 @@ position: 2
 ---
 # Past Events 
   
+import diversity_inclusion_activities from './diversity_inclusion_activities.png';
+ 
+
+<div class="container2">
+<h4>Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research</h4>
+<div className="events" style={{ 
+      '@media screen and (max-width: 966px)': {
+          maxHeight: '100%',
+          flexWrap: 'wrap',
+          maxWidth: '350px'
+      }
+  }}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
+<img src={diversity_inclusion_activities}/>
+</div>
+<div class="text">
+Join us for a 2-part workshop series “Awareness to Action: Integrating Equity, Inclusion and Accessibility in Research” on <strong>May 9th and 16th at 10:00AM EDT. </strong>
+Through open and interactive discussions, we will explore equity concepts and principles and provide tools tools to help foster a research environment that is both enriching and accessible to diverse perspectives.
+<></>
+<a href="/blog/2022/09/21/past/event/Awareness_to_Action_Integrating_Equity_Inclusion_and_Accessibility_in_Research"> <strong>Read More</strong></a>
+</div>
+</div>  </div> 
+
+
+
+
+
 import Trainee_Talks_May28 from './Trainee_Talks_May28.jpg';
 
 <div class="container2">
@@ -27,7 +54,7 @@ import Trainee_Talks_May28 from './Trainee_Talks_May28.jpg';
 </div>
 <div class="text">
 
-<strong>In the May 28, 2024</strong> edition of <a href="https://se4ai.org/">CREATE SE4AI</a> Trainee Talks, we heard from Queen's University <strong>Master's students Jiawen Liu</strong> and <strong>Shenyu Zheng.</strong> Jiawen shared her work on “Understanding Open-Source Contributor Profiles in Popular Machine Learning Libraries.”<a href="/blog/2022/09/21/past/event/Trainee_Talks_Webinar_May28_2024"> <strong>Read More</strong></a>
+In the <strong>May 28, 2024</strong> edition of <a href="https://se4ai.org/">CREATE SE4AI</a> Trainee Talks, we heard from Queen's University Master's students <strong>Jiawen Liu</strong> and <strong>Shenyu Zheng.</strong> Jiawen shared her work on “Understanding Open-Source Contributor Profiles in Popular Machine Learning Libraries.”<a href="/blog/2022/09/21/past/event/Trainee_Talks_Webinar_May28_2024"> <strong>Read More</strong></a>
 </div>
 </div>  </div> 
 

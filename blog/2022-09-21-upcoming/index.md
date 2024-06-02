@@ -11,20 +11,20 @@ position: 0
 # Upcoming Events 
 
 
-import diversity_inclusion_activities from './diversity_inclusion_activities.png'
+import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg'
  
 
 <div class="container2">
-<h4>Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research</h4>
+<h4>CREATE SE4AI Program Retreat</h4>
 <div class="events ">
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1">
-<img src={diversity_inclusion_activities}/>
+<img src={ygkdk_exterior0001_hor_clsc}/>
 </div>
 <div class="text">
-Join us for a 2-part workshop series “Awareness to Action: Integrating Equity, Inclusion and Accessibility in Research” on <strong>May 9th and 16th at 10:00AM EDT. </strong>
-Through open and interactive discussions, we will explore equity concepts and principles and provide tools tools to help foster a research environment that is both enriching and accessible to diverse perspectives.
+Our 3rd annual program retreat is going on the road!  Join us in Kingston <strong>on June 9, 2024</strong> for an afternoon of networking, brainstorming and group discussions with trainees from the 4 partner institutions.  See you at the <strong>Delta Kingston Waterfront Hotel</strong> located at  1 Johnson Street, Kingston, ON. K7L 5H7
+1-613-549-8100 at <strong>12:00pm</strong>.
 <></>
-<a href="/blog/2022/09/21/upcoming/event/Awareness_to_Action_Integrating_Equity_Inclusion_and_Accessibility_in_Research"> <strong>Read More</strong></a>
+<a href="/blog/2022/09/21/upcoming/event/CREATE_SE4AI_Program_Retreat"> <strong>Read More</strong></a>
 </div>
 </div>  </div> 
 
