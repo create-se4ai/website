@@ -10,8 +10,9 @@ position: 0
 ---
 # Upcoming Events 
 
+Upcoming Events coming soon
 
-import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg'
+<!-- import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg'
  
 
 <div class="container2">
@@ -26,6 +27,6 @@ Our 3rd annual program retreat is going on the road!  Join us in Kingston <stron
 <></>
 <a href="/blog/2022/09/21/upcoming/event/CREATE_SE4AI_Program_Retreat"> <strong>Read More</strong></a>
 </div>
-</div>  </div> 
+</div>  </div>  -->
 
  
