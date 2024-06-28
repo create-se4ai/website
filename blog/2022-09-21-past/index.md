@@ -11,7 +11,8 @@ position: 2
 ---
 # Past Events 
   
-import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg'
+
+import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg';
  
 
 <div class="container2">
@@ -31,6 +32,8 @@ Our 3rd annual CREATE SE4AI Program Retreat was held in Kingston, ON <strong>on 
 <a href="/blog/2022/09/21/past/event/CREATE_SE4AI_Program_Retreat"> <strong>Read More</strong></a>
 </div>
 </div>  </div> 
+
+
 
 
 import diversity_inclusion_activities from './diversity_inclusion_activities.png';
