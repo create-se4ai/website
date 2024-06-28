@@ -13,7 +13,7 @@ module.exports = (_context, _options) => ({
               skipEmptyLines: true,
             },
           },
-          // Rule for binary files (images, fonts, etc.)
+        // Rule for binary files (images, fonts, etc.)
           {
             test: /\.(png|jpe?g|gif|svg|woff|woff2|eot|ttf|otf)$/,
             use: [
