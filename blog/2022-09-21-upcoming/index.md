@@ -12,7 +12,7 @@ position: 0
  
 
 Upcoming Events coming soon
-
+  
 <!-- import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg'
  
 
@@ -30,4 +30,4 @@ Our 3rd annual program retreat is going on the road!  Join us in Kingston <stron
 </div>
 </div>  </div>  -->
 
-  
+   
