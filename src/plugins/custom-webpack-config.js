@@ -4,7 +4,7 @@ module.exports = (_context, _options) => ({
       module: {
         rules: [
           {
-            test: /\.js|\.jsx$/,
+            test: /\.csv$/,
             loader: "csv-loader",
             options: {
               dynamicTyping: true,

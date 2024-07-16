@@ -13,7 +13,8 @@ module.exports = {
   organizationName: "create-se4ai", // Usually your GitHub org/user name.
   projectName: "create-se4ai.github.io", // Usually your repo name.
   plugins: [
-    require.resolve("./src/plugins/custom-webpack-config.js"),
+    // require.resolve("./src/plugins/custom-webpack-config.js"),
+    path.resolve(__dirname, "./src/plugins/custom-webpack-config.js"),
     [
       "docusaurus-plugin-face-crop",
       {
