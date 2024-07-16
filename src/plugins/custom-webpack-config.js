@@ -14,6 +14,9 @@ module.exports = (_context, _options) => ({
           },
         ],
       },
+      output: {
+        libraryTarget: 'umd',
+      },
     };
   },
 });
