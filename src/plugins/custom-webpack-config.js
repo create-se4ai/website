@@ -4,7 +4,7 @@ module.exports = (_context, _options) => ({
       module: {
         rules: [
           {
-            test: /\.csv$/,
+            test: /\.js|\.jsx$/,
             loader: "csv-loader",
             options: {
               dynamicTyping: true,
@@ -14,9 +14,7 @@ module.exports = (_context, _options) => ({
           },
         ],
       },
-      output: {
-        libraryTarget: 'umd',
-      },
+    
     };
   },
 });
