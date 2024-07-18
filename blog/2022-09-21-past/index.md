@@ -10,7 +10,7 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events 
-   
+    
 
 import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg';
  
