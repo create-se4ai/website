@@ -9,7 +9,7 @@ position: 0
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 # Upcoming Events 
-
+  
 <!-- Upcoming Events coming soon -->
   
 import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
