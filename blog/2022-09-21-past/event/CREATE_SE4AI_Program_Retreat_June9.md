@@ -4,7 +4,6 @@ title: "CREATE SE4AI Program Retreat - June 9, 2024s"
 
 import ygkdk_exterior0001_hor_clsc from '../ygkdk_exterior0001_hor_clsc.jpg';
 
- import IMG_3177 from '../IMG_3177.JPG';
 
 import Retreat_Lorena from '../Retreat_Lorena.jpg';
 
@@ -20,7 +19,7 @@ Our 3rd annual CREATE SE4AI Program Retreat was held in Kingston, ON **on June 9
 <a class="retreat"><img src={ygkdk_exterior0001_hor_clsc} class="small_retreat" width="250"/><span><img src={ygkdk_exterior0001_hor_clsc} width="250"/></span></a>
 
 
-<a class="retreat"><img src={IMG_3177} class="small_retreat" width="225"/><span><img src={IMG_3177} width="200"/></span></a>
+<!-- <a class="retreat"><img src={IMG_3177} class="small_retreat" width="225"/><span><img src={IMG_3177} width="200"/></span></a> -->
 
 <a class="retreat"><img src={Retreat_Lorena} class="small_retreat" width="225"/><span><img src={Retreat_Lorena} width="200"/></span></a>
 

@@ -29,7 +29,7 @@ import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg';
 </div>
 <div class="text">
 Our 3rd annual CREATE SE4AI Program Retreat was held in Kingston, ON <strong>on June 9th. </strong> 50 students from the 4 partner institutions enjoyed an afternoon of networking, brainstorming, group discussions and research presentations with an inspiring view of the waterfront.  A big thank you to all who attended and congratulations to the graduates!
-<a href="/blog/2022/09/21/past/event/CREATE_SE4AI_Program_Retreat"> <strong>Read More</strong></a>
+<a href="/blog/2022/09/21/past/event/CREATE_SE4AI_Program_Retreat_June9"> <strong>Read More</strong></a>
 </div>
 </div>  </div> 
 
