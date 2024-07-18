@@ -14,7 +14,7 @@ position: 2
 
 import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg';
  
-
+ 
 <div class="container2">
 <h4>CREATE SE4AI Program Retreat - June 9, 2024</h4>
 <div className="events" style={{ 
