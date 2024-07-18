@@ -4,7 +4,7 @@ title: "CREATE SE4AI Program Retreat - June 9, 2024s"
 
 import ygkdk_exterior0001_hor_clsc from '../ygkdk_exterior0001_hor_clsc.jpg';
 
-import IMG_3177 from '../IMG_3177.JPG';
+ import IMG_3177 from '../IMG_3177.JPG';
 
 import Retreat_Lorena from '../Retreat_Lorena.jpg';
 
