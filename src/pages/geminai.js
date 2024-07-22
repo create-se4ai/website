@@ -8,7 +8,7 @@ import GEMinAI_Launch_Event179 from "./GEMinAI_Launch_Event179.jpg";
 import GEMinAI_Launch_Event191 from "./GEMinAI_Launch_Event191.jpg";
 import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
-
+ 
 export const InstitutionList = [
   {
     // title: "Participating Universities",
