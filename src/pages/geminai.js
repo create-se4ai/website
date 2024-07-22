@@ -6,6 +6,8 @@ import GEMinAI_Launch_Event170 from "./GEMinAI_Launch_Event170.jpg";
 import GEMinAI_Launch_Event176 from "./GEMinAI_Launch_Event176.jpg";
 import GEMinAI_Launch_Event179 from "./GEMinAI_Launch_Event179.jpg";
 import GEMinAI_Launch_Event191 from "./GEMinAI_Launch_Event191.jpg";
+import styles from "./index.module.css";
+import Link from "@docusaurus/Link";
 
 export const InstitutionList = [
   {
@@ -13,7 +15,7 @@ export const InstitutionList = [
     members: [
       {
         name: "SE4AI",
-        log: require("../../logos/se4ai.png").default,
+        log: require("../../logos/se4ai_news.png").default,
         url: "https://se4ai.org/",
       },
       {
@@ -32,8 +34,12 @@ export const InstitutionList = [
     ]}]
 const GEMinAIProgramPage = () => {
   return (
-    <Layout title="GEMinAI Program" description="The project's GEMinAI Program.">
-      <PageHeader title="GEMinAI Program" />
+    <Layout title="2024-25 GEMinAI Program - Applications Now Open " description="The project's GEMinAI Program.">
+
+<PageHeader title="2024-25 GEMinAI Program - Applications Now Open">
+
+</PageHeader>
+
       <main style={{
         // border: '2px solid red',
         // maxWidth: '950px',
@@ -50,12 +56,34 @@ const GEMinAIProgramPage = () => {
 
   
          <p>
-        The <strong>GEMinAI (Gender Equity Mentoring in AI)</strong> Program addresses gender inequity within artificial intelligence fields, where women make up only 25% of AI specialists (World Economic Forum, 2021). <strong>GEMinAI</strong> aims to narrow this gap by connecting women and gender non-conforming undergraduate and graduate students with AI industry professionals for support, encouragement, and assistance along their career journey.
-      </p>
+         Together with the Applied AI institute at Concordia,  we are excited to announce the launch of our recruitment campaign for the next cohort of the
+<strong> Gender Equity Mentoring in AI (GEMinAI)</strong> Program.      </p>
       <p>
-        Mentors and mentees commit to at least 4 one-hour sessions across 2 semesters (2 in Fall and 2 in Winter) with a recommended 6 sessions. Meetings can be in person at the mentor’s workplace, a nearby location, or virtually based on mutual agreement and convenience.
-      </p>
-      <p>
+      If you are a professional working in the field of AI, please consider mentoring a student for 6 months during the 2024-25 academic year. For more information and to apply, please complete the </p>
+      <p><strong>Mentor Application Form</strong> here:</p>
+
+      {/* <p><a href="https://airtable.com/appRSDpicOuCifPPL/pag5pFp28pzutcEh1/form">https://airtable.com/appRSDpicOuCifPPL/pag5pFp28pzutcEh1/form </a></p> */}
+      <p className={styles.buttons}>
+    <Link className="button button--primary button--lg" to="https://airtable.com/appRSDpicOuCifPPL/pag5pFp28pzutcEh1/form">
+      Apply Now
+    </Link>
+  </p>
+      <p>Mentees must be currently enrolled as Concordia undergraduate or graduate students and identify as a woman or non-binary person.  CREATE SE4AI trainees from all institutions are eligible to join.  To apply, please complete the
+<strong> Mentee Application Form</strong> here:</p>
+      {/* <p><a href="https://airtable.com/appRSDpicOuCifPPL/pagQHgB1Re4kX97DA/form">https://airtable.com/appRSDpicOuCifPPL/pagQHgB1Re4kX97DA/form</a></p> */}
+      <p className={styles.buttons}>
+    <Link className="button button--primary button--lg" to="https://airtable.com/appRSDpicOuCifPPL/pagQHgB1Re4kX97DA/form">
+      Apply Now
+    </Link>
+  </p>
+
+
+      
+      
+      {/* <p>
+
+
+
         Read more about <strong>GEMinAI</strong> <a href="https://www.concordia.ca/news/stories/2023/11/28/new-concordia-mentoring-project-geminai-addresses-gender-inequity-in-artificial-intelligence.html?c=/research/applied-ai-institute">here</a>.
       </p>
       <p>
@@ -73,7 +101,7 @@ const GEMinAIProgramPage = () => {
         <br />
         Mitali Ruths, Applied AI Institute <a href="mailto:mitali.ruths@concordia.ca">mitali.ruths@concordia.ca</a>.
       </p>
-     
+      */}
 
 
       </div >
@@ -93,8 +121,9 @@ const GEMinAIProgramPage = () => {
       }} 
     />   */}
           {/* <Institutions src={AIinstitute} alt="AI Institute"  className="AI" /> */}
-    <main>
-          <Institutions list={InstitutionList}  /></main>
+    {/* <main>
+    <Institutions list={InstitutionList} />
+</main> */}
           </main>
         {/* </div>    */}
     </Layout>
