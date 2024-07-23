@@ -59,8 +59,8 @@ const GEMinAIProgramPage = () => {
          Together with the Applied AI institute at Concordia,  we are excited to announce the launch of our recruitment campaign for the next cohort of the
 <strong> Gender Equity Mentoring in AI (GEMinAI)</strong> Program.      </p>
       <p>
-      If you are a professional working in the field of AI, please consider mentoring a student for 6 months during the 2024-25 academic year. For more information and to apply, please complete the </p>
-      <p><strong>Mentor Application Form</strong> here:</p>
+      If you are a professional working in the field of AI, please consider mentoring a student for 6 months during the 2024-25 academic year. For more information and to apply, please complete the 
+    <strong> Mentor Application Form</strong> here:</p>
 
       {/* <p><a href="https://airtable.com/appRSDpicOuCifPPL/pag5pFp28pzutcEh1/form">https://airtable.com/appRSDpicOuCifPPL/pag5pFp28pzutcEh1/form </a></p> */}
       <p className={styles.buttons}>
