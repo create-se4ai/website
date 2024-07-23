@@ -10,9 +10,9 @@ position: 0
 ---
 # Upcoming Events 
   
-<!-- Upcoming Events coming soon -->
+Upcoming Events coming soon
   
-import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
+<!-- import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
 
 
 <div class="container2">
@@ -28,4 +28,4 @@ Join us on<strong> Friday, July 19th at 10:00 AM EST </strong> as we welcome Uni
 <a href="/blog/2022/09/21/upcoming/event/CREATE_SE4AI_Trainee_Talks_Summer_2024_Edition"> <strong>Read More</strong></a>
 </div>
 </div>  </div> 
-
+ -->

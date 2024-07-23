@@ -10,11 +10,38 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events 
-    
 
-import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg';
+
+import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
+
  
+<div class="container2">
+<h4>CREATE SE4AI Trainee Talks Summer 2024 Edition</h4>
+<div className="events" style={{ 
+      '@media screen and (max-width: 966px)': {
+          maxHeight: '100%',
+          flexWrap: 'wrap',
+          maxWidth: '350px'
+      }
+  }}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
+<img src={Trainee_Talks_July19}/>
+</div>
+<div class="text">
+We hosted our Trainee Talks webinar <strong> on Friday, July 19th, 2024.</strong> It was a great session where we had the opportunity to hear from talented individuals.
+<a href="/blog/2022/09/21/past/event/CREATE_SE4AI_Trainee_Talks_Summer_2024_Edition"> <strong>Read More</strong></a>
+</div>
+</div>  </div> 
+
+
+
+
+
+
+import ygkdk_exterior0001_hor_clsc from './ygkdk_exterior0001_hor_clsc.jpg'
  
+
+
 <div class="container2">
 <h4>CREATE SE4AI Program Retreat - June 9, 2024</h4>
 <div className="events" style={{ 
