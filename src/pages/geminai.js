@@ -1,11 +1,13 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import PageHeader from '../components/PageHeader'; // Import PageHeader component if needed
-import { Institutions } from "../components/Institutions";
+import { Institutionsa } from "../components/Institutions";
 import GEMinAI_Launch_Event170 from "./GEMinAI_Launch_Event170.jpg";
 import GEMinAI_Launch_Event176 from "./GEMinAI_Launch_Event176.jpg";
 import GEMinAI_Launch_Event179 from "./GEMinAI_Launch_Event179.jpg";
 import GEMinAI_Launch_Event191 from "./GEMinAI_Launch_Event191.jpg";
+import IMG_3070 from "./IMG_3070.jpg";
+
 import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
  
@@ -25,7 +27,7 @@ export const InstitutionList = [
       },
       {
         name: "AIinstitute",
-        log: require("../../logos/AIinstitute.png").default,
+        log: require("../../logos/AI_Institute_magenta_EN.png").default,
         url: "https://www.concordia.ca/research/applied-ai-institute.html",
       },
       
@@ -47,6 +49,7 @@ const GEMinAIProgramPage = () => {
         // marginTop:'15px'
         }} className='GEMinAIContainer'>
   <div  >
+    <img src={IMG_3070} alt="IMG_3070" width="195 " />
   <img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" width="220 "/>
 
   <img src={GEMinAI_Launch_Event191} alt="GEMinAI_Launch_Event191" width="220 "/>
@@ -121,9 +124,9 @@ const GEMinAIProgramPage = () => {
       }} 
     />   */}
           {/* <Institutions src={AIinstitute} alt="AI Institute"  className="AI" /> */}
-    {/* <main>
-    <Institutions list={InstitutionList} />
-</main> */}
+<main  >
+    <Institutionsa list={InstitutionList}  />
+    </main>
           </main>
         {/* </div>    */}
     </Layout>
