@@ -28,7 +28,7 @@ import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
 <img src={Trainee_Talks_July19}/>
 </div>
 <div class="text">
-We hosted our Trainee Talks webinar <strong> on Friday, July 19th, 2024.</strong> It was a great session where we had the opportunity to hear from talented individuals.
+ In this special summer edition of Trainee Talks <strong> on Friday, July 19th, 2024,</strong> we heard from 2 talented CREATE trainees.
 <a href="/blog/2022/09/21/past/event/CREATE_SE4AI_Trainee_Talks_Summer_2024_Edition"> <strong>Read More</strong></a>
 </div>
 </div>  </div> 
