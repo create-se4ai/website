@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import PageHeader from '../components/PageHeader'; // Import PageHeader component if needed
-import { Institutionsa } from "../components/Institutions";
 import GEMinAI_Launch_Event170 from "./GEMinAI_Launch_Event170.jpg";
 import GEMinAI_Launch_Event176 from "./GEMinAI_Launch_Event176.jpg";
 import GEMinAI_Launch_Event179 from "./GEMinAI_Launch_Event179.jpg";
@@ -10,7 +9,47 @@ import IMG_3070 from "./IMG_3070.jpg";
 
 import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
- 
+
+
+export function Institutionsa({ list }) {
+  return (
+    <section >
+      <div >
+        {list.map((category) => (
+          <div key={category.title} className="row margin-bottom--lg"   
+          >
+
+            
+            <h2 className="col col--2 "  >{category.title}</h2>
+            {category.members.map((props) => (
+                   <a href={props.url} target="_blank" rel="noopener noreferrer">
+                   <img
+                     src={props.log}
+                     alt={props.name}
+                     style={{
+                     width:'195px',
+                     height:'110px',
+                      margin: '20px',
+                   borderRadius:'8px',
+                      padding:'17px',
+
+                  
+              
+
+                     }}
+                   />
+                 </a>      
+
+
+              // <Institution key={props.name} {...props}   />
+         
+            ))}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
 export const InstitutionList = [
   {
     // title: "Participating Universities",
