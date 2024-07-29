@@ -5,6 +5,8 @@ import GEMinAI_Launch_Event170 from "./GEMinAI_Launch_Event170.jpg";
 import GEMinAI_Launch_Event176 from "./GEMinAI_Launch_Event176.jpg";
 import GEMinAI_Launch_Event179 from "./GEMinAI_Launch_Event179.jpg";
 import GEMinAI_Launch_Event191 from "./GEMinAI_Launch_Event191.jpg";
+import group from "./group.jpg";
+
 import IMG_3070 from "./IMG_3070.jpg";
 
 import styles from "./index.module.css";
@@ -72,13 +74,13 @@ const GEMinAIProgramPage = () => {
 
       <main className='GEMinAIContainer'>
   <div  >
-    <img src={IMG_3070} alt="IMG_3070" width="195 " />
-  <img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" width="220 "/>
+    <img src={IMG_3070} alt="IMG_3070" width="222 " />
+  <img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" width="250 "/>
 
-  <img src={GEMinAI_Launch_Event191} alt="GEMinAI_Launch_Event191" width="220 "/>
-  <img src={GEMinAI_Launch_Event170} alt="GEMinAI_Launch_Event170" width="220 "/>
+  <img src={group} alt="group" width="222 "/>
+ 
 
-  <img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" width="220 "/>
+  <img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" width="250 "/>
 
   
          <p>
