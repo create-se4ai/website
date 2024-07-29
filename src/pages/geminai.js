@@ -10,18 +10,8 @@ import IMG_3070 from "./IMG_3070.jpg";
 import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
 
-const commonImageStyles = {
-  height: '100px',
-  width: '190px',
-  borderRadius: '10px',
-  padding: '15px 40px',
-  margin: '35px',
-};
-const darkThemeBackgroundColor = 'var(--ifm-color-gray-500)';
 
 export function Institutionsa({ list }) {
-  const isDarkTheme = document.documentElement.getAttribute('data-theme') === 'dark';
-
   return (
     <section >
       <div >
@@ -29,7 +19,7 @@ export function Institutionsa({ list }) {
           <div key={category.title} className="row margin-bottom--lg"  style={{           
           borderRadius:'8px',
            padding:'17px',
-         
+   
           }}
              
           >
@@ -42,9 +32,14 @@ export function Institutionsa({ list }) {
                      src={props.log}
                      alt={props.name}
                      style={{
-                      ...commonImageStyles,
-                      backgroundColor: isDarkTheme ? darkThemeBackgroundColor:'white'  ,
-                    }}
+
+                      height:'100px',             
+                    width: '185px',
+                     borderRadius:'10px',
+                      padding:'10px 45px',
+                      margin:'25px' ,
+                      backgroundColor:'  var(--ifm-color-gray-500)'
+                     }}
                    />
                  </a>      
 
