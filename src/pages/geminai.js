@@ -16,30 +16,16 @@ export function Institutionsa({ list }) {
     <section >
       <div >
         {list.map((category) => (
-          <div key={category.title} className="row margin-bottom--lg"  style={{           
-          borderRadius:'8px',
-           padding:'17px',
-   
-          }}
-             
-          >
+          <div key={category.title} className="row margin-bottom--lg"  >
+
             <h2 className="col col--2 "  >{category.title}</h2>
             {category.members.map((props) => (
                    <a href={props.url} target="_blank" rel="noopener noreferrer">
-                   <img
-                                     className="institutionsa-image"
+                   <img className="institutionsa-image"
 
                      src={props.log}
                      alt={props.name}
-                     style={{
 
-                      height:'100px',             
-                    width: '185px',
-                     borderRadius:'10px',
-                      padding:'10px 45px',
-                      margin:'25px' ,
-                      backgroundColor:'  var(--ifm-color-gray-500)'
-                     }}
                    />
                  </a>      
 
@@ -84,12 +70,7 @@ const GEMinAIProgramPage = () => {
 
 </PageHeader>
 
-      <main style={{
-        // border: '2px solid red',
-        // maxWidth: '950px',
-        // marginLeft:'300px',
-        // marginTop:'15px'
-        }} className='GEMinAIContainer'>
+      <main className='GEMinAIContainer'>
   <div  >
     <img src={IMG_3070} alt="IMG_3070" width="195 " />
   <img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" width="220 "/>
