@@ -109,6 +109,16 @@ export const InstitutionList = [
         log: require("../../logos/Vercel.png").default,
         url: "https://vercel.com/?utm_source=se4ai&utm_campaign=oss",
       },
+      {
+        name: "AIinstitute",
+        log: require("../../logos/AIinstitute.png").default,
+        url: "https://www.concordia.ca/research/applied-ai-institute.html",
+      },
+      {
+        name: " Women in AI and Robotics",
+        log: require("../../logos/01_WAI_LOGO_V2_Horiz_Col.webp").default,
+        url: "https://www.womeninairobotics.de/",
+      },
     ],
   },
 ];
