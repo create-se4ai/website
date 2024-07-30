@@ -66,15 +66,7 @@ const TeamMemberList = [
         affiliation: "Queen’s University",
         twitter: "mcis_lab",
         website: "https://mcis.cs.queensu.ca/bram.html",
-      },
-      {
-        name: "Dr. Diego Costa",
-        affiliation: "Concordia University",
-        position: "Assistant Professor",
-        linkedin: "diego-elias-costa",
-        twitter: "DiegoEliasCosta",
-        website: "https://diegoeliascosta.github.io/",
-      },
+      }
     ],
   },
   {
@@ -187,9 +179,11 @@ const TeamMemberList = [
       {
        name: "Akshat Malik",
        degree:", MSc",
-       affiliation:"Queen's University",
+       place:"Microsoft",
+        position:"Currently Software Engineer",
+        link:"https://www.microsoft.com",
+      //  affiliation:"Queen's University",
        linkedin:"akshat-malik",
-      //  place:"National Bank of Canada ",
       //  position:""
       },   {
         name: "Harsh Patel",
@@ -255,6 +249,17 @@ const TeamMemberList = [
         linkedin: "ahmad-abdellatif-8ab82a29",
         twitter: "AhmadAbdellatf",
         website: "https://profiles.ucalgary.ca/ahmad-abdellatif",
+      },
+      ,
+      {
+        name: "Dr. Diego Costa",
+        // affiliation: "Concordia University",
+        place:"Concordia University",
+        position: "Assistant Professor",
+        link:"https://www.concordia.ca/",
+        linkedin: "diego-elias-costa",
+        twitter: "DiegoEliasCosta",
+        website: "https://diegoeliascosta.github.io/",
       },
       {
         name: "Ernesto Lang Oreamuno",
