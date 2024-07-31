@@ -6,6 +6,7 @@ import GEMinAI_Launch_Event176 from "./GEMinAI_Launch_Event176.jpg";
 import GEMinAI_Launch_Event179 from "./GEMinAI_Launch_Event179.jpg";
 import GEMinAI_Launch_Event191 from "./GEMinAI_Launch_Event191.jpg";
 import group from "./group.jpg";
+import { Institutions } from "../components/Institutions";
 
 import IMG_3070 from "./IMG_3070.jpg";
 
@@ -13,51 +14,51 @@ import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
 
 
-export function Institutionsa({ list }) {
-  return (
-    <section >
-      <div >
-        {list.map((category) => (
-          <div key={category.title} className="row margin-bottom--lg"  >
+// export function Institutions({ list }) {
+//   return (
+//     <section >
+//       <div >
+//         {list.map((category) => (
+//           <div key={category.title} className="row margin-bottom--lg"  >
 
-            <h2 className="col col--2 "  >{category.title}</h2>
-            {category.members.map((props) => (
-                   <a href={props.url} target="_blank" rel="noopener noreferrer">
-                   <img className="institutionsa-image"
+//             <h2 className="col col--2 "  >{category.title}</h2>
+//             {category.members.map((props) => (
+//                    <a href={props.url} target="_blank" rel="noopener noreferrer">
+//                    <img className="institutionsa-image"
 
-                     src={props.log}
-                     alt={props.name}
+//                      src={props.log}
+//                      alt={props.name}
 
-                   />
-                 </a>      
+//                    />
+//                  </a>      
 
 
-              // <Institution key={props.name} {...props}   />
+//               // <Institution key={props.name} {...props}   />
          
-            ))}
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
+//             ))}
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// }
 export const InstitutionList = [
   {
     // title: "Participating Universities",
     members: [
       {
         name: "SE4AI",
-        log: require("../../logos/se4ai_news.png").default,
+        log: require("../../logos/Create.png").default,
         url: "https://se4ai.org/",
       },
       {
         name: "GEMinA",
-        log: require("../../logos/GEMinA.png").default,
+        log: require("../../logos/GEMin.png").default,
         url: "https://www.concordia.ca/research/applied-ai-institute/initiatives/geminai.html",
       },
       {
         name: "AIinstitute",
-        log: require("../../logos/AI_Institute_magenta_EN.png").default,
+        log: require("../../logos/AIinstitute.png").default,
         url: "https://www.concordia.ca/research/applied-ai-institute.html",
       },
       
@@ -72,15 +73,13 @@ const GEMinAIProgramPage = () => {
 
 </PageHeader>
 
-      <main className='GEMinAIContainer'>
-  <div  >
-    <img src={IMG_3070} alt="IMG_3070" width="222 " />
-  <img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" width="250 "/>
+      <main className="container">
+  <div  className="col col--12">
+  <img src={IMG_3070} alt="IMG_3070" class="spaced-image" width="250" />
+<img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" class="spaced-image" width="280" />
+<img src={group} alt="group" class="spaced-image" width="250" />
+<img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" class="spaced-image" width="280" />
 
-  <img src={group} alt="group" width="222 "/>
- 
-
-  <img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" width="250 "/>
 
   
          <p>
@@ -106,30 +105,6 @@ const GEMinAIProgramPage = () => {
   </p>
 
  
-      
-      
-      {/* <p>
-
-
-
-        Read more about <strong>GEMinAI</strong> <a href="https://www.concordia.ca/news/stories/2023/11/28/new-concordia-mentoring-project-geminai-addresses-gender-inequity-in-artificial-intelligence.html?c=/research/applied-ai-institute">here</a>.
-      </p>
-      <p>
-        To apply to be a Mentor, please fill out the application form: <a href="https://docs.google.com/forms/d/e/1FAIpQLScae8M_3FXMUVmUMzf5w1zszdiOVdilnyf6amOghfcmYOE9IQ/viewform">here</a>.
-      </p>
-      <p>
-        To apply to be a Mentee, please fill out the application form: <a href="https://forms.gle/8YnTNPFHoEcSqGxy8">here</a>.
-      </p>
-      <p >
-        For more information on the <strong>GEMinAI</strong> Program, please contact us:
-        <br />
-        Lori Akiyama, CREATE SE4AI <a href="mailto:lori.akiyama@concordia.ca">lori.akiyama@concordia.ca</a>.
-        <br />
-        Lindsay Rodgers, Applied AI Institute <a href="mailto:lindsay.rodgers@concordia.ca">lindsay.rodgers@concordia.ca</a>.
-        <br />
-        Mitali Ruths, Applied AI Institute <a href="mailto:mitali.ruths@concordia.ca">mitali.ruths@concordia.ca</a>.
-      </p>
-      */}
 
 
       </div >
@@ -150,7 +125,7 @@ const GEMinAIProgramPage = () => {
     />   */}
           {/* <Institutions src={AIinstitute} alt="AI Institute"  className="AI" /> */}
 <main  >
-    <Institutionsa list={InstitutionList}  />
+    <Institutions list={InstitutionList}   />
     </main>
           </main>
         {/* </div>    */}
