@@ -316,7 +316,7 @@ flex-wrap: wrap;
   /* max-width: 950px; */
   margin-left:120px;
   margin-top:15px;
-  border:2px solid blue;
+  /* border:2px solid blue; */
 
 
  }
@@ -355,3 +355,14 @@ html[data-theme="dark"] .institutionsa-image{
 .spaced-image {
   margin: 15px;
 }
+.geminAI-prtner{
+  text-align :center;
+  /* border:2px solid red; */
+  align-items: center;
+  padding-left: 250px;
+}
+@media screen and (max-width: 480px) {
+  .geminAI-prtner{
+    padding-left: 0px;
+
+  }}

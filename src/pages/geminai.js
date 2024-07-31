@@ -124,7 +124,7 @@ const GEMinAIProgramPage = () => {
       }} 
     />   */}
           {/* <Institutions src={AIinstitute} alt="AI Institute"  className="AI" /> */}
-<main  >
+<main  className="geminAI-prtner">
     <Institutions list={InstitutionList}   />
     </main>
           </main>
