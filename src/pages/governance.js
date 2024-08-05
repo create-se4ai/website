@@ -32,7 +32,7 @@ const TeamMemberList = [
         id: "marie-pierre-habas-gerard"
       },
       {
-        name: "Mr. Pierre Dumouchel",
+        name: "Dr. Pierre Dumouchel",
         position:" Professeur titulaire (ÉTS) et Directeur transfert technologique ",
         place:"Ivado",
         link:"https://ivado.ca/en/",
@@ -46,7 +46,7 @@ const TeamMemberList = [
       {
         name: "Mr. Jesse Vincent-Herscovici",
         position:" Chief Executive Officer",
-        place:"CEO Axelys",
+        place:"Axelys",
         link:"https://www.linkedin.com/company/axelysqc/",
         // affiliation: "CEO Axelys",
         linkedin: "jesse-vincent-herscovici-8b15538",
