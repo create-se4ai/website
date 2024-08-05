@@ -48,13 +48,12 @@ export const InstitutionList = [
     members: [
       {
         name: "SE4AI",
-        log: require("../../logos/creat2.png").default,
+        log: require("../../logos/Create.png").default,
         url: "https://se4ai.org/",
-        
       },
       {
         name: "GEMinA",
-        log: require("../../logos/GEMinAIprogramm.png").default,
+        log: require("../../logos/GEMin.png").default,
         url: "https://www.concordia.ca/research/applied-ai-institute/initiatives/geminai.html",
       },
       {
@@ -66,7 +65,7 @@ export const InstitutionList = [
       
       
     ]}]
-const GEMinAIProgramPage= () => {
+const GEMinAIProgramPage2 = () => {
   return (
     <Layout title="2024-25 GEMinAI Program - Applications Now Open " description="The project's GEMinAI Program.">
 
@@ -81,7 +80,20 @@ const GEMinAIProgramPage= () => {
   <h2 class="col col--12 section">Applications Now Open  </h2>
 
 
-  
+  <div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
+
+{/* <div class="col col--12"> */}
+<img src={IMG_3070} alt="IMG_3070"  /></div></div></div>
+<div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
+<img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" height="217" /></div></div></div>
+<div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
+
+<img src={group} alt="group" /></div></div></div>
+<div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
+
+<img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" height="217"  />
+</div></div></div>
+
         <p className='GEMI2'>
          Together with the Applied AI institute at Concordia, 
           we are excited to announce the launch of our recruitment
@@ -94,23 +106,6 @@ const GEMinAIProgramPage= () => {
  AI professionals for support, encouragement, and assistance along their career journey.</p>
 
 {/* <div className="card__image"> */}
-<div class="col col--4 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
-<img src={group} alt="group" />
-</div></div></div> 
-<div class="col col--4 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
-{/* <img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" height="300" /> */}
-<img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" height="300"  />
-
-
-</div></div></div>
-<div class="col col--4 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
-<img src={IMG_3070} alt="IMG_3070"  />
-</div></div></div>
-{/* <div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
-
-<img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" height="217"  />
-</div></div> */}
- {/* </div> */}
 
 
 </div>
@@ -147,9 +142,9 @@ Mentees must be currently enrolled as Concordia undergraduate or graduate studen
 
  </div>
 
-<div class="row margin-bottom--lg">
-</div> 
-
+  
+  <div class="row margin-bottom--lg">
+</div>
 {/* <main  className="geminAI-prtner">
     <Institutions list={InstitutionList}   />
     </main> */}
@@ -159,4 +154,5 @@ Mentees must be currently enrolled as Concordia undergraduate or graduate studen
   );
 };
 
-export default GEMinAIProgramPage;
+export default GEMinAIProgramPage2;
+

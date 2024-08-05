@@ -320,20 +320,10 @@ flex-wrap: wrap;
 
 
  }
- @media screen and (max-width: 480px) {
-  .GEMinAIContainer{
-  /* margin-left:-300px;  */
- /* border:2px solid green; */
- /* margin-left:15px; */
-}}
 
 
- @media screen and (min-width: 1700px) {
-  .GEMinAIContainer{
-    /* margin-top: 15px;
-margin-left: calc(37% - 150px); 
-max-width:1500px; */
-}} 
+
+
 
 .institutionsa-image{
   height:100px;             
@@ -353,7 +343,7 @@ html[data-theme="dark"] .institutionsa-image{
 }
 
 .spaced-image {
-  margin: 15px;
+  margin-left: 10px;
 }
 .geminAI-prtner{
   text-align :center;
@@ -366,3 +356,20 @@ html[data-theme="dark"] .institutionsa-image{
     padding-left: 0px;
 
   }}
+.GEMI{
+  /* border:2px solid green; */
+  margin-left:15px ;
+/* margin-top:-25px; */
+}
+.GEMI2{
+  margin-left:15px ;
+padding-top: 0;
+  margin-top:-25px; 
+/* border:2px solid red; */
+}
+
+
+.space{
+  /* border:2px solid orange; */
+  margin-top:-40px;
+}

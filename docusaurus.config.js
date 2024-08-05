@@ -13,8 +13,8 @@ module.exports = {
   organizationName: "create-se4ai", // Usually your GitHub org/user name.
   projectName: "create-se4ai.github.io", // Usually your repo name.
   plugins: [
-    // require.resolve("./src/plugins/custom-webpack-config.js"),
-    path.resolve(__dirname, "./src/plugins/custom-webpack-config.js"),
+    require.resolve("./src/plugins/custom-webpack-config.js"),
+    // path.resolve(__dirname, "./src/plugins/custom-webpack-config.js"),
     [
       "docusaurus-plugin-face-crop",
       {
@@ -50,8 +50,11 @@ module.exports = {
 
         { to: "/partners", label: "Partners", position: "left" },
         { to: "/geminai", label: "GEMinAI", position: "left" },
-
+      
         { href: "/apply", label: "Apply", position: "left" },
+        { to: "/geminai2"},
+        { to: "/geminai3" },
+        { to: "/geminai4" },
         // {
         //   href: 'https://github.com/create-se4ai',
         //   position: 'right',
