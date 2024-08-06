@@ -12,7 +12,7 @@ const TeamMemberList = [
       {
         name: "Dr. Julien Crowe",
         position:"Senior Director, Artificial Intelligence Factory ",
-        place:"National Bank of Canada.",
+        place:"National Bank of Canada",
         // affiliation: "National Bank of Canada.",
         link:"https://www.linkedin.com/company/banquenationaleducanada/",
         linkedin: "juliencrowe",
@@ -92,7 +92,7 @@ const TeamMemberList = [
       {
         name: "Dr. Stefan Wagner",
         position:" Professor",
-        place:"Technical University of Munich.",
+        place:"Technical University of Munich",
         link:"https://www.tum.de/en/",
         // affiliation: "Technical University of Munich",
         linkedin: "stefan-wagner-05821384/",
