@@ -68,7 +68,7 @@ const TeamMemberList = [
       {
         name: "Mr. Derek Truong",
         position:" Program Director",
-        place:"IBM.",
+        place:"IBM",
         link:"https://www.linkedin.com/company/ibm/posts/?feedView=all",
         // affiliation: "IBM",
         linkedin: "derek-truong-7233b85",
