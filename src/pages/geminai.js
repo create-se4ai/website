@@ -48,13 +48,12 @@ export const InstitutionList = [
     members: [
       {
         name: "SE4AI",
-        log: require("../../logos/creat2.png").default,
+        log: require("../../logos/Create.png").default,
         url: "https://se4ai.org/",
-        
       },
       {
         name: "GEMinA",
-        log: require("../../logos/GEMinAIprogramm.png").default,
+        log: require("../../logos/GEMin.png").default,
         url: "https://www.concordia.ca/research/applied-ai-institute/initiatives/geminai.html",
       },
       {
@@ -66,7 +65,7 @@ export const InstitutionList = [
       
       
     ]}]
-const GEMinAIProgramPage= () => {
+const GEMinAIProgramPage = () => {
   return (
     <Layout title="2024-25 GEMinAI Program - Applications Now Open " description="The project's GEMinAI Program.">
 
@@ -76,13 +75,30 @@ const GEMinAIProgramPage= () => {
 <section>
 
 <div className='container'>
-  <div class="row margin-bottom--lg">
+  <div class="row margin-bottom--md">
     
   <h2 class="col col--12 section">Applications Now Open  </h2>
 
 
-  
-        <p className='GEMI2'>
+  {/* <div 
+  class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module">
+    
+    <div class="card"><div class="card__image">
+
+
+<img src={IMG_3070} alt="IMG_3070"  /></div></div></div> */}
+{/* <div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
+<img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" height="217" /></div></div></div> */}
+{/* <div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
+
+<img src={group} alt="group" /></div></div></div> */}
+{/* <div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
+
+<img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" height="217"  />
+</div></div>
+</div> */}
+</div>
+        <p className='GEMI'>
          Together with the Applied AI institute at Concordia, 
           we are excited to announce the launch of our recruitment
            campaign for the next cohort of the
@@ -91,51 +107,26 @@ const GEMinAIProgramPage= () => {
  inequity within artificial intelligence fields, where women make up only 25% of 
  AI specialists (World Economic Forum, 2021). GEMinAI aims to narrow this gap by 
  connecting women and gender non-conforming undergraduate and graduate students with like-minded 
- AI professionals for support, encouragement, and assistance along their career journey.</p>
-
+ AI professionals for support, encouragement, and assistance along their career journey. </p>  
 {/* <div className="card__image"> */}
-<div class="col col--4 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
-<img src={group} alt="group" />
-</div></div></div> 
-<div class="col col--4 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
-{/* <img src={GEMinAI_Launch_Event176} alt="GEMinAI_Launch_Event176" height="300" /> */}
-<img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" height="300"  />
 
 
-</div></div></div>
-<div class="col col--4 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
-<img src={IMG_3070} alt="IMG_3070"  />
-</div></div></div>
-{/* <div class="col col--3 margin-bottom--lg member_src-components-TeamMembers-module memberLarge_src-components-TeamMembers-module"><div class="card"><div class="card__image">
-
-<img src={GEMinAI_Launch_Event179} alt="GEMinAI_Launch_Event179" height="217"  />
-</div></div> */}
- {/* </div> */}
+        
+        
 
 
-</div>
-</div>
-<div className='container'>
-
-<div class="space">
-<h2 class="col col--12 section" >Mentor Application  </h2>
-
-<p className='GEMI2'>
+<p className='GEMI'>
       If you are a professional working in the field of AI, please consider mentoring a student for 6 months during the 2024-25 academic year. For more information and to apply, please complete the 
-    Mentor Application Form  here:
+    <strong> Mentor Application Form </strong> here:
     </p>
       <p className={styles.buttons}>
     <Link className="button button--primary button--lg" to="https://airtable.com/appRSDpicOuCifPPL/pag5pFp28pzutcEh1/form">
       Apply Now
     </Link>
-  </p></div>
-
-
-  <h2 class="col col--12 section">Mentee Application  </h2>
-
-  <p className='GEMI2'>
+  </p>
+  <p className='GEMI'>
 Mentees must be currently enrolled as Concordia undergraduate or graduate students and identify as a woman or non-binary person.  CREATE SE4AI trainees from all institutions are eligible to join.  To apply, please complete the
- Mentee Application Form here:</p>
+<strong> Mentee Application Form</strong> here:</p>
       <p className={styles.buttons}>
     <Link className="button button--primary button--lg" to="https://airtable.com/appRSDpicOuCifPPL/pagQHgB1Re4kX97DA/form">
       Apply Now
@@ -145,11 +136,11 @@ Mentees must be currently enrolled as Concordia undergraduate or graduate studen
  
 
 
- </div>
+ 
 
-<div class="row margin-bottom--lg">
+  </div>
+  <div class="row margin-bottom--lg">
 </div> 
-
 {/* <main  className="geminAI-prtner">
     <Institutions list={InstitutionList}   />
     </main> */}
@@ -160,3 +151,4 @@ Mentees must be currently enrolled as Concordia undergraduate or graduate studen
 };
 
 export default GEMinAIProgramPage;
+

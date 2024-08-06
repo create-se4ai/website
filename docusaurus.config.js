@@ -52,9 +52,9 @@ module.exports = {
         { to: "/geminai", label: "GEMinAI", position: "left" },
       
         { href: "/apply", label: "Apply", position: "left" },
-        { to: "/geminai2"},
-        { to: "/geminai3" },
-        { to: "/geminai4" },
+        // { to: "/geminai2"},
+        // { to: "/geminai3" },
+        // { to: "/geminai4" },
         // {
         //   href: 'https://github.com/create-se4ai',
         //   position: 'right',
