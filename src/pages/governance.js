@@ -112,6 +112,18 @@ const TeamMemberList = [
         // website: "https://cgi.cse.unsw.edu.au/~limingz/home/?About_Me:Bios",
         has_page: false,
       },
+      {
+        name: "Dr. Jean-Samuel Chenard",
+        positiona:" President",
+         place:"  Motsai",
+        link:"https://motsai.com/fr/",
+        // affiliation: "",
+        linkedin: "jsamch",
+        // twitter: "",
+        // email: "liming.Zhu@data61.csiro.au",
+        // website: "https://cgi.cse.unsw.edu.au/~limingz/home/?About_Me:Bios",
+        has_page: false,
+      },
     ],
   },
   // {
