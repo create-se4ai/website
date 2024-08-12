@@ -1,5 +1,6 @@
 import React from "react";
 import clsx from "clsx";
+import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -17,7 +18,7 @@ function importProfilePicture(name: string) {
   }
 }
 
-const SocialButtons = ({ id, twitter, linkedin, website, email, has_page }) => (
+const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page }) => (
   <ul className="pills">
     {has_page && (
       <li className={clsx("pills__item", styles.website)}>
@@ -30,6 +31,13 @@ const SocialButtons = ({ id, twitter, linkedin, website, email, has_page }) => (
       <li className={clsx("pills__item", styles.website)}>
         <a target="_blank" href={website}>
           <FontAwesomeIcon icon={faExternalLinkAlt} /> Know more
+        </a>
+      </li>
+    )}
+     {login && (
+      <li className={clsx("pills__item", styles.login)}>
+        <a target="_blank" href={login}>
+          <FontAwesomeIcon icon={faUserCircle} />  login
         </a>
       </li>
     )}
@@ -57,7 +65,7 @@ const SocialButtons = ({ id, twitter, linkedin, website, email, has_page }) => (
   </ul>
 );
 
-const TeamMemberLarge = ({ name, role, imgURL,degree, affiliation,position, link, place, ...props }) => {
+const TeamMemberLarge = ({ name, role, imgURL,degree, affiliation,position,positiona, link, place, ...props }) => {
   return (
     <div
       className={clsx(
@@ -84,6 +92,11 @@ const TeamMemberLarge = ({ name, role, imgURL,degree, affiliation,position, link
           </h3><h4>{position && (
               <span className="avatar__position">
                 {position} at <a href={link} target="_blank">{place}</a>
+              </span>
+            )}</h4>
+            <h4>{positiona && (
+              <span className="avatar__position">
+                {positiona} of <a href={link} target="_blank">{place}</a>
               </span>
             )}</h4>
           {affiliation}
