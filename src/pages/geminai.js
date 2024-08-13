@@ -67,7 +67,7 @@ export const InstitutionList = [
     ]}]
 const GEMinAIProgramPage = () => {
   return (
-    <Layout title="2024-25 GEMinAI Program - Applications Now Open " description="The project's GEMinAI Program.">
+    <Layout title="GEMinAI Program" description="The project's GEMinAI Program.">
 
 <PageHeader title=" GEMinAI Program " />
 
