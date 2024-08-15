@@ -7,4 +7,4 @@ import CAN_CWIC from '../CAN_CWIC.jpg'
 
 <p ><img src={CAN_CWIC}/></p>
 
-4 CREATE students attended the annual Canadian Women in Computing Conference in Toronto. This annual conference provides career-oriented workshops, student lightning talks and networking opportunities with other women students of STEM.
+5 CREATE trainees attended the annual ACM Canadian Celebration of Women in Computing conference in Toronto, ON. This annual conference provides career-oriented workshops, student lightning talks and networking opportunities with other women students of STEM.

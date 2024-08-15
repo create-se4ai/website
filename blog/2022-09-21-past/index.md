@@ -11,7 +11,7 @@ position: 2
 ---
 # Past Events 
 
-
+ 
 import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
 
  
@@ -249,7 +249,7 @@ import CAN_CWIC from './CAN_CWIC.jpg'
 }}><div class="manuel_cosentino_n_CMLApjfI_unsplash1">
 <img src={CAN_CWIC} alt="CAN_CWIC"  />
 </div>
-<div class="text">4 CREATE students attended the annual Canadian Women in Computing Conference in Toronto. This annual conference provides career-oriented workshops. <a href="/blog/2022/09/21/past/event/CAN-CWIC_Conference_in_Toronto_October20-21_2023"><strong> Read More</strong></a>
+<div class="text">5 CREATE trainees attended the annual ACM Canadian Celebration of Women in Computing conference in Toronto, ON. This annual conference provides career-oriented workshops. <a href="/blog/2022/09/21/past/event/CAN-CWIC_Conference_in_Toronto_October20-21_2023"><strong> Read More</strong></a>
 </div></div></div>
 
 
