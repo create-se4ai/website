@@ -99,7 +99,7 @@ const GEMinAIProgramPage = () => {
 </div> */}
 </div>
         <p className='GEMI'>
-         Together with the Applied AI institute at Concordia, 
+         Together with the <a href="https://www.concordia.ca/research/applied-ai-institute/initiatives/geminai.html">Applied AI institute at Concordia</a>, 
           we are excited to announce the launch of our recruitment
            campaign for the next cohort of the
 <strong> Gender Equity Mentoring in AI (GEMinAI) </strong>Program.
