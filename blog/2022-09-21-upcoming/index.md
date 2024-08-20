@@ -10,22 +10,22 @@ position: 0
 ---
 # Upcoming Events 
    
-Upcoming Events coming soon
+<!-- Upcoming Events coming soon -->
   
-<!-- import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
+import GEMinAI_Mixer from './GEMinAI_Mixer.jpg'
 
 
 <div class="container2">
-<h4>CREATE SE4AI Trainee Talks Summer 2024 Edition</h4>
+<h4>GEMinAI Mixer</h4>
 <div class="events ">
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1">
-<img src={Trainee_Talks_July19}/>
+<img src={GEMinAI_Mixer}/>
 </div>
-<div class="text">
-Join us on<strong> Friday, July 19th at 10:00 AM EST </strong> as we welcome University of Alberta Master's candidate Afiya Fahmida Sarah who will present her thesis research on "Improving API Documentation Quality Through Identifying Missing Code Examples".
+<div class="text"> 
+<strong><a href="https://se4ai.org/">CREATE SE4AI</a></strong> and the<strong> <a href="https://www.concordia.ca/research/applied-ai-institute.html">Applied AI Institute </a> </strong>are excited to launch year two of the Gender Equity Mentoring in AI (GEMinAI) program! Join us for a dynamic networking event celebrating gender diverse AI professionals and students. 
 
 <></>
-<a href="/blog/2022/09/21/upcoming/event/CREATE_SE4AI_Trainee_Talks_Summer_2024_Edition"> <strong>Read More</strong></a>
+<a href="/blog/2022/09/21/upcoming/event/GEMinAI_Mixer"> <strong>Read More</strong></a>
 </div>
 </div>  </div> 
- -->
+
