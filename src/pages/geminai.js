@@ -98,7 +98,7 @@ const GEMinAIProgramPage = () => {
 </div></div>
 </div> */}
 </div>
-        <p className='GEMI'>
+        <p className='GEMI'> 
          Together with the <a href="https://www.concordia.ca/research/applied-ai-institute/initiatives/geminai.html">Applied AI institute at Concordia</a>, 
           we are excited to announce the launch of our recruitment
            campaign for the next cohort of the
