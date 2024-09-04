@@ -10,8 +10,8 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events 
-    
- 
+     
+  
 import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
 
  
