@@ -10,7 +10,7 @@ import GEMinAI_Mixer from '../GEMinAI_Mixer.jpg';
 
 This event will kick off a mentoring period of approximately 6 months during which mentors and mentees will meet for 4-6 sessions. General structure and discussion topics will be provided to guide the sessions!
 
-**Date:**  Wednesday, September 4, 2024
+**Date:**  Monday, October 7, 2024
 
 **Time:** 4 p.m. – 6 p.m. 
 
