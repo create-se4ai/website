@@ -12,6 +12,23 @@ position: 0
    
 <!-- Upcoming Events coming soon -->
   
+import Trainee_Talks_Oct16_2024 from './Trainee_Talks_Oct16_2024.jpg'; 
+
+<div class="container2">
+<h4>Trainee Talks - October 16th, 2024 at 10:00AM</h4>
+<div class="events ">
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
+<img src={Trainee_Talks_Oct16_2024}/>
+</div>
+<div class="text"> 
+Join us for the first CREATE SE4AI Trainee Talks of the fall 2024 semester!  In this edition, Master's candidate Lin Ling will present her work titled "Bias Unveiled: Investigating Social Bias in LLM-Generated Code". Immediately following, Junjie Li, Doctoral candidate, will share his research on "An Exploratory Study on 
+<a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_Oct16th_2024"> <strong>Read More</strong></a>
+</div>
+</div>  </div>
+
+
+
+
 import GEMinAI_Mixer from './GEMinAI_Mixer.jpg'
 
 
