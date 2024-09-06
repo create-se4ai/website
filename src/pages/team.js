@@ -226,6 +226,16 @@ const TeamMemberList = [
         linkedin:"jaskirat409",
        //  position:""
        },
+       {
+        name: "Shenyu Zheng",
+        degree:", MSc",
+        affiliation:"Queen's University",
+        // place:"Splunk",
+        // position:"Currently Software Development Engineer",
+        // link:"https://www.splunk.com/",
+        linkedin:"shenyu-zheng-31146524b/"
+  
+       },
       {
         name: "Khaled Badran",
         degree:", MSc",
