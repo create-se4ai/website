@@ -177,6 +177,16 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
+        name: "Lorena Pacheco",
+        degree:", MSc",
+        place:"Slalom Build",
+         position:"Currently Senior Engineer - Platform Engineering ",
+         link:"https://www.linkedin.com/company/slalom-build/",
+       //  affiliation:"Queen's University",
+        linkedin:"lorenasimedo",
+       //  position:""
+       },
+      {
        name: "Akshat Malik",
        degree:", MSc",
        place:"Microsoft",
