@@ -216,6 +216,16 @@ const TeamMemberList = [
         website:"https://harsh8398.github.io"
   
        },
+       {
+        name: "Jaskirat Singh",
+        degree:", MSc",
+        // place:"Air Canada ",
+        //  position:"Currently Mitacs intern ",
+        //  link:"https://www.linkedin.com/company/air-canada/posts/?feedView=all",
+        affiliation:"Queen's University",
+        linkedin:"jaskirat409",
+       //  position:""
+       },
       {
         name: "Khaled Badran",
         degree:", MSc",
