@@ -186,6 +186,16 @@ const TeamMemberList = [
         linkedin:"lorenasimedo",
        //  position:""
        },
+       {
+        name: "Khouloud Oueslati",
+        degree:", MSc",
+        place:"Air Canada ",
+         position:"Currently Mitacs intern ",
+         link:"https://www.linkedin.com/company/air-canada/posts/?feedView=all",
+       //  affiliation:"Queen's University",
+        linkedin:"khouloud-ouesleti/",
+       //  position:""
+       },
       {
        name: "Akshat Malik",
        degree:", MSc",
