@@ -66,7 +66,16 @@ const TeamMemberList = [
         affiliation: "Queen’s University",
         twitter: "mcis_lab",
         website: "https://mcis.cs.queensu.ca/bram.html",
-      }
+      }, {
+        name: "Dr. Diego Costa",
+        // affiliation: "Concordia University",
+        place:"Concordia University",
+        position: "Assistant Professor",
+        link:"https://www.concordia.ca/",
+        linkedin: "diego-elias-costa",
+        twitter: "DiegoEliasCosta",
+        website: "https://diegoeliascosta.github.io/",
+      },
     ],
   },
   {
