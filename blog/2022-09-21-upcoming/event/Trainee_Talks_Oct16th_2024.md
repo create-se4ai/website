@@ -17,6 +17,8 @@ For the first time, this event will be offered both in-person and online.  Local
 
 Join the presentation in person: **Concordia University, 2155 Guy Street (ER Building) 12th floor Room 1222.**
 
+**Join the webinar via Zoom:** :[ https://concordia-ca.zoom.us/j/85010190247?pwd=UbtgbgJaBNAAfYnDyJlCnbXEeAKNmN.1]( https://concordia-ca.zoom.us/j/85010190247?pwd=UbtgbgJaBNAAfYnDyJlCnbXEeAKNmN.1)
+
 **Meeting ID:**  850 1019 0247
 
 **Passcode:**  134076
