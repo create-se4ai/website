@@ -11,7 +11,7 @@ position: 2
 ---
 # Past Events 
         
-   
+    
 import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
 
   
