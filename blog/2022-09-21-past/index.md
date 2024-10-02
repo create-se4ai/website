@@ -10,11 +10,11 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events 
-      
+        
    
 import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
 
- 
+  
 <div class="container2">
 <h4>CREATE SE4AI Trainee Talks Summer 2024 Edition</h4>
 <div className="events" style={{ 
