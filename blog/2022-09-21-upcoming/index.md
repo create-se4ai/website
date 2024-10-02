@@ -21,7 +21,8 @@ import Trainee_Talks_Oct16_2024 from './Trainee_Talks_Oct16_2024.jpg';
 <img src={Trainee_Talks_Oct16_2024}/>
 </div>
 <div class="text"> 
-Join us for the first CREATE SE4AI Trainee Talks of the fall 2024 semester!  In this edition, Master's candidate Lin Ling will present her work titled "Bias Unveiled: Investigating Social Bias in LLM-Generated Code". Immediately following, Junjie Li, Doctoral candidate, will share his research on "An Exploratory Study on 
+Join us for the first CREATE SE4AI Trainee Talks of the fall 2024 semester!  In this edition, Master's candidate Lin Ling will present her work titled <strong>"Bias Unveiled: Investigating Social Bias in LLM-Generated Code". </strong>
+ Immediately following, Junjie Li, Doctoral candidate, will share his research on <strong>"An Exploratory Study on </strong>
 <a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_Oct16th_2024"> <strong>Read More</strong></a>
 </div>
 </div>  </div>
