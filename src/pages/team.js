@@ -186,6 +186,16 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
+        name: "Afiya Fahmida Sarah",
+        degree:", MSc",
+        place:"Slalom Build",
+        //  position:"Currently Senior Engineer - Platform Engineering ",
+        //  link:"https://www.linkedin.com/company/slalom-build/",
+        affiliation:"University of Alberta",
+        linkedin:"afiya-fahmida-sarah-039007179",
+       //  position:""
+       },
+      {
         name: "Lorena Pacheco",
         degree:", MSc",
         place:"Slalom Build",
