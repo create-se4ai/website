@@ -10,8 +10,44 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events 
-        
+
+
+import Trainee_Talks_Oct16_2024 from './Trainee_Talks_Oct16_2024.jpg'; 
+
+
+
+<div class="container2">
+<h4>Trainee Talks - October 16th, 2024 </h4>
+<div class="events ">
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
+<img src={Trainee_Talks_Oct16_2024}/>
+</div>
+<div class="text"> 
+The first CREATE SE4AI Trainee Talks of the fall 2024 semester was held on  October 16. During this session, Master's candidate Lin Ling presented her research titled <strong>"Bias Unveiled: Investigating Social Bias in LLM-Generated Code".</strong> Following her presentation, Doctoral candidate Junjie Li shared his study on <strong> "An Exploratory Study on Fine-Tuning Large Language Models for Secure Code Generation". </strong>
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_Oct16th_2024"> <strong>Read More</strong></a>
+</div>
+</div>  </div>
+
     
+
+import GEMinAI_Mixer from './GEMinAI_Mixer.jpg';
+
+<div class="container2">
+<h4>GEMinAI Mixer</h4>
+<div class="events ">
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
+<img src={GEMinAI_Mixer}/>
+</div>
+<div class="text"> 
+<strong><a href="https://se4ai.org/">CREATE SE4AI</a></strong> and the<strong> <a href="https://www.concordia.ca/research/applied-ai-institute.html">Applied AI Institute </a> </strong> successfully launched the second year of the Gender Equity Mentoring in AI (GEMinAI) program on Monday, October 7, 2024. The dynamic networking event celebrated gender-diverse AI professionals and students, providing an opportunity for students to meet each other and connect with mentors participating in the program.
+
+<></>
+<a href="/blog/2022/09/21/past/event/GEMinAI_Mixer"> <strong>Read More</strong></a>
+</div>
+</div>  </div> 
+
+
+
 import Trainee_Talks_July19 from './Trainee_Talks_July19.jpg'
 
   
