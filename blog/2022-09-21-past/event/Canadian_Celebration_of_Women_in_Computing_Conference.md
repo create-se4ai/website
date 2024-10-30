@@ -6,9 +6,9 @@ import CAN_CWIC2 from '../CAN_CWIC2.jpeg';
 import CAN_CWIC4 from '../CAN_CWIC4.jpeg';
 
 <p>
-<img class="image" src={CAN_CWIC1} alt="CAN_CWIC1" width="270"/>
-<img class="image" src={CAN_CWIC2} alt="CAN_CWIC2" width="270"/>
-<img class="image" src={CAN_CWIC4} alt="CAN_CWIC3" width="270"/> 
+<img class="image" src={CAN_CWIC1} alt="CAN_CWIC1" width="280"/>
+<img class="image" src={CAN_CWIC2} alt="CAN_CWIC2" width="280"/>
+<img class="image" src={CAN_CWIC4} alt="CAN_CWIC3" width="280"/> 
 </p>
 
 
