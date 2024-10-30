@@ -11,6 +11,27 @@ position: 2
 ---
 # Past Events 
 
+import CAN_CWIC1 from './CAN_CWIC1.jpeg';
+
+
+<div class="container2">
+<h4>Canadian Celebration of Women in Computing Conference (CAN-CWIC 2024) </h4>
+<div class="events ">
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1">
+<img src={CAN_CWIC1} width="140px" height="120px"/>
+</div>
+<div class="text"> 
+On <strong>October 25-26, 2024,</strong> 3 CREATE trainees traveled to <strong> North York, ON </strong>to take part in the Canadian Celebration of Women in Computing Conference.  The CAN-CWIC Conference is dedicated to empowering women in the field of computing, and brings together leaders in research, industry, and education from across Canada for networking, learning, sharing and mentoring. 
+<a href="/blog/2022/09/21/past/event/Canadian_Celebration_of_Women_in_Computing_Conference"> <strong>Read More</strong></a>
+</div>
+</div>  </div>
+
+
+
+
+
+
+
 
 import Trainee_Talks_Oct16_2024 from './Trainee_Talks_Oct16_2024.jpg'; 
 
