@@ -258,9 +258,11 @@ const TeamMemberList = [
       {
         name: "Khaled Badran",
         degree:", MSc",
-        affiliation: "Concordia University",
+        place:"Alraqmyia"
+        position:"Lead AI Engineer"
         twitter: "khaled_badran9",
         linkedin: "khaled-badran-6b0908174",
+        //affilitaion: "Concordia"
       },
       {
         name: "Rached Bouchoucha",
