@@ -6,7 +6,7 @@ import TraineeTalksIrenYangDec6 from './TraineeTalksIrenYangDec6.jpg';
 
 <p class="Trainee_Talk"><img src={TraineeTalksIrenYangDec6} width="900"/></p>
 
- join us **on Friday, December 6th at 10:00AM EST** for the next edition of Trainee Talks!  This time we will hear from 2 PhD candidates from Poly Montréal, Iren Mazloomzadeh and Yang Liu.  Iren will share her recently published paper on ["Reputation Gaming in Crowd Technical Knowledge Sharing".](https://dl.acm.org/doi/abs/10.1145/3691627)  Immediately following, Yang will present his research on "Adversarial Attack Classification and Robustness Testing for Code Generation Models".
+ Join us **on Friday, December 6th at 10:00AM EST** for the next edition of Trainee Talks!  This time we will hear from 2 PhD candidates from Poly Montréal, Iren Mazloomzadeh and Yang Liu.  Iren will share her recently published paper on ["Reputation Gaming in Crowd Technical Knowledge Sharing".](https://dl.acm.org/doi/abs/10.1145/3691627)  Immediately following, Yang will present his research on "Adversarial Attack Classification and Robustness Testing for Code Generation Models".
 
 Each trainee will talk for 20 minutes, with 10 minutes reserved for Q&A.
 

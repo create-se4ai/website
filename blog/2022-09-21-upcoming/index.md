@@ -26,7 +26,7 @@ import TraineeTalksIrenYangDec6 from './TraineeTalksIrenYangDec6.jpg';
 <img src={TraineeTalksIrenYangDec6} width="400px"  />
 </div>
 <div class="text"> 
-join us <strong> on Friday, December 6th at 10:00AM EST </strong> for the next edition of Trainee Talks!  This time we will hear from 2 PhD candidates from Poly Montréal, Iren Mazloomzadeh and Yang Liu.  Iren will share her recently published paper on <a href="https://dl.acm.org/doi/abs/10.1145/3691627">"Reputation Gaming in Crowd Technical Knowledge Sharing".</a>  Immediately following, Yang will present his research on.
+Join us <strong> on Friday, December 6th at 10:00AM EST </strong> for the next edition of Trainee Talks!  This time we will hear from 2 PhD candidates from Poly Montréal, Iren Mazloomzadeh and Yang Liu.  Iren will share her recently published paper on <a href="https://dl.acm.org/doi/abs/10.1145/3691627">"Reputation Gaming in Crowd Technical Knowledge Sharing".</a>  Immediately following, Yang will present his research on.
 
 
 <a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_Dec6th"> <strong>Read More</strong></a>
