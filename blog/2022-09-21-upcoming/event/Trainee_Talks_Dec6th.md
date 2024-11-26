@@ -18,5 +18,4 @@ Join via Zoom:  [https://concordia-ca.zoom.us/j/81394011643?pwd=bTlFWrmIguD5P29x
 
 **Passcode:**  510146
 
-This webinar is open to all CREATE students, supervisors, and anyone who wishes to attend.  Please feel free to share the details and Eventbrite link with your networks. The event will be posted on our CREATE website shortly.
 
