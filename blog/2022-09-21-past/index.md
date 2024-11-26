@@ -9,7 +9,7 @@ position: 2
 #author_image_url: 
 #tags: [past events, news, webinars, trainee talks]
 ---
-# Past Events 
+# Past Events  
 
 import CAN_CWIC3 from './CAN_CWIC3.jpeg';
 
