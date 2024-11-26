@@ -258,7 +258,7 @@ const TeamMemberList = [
       {
         name: "Khaled Badran",
         degree:", MSc",
-        place:"Alraqamia",
+        place:"Alraqmyia",
         position:"Currently Lead AI Engineer",
         // link:"https://sycodal.ca/fr/",
         // place:"Alraqmyia"
