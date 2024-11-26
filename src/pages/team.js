@@ -258,7 +258,10 @@ const TeamMemberList = [
       {
         name: "Khaled Badran",
         degree:", MSc",
-        affiliation: "Concordia University",
+        place:"Alraqamia",
+        position:"Currently Lead AI Engineer",
+        // link:"https://sycodal.ca/fr/",
+        // affiliation: "Concordia University",
         twitter: "khaled_badran9",
         linkedin: "khaled-badran-6b0908174",
       },
