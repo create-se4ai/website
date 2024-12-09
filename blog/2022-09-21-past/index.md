@@ -11,6 +11,36 @@ position: 2
 ---
 # Past Events  
 
+import TraineeTalksIrenYangDec6 from './TraineeTalksIrenYangDec6.jpg';
+
+
+<div class="container2">
+<h4>Trainee Talks - Dec 6th, 2024 </h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={TraineeTalksIrenYangDec6} width="400px"  />
+</div>
+<div class="text"> 
+ <strong> On Friday, December 6th, 2024, </strong> two PhD students from Polytechnique Montréal, Iren Mazloomzadeh and Yang Liu, presented their research as part of CREATE SE4AI Trainee Talks. Iren shared insights from her recently published paper, <a href="https://dl.acm.org/doi/abs/10.1145/3691627">"Reputation Gaming in Crowd Technical Knowledge Sharing".</a>  
+
+
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_Dec6th"> <strong>Read More</strong></a>
+</div>
+</div>  </div>
+
+
+
+
+
+
+
+
 import CAN_CWIC3 from './CAN_CWIC3.jpeg';
 
 
