@@ -173,7 +173,7 @@ module.exports = {
             { label: "Contact", to: "/contact" },
           ],
         },
-      ],
+      ], 
       logo: {
         alt: "NSERC",
         src: "/img/NSERC_WHITE.png",
