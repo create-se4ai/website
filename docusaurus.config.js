@@ -144,7 +144,12 @@ module.exports = {
               label: "GitHub",
               href: "https://github.com/create-se4ai",
             },
+            { 
+              label: "YouTube ",
+              href: "https://www.youtube.com/@createse4ai" 
+           },
             { label: "Contact", to: "/contact" },
+          
           ],
         },
       ],
