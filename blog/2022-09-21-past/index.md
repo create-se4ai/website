@@ -10,7 +10,7 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
-    
+     
 import TraineeTalksIrenYangDec6 from './TraineeTalksIrenYangDec6.jpg';
 
 
