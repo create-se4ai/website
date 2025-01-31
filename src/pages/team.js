@@ -208,9 +208,9 @@ const TeamMemberList = [
        {
         name: "Khouloud Oueslati",
         degree:", MSc",
-        place:"Air Canada ",
-         position:"Currently Mitacs intern ",
-         link:"https://www.linkedin.com/company/air-canada/posts/?feedView=all",
+        place:"Polytechnique Montréal   ",
+         position:"Currently PhD student",
+         link:"https://www.polymtl.ca/",
        //  affiliation:"Queen's University",
         linkedin:"khouloud-ouesleti/",
        //  position:""
