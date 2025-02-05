@@ -25,13 +25,13 @@ import Ottawa from './Ottawa.jpg';
 <img src={Ottawa}   />
 </div>
 <div class="text"> 
-
+ 
 <a href="https://se4ai.org/">CREATE SE4AI </a> trainees are invited to attend our annual program retreat!  We will gather at <strong>Le Germain Ottawa</strong> on <strong>Saturday, April 26, 2025</strong> for an afternoon of networking, brainstorming and sharing our collective accomplishments.
 <a href="/blog/2022/09/21/upcoming/event/CREATE_Annual_Retreat_April26"> <strong>Read More</strong></a>
 </div>
 </div> 
  </div>
-
+ 
 
 
 
