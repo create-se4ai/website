@@ -48,7 +48,7 @@ const TeamMemberList = [
       },
       {
         name: "Dr. Sarah Nadi",
-        affiliation: "University of Alberta",
+        affiliation: "New York University Abu Dhabi",
         linkedin: "sarah-nadi-b312b665",
         twitter: "sarahnadi",
         website: "https://sarahnadi.org/",
