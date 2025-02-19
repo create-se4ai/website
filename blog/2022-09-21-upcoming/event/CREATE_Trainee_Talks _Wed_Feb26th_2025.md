@@ -1,5 +1,5 @@
 ---
-title:  CREATE Trainee Talks - Feb 26th, 2025
+title:  CREATE Trainee Talks - Feb 26, 2025
 ---
 
 import Trainee_Talks_Feb26 from '../Trainee_Talks_Feb26.png';
