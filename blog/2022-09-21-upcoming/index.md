@@ -9,6 +9,34 @@ position: 0
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 # Upcoming Events 
+
+
+import Trainee_Talks_Feb26 from './Trainee_Talks_Feb26.png';
+
+<div class="container2">
+<h4> CREATE Trainee Talks - Feb 26th, 2025 </h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={Trainee_Talks_Feb26}   />
+</div>
+<div class="text"> 
+ 
+Join us <strong>on Wednesday, February 26th at 11:00AM EST</strong> as we welcome two brilliant minds to our Trainee Talks webinar series. <strong>Altaf Allah Abbassi</strong>, currently pursuing her M.Sc. at Polytechnique Montréal, will speak on "ReCatcher: Revealing LLM4Code Capabilities Divergence". Immediately following, <strong>Musfiqur Rahman</strong>, a Ph.D. student at Concordia University will share his work on "The Impact of Environment Configurations on the Stability of AI-Enabled Systems".
+<a href="/blog/2022/09/21/upcoming/event/CREATE_Trainee_Talks _Wed_Feb26th_2025"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
+
+
+
    
 import Ottawa from './Ottawa.jpg';
 

@@ -10,7 +10,7 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
-          
+           
 import Industry_Talks_Jan23_2025 from './Industry_Talks_Jan23_2025.jpg'
 
 
