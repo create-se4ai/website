@@ -12,8 +12,8 @@ position: 2
 # Past Events  
            
 import Industry_Talks_Jan23_2025 from './Industry_Talks_Jan23_2025.jpg'
-
  
+
 <div class="container2">
 <h4>Industry Talks - Jan 23rd, 2025</h4>
 <div class="events " style={{ 
