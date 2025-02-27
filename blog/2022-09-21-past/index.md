@@ -10,7 +10,31 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
-           
+
+
+import Trainee_Talks_Feb26 from './Trainee_Talks_Feb26.png';
+
+<div class="container2">
+<h4> CREATE Trainee Talks - Feb 26, 2025 </h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={Trainee_Talks_Feb26}   />
+</div>
+<div class="text"> 
+ 
+On <strong>Wednesday, February 26, 2025, </strong> we had the pleasure of hosting two brilliant minds for our Trainee Talks webinar series. <strong>Altaf Allah Abbassi</strong>, an M.Sc. student at Polytechnique Montréal, presented "ReCatcher: Revealing LLM4Code Capabilities Divergence." Following that, <strong>Musfiqur Rahman</strong>, a Ph.D. student at Concordia University, 
+<a href="/blog/2022/09/21/past/event/CREATE_Trainee_Talks _Wed_Feb26th_2025"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
 import Industry_Talks_Jan23_2025 from './Industry_Talks_Jan23_2025.jpg'
  
 
