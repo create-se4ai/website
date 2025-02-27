@@ -102,7 +102,7 @@ const TeamMemberList = [
         link:"https://www.concordia.ca/",
         // affiliation: "Concordia University",
         position: "Post Doctoral Researcher",
-        linkedin: "shassankhatoonabadi",
+        linkedin: "khatoonabadi",
         twitter: "HKhatoonabadi",
         website: "https://das.encs.concordia.ca/members/hassan-khatoonabadi",
       },
