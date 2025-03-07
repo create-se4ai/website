@@ -186,6 +186,30 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
+        name: "Jiawen Liu ",
+        degree:", MSc",
+        affiliation:"Queen's University ",
+        linkedin:"jiawen-liu-691906178",
+       website:"https://seal-queensu.github.io/member-current.html",
+       },
+      {
+        name: "Amanda Kolopanis ",
+        degree:", MSc",
+        place:"Ericsson AI Accelerator",
+        affiliation:"Concordia University  ",
+        linkedin:"amanda-kolopanis",
+       //  position:""
+       }, {
+        name: "Sharon Ho",
+        degree:", MSc",
+        place:"Concordia University ",
+        website: "https://das.encs.concordia.ca/members/sharon-ho",
+        link:"https://www.concordia.ca/",
+        // affiliation:"",
+        linkedin:"sharon-ho",
+        position:" Currently PhD student"
+       }, 
+      {
         name: "Afiya Fahmida Sarah",
         degree:", MSc",
         place:"Slalom Build",
