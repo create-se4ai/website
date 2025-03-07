@@ -11,29 +11,6 @@ position: 0
 # Upcoming Events 
 
 
-import Careers_AI from './Careers_AI.jpg';
-
-<div class="container2">
-<h4> Careers in AI for All Disciplines - Mar 4, 2025 </h4>
-<div class="events " style={{ 
-    '@media screen and (max-width: 966px)': {
-        maxHeight: '100%',
-        flexWrap: 'wrap',
-        maxWidth: '350px'
-    }
-}}>
-<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={Careers_AI}   />
-</div>
-<div class="text"> 
- 
-Join us on <strong>Tuesday March 4th from 1-3PM EST</strong> at 4th Space at Concordia as we explore how students from all disciplines can find their place in AI-related fields, with industry professionals discussing related themes.  The discussion will be followed by a Q&A and a networking session hosted by <a href="https://se4ai.org/">CREATE SE4AI</a>. 
-<a href="/blog/2022/09/21/upcoming/event/Careers_in_AI_for_All_Disciplines_Mar4_2025"> <strong>Read More</strong></a>
-</div>
-</div> 
- </div>
-
-
    
 import Ottawa from './Ottawa.jpg';
 

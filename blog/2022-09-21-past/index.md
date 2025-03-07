@@ -11,6 +11,27 @@ position: 2
 ---
 # Past Events  
  
+ import Careers_AI from './Careers_AI.jpg';
+
+<div class="container2">
+<h4> Careers in AI for All Disciplines - Mar 4, 2025 </h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={Careers_AI}   />
+</div>
+<div class="text"> 
+ 
+On <strong>Tuesday, March 4th </strong> students from all disciplines explored how they can build a career in AI. A panel of technical and non-technical industry professionals shared their insights on pathways to careers in AI, the value of interdisciplinary collaboration, breaking barriers to inequities, and the current job market and future opportunities in this space.
+<a href="/blog/2022/09/21/past/event/Careers_in_AI_for_All_Disciplines_Mar4_2025"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
 
 import Trainee_Talks_Feb26 from './Trainee_Talks_Feb26.png';
 
