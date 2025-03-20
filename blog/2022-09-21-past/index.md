@@ -72,8 +72,7 @@ import Industry_Talks_Jan23_2025 from './Industry_Talks_Jan23_2025.jpg'
 <img src={Industry_Talks_Jan23_2025}   />
 </div>
 <div class="text"> 
-On<strong> January 23, 2025 at 11:00AM EST </strong><a href="https://se4ai.org/">CREATE SE4AI </a> hosted an engaging Industry Talk featuring <strong>Dr. Anne Mercier</strong> from <a href="https://www.giro.ca/en-ca/">GIRO Inc.</a>, 
-  Dr. Mercier, Director of Innovation at GIRO Inc., shared insights on AI and operations research tools powering HASTUS software, which is used globally to optimize public transit. 
+On<strong> January 23, 2025 at 11:00AM EST </strong><a href="https://se4ai.org/">CREATE SE4AI </a> hosted an engaging Industry Talk featuring <strong>Dr. Anne Mercier</strong> , Director of Innovation for Algorithms and AI at GIRO Inc. <strong>Dr. Mercier</strong>,  shared insights on AI and operations research tools powering HASTUS software, which is used globally.
 
 
 <a href="/blog/2022/09/21/past/event/Industry_Talks_Jan23_2025"> <strong>Read More</strong></a>
