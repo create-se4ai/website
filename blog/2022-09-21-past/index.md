@@ -10,8 +10,33 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
+
+import Trainee_Talks_Tues_Mar25th_2025 from './Trainee_Talks_Tues_Mar25th_2025.png';
+
+<div class="container2">
+<h4> Trainee Talks -  March 25, 2025</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={Trainee_Talks_Tues_Mar25th_2025}   />
+</div>
+<div class="text"> 
+ 
+<strong>On Tuesday, March 25th, at 11:00 AM EDT,</strong> we welcomed Queen’s University Ph.D. student <strong>Adekunle Ajibode. Adekunle</strong> shared his research on “Towards Semantic Versioning of Open Pre-trained Language Model Releases on Hugging Face,” which was recently.
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_Tues_Mar25th_2025"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
    
- import Careers_AI from './Careers_AI.jpg';
+
+
+import Careers_AI from './Careers_AI.jpg';
 
 <div class="container2">
 <h4> Careers in AI for All Disciplines - Mar 4, 2025 </h4>
@@ -32,6 +57,8 @@ On <strong>Tuesday, March 4th </strong> students from all disciplines explored h
 </div>
 </div> 
  </div>
+
+
 
 import Trainee_Talks_Feb26 from './Trainee_Talks_Feb26.png';
 
