@@ -10,6 +10,30 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
+import Retreat_IMG_4702Image from './Retreat_IMG_4702.jpg';
+
+
+<div class="container2">
+<h4> CREATE Annual Retreat – April 26, 2025</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img  src={Retreat_IMG_4702Image} alt="Retreat_IMG_4702Image" />
+
+</div>
+<div class="text"> 
+ 
+Our 4th annual <a href="https://se4ai.org/">CREATE SE4AI </a> Retreat was held <strong> on April 26, 2025 in Ottawa.</strong>  Trainees gathered at Hotel Le Germain for a buffet lunch, followed by an afternoon of networking and brainstorming activities, kicking off a busy week at ICSE 2025.
+<a href="/blog/2022/09/21/past/event/CREATE_Annual_Retreat_April26"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
 
 import Trainee_Talks_Tues_Mar25th_2025 from './Trainee_Talks_Tues_Mar25th_2025.png';
 
