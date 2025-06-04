@@ -10,6 +10,35 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
+
+import GEMinAI_Spring_Fling_Mitali3Image from './GEMinAI_Spring_Fling_Mitali3.jpg';
+
+
+<div class="container2">
+<h4> GEMinAI Spring Fling - May 27, 2025</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img  src={GEMinAI_Spring_Fling_Mitali3Image} alt="GEMinAI_Spring_Fling_Mitali3Image" />
+
+</div>
+<div class="text"> 
+ 
+GEMinAI program mentees, industry mentors and guests gathered at Concordia <strong>on May 27th</strong> to celebrate the end of another successful year of connections and shared growth through mentorship. Mentors and mentees shared inspiring stories and outcomes from their mentoring journey.
+<a href="/blog/2022/09/21/past/event/GEMinAI_Spring_Fling_May27_2025"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
+
+
+
 import Retreat_IMG_4702Image from './Retreat_IMG_4702.jpg';
 
 
