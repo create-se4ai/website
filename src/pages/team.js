@@ -260,16 +260,6 @@ const TeamMemberList = [
   
        },
        {
-        name: "Jaskirat Singh",
-        degree:", MSc",
-        // place:"Air Canada ",
-        //  position:"Currently Mitacs intern ",
-        //  link:"https://www.linkedin.com/company/air-canada/posts/?feedView=all",
-        affiliation:"Queen's University",
-        linkedin:"jaskirat409",
-       //  position:""
-       },
-       {
         name: "Shenyu Zheng",
         degree:", MSc",
         affiliation:"Queen's University",
