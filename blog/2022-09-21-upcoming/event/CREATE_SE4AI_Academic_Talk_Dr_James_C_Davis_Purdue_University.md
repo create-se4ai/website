@@ -13,7 +13,7 @@ import CREATE_SE4AI_Academic_Talk_DrJames_CDavisImage from '../CREATE_SE4AI_Acad
 This event will be presented in a hybrid format as follows:
 
 **Live at Concordia University, ER Bldg (2155 Rue Guy, Montreal, Room ER10.72) - *all Montreal students please attend in person**
-
+ 
 Online via Zoom: [https://concordia-ca.zoom.us/j/88330858653?pwd=isjn6mDBYJGoatrG1dhSc35yrNN7Yu.1](https://concordia-ca.zoom.us/j/88330858653?pwd=isjn6mDBYJGoatrG1dhSc35yrNN7Yu.1)
 
 Meeting ID: 883 3085 8653
