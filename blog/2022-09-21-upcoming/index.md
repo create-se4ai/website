@@ -13,7 +13,7 @@ position: 0
 Upcoming Events Coming Soon</div> -->
 
  
-import CREATE_SE4AI_Academic_Talk_DrJames_CDavis from './CREATE_SE4AI_Academic_Talk_DrJames_CDavis.avif';
+import CREATE_SE4AI_Academic_Talk_DrJames_CDavis from './CREATE_SE4AI_Academic_Talk_DrJames_CDavis.jpg';
 
 <div class="container2">
 <h4> CREATE SE4AI Academic Talk - Dr. James C. Davis, Purdue University</h4>
