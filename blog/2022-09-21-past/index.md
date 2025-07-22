@@ -21,7 +21,7 @@ import GEMinAI_Spring_Fling_Mitali3Image from './GEMinAI_Spring_Fling_Mitali3.jp
         maxHeight: '100%',
         flexWrap: 'wrap',
         maxWidth: '350px'
-    }
+    } 
 }}>
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
 <img  src={GEMinAI_Spring_Fling_Mitali3Image} alt="GEMinAI_Spring_Fling_Mitali3Image" />
