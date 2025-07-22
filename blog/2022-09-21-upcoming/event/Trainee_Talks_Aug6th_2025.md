@@ -3,7 +3,7 @@ title:   CREATE SE4AI Trainee Talks - Aug. 6th
 ---
 
 
-import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
+import Trainee_Talks_Aug6th_2025 from '../Trainee_Talks_Aug6th_2025.jpg';
 
 <img src={Trainee_Talks_Aug6th_2025} alt="Trainee_Talks_Aug6th_2025" />
 

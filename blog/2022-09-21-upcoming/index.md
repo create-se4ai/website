@@ -13,10 +13,10 @@ position: 0
 Upcoming Events Coming Soon</div> -->
 
  
-import CREATE_SE4AI_Academic_Talk_DrJames_CDavis from './CREATE_SE4AI_Academic_Talk_DrJames_CDavis.jpg';
+import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
 
 <div class="container2">
-<h4> CREATE SE4AI Academic Talk - Dr. James C. Davis, Purdue University</h4>
+<h4> REATE SE4AI Trainee Talks - Aug. 6th</h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
@@ -25,14 +25,14 @@ import CREATE_SE4AI_Academic_Talk_DrJames_CDavis from './CREATE_SE4AI_Academic_T
     }
 }}>
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={CREATE_SE4AI_Academic_Talk_DrJames_CDavis}   />
+<img src={Trainee_Talks_Aug6th_2025}   />
 </div>
 <div class="text"> 
  
-Join us <strong>Wednesday, June 25th at 10:00AM EDT</strong> for an engaging academic talk by Dr. James C. Davis, Assistant Professor of Electrical and Computer Engineering at Purdue University.  Dr. Davis will be speaking on "Reusing Pre-Trained Neural Networks: A Software Engineering Perspective".
+On <strong>Wednesday Aug 6th at 11:00AM Eastern.</strong> This time, we will hear from 2 Concordia MASc candidates who are preparing for their thesis defenses in August. First, <strong>Mayra Ruiz</strong> will present her talk on "File-Level Logging Generation for Machine Learning. 
 
   
-<a href="/blog/2022/09/21/upcoming/event/CREATE_SE4AI_Academic_Talk_Dr_James_C_Davis_Purdue_University"> <strong>Read More</strong></a>
+<a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_Aug6th_2025"> <strong>Read More</strong></a>
 </div>
 </div> 
  </div>
