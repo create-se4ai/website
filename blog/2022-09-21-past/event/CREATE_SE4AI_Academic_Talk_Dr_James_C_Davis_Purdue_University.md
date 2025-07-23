@@ -8,5 +8,5 @@ import CREATE_SE4AI_Academic_Talk_DrJames_CDavisImage from '../CREATE_SE4AI_Acad
 
 
 
- On** Wednesday, June 25th at 10:00AM EDT** for an engaging academic talk by Dr. James C. Davis, Assistant Professor of Electrical and Computer Engineering at Purdue University.  Dr. Davis will be speaking on "Reusing Pre-Trained Neural Networks: A Software Engineering Perspective".
+On **June 25th, Dr. James C Davis** of Purdue University delivered an engaging academic talk to CREATE students on "Reusing Pre-Trained Neural Networks: A Software Engineering Perspective".
 

@@ -8,7 +8,7 @@ import Trainee_Talks_Aug6th_2025 from '../Trainee_Talks_Aug6th_2025.jpg';
 <img src={Trainee_Talks_Aug6th_2025} alt="Trainee_Talks_Aug6th_2025" />
 
  
-On **Wednesday Aug 6th at 11:00AM Eastern.** This time, we will hear from 2 Concordia MASc candidates who are preparing for their thesis defenses in August. First, **Mayra Ruiz** will present her talk on "File-Level Logging Generation for Machine Learning Applications using LLMs: A Case Study using GPT-4o Mini".
+Please join us on **Wednesday, August 6th at 11:00AM EDT** for a special Summer Edition of Trainee Talks. We will hear from 2 Concordia University MASc candidates who are preparing for their thesis defenses. First, **Mayra Ruiz** will present her talk on "File-Level Logging Generation for Machine Learning Applications using LLMs: A Case Study using GPT-4o Mini".
 
 Immediately following, we will hear **Gideon Peters** speak on "Evaluating the Use of LLMs for Automated Resolution of Web Performance Issues".
 
