@@ -16,7 +16,7 @@ Upcoming Events Coming Soon</div> -->
 import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
 
 <div class="container2">
-<h4> REATE SE4AI Trainee Talks - Aug. 6th</h4>
+<h4> CREATE SE4AI Trainee Talks - Aug. 6th</h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
@@ -29,7 +29,7 @@ import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
 </div>
 <div class="text"> 
  
-On <strong>Wednesday Aug 6th at 11:00AM Eastern.</strong> This time, we will hear from 2 Concordia MASc candidates who are preparing for their thesis defenses in August. First, <strong>Mayra Ruiz</strong> will present her talk on "File-Level Logging Generation for Machine Learning. 
+Please join us on <strong>Wednesday, August 6th at 11:00AM EDT</strong> for a special Summer Edition of Trainee Talks. We will hear from 2 Concordia University MASc candidates who are preparing for their thesis defenses. First, <strong>Mayra Ruiz</strong> will present her talk on "File-Level Logging Generation for Machine Learning. 
 
   
 <a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_Aug6th_2025"> <strong>Read More</strong></a>
