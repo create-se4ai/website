@@ -185,6 +185,16 @@ const TeamMemberList = [
     title: "Alumni",
     size: "large",
     members: [
+        {
+        name: "Gideon Peters",
+        degree:", MSc",
+        place:"Medeloop AI",
+        position:"Currently Senior Software Engineer",
+        link:"https://www.medeloop.ai/",
+       website:"https://das.encs.concordia.ca/members/gideon-peters",
+        linkedin:"gideonpeters",
+      //  position:"Senior Software Engineer"
+       },
       {
         name: "Jiawen Liu",
         degree:", MSc",
