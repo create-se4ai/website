@@ -77,7 +77,7 @@ const GEMinAIProgramPage = () => {
 <div className='container'>
   <div class="row margin-bottom--md">
     
-  <h2 class="col col--12 section">Applications for the 2025-26 GEMinAI Program will open in Summer 2025
+  <h2 class="col col--12 section">Applications for the 2025-26 GEMinAI Program are now open! 
   </h2>
 
 
@@ -102,19 +102,25 @@ const GEMinAIProgramPage = () => {
 {/* <img src={GEMinAI_Launch_Event191} alt="GEMinAI_Launch_Event191" height="300"  /> */}
         <p className='GEMI'>   
          Together with the <a href="https://www.concordia.ca/research/applied-ai-institute/initiatives/geminai.html">Applied AI Institute at Concordia</a>, 
-          we offer support to women and gender diverse individuals who will engage with AI in their careers through the <strong>Gender Equity Mentoring in AI (GEMinAI) </strong>Program. The GEMinAI Program seeks to address gender inequity within artificial intelligence fields, where women make up only 25% of AI specialists (World Economic Forum, 2021). GEMinAI aims to narrow this gap by connecting women and gender diverse graduate and undergraduate students with like-minded AI professionals for support, encouragement, and assistance along their career journey. </p>  
+          we offer support to women and gender diverse individuals who will
+           engage with AI in their careers through the <strong>Gender
+            Equity Mentoring in AI (GEMinAI) </strong>Program. The GEMinAI Program was established in 2023 as a response to gender inequality within artificial intelligence fields, where women make up only 25% of AI specialists. GEMinAI works to narrow this gap by connecting women and gender diverse Concordia University students with AI professionals for support, encouragement, and assistance along their career journey. By facilitating mentorship opportunities, we aim to create an environment where aspiring AI professionals can thrive, ultimately contributing to a more diverse and inclusive AI landscape.</p>  
 {/* <div className="card__image"> */}
+<p className='GEMI'>Since its inception, the GEMinAI Program has matched nearly 50 student mentees across Concordia’s four faculty with experienced mentors from industry, government and non-profit organizations.  Interested in joining the GEMinAI community?  Applications are now open for 2025-26.</p>
+<p className='GEMI'>Student Mentee Application: <a href ="https://airtable.com/appRSDpicOuCifPPL/pagXMD1mzMjercOMk/form">https://airtable.com/appRSDpicOuCifPPL/pagXMD1mzMjercOMk/form</a>  </p>
+<p className='GEMI'>Mentor Application:  <a href ="https://airtable.com/appRSDpicOuCifPPL/pagHgBZA0QBgbKRyk/form">https://airtable.com/appRSDpicOuCifPPL/pagHgBZA0QBgbKRyk/form</a></p>
 <p className='GEMI'>
+
 For more information about GEMinAI, please contact:
 
-  <li>Lori Akiyama – <a href="mailto:lori.akiyama@concordia.ca">lori.akiyama@concordia.ca</a></li>
-  <li>Lindsay Rodgers – <a href="mailto:lindsay.rodgers@concordia.ca">lindsay.rodgers@concordia.ca</a></li>
+       <li>Lori Akiyama – <a href="mailto:lori.akiyama@concordia.ca">lori.akiyama@concordia.ca</a></li>
+      <li>Lindsay Rodgers – <a href="mailto:lindsay.rodgers@concordia.ca">lindsay.rodgers@concordia.ca</a></li>
 
 
      </p>   
         
 
-     GEMinAI_Launch_Event191
+   
 
  
 
