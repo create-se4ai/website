@@ -91,23 +91,24 @@ const TeamMemberList = [
       },
     ],
   },
-  {
-    title: "Postdocs",
-    size: "large",
-    members: [
-      {
-        name: "Dr. Hassan Khatoonabadi",
-       place:"Concordia University",
+  // {
+  //   title: "Postdocs",
+  //   size: "large",
+  //   members: [
+  //     {
+  //       name: "Dr. Hassan Khatoonabadi",
+  //      place:"Concordia University",
        
-        link:"https://www.concordia.ca/",
-        // affiliation: "Concordia University",
-        position: "Post Doctoral Researcher",
-        linkedin: "khatoonabadi",
-        twitter: "HKhatoonabadi",
-        website: "https://das.encs.concordia.ca/members/hassan-khatoonabadi",
-      },
-    ],
-  },
+  //       place:"Forta",
+  //       position: "Senior Data Scientist",
+  //       link:"https://www.fortra.com/",
+  //       position: "Post Doctoral Researcher",
+  //       linkedin: "khatoonabadi",
+  //       twitter: "HKhatoonabadi",
+  //       website: "https://das.encs.concordia.ca/members/hassan-khatoonabadi",
+  //     },
+  //   ],
+  // },
   // {
   //   title: "Academic Collaborators",
   //   members: [
@@ -185,6 +186,18 @@ const TeamMemberList = [
     title: "Alumni",
     size: "large",
     members: [
+            {
+        name: "Dr. Hassan Khatoonabadi",
+      //  place:"Concordia University",
+       
+        place:"Forta",
+        position: "Senior Data Scientist",
+        link:"https://www.fortra.com/",
+        // position: "Post Doctoral Researcher",
+        linkedin: "khatoonabadi",
+        twitter: "HKhatoonabadi",
+        website: "https://das.encs.concordia.ca/members/hassan-khatoonabadi",
+      },
         {
         name: "Gideon Peters",
         degree:", MSc",
