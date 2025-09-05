@@ -198,7 +198,7 @@ const TeamMemberList = [
       },
         {
         name: "Gideon Peters",
-        degree:", MSc",
+        degree:", MASc",
         place:"Medeloop AI",
         position:"Currently Senior Software Engineer",
         link:"https://www.medeloop.ai/",
@@ -208,21 +208,21 @@ const TeamMemberList = [
        },
       {
         name: "Jiawen Liu",
-        degree:", MSc",
+        degree:", MASc",
         affiliation:"Queen's University ",
         linkedin:"jiawen-liu-691906178",
        website:"https://seal-queensu.github.io/member-current.html",
        },
       {
         name: "Amanda Kolopanis",
-        degree:", MSc",
+        degree:", MASc",
         place:"Ericsson AI Accelerator",
         affiliation:"Concordia University  ",
         linkedin:"amanda-kolopanis",
        //  position:""
        }, {
         name: "Sharon Ho",
-        degree:", MSc",
+        degree:", MASc",
         place:"Concordia University ",
         website: "https://das.encs.concordia.ca/members/sharon-ho",
         link:"https://www.concordia.ca/",
@@ -232,7 +232,7 @@ const TeamMemberList = [
        }, 
       {
         name: "Afiya Fahmida Sarah",
-        degree:", MSc",
+        degree:", MASc",
         place:"Slalom Build",
         //  position:"Currently Senior Engineer - Platform Engineering ",
         //  link:"https://www.linkedin.com/company/slalom-build/",
@@ -242,7 +242,7 @@ const TeamMemberList = [
        },
       {
         name: "Lorena Pacheco",
-        degree:", MSc",
+        degree:", MASc",
         place:"Slalom Build",
          position:"Currently Senior Engineer - Platform Engineering ",
          link:"https://www.linkedin.com/company/slalom-build/",
@@ -252,7 +252,7 @@ const TeamMemberList = [
        },
        {
         name: "Khouloud Oueslati",
-        degree:", MSc",
+        degree:", MASc",
         place:"Polytechnique Montréal   ",
          position:"Currently PhD student",
          link:"https://www.polymtl.ca/",
@@ -262,7 +262,7 @@ const TeamMemberList = [
        },
       {
        name: "Akshat Malik",
-       degree:", MSc",
+       degree:", MASc",
        place:"Microsoft",
         position:"Currently Software Engineer",
         link:"https://www.microsoft.com",
@@ -271,7 +271,7 @@ const TeamMemberList = [
       //  position:""
       },   {
         name: "Harsh Patel",
-        degree:", MSc",
+        degree:", MASc",
         // affiliation:"Queen's University",
         place:"Splunk",
         position:"Currently Software Development Engineer",
@@ -282,7 +282,7 @@ const TeamMemberList = [
        },
        {
         name: "Shenyu Zheng",
-        degree:", MSc",
+        degree:", MASc",
         affiliation:"Queen's University",
         // place:"Splunk",
         // position:"Currently Software Development Engineer",
@@ -292,7 +292,7 @@ const TeamMemberList = [
        },
       {
         name: "Khaled Badran",
-        degree:", MSc",
+        degree:", MASc",
         place:"KFH",
         position:"Currently AI Engineer",
         link:"https://www.kfh.com/en/home/Personal.html",
@@ -302,7 +302,7 @@ const TeamMemberList = [
       }, 
       {
         name: "Rached Bouchoucha",
-        degree:", MSc",
+        degree:", MASc",
         // affiliation: "Polytechnique Montréal",
         place:"Sycodal",
         position:"Currently MLOps engineering",
@@ -311,7 +311,7 @@ const TeamMemberList = [
       },
       {
         name: "Ahmed Haj Yahmed", 
-        degree:", MSc",  
+        degree:", MASc",  
            place:"IVADO",
         position:"Currently Teaching Assistant for the MLOps upskilling Program",
         link:"https://ivado.ca/en/",
@@ -320,7 +320,7 @@ const TeamMemberList = [
       },
       {
         name: "Divya Kamath",
-        degree:", MSc",
+        degree:", MASc",
         place:"McGill University",
         position:"Currently PhD student ",
         link:"https://www.mcgill.ca/",
@@ -329,7 +329,7 @@ const TeamMemberList = [
       },
       {
         name: "Pierre-Olivier Côté",
-        degree:", MSc",
+        degree:", MASc",
         // affiliation: "Polytechnique Montréal",
         place:"DRW",
         position:"Currently Machine Learning and Software Engineer ",
@@ -360,7 +360,7 @@ const TeamMemberList = [
       },
       {
         name: "Ernesto Lang Oreamuno",
-        degree:", MSc",
+        degree:", MASc",
         place:"Encircle        ",
         position: "Currently Senior Software Developer ",
         link:"https://www.getencircle.com/"
