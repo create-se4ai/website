@@ -11,7 +11,33 @@ position: 2
 ---
 # Past Events  
  
+import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
+
+<div class="container2">
+<h4> CREATE SE4AI Trainee Talks - Aug. 6th</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={Trainee_Talks_Aug6th_2025}   />
+</div>
+<div class="text"> 
+ 
+On <strong>Wednesday, August 6th at 11:00AM EDT</strong>, we held a special Summer Edition of Trainee Talks. We heard from two Concordia University MASc candidates who were preparing for their thesis defenses.
+
   
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_Aug6th_2025"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>  
+
+
+
+
 import CREATE_SE4AI_Academic_Talk_DrJames_CDavis from './CREATE_SE4AI_Academic_Talk_DrJames_CDavis.jpg';
 
 <div class="container2">

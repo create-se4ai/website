@@ -9,11 +9,11 @@ position: 0
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 # Upcoming Events 
-<!-- <div>
-Upcoming Events Coming Soon</div> -->
+<div>
+Upcoming Events Coming Soon</div>
 
  
-import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
+<!-- import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
 
 <div class="container2">
 <h4> CREATE SE4AI Trainee Talks - Aug. 6th</h4>
@@ -35,7 +35,7 @@ Please join us on <strong>Wednesday, August 6th at 11:00AM EDT</strong> for a sp
 <a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_Aug6th_2025"> <strong>Read More</strong></a>
 </div>
 </div> 
- </div>
+ </div> -->
 
  
 

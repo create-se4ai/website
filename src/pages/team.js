@@ -189,7 +189,7 @@ const TeamMemberList = [
             {
         name: "Dr. Hassan Khatoonabadi",
        
-        place:"Forta",
+        place:"Fortra",
         position: "Senior Data Scientist",
         link:"https://www.fortra.com/",
         linkedin: "khatoonabadi",
