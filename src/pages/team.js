@@ -217,7 +217,7 @@ const TeamMemberList = [
         name: "Amanda Kolopanis",
         // degree:", MASc",
                 position: "Software Developer",
-
+        link : "https://www.ericsson.com/en",
         place:"Ericsson AI Accelerator",
         affiliation:"Concordia University  ",
         linkedin:"amanda-kolopanis",
