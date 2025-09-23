@@ -220,7 +220,7 @@ const TeamMemberList = [
 
         place:"Ericsson AI Accelerator",
         // affiliation:"Concordia University  ",
-        linkedin:"amanda-kolopanis",
+        linkedin:"amanda-kolopanis"
        //  position:""
        }, {
         name: "Sharon Ho",
