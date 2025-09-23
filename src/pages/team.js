@@ -206,13 +206,17 @@ const TeamMemberList = [
         linkedin:"gideonpeters",
       //  position:"Senior Software Engineer"
        },
-      {
-        name: "Jiawen Liu",
+          {
+        name: "Lorena Pacheco",
         degree:", MASc",
-        affiliation:"Queen's University ",
-        linkedin:"jiawen-liu-691906178",
-       website:"https://seal-queensu.github.io/member-current.html",
+        place:"Slalom Build",
+         position:"Senior Engineer - Platform Engineering ",
+         link:"https://www.linkedin.com/company/slalom-build/",
+       //  affiliation:"Queen's University",
+        linkedin:"lorenasimedo",
+       //  position:""
        },
+
       {
         name: "Amanda Kolopanis",
         // degree:", MASc",
@@ -242,16 +246,14 @@ const TeamMemberList = [
         linkedin:"afiya-fahmida-sarah-039007179",
        //  position:""
        },
-      {
-        name: "Lorena Pacheco",
+       {
+        name: "Jiawen Liu",
         degree:", MASc",
-        place:"Slalom Build",
-         position:"Senior Engineer - Platform Engineering ",
-         link:"https://www.linkedin.com/company/slalom-build/",
-       //  affiliation:"Queen's University",
-        linkedin:"lorenasimedo",
-       //  position:""
+        affiliation:"Queen's University ",
+        linkedin:"jiawen-liu-691906178",
+       website:"https://seal-queensu.github.io/member-current.html",
        },
+  
        {
         name: "Khouloud Oueslati",
         degree:", MASc",
