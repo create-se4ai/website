@@ -216,8 +216,13 @@ const TeamMemberList = [
       {
         name: "Amanda Kolopanis",
         // degree:", MASc",
+<<<<<<< HEAD
        position: "Software Developer",
 
+=======
+                position: "Software Developer",
+        link : "https://www.ericsson.com/en",
+>>>>>>> rawan-events
         place:"Ericsson AI Accelerator",
         // affiliation:"Concordia University  ",
         linkedin:"amanda-kolopanis"
