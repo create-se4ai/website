@@ -1,0 +1,40 @@
+---
+title: "CREATE SE4AI Industry Talks - Fri. Oct. 3rd at 10AM"
+---
+
+import IndustryTalksDarineAmeyed from '../IndustryTalksDarineAmeyed.png'
+
+
+<p class="Trainee_Talk"><img src={IndustryTalksDarineAmeyed} width="800"/></p>
+
+
+Join us as we kick off the fall semester with a brand new edition of Industry Talks!
+
+
+**From PoC to Production: Engineering AI for Regulated Domains.**
+
+
+**Fri. Oct. 3, 2025 from 10:00AM - 11:00AM EDT (Montreal) time**
+
+
+
+**Abstract:** Moving AI from proof-of-concept to production isn’t just about scaling code or training a model; it requires designing end-to-end architectures that meet safety, security, and compliance standards, particularly in highly regulated sectors such as healthcare, public sector, or telecom. This session shares lessons learned and provides practical tips, frameworks, and tooling for regulated AI deployment, bridging the gap between experimentation and production while accelerating adoption in a rapidly evolving field.
+
+
+**About the Speaker:**
+
+Darine Ameyed, Ph.D. (Dr. Eng) is an AI & Innovation leader with a passion for translating emerging technologies into measurable impact. She is currently Head of AI & Innovation| Engineering Manager at Aduna Canada (formerly GNP-Ericsson), where she guides multi-disciplinary R&D teams and drives the company’s AI adoption initiatives.
+
+Since 2005, her career has spanned industry, government, and academia across Canada, Europe, and Africa, where she has led technological and scientific programs in information systems, artificial intelligence, and cognitive digital platforms.
+
+
+
+Register for this talk on Eventbrite: [https://www.eventbrite.ca/e/from-poc-to-production-engineering-ai-for-regulated-domains-tickets-1730976500309?aff=oddtdtcreator](https://www.eventbrite.ca/e/from-poc-to-production-engineering-ai-for-regulated-domains-tickets-1730976500309?aff=oddtdtcreator)
+
+Join the webinar via Zoom: [https://concordia-ca.zoom.us/j/82033420408?pwd=U8wjuP1anxFB0qq4PcAFJAMfpgfO3c.1](https://concordia-ca.zoom.us/j/82033420408?pwd=U8wjuP1anxFB0qq4PcAFJAMfpgfO3c.1)
+
+
+
+**Meeting ID:** 820 3342 0408
+
+**Passcode:** 875160
