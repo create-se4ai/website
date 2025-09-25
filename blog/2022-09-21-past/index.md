@@ -28,7 +28,7 @@ import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
 <div class="text"> 
  
 On <strong>Wednesday, August 6th at 11:00AM EDT</strong>, we held a special Summer Edition of Trainee Talks. We heard from two Concordia University MASc candidates who were preparing for their thesis defenses.
-
+ 
   
 <a href="/blog/2022/09/21/past/event/Trainee_Talks_Aug6th_2025"> <strong>Read More</strong></a>
 </div>
