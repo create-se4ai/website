@@ -30,7 +30,7 @@ import IndustryTalksDarineAmeyed from './IndustryTalksDarineAmeyed.png';
 <div class="text"> 
  
 Join us as we kick off the fall semester with a brand new edition of Industry Talks!<br/>
-<strong>Abstract:</strong> Moving AI from proof-of-concept to production isn’t just about scaling code or training a model; it requires designing end-to-end architectures that meet safety, security.
+Moving AI from proof-of-concept to production isn’t just about scaling code or training a model; it requires designing end-to-end architectures that meet safety, security.
   
 <a href="/blog/2022/09/21/upcoming/event/CREATESE4AIIndustryTalksFriOct3"> <strong>Read More</strong></a>
 </div>

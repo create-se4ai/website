@@ -18,7 +18,7 @@ Join us as we kick off the fall semester with a brand new edition of Industry Ta
 
 
 
-**Abstract:** Moving AI from proof-of-concept to production isn’t just about scaling code or training a model; it requires designing end-to-end architectures that meet safety, security, and compliance standards, particularly in highly regulated sectors such as healthcare, public sector, or telecom. This session shares lessons learned and provides practical tips, frameworks, and tooling for regulated AI deployment, bridging the gap between experimentation and production while accelerating adoption in a rapidly evolving field.
+Moving AI from proof-of-concept to production isn’t just about scaling code or training a model; it requires designing end-to-end architectures that meet safety, security, and compliance standards, particularly in highly regulated sectors such as healthcare, public sector, or telecom. This session shares lessons learned and provides practical tips, frameworks, and tooling for regulated AI deployment, bridging the gap between experimentation and production while accelerating adoption in a rapidly evolving field.
 
 
 **About the Speaker:**
