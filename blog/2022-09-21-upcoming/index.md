@@ -12,8 +12,9 @@ position: 0
 <!-- <div>
 Upcoming Events Coming Soon</div> -->
 
+
 import diversity_inclusion_activities from './diversity_inclusion_activities.png'
- 
+
 <div class="container2">
 <h4> CREATE Workshops - Integrating EDI in Research</h4>
 <div class="events " style={{ 
