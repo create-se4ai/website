@@ -8,18 +8,13 @@ import IndustryTalksDarineAmeyed from '../IndustryTalksDarineAmeyed.png'
 <p class="Trainee_Talk"><img src={IndustryTalksDarineAmeyed} width="800"/></p>
 
 
-Join us as we kick off the fall semester with a brand new edition of Industry Talks!
+We kicked off the fall semester with a brand new edition of Industry Talks!
 
+**From PoC to Production:** Engineering AI for Regulated Domains
 
-**From PoC to Production: Engineering AI for Regulated Domains.**
+**On Friday, October 3, 2025,*from 10:00 AM to 11:00 AM EDT (Montreal time).**
 
-
-**Fri. Oct. 3, 2025 from 10:00AM - 11:00AM EDT (Montreal) time**
-
-
-
-Moving AI from proof-of-concept to production isn’t just about scaling code or training a model; it requires designing end-to-end architectures that meet safety, security, and compliance standards, particularly in highly regulated sectors such as healthcare, public sector, or telecom. This session shares lessons learned and provides practical tips, frameworks, and tooling for regulated AI deployment, bridging the gap between experimentation and production while accelerating adoption in a rapidly evolving field.
-
+The session explored how moving AI from proof-of-concept to production goes beyond scaling code or training a model—it involves designing end-to-end architectures that meet safety, security, and compliance standards, especially in regulated sectors such as healthcare, the public sector, and telecom. Speakers shared lessons learned and offered practical tips, frameworks, and tools for deploying AI responsibly and effectively, helping bridge the gap between experimentation and production while supporting adoption in this rapidly evolving field.
 
 **About the Speaker:**
 

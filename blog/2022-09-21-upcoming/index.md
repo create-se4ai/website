@@ -35,7 +35,7 @@ We are once again offering the workshops "From Awareness to Action: Integrating 
 
 
 
-import BridgingCultures from './BridgingCultures.png'
+import BridgingCultures from './BridgingCultures.jpg'
 
 <div class="container2">
 <h4> Guest Lecture Talk - Thurs. Oct. 9th 2:45pm</h4>
@@ -61,29 +61,7 @@ Dr. Lee will give a guest lecture talk in Prof. Jinqiu Yang's graduate course th
 
 
  
-import IndustryTalksDarineAmeyed from './IndustryTalksDarineAmeyed.png';
 
-<div class="container2">
-<h4> CREATE SE4AI Industry Talks - Fri. Oct. 3rd at 10AM</h4>
-<div class="events " style={{ 
-    '@media screen and (max-width: 966px)': {
-        maxHeight: '100%',
-        flexWrap: 'wrap',
-        maxWidth: '350px'
-    }
-}}>
-<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={IndustryTalksDarineAmeyed}   />
-</div>
-<div class="text"> 
- 
-Join us as we kick off the fall semester with a brand new edition of Industry Talks!<br/>
-Moving AI from proof-of-concept to production isn’t just about scaling code or training a model; it requires designing end-to-end architectures that meet safety, security.
-  
-<a href="/blog/2022/09/21/upcoming/event/CREATESE4AIIndustryTalksFriOct3"> <strong>Read More</strong></a>
-</div>
-</div> 
- </div>
 
  
 

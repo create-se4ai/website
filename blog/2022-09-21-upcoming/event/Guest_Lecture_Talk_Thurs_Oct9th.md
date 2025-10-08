@@ -2,7 +2,7 @@
 title: "Guest Lecture Talk - Thurs. Oct. 9th 2:45pm"
 ---
 
-import BridgingCultures from '../BridgingCultures.png'
+import BridgingCultures from '../BridgingCultures.jpg'
 
 <p class="manuel_cosentino_n_CMLApjfI_unsplash"><img src={BridgingCultures}/></p>
 

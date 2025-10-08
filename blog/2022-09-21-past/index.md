@@ -10,6 +10,36 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
+
+import IndustryTalksDarineAmeyed from './IndustryTalksDarineAmeyed.png';
+
+<div class="container2">
+<h4> CREATE SE4AI Industry Talks - Fri. Oct. 3rd at 10AM</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={IndustryTalksDarineAmeyed}   />
+</div>
+<div class="text"> 
+  
+We kicked off the fall semester with a brand new edition of Industry Talks!
+<br/>
+
+<strong>From PoC to Production:</strong> Engineering AI for Regulated Domains
+<br/>
+<strong>On Friday, October 3, 2025, from 10:00 AM to 11:00 AM EDT (Montreal time).</strong>
+  
+<a href="/blog/2022/09/21/past/event/CREATESE4AIIndustryTalksFriOct3"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+ 
  
 import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
 
