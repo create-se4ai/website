@@ -14,7 +14,7 @@ position: 2
 import IndustryTalksDarineAmeyed from './IndustryTalksDarineAmeyed.png';
 
 <div class="container2">
-<h4> CREATE SE4AI Industry Talks - Fri. Oct. 3rd at 10AM</h4>
+<h4> CREATE SE4AI Industry Talks - Oct 3, 2025  </h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
@@ -32,7 +32,7 @@ We kicked off the fall semester with a brand new edition of Industry Talks!
 
 <strong>From PoC to Production:</strong> Engineering AI for Regulated Domains
 <br/>
-<strong>On Friday, October 3, 2025, from 10:00 AM to 11:00 AM EDT (Montreal time).</strong>
+<strong>On Friday, Oct 3, 2025, from 10:00 AM to 11:00 AM EDT (Montreal time).</strong>
   
 <a href="/blog/2022/09/21/past/event/CREATESE4AIIndustryTalksFriOct3"> <strong>Read More</strong></a>
 </div>
@@ -44,7 +44,7 @@ We kicked off the fall semester with a brand new edition of Industry Talks!
 import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
 
 <div class="container2">
-<h4> CREATE SE4AI Trainee Talks - Aug. 6th</h4>
+<h4> CREATE SE4AI Trainee Talks - Aug 6, 2025 </h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
@@ -71,7 +71,7 @@ On <strong>Wednesday, August 6th at 11:00AM EDT</strong>, we held a special Summ
 import CREATE_SE4AI_Academic_Talk_DrJames_CDavis from './CREATE_SE4AI_Academic_Talk_DrJames_CDavis.jpg';
 
 <div class="container2">
-<h4> CREATE SE4AI Academic Talk - Dr. James C. Davis, Purdue University</h4>
+<h4> CREATE SE4AI Academic Talk - Jun 25, 2025</h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
