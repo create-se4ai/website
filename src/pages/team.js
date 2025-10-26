@@ -186,6 +186,16 @@ const TeamMemberList = [
     title: "Alumni",
     size: "large",
     members: [
+
+{
+        name: "Lin Ling",
+       
+        place:"Artlas",
+        position: "Software Engineer",
+        link:"https://www.artlas.art/",
+        linkedin: "lin-ling-4705b0260/",
+        
+      },
             {
         name: "Dr. Hassan Khatoonabadi",
        
