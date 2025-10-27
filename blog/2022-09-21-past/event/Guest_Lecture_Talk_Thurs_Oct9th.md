@@ -9,12 +9,7 @@ import BridgingCultures from '../BridgingCultures.jpg'
 
 **Talk Title:** Bridging the World with Words: Multilingual and Multicultural Natural Language Processing.
 
-Dr. Lee will give a guest lecture talk in Prof. Jinqiu Yang's graduate course this Thursday starting at 2:45pm. 
-
-**Location and time:** Thurs. Oct. 9th, 2:45pm, in MB S2. 455 or
-
-**online via Zoom:**
-[https://concordia-ca.zoom.us/j/88268866640?pwd=yGAEvDX4VXFCL9ZCPdFXuzGJfrrUPQ.1&jst=2](https://concordia-ca.zoom.us/j/88268866640?pwd=yGAEvDX4VXFCL9ZCPdFXuzGJfrrUPQ.1&jst=2)
+Dr. Lee gave a guest lecture talk in Prof. Jinqiu Yang's graduate course on Thursday, October 9th, starting at 2:45pm.
 
 
 **About the Speaker:**

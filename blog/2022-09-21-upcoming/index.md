@@ -13,28 +13,6 @@ position: 0
 Upcoming Events Coming Soon</div> -->
 
 
-import BridgingCultures from './BridgingCultures.jpg'
-
-<div class="container2">
-<h4> Guest Lecture Talk - Oct 9, 2025 </h4>
-<div class="events " style={{ 
-    '@media screen and (max-width: 966px)': {
-        maxHeight: '100%',
-        flexWrap: 'wrap',
-        maxWidth: '350px'
-    }
-}}>
-<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={BridgingCultures}   />
-</div>
-<div class="text"> 
- 
-<strong>Talk Title:</strong> Bridging the World with Words: Multilingual and Multicultural Natural Language Processing.
-
-Dr. Lee will give a guest lecture talk in Prof. Jinqiu Yang's graduate course this Thursday starting at 2:45pm.  <strong>Location and time:</strong> Thurs. Oct. 9th, 2:45pm, in MB S2. 455 or.  <a href="/blog/2022/09/21/upcoming/event/Guest_Lecture_Talk_Thurs_Oct9th"> <strong>Read More</strong></a>
-</div>
-</div> 
- </div>
 
 
 

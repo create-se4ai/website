@@ -11,6 +11,32 @@ position: 2
 ---
 # Past Events  
 
+
+import BridgingCultures from './BridgingCultures.jpg'
+
+<div class="container2">
+<h4> Guest Lecture Talk - Oct 9, 2025 </h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={BridgingCultures}   />
+</div>
+<div class="text"> 
+ 
+<strong>Talk Title:</strong> Bridging the World with Words: Multilingual and Multicultural Natural Language Processing.
+
+Dr. Lee gave a guest lecture talk in Prof. Jinqiu Yang's graduate course <strong> on Thursday, October 9th,</strong> starting at 2:45pm.<a href="/blog/2022/09/21/past/event/Guest_Lecture_Talk_Thurs_Oct9th"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
+
 import IndustryTalksDarineAmeyed from './IndustryTalksDarineAmeyed.png';
 
 <div class="container2">
@@ -39,7 +65,7 @@ We kicked off the fall semester with a brand new edition of Industry Talks!
 </div> 
  </div>
 
- 
+   
  
 import Trainee_Talks_Aug6th_2025 from './Trainee_Talks_Aug6th_2025.jpg';
 
