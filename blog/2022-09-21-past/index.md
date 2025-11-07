@@ -12,6 +12,33 @@ position: 2
 # Past Events  
 
 
+
+<div class="container2">
+<h4> CREATE Workshops:  Integrating EDI in Research - Oct 23 & 30, 2025 </h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={diversity_inclusion_activities}   />
+</div>
+<div class="text"> 
+ 
+We once again offered the workshops <strong>"From Awareness to Action: Integrating EDI in Research" </strong>through Concordia's Equity Office in October. <a href="/blog/2022/09/21/past/event/CREATE_Workshops_Integrating_EDI_in_Research"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
+
+
+
+
+
+
 import BridgingCultures from './BridgingCultures.jpg'
 
 <div class="container2">

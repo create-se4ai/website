@@ -15,11 +15,12 @@ Upcoming Events Coming Soon</div> -->
 
 
 
+import CASCON2025 from './CASCON2025.png'
 
-import diversity_inclusion_activities from './diversity_inclusion_activities.png'
+
 
 <div class="container2">
-<h4> CREATE Workshops:  Integrating EDI in Research - Oct 23 & 30, 2025 </h4>
+<h4>Advancing Gender-Inclusive AI through the GEMinAI Program </h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
@@ -28,18 +29,14 @@ import diversity_inclusion_activities from './diversity_inclusion_activities.png
     }
 }}>
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={diversity_inclusion_activities}   />
+<img src={CASCON2025}   />
 </div>
 <div class="text"> 
- 
-We are once again offering the workshops "From Awareness to Action: Integrating EDI in Research" through Concordia's Equity Office this month. <strong>This 2-part workshop series is mandatory for all CREATE trainees.</strong>  If you have previously completed both sessions in May 2024, you <strong>do not</strong> need to sign up again. <a href="/blog/2022/09/21/upcoming/event/CREATE_Workshops_Integrating_EDI_in_Research"> <strong>Read More</strong></a>
+<a href="https://se4ai.org/">CREATE SE4AI</a> and Applied AI Institute present a workshop at the 35th IEEE International Conference on Collaborative Advances in Software and Computing (CASCON 2025) on <a href="https://conf.researchr.org/home/cascon-2025/geminai">Advancing Gender-Inclusive AI through the GEMinAI Program.</a> Using the Gender Equity Mentoring in AI (GEMinAI) program as a successful use case
+<a href="/blog/2022/09/21/upcoming/event/Advancing_Gender_Inclusive_AI_through_the_GEMinAI_Program"> <strong>Read More</strong></a>
 </div>
 </div> 
  </div>
-
-
-
-
 
 
 
