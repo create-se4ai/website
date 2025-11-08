@@ -4,6 +4,8 @@ import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
 import {
   faEnvelope,
   faExternalLinkAlt,
@@ -65,7 +67,7 @@ const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,v
     )}
   {video && (
   <li className="pills__item">
-    <a target="_blank" href={video} rel="noopener noreferrer">
+    <a target="_blank" href={useBaseUrl(video)}  rel="noopener noreferrer">
       <FontAwesomeIcon icon={faPlayCircle} />
     </a>
   </li>
