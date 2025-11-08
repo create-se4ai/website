@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./TeamMembers.module.css";
 import { link } from "joi";
-
+ 
 function importProfilePicture(name: string) {
   try {
     return require(`../../team/photos/${name}.jpg`).default;
