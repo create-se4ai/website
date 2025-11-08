@@ -23,7 +23,10 @@ function importProfilePicture(name: string) {
   }
 }
 
-const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,video }) => (
+const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,video }) => {
+  const [showVideo, setShowVideo] = React.useState(false);
+  const videoUrl = video ? useBaseUrl(video) : null;
+  return(
   <ul className="pills">
     {has_page && (
       <li className={clsx("pills__item", styles.website)}>
@@ -67,18 +70,34 @@ const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,v
         </a>
       </li>
     )}
-  {video && (
-  <li className="pills__item">
-<a target="_blank" href={useBaseUrl(video)} rel="noopener noreferrer">
-  <FontAwesomeIcon icon={faPlayCircle} />
-</a> 
-
+{videoUrl && (
+  <li className="pills__item text-center">
+    <FontAwesomeIcon
+      icon={faPlayCircle}
+      size="2x"
+      className="cursor-pointer text-blue-600 hover:text-blue-800"
+      onClick={() => setShowVideo(prev => !prev)} // toggle instead of just true
+    />
+    
+    {showVideo && (
+      <video
+        width="400"
+        controls
+        autoPlay
+        className="rounded-lg mt-2"
+      >
+        <source src={videoUrl} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    )}
   </li>
 )}
 
+
+
   </ul>
 );
-
+}
 const TeamMemberLarge = ({ name, role, imgURL,degree, affiliation,position,positiona, link, place, ...props }) => {
   return (
     <div
