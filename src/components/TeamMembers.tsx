@@ -2,7 +2,8 @@ import React from "react";
 import clsx from "clsx";
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 import {
   faEnvelope,
   faExternalLinkAlt,
@@ -18,7 +19,7 @@ function importProfilePicture(name: string) {
   }
 }
 
-const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page }) => (
+const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,video }) => (
   <ul className="pills">
     {has_page && (
       <li className={clsx("pills__item", styles.website)}>
@@ -62,6 +63,14 @@ const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page }
         </a>
       </li>
     )}
+  {video && (
+  <li className="pills__item">
+    <a target="_blank" href={video} rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faPlayCircle} />
+    </a>
+  </li>
+)}
+
   </ul>
 );
 
