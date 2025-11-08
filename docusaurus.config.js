@@ -46,7 +46,7 @@ module.exports = {
         { to: "/team", label: "Team", position: "left" },
          {to: "/blog", label:"Events", position: 'left'},
 
-        { to: "/governance", label: "Governance", position: "left" },
+        { to: "/highlights", label: "Highlights", position: "left" },
 
         { to: "/partners", label: "Partners", position: "left" },
         { to: "/geminai", label: "GEMinAI", position: "left" },
