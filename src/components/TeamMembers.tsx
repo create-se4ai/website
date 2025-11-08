@@ -7,8 +7,7 @@ import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 <<<<<<< HEAD
 
-=======
->>>>>>> rawan-events
+
 import {
   faEnvelope,
   faExternalLinkAlt,
