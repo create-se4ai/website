@@ -73,14 +73,13 @@ const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,v
       icon={faPlayCircle}
       size="2x"
       className="cursor-pointer text-blue-600 hover:text-blue-800"
-      onClick={() => setShowVideo(prev => !prev)} // toggle instead of just true
+      onClick={() => setShowVideo(prev => !prev)} 
     />
     
     {showVideo && (
       <video
         width="400"
         controls
-        autoPlay
         className="rounded-lg mt-2"
       >
         <source src={videoUrl} type="video/mp4" />
