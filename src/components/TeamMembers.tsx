@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-<<<<<<< HEAD
+
 
 
 import {
