@@ -4,7 +4,6 @@ import clsx from "clsx";
 import styles from "../components/TeamMembers.module.css";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import TeamMembers from "../components/TeamMembers";
-
 import PageHeader from "../components/PageHeader";
 
 const SuccessList = [
