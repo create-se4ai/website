@@ -35,7 +35,7 @@ const TeamMemberList = [
         place:"University of Calgary",
         position: "Assistant Professor ",
         link:"https://ucalgary.ca/",
-        video: "/videos/success1.mp4",
+        video:  "https://drive.google.com/uc?export=download&id=1AyF7Xan8qDB_o7wM793-YrIPO484uJAI",
       },
            {
        name: "Akshat Malik",
