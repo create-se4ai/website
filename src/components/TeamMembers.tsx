@@ -69,17 +69,16 @@ const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,v
         </a>
       </li>
     )}
+
 {video && (
   <li className="pills__item">
-    <a
-      href={useBaseUrl(video)}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href={video} target="_blank" rel="noopener noreferrer">
       <FontAwesomeIcon icon={faPlayCircle} size="2x" />
     </a>
   </li>
 )}
+
+
 
 
 
