@@ -25,7 +25,7 @@ const TeamMemberList = [
       
     //   },]},
   {
-    title: "Alumni Success Story",
+    title: "Alumni Testimonials",
     size: "large",
     members: [
       {
@@ -37,23 +37,23 @@ const TeamMemberList = [
         link:"https://ucalgary.ca/",
         video:  "https://vimeo.com/1135793620?fl=pl&fe=sh",
       },
-           {
-       name: "Akshat Malik",
-       degree:", MASc",
-       place:"Microsoft",
-        position:"Software Engineer",
-        link:"https://www.microsoft.com",
-        video: "/videos/success2.mp4",
-      },
+    //        {
+    //    name: "Akshat Malik",
+    //    degree:", MASc",
+    //    place:"Microsoft",
+    //     position:"Software Engineer",
+    //     link:"https://www.microsoft.com",
+    //     video: "/videos/success2.mp4",
+    //   },
       
-      {
-    name: "Lorena Pacheco",
-        degree:", MASc",
-        place:"Slalom Build",
-         position:"Senior Engineer - Platform Engineering ",
-         link:"https://www.linkedin.com/company/slalom-build/",
-         video: "/videos/success2.mp4",
-       },
+    //   {
+    // name: "Lorena Pacheco",
+    //     degree:", MASc",
+    //     place:"Slalom Build",
+    //      position:"Senior Engineer - Platform Engineering ",
+    //      link:"https://www.linkedin.com/company/slalom-build/",
+    //      video: "/videos/success2.mp4",
+    //    },
  ]}]
 
 
