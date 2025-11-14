@@ -79,7 +79,7 @@ const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,v
 {video && (
   <li className="pills__item">
     <video width="200" controls>
-      <source src={video} type="video/mp4" />
+      <source src={useBaseUrl(video)} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </li>
