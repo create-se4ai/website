@@ -6,14 +6,14 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import TeamMembers from "../components/TeamMembers";
 import PageHeader from "../components/PageHeader";
 
-const SuccessList = [
-  {
-    title: "Ahmad Abdellatif",
-    video: "/videos/success1.mp4",
-    text: "During my time there, I gained valuable experience in teaching, working with maintenance students, and exploring exciting research.", 
-  },
+// const SuccessList = [
+//   {
+//     title: "Ahmad Abdellatif",
+//     video: "/videos/success1.mp4",
+//     text: "During my time there, I gained valuable experience in teaching, working with maintenance students, and exploring exciting research.", 
+//   },
 
-];
+// ];
 const TeamMemberList = [
     // {
     // title: "Trainee spotlight",
