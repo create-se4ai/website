@@ -79,20 +79,17 @@ const SocialButtons = ({ id, twitter, linkedin, website, email,login, has_page,v
 )} */}
 
 
-{video && (
-  <li className="pills__item">
-    <video width="200" controls>
-      <source src={useBaseUrl(video)} type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </li>
-)}
-
-
-
-
+ {video && (
+      <li className="pills__item">
+        <a target="_blank" href={useBaseUrl(video)} rel="noopener noreferrer" title="Watch Video">
+          <FontAwesomeIcon icon={faPlayCircle} size="2x" />
+        </a>
+      </li>
+    )}
   </ul>
 );
+
+
 
 const TeamMemberLarge = ({ name, role, imgURL,degree, affiliation,position,positiona, link, place, ...props }) => {
   return (
