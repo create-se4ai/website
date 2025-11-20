@@ -104,7 +104,7 @@ const TeamMemberList = [
         link:"https://www.linkedin.com/company/banquenationaleducanada/",
         linkedin: "juliencrowe",
         // email: "julien.crowe@bnc.ca",
-        // has_page: true,
+        has_page: true,
         id: "julien-crowe"
       },
       {
@@ -115,7 +115,7 @@ const TeamMemberList = [
         // affiliation: "CGI",
         linkedin: "marie-pierre-habas-gerard-ph-d-92316111",
         // email: "marie-pierre.gerard@cgi.com",
-        // has_page: true,
+        has_page: true,
         id: "marie-pierre-habas-gerard"
       },
       {
@@ -128,7 +128,7 @@ const TeamMemberList = [
         // email: "pierre.dumouchel@ivado.ca",
         // website: "https://ivado.ca/en/persons/pierre-dumouchel/",
         id: "pierre-dumouchel",
-        // has_page: false,
+        has_page: false,
       },
       {
         name: "Mr. Jesse Vincent-Herscovici",
@@ -139,7 +139,7 @@ const TeamMemberList = [
         linkedin: "jesse-vincent-herscovici-8b15538",
         // email: "jvh@mitacs.ca",
         id: "jesse-vincent-herscovici",
-        // has_page: true,
+        has_page: true,
       },
       {
         name: "Dr. Lata Narayanan",
@@ -150,7 +150,7 @@ const TeamMemberList = [
         linkedin:"lata-narayanan-948547290/",
         // email: "lata.narayanan@concordia.ca",
         // website: "http://explore.concordia.ca/lata-narayanan",
-        // has_page: false,
+        has_page: false,
       },
       {
         name: "Mr. Derek Truong",
@@ -160,7 +160,7 @@ const TeamMemberList = [
         // affiliation: "IBM",
         linkedin: "derek-truong-7233b85",
         // email: "trong@ca.ibm.com",
-        // has_page: true,
+        has_page: true,
         id: "derek-truong"
       },
       {
@@ -172,7 +172,7 @@ const TeamMemberList = [
         linkedin: "serge-oligny-0778031",
         // twitter: "TBD",
         //email: "TBD",
-        // has_page: true,
+        has_page: true,
         id: "serge-oligny",
         //website: "TBD",
       },
@@ -319,7 +319,22 @@ const TeamMemberList = [
     title: "Alumni",
     size: "large",
     members: [
-
+{
+        name: "Mohayeminul Islam",
+       affiliation:"University of Alberta",
+       degree:"PhD Student",
+        linkedin: "mohayemin",
+     
+      },
+{
+        name: "Akalanka Galappaththi",
+       affiliation:"University of Alberta",
+       degree:"PhD Student",
+        linkedin: "akalanka-galappaththi-67580719",
+        email:"akalanka@ualberta.ca",
+        twitter:"@boney_ag"
+        
+      },
 {
         name: "Lin Ling",
        
@@ -369,15 +384,6 @@ const TeamMemberList = [
         // affiliation:"Concordia University  ",
         linkedin:"amanda-kolopanis"
        //  position:""
-       }, {
-        name: "Sharon Ho",
-        degree:", MASc",
-        place:"Concordia University ",
-        website: "https://das.encs.concordia.ca/members/sharon-ho",
-        link:"https://www.concordia.ca/",
-        // affiliation:"",
-        linkedin:"sharon-ho",
-        position:"PhD student"
        }, 
       {
         name: "Afiya Fahmida Sarah",
