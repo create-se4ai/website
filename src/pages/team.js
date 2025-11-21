@@ -502,7 +502,7 @@ const TeamMemberList = [
       },
       ,
       {
-        name: "Diego Costa",
+        name: "Dr. Diego Costa",
         degree:", Assistant Professor",
         // affiliation: "Concordia University",
         place:"Concordia University",
