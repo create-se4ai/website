@@ -322,14 +322,14 @@ const TeamMemberList = [
 {
         name: "Mohayeminul Islam",
        affiliation:"University of Alberta",
-       degree:"PhD Student",
+       degree:", PhD",
         linkedin: "mohayemin",
      
       },
 {
         name: "Akalanka Galappaththi",
        affiliation:"University of Alberta",
-       degree:"PhD Student",
+       degree:", PhD ",
         linkedin: "akalanka-galappaththi-67580719",
         email:"akalanka@ualberta.ca",
         twitter:"@boney_ag"
@@ -337,7 +337,7 @@ const TeamMemberList = [
       },
 {
         name: "Lin Ling",
-       
+        degree:", MASc",
         place:"Artlas",
         position: "Software Engineer",
         link:"https://www.artlas.art/",
@@ -345,8 +345,8 @@ const TeamMemberList = [
         
       },
             {
-        name: "Dr. Hassan Khatoonabadi",
-       
+        name: "Hassan Khatoonabadi",
+        degree:", PhD",
         place:"Fortra",
         position: "Senior Data Scientist",
         link:"https://www.fortra.com/",
@@ -377,7 +377,7 @@ const TeamMemberList = [
 
       {
         name: "Amanda Kolopanis",
-        // degree:", MASc",
+        degree:", MASc",
                 position: "Software Developer",
         link : "https://www.ericsson.com/en",
         place:"Ericsson AI Accelerator",
@@ -490,7 +490,7 @@ const TeamMemberList = [
         linkedin: "pierre-olivier-côté",
       },
       {
-        name: "Dr. Ahmad Abdellatif",
+        name: "Ahmad Abdellatif",
         degree:", Assistant Professor",
         // affiliation: "University of Calgary",
         place:"University of Calgary",
@@ -502,7 +502,8 @@ const TeamMemberList = [
       },
       ,
       {
-        name: "Dr. Diego Costa",
+        name: "Diego Costa",
+        degree:", Assistant Professor",
         // affiliation: "Concordia University",
         place:"Concordia University",
         position: "Assistant Professor",
