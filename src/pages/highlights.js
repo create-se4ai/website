@@ -20,8 +20,11 @@ const TeamMemberList = [
     // size: "large",
     // members: [
     //   {
-    //     name: "XXXX",
-     
+    //      name: "Rachna Raj",
+    //     position:"PhD Student",
+    //      affiliation:"Concordia University",
+    //      has_page: true,          
+    //     id: "rachna-raj",  
       
     //   },]},
   {
@@ -29,7 +32,7 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
-        name: "Dr. Ahmad Abdellatif",
+        name: "Ahmad Abdellatif",
         degree:", Assistant Professor",
         // affiliation: "University of Calgary",
         place:"University of Calgary",
@@ -37,23 +40,23 @@ const TeamMemberList = [
         link:"https://ucalgary.ca/",
         video:"https://www.youtube.com/watch?v=_0ttkLPzXmg",
       },
-    //        {
-    //    name: "Akshat Malik",
-    //    degree:", MASc",
-    //    place:"Microsoft",
-    //     position:"Software Engineer",
-    //     link:"https://www.microsoft.com",
-    //     video: "/videos/success2.mp4",
-    //   },
+           {
+       name: "Akshat Malik",
+       degree:", MASc",
+       place:"Microsoft",
+        position:"Software Engineer",
+        link:"https://www.microsoft.com",
+        video: "https://www.youtube.com/watch?v=ekNLo0BjrPo&t=7s",
+      },
       
-    //   {
-    // name: "Lorena Pacheco",
-    //     degree:", MASc",
-    //     place:"Slalom Build",
-    //      position:"Senior Engineer - Platform Engineering ",
-    //      link:"https://www.linkedin.com/company/slalom-build/",
-    //      video: "/videos/success2.mp4",
-    //    },
+      {
+    name: "Lorena Pacheco",
+        degree:", MASc",
+        place:"Slalom Build",
+         position:"Senior Engineer - Platform Engineering ",
+         link:"https://www.linkedin.com/company/slalom-build/",
+         video: "https://www.youtube.com/watch?v=ekNLo0BjrPo&t=7s",
+       },
  ]}]
 
 
