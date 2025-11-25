@@ -33,7 +33,7 @@ const TeamMemberList = [
     members: [
       {
         name: "Ahmad Abdellatif",
-        degree:", Assistant Professor",
+        // degree:", Assistant Professor",
         // affiliation: "University of Calgary",
         place:"University of Calgary",
         position: "Assistant Professor ",
@@ -42,7 +42,7 @@ const TeamMemberList = [
       },
            {
        name: "Akshat Malik",
-       degree:", MASc",
+      //  degree:", MASc",
        place:"Microsoft",
         position:"Software Engineer",
         link:"https://www.microsoft.com",
@@ -51,7 +51,7 @@ const TeamMemberList = [
       
       {
     name: "Lorena Pacheco",
-        degree:", MASc",
+        // degree:", MASc",
         place:"Slalom Build",
          position:"Senior Engineer - Platform Engineering ",
          link:"https://www.linkedin.com/company/slalom-build/",
