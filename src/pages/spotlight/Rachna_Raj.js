@@ -7,8 +7,8 @@ import RachnaRaj from '../spotlight/imgs/RachnaRaj2.jpg';
 
 const RachnaRajSpotlight = () => {
   return (
-  <Layout title="Trainee spotlight" description="The project's spotlights.">
-      <PageHeader title="Trainee spotlight" />
+  <Layout title="Trainee Spotlight" description="The project's spotlights.">
+      <PageHeader title="Trainee Spotlight" />
 
 
     <div style={{ maxWidth: '900px', margin: '0 auto', lineHeight: '1.6' }}>
@@ -28,7 +28,7 @@ const RachnaRajSpotlight = () => {
         the human, societal, and EDI aspects of AI-enabled software systems.
       </p>
 
-      <h3>Describe your research area and its importance in software engineering</h3>
+      <h3>Describe your research area and its importance or significance to the field of software engineering.</h3>
       <p>
         My research focuses on the sustainability of open-source software (OSS) supply
         chains. Open-source components such as libraries and frameworks are used in almost
@@ -48,7 +48,8 @@ const RachnaRajSpotlight = () => {
         chance of widespread outages and saves organizations significant time and cost.
       </p>
 
-      <h3>How will the Google 2025 North America PhD Fellowship impact your research?</h3>
+      <h3>Congratulations on being recently awarded a Google 2025 North America PhD Fellowship in Software Engineering and Programming Languages. How will this award impact your research?
+</h3>
       <p>
         Thank you very much! What excites me about software engineering research is how
         closely it connects to real industry problems. This fellowship strengthens that
@@ -79,7 +80,7 @@ const RachnaRajSpotlight = () => {
         Tanja Tajmel, which has helped me grow into a more thoughtful researcher.
       </p>
 
-      <h3>Advice for other women and under-represented groups in Software Engineering</h3>
+      <h3>What advice would you give to other women, under-represented groups or those just beginning their studies in Software Engineering?</h3>
       <p>
         I believe I am still too young to give definitive advice 😉, but here is what I’ve
         learned from my journey and advisors:
