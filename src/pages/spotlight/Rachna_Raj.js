@@ -12,7 +12,7 @@ const RachnaRajSpotlight = () => {
 
 
     <div style={{ maxWidth: '900px', margin: '0 auto', lineHeight: '1.6' }}>
-      <h2 className="col col--12 section">Rachna Raj</h2>
+      {/* <h2 className="col col--12 section">Rachna Raj</h2> */}
 
       <img
         src={RachnaRaj}
@@ -21,7 +21,7 @@ const RachnaRajSpotlight = () => {
       />
 
       <p>
-        Rachna is a PhD student in Software Engineering at Concordia University’s DAS Lab
+        <strong>Rachna Raj</strong> is a PhD student in Software Engineering at Concordia University’s DAS Lab
         under the supervision of Dr. Diego Elias Costa. Her research focuses on the
         sustainability of open-source software (OSS) supply chains, helping maintainers
         understand usage, risks, and predict failures before releases. She also explores
