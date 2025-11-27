@@ -24,7 +24,7 @@ export default function Highlights() {
          <section>
       <div className="container">
         <div className="row">
-          <h2 className="col col--12 section">Trainee spotlight</h2>
+          <h2 className="col col--12 section">Trainee Spotlight</h2>
 {/* <h2
   className="container2"
   style={{
