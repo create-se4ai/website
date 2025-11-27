@@ -25,7 +25,7 @@ export default function Highlights() {
       <div className="container">
         <div className="row">
           <h2 className="col col--12 section">Trainee spotlight</h2>
-<h2
+{/* <h2
   className="container2"
   style={{
     marginLeft: '15px',  
@@ -33,7 +33,7 @@ export default function Highlights() {
 >
     Rachna Raj
 
-</h2>
+</h2> */}
 <div class="events " style={{ 
     marginLeft: '12px' ,
     '@media screen and (max-width: 966px)': {
@@ -48,7 +48,7 @@ export default function Highlights() {
 />
 </div>
 <div class="text"> 
-Every month, we highlight the research of a CREATE SE4AI trainee and their impact in the field of software engineering for AI.  In this Trainee Spotlight, we meet Rachna Raj, MASc student in the REALISE Lab at Concordia University.
+Every month, we highlight the research of a CREATE SE4AI trainee and their impact in the field of software engineering for AI.  In this Trainee Spotlight, we meet <strong>Rachna Raj,</strong> MASc student in the REALISE Lab at Concordia University.
 <a href="/spotlight/Rachna_Raj"> <strong>Read More</strong></a>
 </div>
 </div>
@@ -68,14 +68,15 @@ Every month, we highlight the research of a CREATE SE4AI trainee and their impac
 <h2 className="col col--12 section">Alumni Testimonials</h2>
       
 
-<h2
+{/* <h2
   className="container2"
   style={{
     marginLeft: '12px'
   }}
 >
-  Ahmad Abdellatif
-</h2>
+CREATE SE4AI ALUMNI TESTIMONIALS
+
+</h2> */}
 
 <div class="events " style={{ 
   
