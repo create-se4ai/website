@@ -320,6 +320,29 @@ const TeamMemberList = [
     size: "large",
     members: [
 {
+        name: "Mayra Ruiz",
+       affiliation:"Concordia University",
+       degree:", MASc ",
+        website:"https://das.encs.concordia.ca/members/mayra-ruiz",
+        linkedin:"mruiz27"
+      },
+      {
+        name: "Mohamed Riahi",
+       affiliation:"Polytechnique Montréal",
+        degree:", MASc ",
+        linkedin: "mohamed-riahi-51a6401b3",
+     
+      },{
+        name: "Altaf Allah Abbassi",
+      //  affiliation:"Polytechnique Montréal",
+        degree:", MASc ",
+        linkedin: "altafallahabbassi",
+         place:"Olymel",
+        position: "Data Analyst",
+        link:"https://www.linkedin.com/company/olymel/",
+     
+      },
+{
         name: "Mohayeminul Islam",
        affiliation:"University of Alberta",
        degree:", PhD",
