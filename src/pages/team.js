@@ -109,9 +109,9 @@ const TeamMemberList = [
       },
       {
         name: "Dr. Marie-Pierre Habas Gerard",
-        position:" Directrice Générale / Chief Executive ",
-        place:"Confiance IA",
-        link:"https://www.linkedin.com/company/confianceia/",
+        position:"Leader de la Faculté Transformation des Affaires et Intelligence Artificielle ",
+        place:" Afi U des organisations",
+        link:"https://www.linkedin.com/school/afi-u/",
         // affiliation: "CGI",
         linkedin: "marie-pierre-habas-gerard-ph-d-92316111",
         // email: "marie-pierre.gerard@cgi.com",
@@ -149,7 +149,7 @@ const TeamMemberList = [
         link:"https://www.concordia.ca/",
         linkedin:"lata-narayanan-948547290/",
         // email: "lata.narayanan@concordia.ca",
-        // website: "http://explore.concordia.ca/lata-narayanan",
+        website: " https://www.concordia.ca/faculty/lata-narayanan.html",
         has_page: false,
       },
       {
@@ -185,7 +185,7 @@ const TeamMemberList = [
         linkedin: "stefan-wagner-05821384/",
         //twitter: "TBD",
         // email: "stefan.wagner@iste.uni-stuttgart.de",
-        // website: "https://www.iste.uni-stuttgart.de/institute/team/Wagner-00017/",
+        website: " https://www.professoren.tum.de/en/wagner-stefan",
       },
       {
         name: "Dr. Liming Zhu",
@@ -513,8 +513,8 @@ const TeamMemberList = [
         linkedin: "pierre-olivier-côté",
       },
       {
-        name: "Ahmad Abdellatif",
-        degree:", Assistant Professor",
+        name: "Dr.Ahmad Abdellatif",
+        // degree:", Dr",
         // affiliation: "University of Calgary",
         place:"University of Calgary",
         position: "Assistant Professor ",
@@ -526,7 +526,7 @@ const TeamMemberList = [
       ,
       {
         name: "Dr. Diego Costa",
-        degree:", Assistant Professor",
+        // degree:", Assistant Professor",
         // affiliation: "Concordia University",
         place:"Concordia University",
         position: "Assistant Professor",
