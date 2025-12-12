@@ -513,7 +513,7 @@ const TeamMemberList = [
         linkedin: "pierre-olivier-côté",
       },
       {
-        name: "Dr.Ahmad Abdellatif",
+        name: "Dr. Ahmad Abdellatif",
         // degree:", Dr",
         // affiliation: "University of Calgary",
         place:"University of Calgary",
