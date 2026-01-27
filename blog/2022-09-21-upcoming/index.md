@@ -12,7 +12,7 @@ position: 0
 import TraineeTalk from './Trainee_Talks_January30th2026.png'
 
   <div class="container2">
-<h4>Trainee Talks - January 30, 2026 </h4>
+<h4>Trainee Talks - Jan 30, 2026 </h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
