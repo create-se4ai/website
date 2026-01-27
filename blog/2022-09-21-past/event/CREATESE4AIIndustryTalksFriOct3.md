@@ -22,14 +22,3 @@ Darine Ameyed, Ph.D. (Dr. Eng) is an AI & Innovation leader with a passion for t
 
 Since 2005, her career has spanned industry, government, and academia across Canada, Europe, and Africa, where she has led technological and scientific programs in information systems, artificial intelligence, and cognitive digital platforms.
 
-
-
-Register for this talk on Eventbrite: [https://www.eventbrite.ca/e/from-poc-to-production-engineering-ai-for-regulated-domains-tickets-1730976500309?aff=oddtdtcreator](https://www.eventbrite.ca/e/from-poc-to-production-engineering-ai-for-regulated-domains-tickets-1730976500309?aff=oddtdtcreator)
-
-Join the webinar via Zoom: [https://concordia-ca.zoom.us/j/82033420408?pwd=U8wjuP1anxFB0qq4PcAFJAMfpgfO3c.1](https://concordia-ca.zoom.us/j/82033420408?pwd=U8wjuP1anxFB0qq4PcAFJAMfpgfO3c.1)
-
-
-
-**Meeting ID:** 820 3342 0408
-
-**Passcode:** 875160

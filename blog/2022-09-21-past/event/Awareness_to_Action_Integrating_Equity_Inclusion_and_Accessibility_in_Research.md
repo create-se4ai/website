@@ -11,10 +11,3 @@ Through open and interactive discussions, we will explore equity concepts and pr
 
 **Awareness to Action: Integrating Equity, Inclusion, and Accessibility in Research**
 
-**May 9th and 16th from 10:00 am to 11:30 am EDT**
-
- **Join via Zoom:** [https://concordia-ca.zoom.us/j/81002128613?pwd=djMxeDlMV3FhWUNBbnpEWlJGcDZ6Zz09](https://concordia-ca.zoom.us/j/81002128613?pwd=djMxeDlMV3FhWUNBbnpEWlJGcDZ6Zz09) 
- 
- **Meeting ID:** 810 0212 8613
-
- **Passcode:** 088220
