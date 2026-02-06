@@ -11,6 +11,43 @@ position: 2
 ---
 # Past Events  
 
+
+import TraineeTalk from './Trainee_Talks_January30th2026.png'
+
+
+
+  <div class="container2">
+<h4>Trainee Talks - Jan 30, 2026 </h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={TraineeTalk}   />
+</div>
+<div class="text"> 
+On<strong> Friday, January 30th at 11:00 AM,</strong> we heard from two MSc students at Polytechnique Montréal under the supervision of <strong>Prof. Foutse Khomh.</strong>
+<br/>
+
+<strong>Mo Malekpour</strong> presented his research on Enhancing Text-to-SQL Systems through LLM Routing and Effective Evaluation.
+
+
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_January30th_2026"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
+
+ 
+
+
+
+
+
 import CASCON2025 from './CASCON2025.png'
 
 
