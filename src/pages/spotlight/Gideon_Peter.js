@@ -21,7 +21,7 @@ const RachnaRajSpotlight = () => {
       />
 
       <p>
-        <strong>Gideon Peters,</strong>  MASc student in Software Engineering at Concordia University under Dr. Emad Shihab's supervision.
+        <strong>Gideon Peters,</strong> obtained his MASc in Software Engineering from Concordia University in 2025.  His work explores the intersection of web performance engineering and large language models (LLMs), with a focus on automating complex development workflows. Prior to obtaining his master's degree, Gideon acquired industry experience as a Frontend Engineer, where he encountered firsthand the challenges of building fast, scalable web applications. Currently, Gideon works as a Senior Software Engineer at MedeloopAI in Montreal.  We caught up with him recently to learn more about his transition from academia to industry.
       </p>
 
       <h3>You recently started working as a Senior Software Engineer at MedeloopAI in Montreal.  How have you managed the transition from graduate studies to full time employment? </h3>
