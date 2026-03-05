@@ -40,12 +40,12 @@ export default function Highlights() {
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
         flexWrap: 'wrap',
-        maxWidth: '350px'
+        maxWidth: '300px'
     }
 }}>
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
 <img src={GideonPeters}
-style={{   width:'400px',hight:'400px'
+style={{   width:'150px',hight:'150px'
  }}
 />
 </div>
@@ -69,7 +69,7 @@ This month, we introduce CREATE Alumnus <strong>
     }
 }}>
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={RachnaRaj} style={{   width:'450px',hight:'400px'
+<img src={RachnaRaj} style={{   width:'150px',hight:'250px'
  }}
 />
 </div>
