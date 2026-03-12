@@ -27,9 +27,8 @@ import TraineeTalk from './Trainee_Talks_Mar26_2026.png'
 <div class="text"> 
 On <strong>Thursday March 26th at 10:00AM,</strong> we will hear from these 2 CREATE Master's trainees :
 <br/>
+<br/>
 <strong>Liam Johnston, MSc</strong> candidate fromQueen's University will share his work on LabelMate: An LLM-driven Framework for Refined Issue Report Labeling.
-
-
 <a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_Mar_26th_2026"> <strong>Read More</strong></a>
 </div>
 </div> 
