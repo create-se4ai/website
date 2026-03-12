@@ -9,8 +9,10 @@ position: 0
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 # Upcoming Events 
- 
+  
+  
 import TraineeTalk from './Trainee_Talks_Mar26_2026.png'
+ 
 
   <div class="container2">
 <h4> Trainee Talks -  Mar 26, 2026</h4>

@@ -10,7 +10,7 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
-
+ 
 
 import TraineeTalkCreate from './CREATE_SE4AI_Trainee_Talks_022326.png'
 
