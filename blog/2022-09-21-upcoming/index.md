@@ -10,12 +10,11 @@ position: 0
 ---
 # Upcoming Events 
   
-  
-import TraineeTalk from './Trainee_Talks_Mar26_2026.png'
- 
+import IndigenousEngagement from './Indigenous_Engagement_for_Researchers.png'
 
-  <div class="container2">
-<h4> Trainee Talks -  Mar 26, 2026</h4>
+
+<div class="container2">
+<h4> Indigenous Engagement for Researchers - May 14, 2026</h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
@@ -24,15 +23,12 @@ import TraineeTalk from './Trainee_Talks_Mar26_2026.png'
     }
 }}>
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={TraineeTalk}   />
+<img src={IndigenousEngagement}   />
 </div>
 <div class="text"> 
-On <strong>Thursday March 26th at 10:00AM,</strong> we will hear from these 2 CREATE Master's trainees :
-<br/>
-<strong>Liam Johnston, MSc</strong> candidate from Queen's University will share his work on LabelMate: An LLM-driven Framework for Refined Issue Report Labeling.
-<a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_Mar_26th_2026"> <strong>Read More</strong></a>
+Discover how Indigenous communities are shaping and transforming research practices, and why intentional, relationship-based engagement is essential to impactful research. 
+
+<a href="/blog/2022/09/21/upcoming/event/Indigenous_Engagement_for_Researchers_May14_2026"> <strong>Read More</strong></a>
 </div>
 </div> 
  </div>
-
-
