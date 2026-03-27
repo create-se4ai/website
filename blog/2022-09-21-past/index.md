@@ -11,6 +11,32 @@ position: 2
 ---
 # Past Events  
  
+import TraineeTalkMar26 from './Trainee_Talks_Mar26_2026.png'
+ 
+
+  <div class="container2">
+<h4> Trainee Talks -  Mar 26, 2026</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={TraineeTalkMar26}   />
+</div>
+<div class="text"> 
+On <strong>Thursday March 26th at 10:00AM,</strong> we heard from two CREATE Master's trainees:
+
+<br/>
+<strong>Liam Johnston, MSc</strong> candidate from Queen's University, shared his work on LabelMate: An LLM-driven Framework for Refined Issue Report Labeling.
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_Mar_26th_2026"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
 
 import TraineeTalkCreate from './CREATE_SE4AI_Trainee_Talks_022326.png'
 
