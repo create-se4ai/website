@@ -9,7 +9,8 @@ position: 0
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 # Upcoming Events 
-  
+   
+   
 import IndigenousEngagement from './Indigenous_Engagement_for_Researchers.png'
 
 
