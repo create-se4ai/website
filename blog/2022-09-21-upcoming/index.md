@@ -10,7 +10,6 @@ position: 0
 ---
 # Upcoming Events 
     
-
 import TraineeTalksMay122026Image from './Trainee_Talks_May12_2026.jpg'
 
 
