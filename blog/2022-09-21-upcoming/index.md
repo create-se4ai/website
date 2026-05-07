@@ -9,8 +9,8 @@ position: 0
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 # Upcoming Events 
-   
-   
+    
+
 import TraineeTalksMay122026Image from './Trainee_Talks_May12_2026.jpg'
 
 
