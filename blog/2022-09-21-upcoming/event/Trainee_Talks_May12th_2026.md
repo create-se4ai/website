@@ -1,9 +1,9 @@
 ---
 title:  Trainee Talks - May 12th
 ---
-import TraineeTalksMay122026Image from '../Trainee_Talks_May12_2026.jpg'
+import TraineeTalksMay12 from '../Trainee_Talks_May12_2026.jpg'
 
-<p class="sep252023"><img src={TraineeTalksMay122026Image}/></p>
+<p class="sep252023"><img src={TraineeTalksMay12}/></p>
 
 Join us **on Tuesday, May 12th at 11:00 AM** for the CREATE SE4AI Trainee Talks featuring two Concordia CREATE Master’s trainees presenting their research in AI and software engineering.
 
