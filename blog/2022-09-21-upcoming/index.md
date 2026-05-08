@@ -11,7 +11,7 @@ position: 0
 # Upcoming Events 
      
 import TraineeTalksMay12 from './Trainee_Talks_May12_2026.jpg'
-
+ 
 
 <div class="container2">
 <h4>  Trainee Talks - May 12th</h4>
