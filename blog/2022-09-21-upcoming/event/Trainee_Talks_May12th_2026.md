@@ -6,7 +6,7 @@ import TraineeTalksMay12 from '../Trainee_Talks_May12_2026.jpg'
 <p class="sep252023"><img src={TraineeTalksMay12}/></p>
 
 Join us **on Tuesday, May 12th at 11:00AM** for the next edition of Trainee Talks featuring 2 CREATE Master's trainees from Concordia University who are preparing to graduate.
-
+ 
  
 **Chaima Jaziri, MASc** candidate will share her work on Co-DynaDev: A Dynamic Multi-Agent Assistant for Automated Software Development
 
