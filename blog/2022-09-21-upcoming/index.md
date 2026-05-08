@@ -9,9 +9,9 @@ position: 0
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 # Upcoming Events 
-    
-import TraineeTalksMay122026Image from './Trainee_Talks_May12_2026.jpg'
-
+     
+import TraineeTalksMay12 from './Trainee_Talks_May12_2026.jpg'
+ 
 
 <div class="container2">
 <h4>  Trainee Talks - May 12th</h4>
@@ -23,11 +23,12 @@ import TraineeTalksMay122026Image from './Trainee_Talks_May12_2026.jpg'
     }
 }}>
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={TraineeTalksMay122026Image}   />
+<img src={TraineeTalksMay12}   />
 </div>
 <div class="text"> 
-Join us <strong>on Tuesday, May 12th at 11:00 AM</strong> for the CREATE SE4AI Trainee Talks featuring two Concordia CREATE Master’s trainees presenting their research in AI and software engineering.
+Join us <strong>on Tuesday, May 12th at 11:00AM</strong> for the next edition of Trainee Talks featuring 2 CREATE Master's trainees from Concordia University who are preparing to graduate.
 
+ 
 <a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_May12th_2026"> <strong>Read More</strong></a>
 </div>
 </div> 
