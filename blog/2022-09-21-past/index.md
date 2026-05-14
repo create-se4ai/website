@@ -10,7 +10,32 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events  
+import TraineeTalksMay12 from './Trainee_Talks_May12_2026.jpg'
  
+
+<div class="container2">
+<h4>  Trainee Talks - May 12th</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={TraineeTalksMay12}   />
+</div>
+<div class="text"> 
+<strong>On Tuesday, May 12th at 11:00 AM,</strong> we hosted the next edition of Trainee Talks featuring two CREATE Master’s trainees from Concordia University who are preparing to graduate.
+
+ 
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_May12th_2026"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
+
 import TraineeTalkMar26 from './Trainee_Talks_Mar26_2026.png'
  
 
