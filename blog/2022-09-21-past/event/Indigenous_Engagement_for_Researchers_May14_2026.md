@@ -12,7 +12,7 @@ This was a 2-hour, in-person workshop at Concordia’s SHIFT Centre for Social T
 
 During the training, participants:
 - Learned about the effects of colonization on relationships with Indigenous communities and in research collaboration
-- Discovered Indigenous collaboration principles
-Practiced self-reflection
+- Discovered Indigenous collaboration principles and, 
+- Practiced self-reflection
 
-Helpful resources for researchers were introduced, such as the Decolonial Toolbox for podcasts, videos and short texts on Indigenous realities and the Dewemaagannag My Relations Guide on collaboration principles.
+Helpful resources for researchers were introduced, such as the [Decolonial Toolbox](https://www.concordia.ca/about/community/resources/decolonial-toolbox.html) for podcasts, videos and short texts on Indigenous realities and the [Dewemaagannag My Relations Guide](https://www.concordia.ca/about/community/resources/indigenous-engagement-guide.html) on collaboration principles.
