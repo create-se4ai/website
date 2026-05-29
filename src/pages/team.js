@@ -320,6 +320,13 @@ const TeamMemberList = [
     size: "large",
     members: [
 {
+name:"Chaima Jaziri",
+affiliation:"Concordia University",
+degree:", MASc ",
+website:"https://github.com/Chaima-Ja",
+linkedin:"chaima-jaziri/"
+},
+{
         name: "Mayra Ruiz",
        affiliation:"Concordia University",
        degree:", MASc ",
