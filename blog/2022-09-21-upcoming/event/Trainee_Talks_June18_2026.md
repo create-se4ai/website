@@ -11,10 +11,10 @@ This edition will showcase the research of 2 Master's students who are getting s
 
 Each trainee will speak for 20 minutes, followed by a 10 min Q&A.
 
-Register to attend via Eventbrite:  [https://www.eventbrite.ca/e/towards-reliable-llms-for-cobol-cost-effective-code-llm-selection-tickets-1991405443288?aff=oddtdtcreator](https://www.eventbrite.ca/e/towards-reliable-llms-for-cobol-cost-effective-code-llm-selection-tickets-1991405443288?aff=oddtdtcreator)
+**Register to attend via Eventbrite:**  [https://www.eventbrite.ca/e/towards-reliable-llms-for-cobol-cost-effective-code-llm-selection-tickets-1991405443288?aff=oddtdtcreator](https://www.eventbrite.ca/e/towards-reliable-llms-for-cobol-cost-effective-code-llm-selection-tickets-1991405443288?aff=oddtdtcreator)
 
 **Join via Zoom:** [https://concordia-ca.zoom.us/j/82535586355?pwd=SXICo7KMBOuYLZGwba386Jk6zjWpnh.1](https://concordia-ca.zoom.us/j/82535586355?pwd=SXICo7KMBOuYLZGwba386Jk6zjWpnh.1)
 
-**Meeting ID: 825 3558 6355**
+**Meeting ID:** 825 3558 6355
 
-**Passcode: 476839**
+**Passcode:** 476839
