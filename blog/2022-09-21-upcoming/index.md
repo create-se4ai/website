@@ -14,7 +14,7 @@ import TraineeTalksJune18th from './Trainee_Talks_June18th.png'
 
 
 <div class="container2">
-<h4> Trainee Talks - June 18,2026</h4>
+<h4> Trainee Talks - June 18, 2026</h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
