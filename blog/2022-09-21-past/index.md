@@ -38,7 +38,7 @@ import TraineeTalksMay12 from './Trainee_Talks_May12_2026.jpg'
  
 
 <div class="container2">
-<h4>  Trainee Talks - May 12th</h4>
+<h4>  Trainee Talks - May 12, 2026</h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
