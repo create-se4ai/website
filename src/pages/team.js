@@ -320,6 +320,20 @@ const TeamMemberList = [
     size: "large",
     members: [
 {
+name:"Mo Malekpour",
+affiliation:"Polytechnique Montréal",
+degree:", MASc ",
+website:"https://github.com/momalekpour",
+linkedin:"momalekpour"
+},
+{
+name:" Vahid Majdinasab",
+degree:", PhD ",
+affiliation:"Polytechnique Montréal",
+linkedin:"vahid-majdinasab",
+
+},
+{
 name:"Chaima Jaziri",
 affiliation:"Concordia University",
 degree:", MASc ",
