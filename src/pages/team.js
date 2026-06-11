@@ -327,7 +327,7 @@ website:"https://github.com/momalekpour",
 linkedin:"momalekpour"
 },
 {
-name:" Vahid Majdinasab",
+name:"Vahid Majdinasab",
 degree:", PhD ",
 affiliation:"Polytechnique Montréal",
 linkedin:"vahid-majdinasab",
