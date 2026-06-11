@@ -7,7 +7,7 @@ import TraineeTalksJune18th from '../Trainee_Talks_June18th.png'
 
 Join us **on Thursday, June 18th at 10:00 AM** for our final Trainee Talks before the summer break! 
 
-This edition will showcase the research of 2 Master's students who are getting set to graduate.  **Thi Van Anh** Dau, MASc candidate at Concordia will share her work on "Towards Reliable Large Language Models for COBOL through Compiler-Guided Feedback and Domain Adaptation".  Immediately following, **Yasmine Ben Braiek**, M.Sc. student at Polytechnique Montréal will present her research on "XPJudge: Explanation-Aware Pairwise Judging for Cost-Effective Code LLM Selection".
+This edition will showcase the research of 2 Master's students who are getting set to graduate.  **Thi Van Anh Dau**, MASc candidate at Concordia will share her work on "Towards Reliable Large Language Models for COBOL through Compiler-Guided Feedback and Domain Adaptation".  Immediately following, **Yasmine Ben Braiek**, M.Sc. student at Polytechnique Montréal will present her research on "XPJudge: Explanation-Aware Pairwise Judging for Cost-Effective Code LLM Selection".
 
 Each trainee will speak for 20 minutes, followed by a 10 min Q&A.
 

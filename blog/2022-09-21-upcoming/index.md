@@ -26,7 +26,7 @@ import TraineeTalksJune18th from './Trainee_Talks_June18th.png'
 <img src={TraineeTalksJune18th}   />
 </div>
 <div class="text"> 
-Join us <strong>on Thursday, June 18th at 10:00 AM</strong>> for our final Trainee Talks before the summer break! 
+Join us <strong>on Thursday, June 18th at 10:00 AM</strong> for our final Trainee Talks before the summer break! 
 
 This edition will showcase the research of 2 Master's students who are getting set to graduate. <a href="/blog/2022/09/21/upcoming/event/Trainee_Talks_June18_2026"> <strong>Read More</strong></a>
 </div>
