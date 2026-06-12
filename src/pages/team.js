@@ -372,9 +372,11 @@ linkedin:"chaima-jaziri/"
       },
 {
         name: "Akalanka Galappaththi",
-       affiliation:"University of Alberta",
        degree:", PhD ",
-        linkedin: "akalanka-galappaththi-67580719",
+        place:"LawDepot",
+        position: "Data Scientist",
+        link:"https://www.linkedin.com/company/lawdepot/",
+        linkedin: "akalanka-gala",
         email:"akalanka@ualberta.ca",
         twitter:"@boney_ag"
         
