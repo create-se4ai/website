@@ -11,7 +11,7 @@ position: 0
 # Upcoming Events 
 
 import AnnualRetreatImage from './Annual_Retreat_2026.jpg'
-
+  
 
 <div class="container2">
 <h4> CREATE SE4AI Annual Retreat - July 4, 2026</h4>
