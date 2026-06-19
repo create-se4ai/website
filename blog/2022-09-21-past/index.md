@@ -11,7 +11,7 @@ position: 2
 ---
 # Past Events  
 import IndigenousEngagement from './Indigenous_Engagement_for_Researchers.png'
-
+ 
 
 <div class="container2">
 <h4> Indigenous Engagement for Researchers - May 14, 2026</h4>
