@@ -30,7 +30,6 @@ import AnnualRetreatImage from './Annual_Retreat_2026.jpg'
 
 <strong>Join us for the 5th annual CREATE SE4AI retreat!</strong>     
 <div></div>
-<strong>Date & Time</strong>    
 
 <strong>Saturday, July 4, 2026 (10:00AM - 5:00PM)</strong>  
 
