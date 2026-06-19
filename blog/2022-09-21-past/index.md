@@ -9,7 +9,33 @@ position: 2
 #author_image_url: 
 #tags: [past events, news, webinars, trainee talks]
 ---
-# Past Events  
+# Past Events 
+
+import TraineeTalksJune18th from './Trainee_Talks_June18th.png'
+
+
+<div class="container2">
+<h4> Trainee Talks - June 18, 2026</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={TraineeTalksJune18th}   />
+</div>
+<div class="text"> 
+<strong>On Thursday, June 18th at 10:00 AM,</strong> the final Trainee Talks before the summer break took place.
+
+This edition showcased the research of two Master’s students who are preparing to graduate. <a href="/blog/2022/09/21/past/event/Trainee_Talks_June18_2026"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
+
 import IndigenousEngagement from './Indigenous_Engagement_for_Researchers.png'
   
 
