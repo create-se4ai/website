@@ -349,8 +349,11 @@ linkedin:"chaima-jaziri/"
       },
       {
         name: "Mohamed Riahi",
-       affiliation:"Polytechnique Montréal",
+      //  affiliation:"Polytechnique Montréal",
         degree:", MASc ",
+         place:"Humanitas Solutions",
+        position: "Data Scientist",
+        link:"https://www.linkedin.com/company/humanitas-solutions/",
         linkedin: "mohamed-riahi-51a6401b3",
      
       },{
