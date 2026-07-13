@@ -321,8 +321,11 @@ const TeamMemberList = [
     members: [
 {
 name:"Mo Malekpour",
-affiliation:"Polytechnique Montréal",
+// affiliation:"Polytechnique Montréal",
 degree:", MASc ",
+place:"RBC Borealis ",
+position: "Machine Learning Software Engineer",
+link:"https://rbcborealis.com/",
 website:"https://github.com/momalekpour",
 linkedin:"momalekpour"
 },
