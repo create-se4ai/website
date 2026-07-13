@@ -10,7 +10,31 @@ position: 2
 #tags: [past events, news, webinars, trainee talks]
 ---
 # Past Events 
- 
+
+import AnnualRetreatImage from './Annual_Retreat_2026.jpg'
+  
+
+<div class="container2">
+<h4> CREATE SE4AI Annual Retreat - July 4, 2026</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={AnnualRetreatImage} />
+
+</div>
+<div class="text"> 
+
+<strong>The 5th annual CREATE SE4AI Retreat</strong> was held <strong>on Saturday, July 4, 2026,</strong> at the Concordia University Conference Centre, bringing together software engineering graduate students from Concordia University, Polytechnique Montréal, and Queen's University for a full day of learning, collaboration, and networking.<a href="/blog/2022/09/21/past/event/CREATE_SE4AI_Annual_Retreat_Sat_July4_2026"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
 import TraineeTalksJune18th from './Trainee_Talks_June18th.png'
 
 

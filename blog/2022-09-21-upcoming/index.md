@@ -9,12 +9,12 @@ position: 0
 #tags: [upcoming events, news, webinars, trainee talks]
 ---
 # Upcoming Events 
-
-import AnnualRetreatImage from './Annual_Retreat_2026.jpg'
+ 
+import TraineeTalksJuly17Image from './Trainee_Talks_July17.jpg'
   
 
 <div class="container2">
-<h4> CREATE SE4AI Annual Retreat - July 4, 2026</h4>
+<h4> Trainee Talk July 17, 2026</h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
@@ -23,21 +23,17 @@ import AnnualRetreatImage from './Annual_Retreat_2026.jpg'
     }
 }}>
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={AnnualRetreatImage} />
+<img src={TraineeTalksJuly17Image} />
 
 </div>
 <div class="text"> 
 
-<strong>Join us for the 5th annual CREATE SE4AI retreat!</strong>     
-<div></div>
+<strong>Title: </strong>Beyond Compliance: A Large Scale Study on the Completeness and Consistency of the GitHub SBOMs.
 
-<strong>Saturday, July 4, 2026 (10:00AM - 5:00PM)</strong>  
-
-*Registration and breakfast will begin at 10:00.  We will start the program promptly at 10:30.  Please plan your arrival time accordingly.<a href="/blog/2022/09/21/upcoming/event/CREATE_SE4AI_Annual_Retreat_Sat_July4_2026"> <strong>Read More</strong></a>
+Modern software development relies heavily on open-source components. Reusing components accelerates innovation but increases exposure to supply-chain attacks exploiting known vulnerabilities. Software Bills of Materials (SBOMs) improve software supply chain transparency by enumerating. <a href="/blog/2022/09/21/upcoming/event/Trainee_Talk July17_2026"> <strong>Read More</strong></a>
 </div>
 </div> 
  </div>
-
 
 
 
