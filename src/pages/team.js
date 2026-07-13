@@ -319,7 +319,7 @@ const TeamMemberList = [
     title: "Alumni",
     size: "large",
     members: [
-{
+{ 
 name:"Mo Malekpour",
 // affiliation:"Polytechnique Montréal",
 degree:", MASc ",
