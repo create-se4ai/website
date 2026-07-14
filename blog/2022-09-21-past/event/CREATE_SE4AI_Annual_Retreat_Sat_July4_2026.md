@@ -4,7 +4,7 @@ title:  CREATE SE4AI Annual Retreat - July 4th, 2026
 import hackathon1Image from '../hackathon1.jpeg'
 import Retreat2026Image from '../Retreat2026.jpeg'
 import hackathon2Image from '../hackathon2.jpeg'
-import foodBrigeImage from '../foodBridge.jpeg'
+
 
 <p class="sep252023">
 <img src={hackathon1Image} width="245"/>
