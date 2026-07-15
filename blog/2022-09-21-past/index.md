@@ -51,7 +51,7 @@ import TraineeTalksJune18th from './Trainee_Talks_June18th.png'
 <img src={TraineeTalksJune18th}   />
 </div>
 <div class="text"> 
-<strong>On Thursday, June 18th at 10:00 AM,</strong> the final Trainee Talks before the summer break took place.
+<strong>On Thursday, June 18th at 10:00 AM,</strong> we held another edition of CREATE Trainee Talks.
 
 This edition showcased the research of two Master’s students who are preparing to graduate. <a href="/blog/2022/09/21/past/event/Trainee_Talks_June18_2026"> <strong>Read More</strong></a>
 </div>
