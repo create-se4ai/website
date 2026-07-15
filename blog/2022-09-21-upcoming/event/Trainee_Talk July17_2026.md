@@ -1,5 +1,5 @@
 ---
-title: TTrainee Talks - July 17, 2026
+title: Trainee Talks - July 17, 2026
 ---
 
 import Trainee_Talks_July17 from '../Trainee_Talks_July17.jpg'
