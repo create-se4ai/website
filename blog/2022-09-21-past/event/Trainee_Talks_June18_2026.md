@@ -5,7 +5,7 @@ import TraineeTalksJune18th from '../Trainee_Talks_June18th.png'
 
 <p class="sep252023"><img src={TraineeTalksJune18th}/></p>
 
-**On Thursday, June 18th at 10:00 AM,** the final Trainee Talks before the summer break took place.
+**On Thursday, June 18th at 10:00 AM,** we held another edition of CREATE Trainee Talks.
 
 This edition showcased the research of two Master’s students who are preparing to graduate. **Thi Van Anh Dau** presented her work titled "Towards Reliable Large Language Models for COBOL through Compiler-Guided Feedback and Domain Adaptation." Immediately after, **Yasmine Ben Braiek** shared her research titled "XPJudge: Explanation-Aware Pairwise Judging for Cost-Effective Code LLM Selection."
 

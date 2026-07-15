@@ -6,8 +6,7 @@ import Trainee_Talks_July17 from '../Trainee_Talks_July17.jpg'
 
 <p class="Trainee_Talks_July17"><img src={Trainee_Talks_July17}/></p>
 
-
-**Title:** Beyond Compliance: A Large Scale Study on the Completeness and Consistency of the GitHub SBOMs
+This edition of Trainee Talks features MASc candidate Kawsar Ahmed Bhuiyan, a member of the REALISE Lab at Concordia University under the supervision of Prof. Diego Elias Costa. Kawsar will be presenting his work on "Beyond Compliance: A Large-scale Study on the Completeness and Consistency of the GitHub SBOMs".
 
 **Abstract:**
 
