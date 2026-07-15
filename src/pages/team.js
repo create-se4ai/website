@@ -338,7 +338,9 @@ linkedin:"vahid-majdinasab",
 },
 {
 name:"Chaima Jaziri",
-affiliation:"Concordia University",
+place:"Ampliwork",
+position: "Applied AI Engineer",
+link:"https://www.ampliwork.com/multi-skilled-ai-agents-for-every-sector-ampliwork",
 degree:", MASc ",
 website:"https://github.com/Chaima-Ja",
 linkedin:"chaima-jaziri/"
@@ -347,7 +349,7 @@ linkedin:"chaima-jaziri/"
         name: "Mayra Ruiz",
        affiliation:"Concordia University",
        degree:", MASc ",
-        website:"https://das.encs.concordia.ca/members/mayra-ruiz",
+        // website:"https://das.encs.concordia.ca/members/mayra-ruiz",
         linkedin:"mruiz27"
       },
       {
@@ -404,7 +406,7 @@ linkedin:"chaima-jaziri/"
         link:"https://www.fortra.com/",
         linkedin: "khatoonabadi",
         twitter: "HKhatoonabadi",
-        website: "https://das.encs.concordia.ca/members/hassan-khatoonabadi",
+        // website: "https://das.encs.concordia.ca/members/hassan-khatoonabadi",
       },
         {
         name: "Gideon Peters",
@@ -412,7 +414,7 @@ linkedin:"chaima-jaziri/"
         place:"Medeloop AI",
         position:"Senior Software Engineer",
         link:"https://www.medeloop.ai/",
-       website:"https://das.encs.concordia.ca/members/gideon-peters",
+      //  website:"https://das.encs.concordia.ca/members/gideon-peters",
         linkedin:"gideonpeters",
       //  position:"Senior Software Engineer"
        },
@@ -452,7 +454,7 @@ linkedin:"chaima-jaziri/"
         degree:", MASc",
         affiliation:"Queen's University ",
         linkedin:"jiawen-liu-691906178",
-       website:"https://seal-queensu.github.io/member-current.html",
+      //  website:"https://seal-queensu.github.io/member-current.html",
        },
   
        {
@@ -482,7 +484,7 @@ linkedin:"chaima-jaziri/"
         position:"Software Development Engineer",
         link:"https://www.splunk.com/",
         linkedin:"harsh8398/",
-        website:"https://harsh8398.github.io"
+        // website:"https://harsh8398.github.io"
   
        },
        {
