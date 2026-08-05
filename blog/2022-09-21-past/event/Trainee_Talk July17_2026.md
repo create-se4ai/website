@@ -15,4 +15,5 @@ Modern software development relies heavily on open-source components. Reusing co
 During the talk, Kawsar presented the findings of a large-scale analysis of 10,000 GitHub repositories across ten programming language ecosystems, evaluating GitHub SBOMs against three other popular SBOM generators: Syft, Trivy, and the Microsoft SBOM Tool. The study found a lack of NTIA compliance in GitHub SBOMs, although core metadata was consistently present. It also showed that the availability of component version and license information depends heavily on the programming ecosystem. Compared with the other three tools, GitHub produced results similar to the Microsoft SBOM Tool and often outperformed Syft and Trivy in providing version and license information. The presentation concluded with a discussion of potential shortcomings of the GitHub SBOM Tool related to how different programming ecosystems manage their dependencies.
 
 
+The video is now available to view on our [CREATE SE4AI YouTube channel](https://www.youtube.com/watch?v=lK4tvK_W6nk).
 
