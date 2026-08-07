@@ -319,6 +319,15 @@ const TeamMemberList = [
     title: "Alumni",
     size: "large",
     members: [
+      {
+name:"Kawsar Ahmed Bhuiyan",
+affiliation:"Concordia University",
+degree:", MASc ",
+position: "Software Engineer",
+website:"https://github.com/kawsarahmedbhuiyan",
+linkedin:"kawsarahmedbhuiyan"
+},
+
 { 
 name:"Mo Malekpour",
 // affiliation:"Polytechnique Montréal",
