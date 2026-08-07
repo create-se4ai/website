@@ -29,7 +29,7 @@ import TraineeTalksJuly17Image from './Trainee_Talks_July17.jpg'
 </div>
 <div class="text"> 
 
-<strong>On Friday, July 17, 2026,</strong> CREATE SE4AI hosted another edition of Trainee Talks, featuring MASc candidate Kawsar Ahmed Bhuiyan, a member of the REALISE Lab at Concordia University under the supervision of Prof. Diego Elias Costa. Kawsar presented his work titled "Beyond Compliance: A Large-scale Study on the Completeness and Consistency of the GitHub SBOMs."<a href="/blog/2022/09/21/past/event/Trainee_Talk July17_2026"> <strong>Read More</strong></a>
+<strong>On Friday, July 17 at 10 AM</strong> CREATE SE4AI hosted another edition of Trainee Talks, featuring MASc candidate Kawsar Ahmed Bhuiyan, a member of the REALISE Lab at Concordia University under the supervision of Prof. Diego Elias Costa. Kawsar presented his work titled "Beyond Compliance: A Large-scale Study on the Completeness and Consistency of the GitHub SBOMs."<a href="/blog/2022/09/21/past/event/Trainee_Talk July17_2026"> <strong>Read More</strong></a>
 </div>
 </div> 
  </div>
