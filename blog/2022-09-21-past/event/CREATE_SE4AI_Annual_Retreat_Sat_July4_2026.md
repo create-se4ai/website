@@ -26,7 +26,7 @@ The retreat began with a keynote presentation by Prof. Benoit Baudry on Dependen
 
 The day also included opportunities to connect with fellow trainees and invited guests from industry and academia.
 
-# Student Projects
+# CREATE-a-Thon Projects
 <style>
 {`
 .student-projects-grid {
@@ -68,7 +68,7 @@ The day also included opportunities to connect with fellow trainees and invited 
 
 <div className="student-project-card">
 <h2>FoodBridge</h2>
-<h4><strong>Social Problem: </strong>Food Waste Redistribution</h4>
+<h4>Food Waste Redistribution</h4>
 <img src={foodBrigeImage} />
   <p><strong>Mohamad Salim, Kawsar Bhuiyan, Sharon Ho, Patrick Foalem, Adekunle Ajibode</strong></p>
 <p>
@@ -85,7 +85,7 @@ The day also included opportunities to connect with fellow trainees and invited 
 
 <div className="student-project-card">
 <h2>CareWithYou: Human-Centered Support for Independent Aging</h2>
-<h4><strong>Social Problem: </strong>Senior Care Coordination</h4>
+<h4>Senior Care Coordination</h4>
 <img src={CareWithYouImage} />
   <p>
     <strong>Jasmine Latendresse, Yasmine Drissi, Jean Carlors Paul, Sylvain Kouemo, Yu Shi</strong>
@@ -100,7 +100,7 @@ The day also included opportunities to connect with fellow trainees and invited 
 
 <div className="student-project-card">
 <h2>EzAccess</h2>
-<h4><strong>Social Problem: </strong>Accessibility Assistant for Public Services</h4>
+<h4>Accessibility Assistant for Public Services</h4>
 <img src={AccessibilityAssistantImage} />
   <p>
     <strong>Samuel Abedu, Gideon Peters, Anthony Forgetta, Yvan-Marcel Carré, Mahi Begoug</strong>
@@ -113,7 +113,7 @@ The day also included opportunities to connect with fellow trainees and invited 
 <div className="student-project-card">
 <h2>AEGIS: 
 Agentic Emergency Guidance and Incident Support</h2>
-<h4><strong>Social Problem: </strong>Climate Emergency - Flood Response Assistant</h4>
+<h4>Climate Emergency - Flood Response Assistant</h4>
 <img src={AEGISImage} />
  <p>
     <strong>Alor Ebube, Ghada Abushaqra, Khandaker Rifah Tasnia, Yasmine Ben Braiek, Aroh Sunday Melitus</strong>
@@ -126,7 +126,7 @@ Agentic Emergency Guidance and Incident Support</h2>
 
 <div className="student-project-card">
 <h2>Job-Fit Gap Analyzer</h2>
-<h4><strong>Social Problem: </strong>Job Search and Career Transition Support</h4>
+<h4>Job Search and Career Transition Support</h4>
 <img src={JobSearchandCareerTransitionImage} />
  <p>
     <strong>Musfiqur Rahman, Rachna Raj, Fazle Rabbi, Minh Nguyen</strong>
@@ -139,7 +139,7 @@ Agentic Emergency Guidance and Incident Support</h2>
 
 <div className="student-project-card">
 <h2>Smart Schedule Health</h2>
-<h4><strong>Social Problem: </strong>Medical Appointment Coordination</h4>
+<h4>Medical Appointment Coordination</h4>
 <img src={SmartScheduleHealthImage} />
  <p>
     <strong>Antonio Collante, Lucas Armand, Junjie Li, Aurel Honey, Gen Caumartin</strong>
