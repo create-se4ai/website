@@ -520,9 +520,9 @@ linkedin:"chaima-jaziri/"
         name: "Rached Bouchoucha",
         degree:", MASc",
         // affiliation: "Polytechnique Montréal",
-        place:"Sycodal",
-        position:"MLOps engineering",
-        link:"https://sycodal.ca/fr/",
+        place:"Capgemini",
+        position:"AI Developer",
+        link:"https://www.linkedin.com/company/capgemini",
         linkedin: "rached-bouchoucha-1061997",
       },
       {

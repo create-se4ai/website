@@ -11,7 +11,7 @@ import PageHeader from "../components/PageHeader";
 
 import RachnaRaj from './spotlight/imgs/RachnaRaj2.jpg'
 import GideonPeters from './spotlight/imgs/GideonPeters.jpg';
-
+import PouyaFathollahzadeh from './spotlight/imgs/PouyaFathollahzadeh.jpg';
 
 export default function Highlights() {
   const { siteConfig } = useDocusaurusContext();
@@ -35,6 +35,31 @@ export default function Highlights() {
     Rachna Raj
 
 </h2> */}
+<div class="events " style={{ 
+    marginLeft: '12px' ,
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '300px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={PouyaFathollahzadeh}
+style={{   width:'150px',hight:'150px'
+ }}
+/>
+</div>
+<div class="text"> 
+Meet <strong>Pouya Fathollahzadeh</strong>, PhD candidate in the Software Evolution and Analytics (SEAL) Lab at Queen's University under the supervision of Professor Ying Zou. Pouya's research focuses on applying AI and machine learning to software engineering, particularly to improve the quality and effectiveness of software development and maintenance activities.
+<a href="/spotlight/Pouya_Fathollahzadeh"> <strong>Read More</strong></a>
+</div>
+</div>
+
+
+
+
+
+
 <div class="events " style={{ 
     marginLeft: '12px' ,
     '@media screen and (max-width: 966px)': {
