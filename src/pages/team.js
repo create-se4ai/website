@@ -138,8 +138,9 @@ const TeamMemberList = [
         // affiliation: "CEO Axelys",
         linkedin: "jesse-vincent-herscovici-8b15538",
         // email: "jvh@mitacs.ca",
-        id: "jesse-vincent-herscovici",
-        has_page: true,
+        // id: "jesse-vincent-herscovici",
+        website: "https://www.axelys.ca/en/teams/",
+        has_page: false,
       },
       {
         name: "Dr. Lata Narayanan",
