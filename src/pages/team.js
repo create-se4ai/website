@@ -324,7 +324,6 @@ const TeamMemberList = [
 name:"Kawsar Ahmed Bhuiyan",
 affiliation:"Concordia University",
 degree:", MASc ",
-position: "Software Engineer",
 website:"https://github.com/kawsarahmedbhuiyan",
 linkedin:"kawsarahmedbhuiyan"
 },
