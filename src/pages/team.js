@@ -321,6 +321,23 @@ const TeamMemberList = [
     size: "large",
     members: [
       {
+ name: "Dau Thi Van Anh",
+degree:", MASc ",  
+linkedin:"vananh0905",
+position:" Research Engineer",
+link:"https://www.linkedin.com/company/huawei-technologies-canada-co-ltd/",
+place:"Huawei Canada",
+      },
+      {
+name: "Patrick Loic Foalem",
+degree:", PhD ",  
+linkedin:"foalem",
+twitter:"Patrick_Loic_F",
+position:"Founder and Principal Researcher",
+link:"https://www.linkedin.com/company/gamainstitute/",
+place:"Gama Institute",
+      },
+      {
 name:"Kawsar Ahmed Bhuiyan",
 affiliation:"Concordia University",
 degree:", MASc ",
