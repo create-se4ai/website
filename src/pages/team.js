@@ -320,6 +320,19 @@ const TeamMemberList = [
     title: "Alumni",
     size: "large",
     members: [
+{
+name: "Liam Johnston",
+degree:", MASc ",
+affiliation:"Queen's University",
+linkedin:"ljohnston16"
+
+},
+{
+ name:"Yasmine Ben Braiek",
+ degree:", MASc ",  
+ linkedin:"yasminebenbraiek",
+ affiliation:"Polytechnique Montréal",
+      },
       {
  name: "Dau Thi Van Anh",
 degree:", MASc ",  
