@@ -29,7 +29,7 @@ import TraineeTalksSept30thImage from './Trainee_Talks_Sept30th_2026.jpg'
  </div>
  
  <div class="text"> 
-On <strong>Wednesday, September 30th at 3:00 PM EDT</strong>, we hosted a research event featuring two PhD candidates who will be graduating soon. Concordia University student <strong>Fazle Rabbi</strong> presented his work, <strong>“How Robust is LLM Code Generation Across Programming Languages?”</strong> <a href="/blog/2022/09/21/past/event/Trainee_Talks_Sept_30_2026"> <strong>Read More</strong></a>
+On <strong>Wednesday, September 30th at 3:00 PM EDT</strong>, we hosted a research talk featuring two PhD candidates who will be graduating soon. Concordia University student <strong>Fazle Rabbi</strong> presented his work, <strong>“How Robust is LLM Code Generation Across Programming Languages?”</strong> <a href="/blog/2022/09/21/past/event/Trainee_Talks_Sept_30_2026"> <strong>Read More</strong></a>
 </div>
 </div> 
 </div>
