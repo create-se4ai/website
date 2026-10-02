@@ -11,6 +11,31 @@ position: 2
 ---
 # Past Events 
 
+import TraineeTalksSept30thImage from './Trainee_Talks_Sept30th_2026.jpg'
+
+
+   
+<div class="container2">
+<h4> Trainee Talks -  Sept 30, 2026</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" style={{ width: '450px', }} >
+ <img src={TraineeTalksSept30thImage}  />
+ </div>
+ 
+ <div class="text"> 
+On <strong>Wednesday, September 30th at 3:00 PM EDT</strong>, we hosted a research event featuring two PhD candidates who will be graduating soon. Concordia University student <strong>Fazle Rabbi</strong> presented his work, <strong>“How Robust is LLM Code Generation Across Programming Languages?”</strong> <a href="/blog/2022/09/21/past/event/Trainee_Talks_Sept_30_2026"> <strong>Read More</strong></a>
+</div>
+</div> 
+</div>
+
+
+
 import TraineeTalksJuly17Image from './Trainee_Talks_July17.jpg'
    
 
