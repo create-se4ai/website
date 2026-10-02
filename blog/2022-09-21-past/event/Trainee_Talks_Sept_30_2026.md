@@ -1,5 +1,5 @@
 ---
-title: "Trainee Talks, Sept. 30, 2026 "
+title: "Trainee Talks -  Sept 30, 2026 "
 ---
 
 import TraineeTalksSept30thImage from '../Trainee_Talks_Sept30th_2026.jpg'
