@@ -193,7 +193,7 @@ import TraineeTalkCreate from './CREATE_SE4AI_Trainee_Talks_022326.png'
 
 
   <div class="container2">
-<h4>CREATE Trainee Talks  - Feb 23, 2026 </h4>
+<h4>Trainee Talks  - Feb 23, 2026 </h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
@@ -209,7 +209,7 @@ On <strong>Monday Feb. 23rd at 11:00 AM,</strong> 2 PhD students from Queen’s 
 <br/>
 <strong>Yu Shi,</strong> PhD candidate from Queen's University, shared his work From HAFix to HAFixAgent: History-Aware Bug Fixing with LLMs and Agents. 
 
-<a href="/blog/2022/09/21/past/event/CREATE_Trainee_Talks_Mon_Feb23rd"> <strong>Read More</strong></a>
+<a href="/blog/2022/09/21/past/event/Trainee_Talks_Mon_Feb23rd"> <strong>Read More</strong></a>
 </div>
 </div> 
  </div>

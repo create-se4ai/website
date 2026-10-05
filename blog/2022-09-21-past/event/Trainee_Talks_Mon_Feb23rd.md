@@ -1,5 +1,5 @@
 ---
-title: CREATE Trainee Talks  - Feb 23, 2026
+title: Trainee Talks  - Feb 23, 2026
 
 ---
 import Trainee_Talk from '../CREATE_SE4AI_Trainee_Talks_022326.png'

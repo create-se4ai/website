@@ -371,8 +371,11 @@ linkedin:"momalekpour"
 {
 name:"Vahid Majdinasab",
 degree:", PhD ",
-affiliation:"Polytechnique Montréal",
+// affiliation:"Polytechnique Montréal",
 linkedin:"vahid-majdinasab",
+place:"Huawei Canada",
+position: "Senior Researcher",
+link:"https://www.linkedin.com/company/huawei-technologies-canada-co-ltd/",
 
 },
 {
