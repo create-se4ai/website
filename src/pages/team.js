@@ -323,7 +323,7 @@ const TeamMemberList = [
 {
 name: "Caren Rizk",
 degree:", MASc ",
- affiliation:"Concordia University",
+//  affiliation:"Concordia University",
 linkedin:"caren-rizk", 
  position:"Senior Product Engineer",
 link:"https://www.ascendtogether.com/",
