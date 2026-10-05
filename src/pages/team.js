@@ -321,6 +321,15 @@ const TeamMemberList = [
     size: "large",
     members: [
 {
+name: "Caren Rizk",
+degree:", MASc ",
+ affiliation:"Concordia University",
+linkedin:"caren-rizk", 
+ position:"Senior Product Engineer",
+link:"https://www.ascendtogether.com/",
+place:"Ascend"
+ },
+{
 name: "Liam Johnston",
 degree:", MASc ",
 affiliation:"Queen's University",
