@@ -5,7 +5,7 @@ import PageHeader from "../../components/PageHeader";
 import clsx from "clsx";
 import PatrickLoicFoalem from '../spotlight/imgs/PatrickLoicFoalem.jpg';
 
-const PatrickLoicFolalemSpotlight = () => {
+const PatrickLoicFoalemSpotlight = () => {
   return (
   <Layout title="Trainee Spotlight" description="The project's spotlights.">
       <PageHeader title="Trainee Spotlight" />
@@ -71,4 +71,4 @@ const PatrickLoicFolalemSpotlight = () => {
   );
 };
 
-export default PatrickLoicFolalemSpotlight;
+export default PatrickLoicFoalemSpotlight;
