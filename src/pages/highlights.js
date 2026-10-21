@@ -51,7 +51,7 @@ export default function Highlights() {
 </div>
 <div class="text"> 
 Meet <strong>Patrick Loic Foalem</strong>, PhD and CREATE SE4AI alumnus. Patrick completed his PhD in Software Engineering at Polytechnique Montreal under the supervision of Prof. Foutse Khomh in 2026. We caught up with him recently to find out what's next.
-<a href="/spotlight/Patrick_Loic_Folalem"> <strong>Read More</strong></a>
+<a href="/spotlight/Patrick_Folalem"> <strong>Read More</strong></a>
 </div>
 </div>
 </div>
