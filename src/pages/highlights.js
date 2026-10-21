@@ -27,15 +27,12 @@ export default function Highlights() {
       <div className="container">
         <div className="row">
           <h2 className="col col--12 section">Trainee Spotlight</h2>
-{/* <h2
-  className="container2"
-  style={{
-    marginLeft: '15px',  
-  }}
->
-    Rachna Raj
 
-</h2> */}
+
+
+ <div className="col col--12 section">
+  <h3><strong>Trainee Spotlight - Patrick Foalem  </strong></h3>
+
 <div class="events " style={{ 
     marginLeft: '12px' ,
     '@media screen and (max-width: 966px)': {
@@ -44,21 +41,26 @@ export default function Highlights() {
         maxWidth: '300px'
     }
 }}>
+
 <div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<img src={PatrickLoicFoalem}
-style={{   width:'150px',hight:'110px'
- }}
-/>
+
+ <img src={PatrickLoicFoalem}
+ style={{   width:'150px',hight:'110px'
+  }}
+  />
 </div>
 <div class="text"> 
-This month, we spotlight CREATE alumnus <strong>Patrick Loic Folalem</strong>, Founder and Principal Researcher at the Gama Institute, in our Trainee Spotlight series.
+Meet <strong>Patrick Loic Foalem</strong>, PhD and CREATE SE4AI alumnus. Patrick completed his PhD in Software Engineering at Polytechnique Montreal under the supervision of Prof. Foutse Khomh in 2026. We caught up with him recently to find out what's next.
 <a href="/spotlight/Patrick_Loic_Folalem"> <strong>Read More</strong></a>
 </div>
 </div>
+</div>
 
 
 
 
+ <div className="col col--12 section">
+  <h3><strong>Trainee Spotlight - Pouya Fathollahzadeh  </strong></h3>
 <div class="events " style={{ 
     marginLeft: '12px' ,
     '@media screen and (max-width: 966px)': {
@@ -78,12 +80,13 @@ Meet <strong>Pouya Fathollahzadeh</strong>, PhD candidate in the Software Evolut
 <a href="/spotlight/Pouya_Fathollahzadeh"> <strong>Read More</strong></a>
 </div>
 </div>
+</div>
 
 
 
 
-
-
+ <div className="col col--12 section">
+  <h3><strong>Trainee Spotlight - Gideon Peters  </strong></h3>
 <div class="events " style={{ 
     marginLeft: '12px' ,
     '@media screen and (max-width: 966px)': {
@@ -105,10 +108,13 @@ This month, we introduce CREATE Alumnus <strong>
 <a href="/spotlight/Gideon_Peter"> <strong>Read More</strong></a>
 </div>
 </div>
+</div>
 
 
 
 
+ <div className="col col--12 section">
+  <h3><strong>Trainee Spotlight - Rachna Raj  </strong></h3>
 <div class="events " style={{ 
     marginLeft: '12px' ,
     '@media screen and (max-width: 966px)': {
@@ -127,7 +133,7 @@ Every month, we highlight the research of a CREATE SE4AI trainee and their impac
 <a href="/spotlight/Rachna_Raj"> <strong>Read More</strong></a>
 </div>
 </div>
-
+</div>
 
 
 
@@ -184,38 +190,7 @@ CREATE SE4AI alumni <strong>Ahmad Abdellatif,</strong> Assistant Professor at Un
 
 
 
-{/* <h2
-  className="container2"
-  style={{
-    marginLeft: '12px',  
-  }}
->
-Akshat Malik & Lorena Pacheco  </h2>
 
-<div class="events " style={{ 
-    marginLeft: '12px' ,
-    '@media screen and (max-width: 966px)': {
-        maxHeight: '100%',
-        flexWrap: 'wrap',
-        maxWidth: '250px'
-    }
-}}>
-<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
-<iframe
-  width="90%"
-  height="150"
- src="https://www.youtube.com/embed/ekNLo0BjrPo?start=7"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
-
-
-</div>
-<div class="text"> 
-In this video, CREATE SE4AI alumni Lorena and Akshat share how the program gave them the technical and professional skills, training and confidence to successfully transition from graduate studies to exciting roles in industry.<a href="https://www.youtube.com/watch?v=ekNLo0BjrPo&t=1s"> <strong>Watch Video</strong></a></div>
-</div>  */}
 
 
 
@@ -225,23 +200,7 @@ In this video, CREATE SE4AI alumni Lorena and Akshat share how the program gave 
       </div>
       </section>
       
-      {/* <section>
-        <div className="container text-center">
-          <div className="row">
-            {SuccessList.map((item, index) => (
-              <div key={index} className="col col--6 margin-bottom--xl">
-<h2 class="col col--12 section"></h2>     
-           <video width="400" controls>
-                  <source src={item.video} type="video/mp4" />
-                </video>
-                                <h5>{item.text}</h5>
 
-              
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
 
 
     </Layout>

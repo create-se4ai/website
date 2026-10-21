@@ -20,6 +20,7 @@ const PatrickLoicFolalemSpotlight = () => {
         style={{ width: '700px', display: 'block', margin: '20px 0' ,hight:'400px'}}
       />
 
+       <p>Meet <strong>Patrick Loic Foalem</strong>, PhD and CREATE SE4AI alumnus. Patrick completed his PhD in Software Engineering at Polytechnique Montreal under the supervision of Prof. Foutse Khomh in 2026. We caught up with him recently to find out what's next.</p>
      <h3><strong>1. Congratulations on recently completing your PhD studies and receiving the jury's commendation of excellence. I am sure this journey has tested your capacity as a researcher in many ways.  Beyond the sheer academic work, what did you learn about yourself in the process?</strong></h3>
 
      <p>
