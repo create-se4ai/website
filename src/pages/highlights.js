@@ -12,6 +12,7 @@ import PageHeader from "../components/PageHeader";
 import RachnaRaj from './spotlight/imgs/RachnaRaj2.jpg'
 import GideonPeters from './spotlight/imgs/GideonPeters.jpg';
 import PouyaFathollahzadeh from './spotlight/imgs/PouyaFathollahzadeh.jpg';
+import PatrickLoicFoalem from './spotlight/imgs/PatrickLoicFoalem.jpg';
 
 export default function Highlights() {
   const { siteConfig } = useDocusaurusContext();
@@ -35,6 +36,29 @@ export default function Highlights() {
     Rachna Raj
 
 </h2> */}
+<div class="events " style={{ 
+    marginLeft: '12px' ,
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '300px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1" >
+<img src={PatrickLoicFoalem}
+style={{   width:'150px',hight:'110px'
+ }}
+/>
+</div>
+<div class="text"> 
+This month, we spotlight CREATE alumnus <strong>Patrick Loic Folalem</strong>, Founder and Principal Researcher at the Gama Institute, in our Trainee Spotlight series.
+<a href="/spotlight/Patrick_Loic_Folalem"> <strong>Read More</strong></a>
+</div>
+</div>
+
+
+
+
 <div class="events " style={{ 
     marginLeft: '12px' ,
     '@media screen and (max-width: 966px)': {

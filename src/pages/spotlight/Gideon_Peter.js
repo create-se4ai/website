@@ -5,7 +5,7 @@ import PageHeader from "../../components/PageHeader";
 import clsx from "clsx";
 import GideonPeters from '../spotlight/imgs/GideonPeters.jpg';
 
-const RachnaRajSpotlight = () => {
+const GideonPetersSpotlight = () => {
   return (
   <Layout title="Trainee Spotlight" description="The project's spotlights.">
       <PageHeader title="Trainee Spotlight" />
@@ -122,4 +122,4 @@ Having the work validated through peer review at MSR was both humbling and affir
   );
 };
 
-export default RachnaRajSpotlight;
+export default GideonPetersSpotlight;
