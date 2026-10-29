@@ -398,8 +398,11 @@ linkedin:"chaima-jaziri/"
 },
 {
         name: "Mayra Ruiz",
-       affiliation:"Concordia University",
+      //  affiliation:"Concordia University",
        degree:", MASc ",
+       place:"Slalom",
+       link:"https://www.linkedin.com/company/slalom-consulting/home/",
+       position:"Agentic AI Senior Engineer",
         // website:"https://das.encs.concordia.ca/members/mayra-ruiz",
         linkedin:"mruiz27"
       },
