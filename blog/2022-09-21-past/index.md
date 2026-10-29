@@ -11,6 +11,38 @@ position: 2
 ---
 # Past Events 
 
+
+import GEMinAI_2026_27_Launch from './GEMinAI_2026_27_Launch.jpg'   
+
+
+<div class="container2">
+<h4> GEMinAI 2026-27 Program Launch</h4>
+<div class="events " style={{ 
+    '@media screen and (max-width: 966px)': {
+        maxHeight: '100%',
+        flexWrap: 'wrap',
+        maxWidth: '350px'
+    }
+}}>
+<div class="manuel_cosentino_n_CMLApjfI_unsplash1"   style={{
+    width: '450px',
+  }} >
+<img
+  src={GEMinAI_2026_27_Launch}
+/>
+
+</div>
+<div class="text"> 
+
+The GEMinAI 2026-27 program launched at Concordia on Oct. 27th. Now in its 4th year, the program supports women and gender diverse students from all disciplines who will engage in AI through mentorship. <a href="/blog/2022/09/21/past/event/GEMinAI_2026_27_Program_Launch"> <strong>Read More</strong></a>
+</div>
+</div> 
+ </div>
+
+
+
+
+
 import TraineeTalksSept30thImage from './Trainee_Talks_Sept30th_2026.jpg'
 
 
