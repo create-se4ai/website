@@ -51,7 +51,7 @@ const GEMinAIProgramPage = () => {
 <div className='container'>
   <div class="row margin-bottom--md">
     
-  <h2 class="col col--12 section">Applications for the 2026-27 GEMinAI Program are now open!
+  <h2 class="col col--12 section">Applications are now open for 2026-27
 
   </h2>
 
