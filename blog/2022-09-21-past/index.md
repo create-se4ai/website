@@ -12,7 +12,7 @@ position: 2
 # Past Events 
 
 
-import GEMinAI_2026_27_Launch from './GEMinAI_2026_27_Launch.jpg'   
+import GEMinAI_Launch2 from './GEMinAI_Launch2.jpg'   
 
 
 <div class="container2">
@@ -28,7 +28,7 @@ import GEMinAI_2026_27_Launch from './GEMinAI_2026_27_Launch.jpg'
     width: '450px',
   }} >
 <img
-  src={GEMinAI_2026_27_Launch}
+  src={GEMinAI_Launch2}
 />
 
 </div>
