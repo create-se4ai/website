@@ -1,5 +1,5 @@
 ---
-title: "CREATE SE4AI Industry Talks - December 4th, 2026"
+title: "CREATE SE4AI Industry Talks - December 4, 2026"
 
 ---
 
