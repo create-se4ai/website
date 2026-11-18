@@ -15,7 +15,7 @@ position: 0
    
 
 <div class="container2">
-<h4> CREATE SE4AI Industry Talks - December 4th, 2026</h4>
+<h4> CREATE SE4AI Industry Talks - December 4, 2026</h4>
 <div class="events " style={{ 
     '@media screen and (max-width: 966px)': {
         maxHeight: '100%',
